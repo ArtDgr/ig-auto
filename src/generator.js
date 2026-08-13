@@ -129,6 +129,19 @@ export function pickReelTopic(flat) {
   return [...flat].sort((a, b) => score(b) - score(a))[0];
 }
 
+// TikTok-style reel hook: lead with a bold stat when the story has one,
+// otherwise a short keyword-rich punch. The full real headline rides as the
+// second slide so the story is never filler copy. Stat tokens keep their unit
+// ("$32 billion", not "$32").
+const REEL_STAT_RE = /(\$[\d][\d,]*(?:\.\d+)?(?:\s*(?:million|billion|trillion))?|\b\d[\d,]{2,}(?:\.\d+)?%?|\b\d+\s+(?:million|billion|trillion)\b)/i;
+
+function makeReelHook(topic) {
+  const raw = niceness(topic.title || topic);
+  const m = REEL_STAT_RE.exec(`${topic.snippet || ""} ${raw}`);
+  if (m) return { big: m[0].trim(), line: shorten(raw, 44) };
+  return { big: shorten(raw, 44), line: null };
+}
+
 function buildReelDeck(topic) {
   const raw = niceness(topic.title || topic);
   const sentences = String(topic.snippet || raw)
@@ -137,7 +150,7 @@ function buildReelDeck(topic) {
     .filter(Boolean);
   const longForm = sentences.length >= 3 ? sentences : null;
   const handle = (config.instagram && config.instagram.handle) || "@theitsupportguru";
-  const hook = shorten(raw, 44);
+  const hk = makeReelHook(topic);
   const bodyPoints = longForm
     ? longForm.map((s) => shorten(s, 88)).slice(0, 3)
     : [
@@ -145,9 +158,10 @@ function buildReelDeck(topic) {
         "Why it matters: this sits right at the frontier of bleeding-edge tech.",
         "What to watch: how the AI and hardware giants respond over the next week."
       ];
-  const slides = [{ text: hook, kind: "hook" }];
+  const slides = [{ text: hk.big, kind: "hook" }];
+  if (hk.line) slides.push({ text: hk.line, kind: "body" });
   bodyPoints.forEach((b) => slides.push({ text: b, kind: "body" }));
-  slides.push({ text: `Follow ${handle} for daily bleeding-edge tech intel.`, kind: "cta" });
+  slides.push({ text: `Save this. Share it. Follow ${handle} — daily tech intel.`, kind: "cta" });
   return {
     id: slug(raw),
     niche: topic.nicheId || "",
@@ -159,7 +173,8 @@ function buildReelDeck(topic) {
 
 function reelCaption(deck) {
   const ig = config.instagram || {};
-  const hook = (deck.slides.find((s) => s.kind === "hook")?.text || deck.title || "")
+  // Lead with the real headline (keyword-rich for search); never a bare stat.
+  const hook = (deck.title || deck.slides.find((s) => s.kind === "hook")?.text || "")
     .replace(/[.!…]+$/u, "")
     .trim();
   const base = (ig.baseHashtags || []).map((t) => t);

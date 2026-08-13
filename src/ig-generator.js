@@ -163,6 +163,67 @@ function sourceFoot(topic) {
   return n ? "Full story: " + n + " — link in bio." : "";
 }
 
+// ---- scroll-stopper hooks (2026 top-creator patterns) ----
+// Winners lead slide 1 with a bold number/stat, a curiosity punch, or a
+// question — never the full journalistic headline. Saves & shares are weighted
+// ~3x by IG's algorithm, so the CTA drives bookmark/share actions too.
+// Stat tokens keep their unit ("$32 billion", not "$32") so the slide never
+// reads "…for billion this year…".
+const STAT_RE = /(\$[\d][\d,]*(?:\.\d+)?(?:\s*(?:million|billion|trillion))?|\b\d[\d,]{2,}(?:\.\d+)?%?|\b\d+\s+(?:million|billion|trillion)\b)/i;
+
+function findStatFact(facts) {
+  for (const f of facts) {
+    const m = STAT_RE.exec(f);
+    if (m) return { fact: f, stat: m[0].trim() };
+  }
+  return null;
+}
+
+// Cut to a clean word boundary (no dangling ellipsis mid-phrase) for big hooks.
+function niceness(s) {
+  return String(s).replace(/\s+/g, " ").trim();
+}
+function phraseCut(s, n) {
+  const v = niceness(s);
+  if (v.length <= n) return v;
+  let cut = v.slice(0, n);
+  const sp = cut.lastIndexOf(" ");
+  if (sp > n * 0.5) cut = cut.slice(0, sp);
+  return cut.replace(/[,\-–—]+$/, "").trimEnd();
+}
+
+// Strip the trailing clauses ("after X", "as Y", "in Z", "for W") that make a
+// headline read like news copy instead of a hook. The full headline always
+// rides as the hook slide's subline, so the story is never placeholder copy.
+function stripFluff(title) {
+  let s = String(title || "").replace(/\s+/g, " ").trim();
+  s = s.replace(/^(breaking|just in|exclusive|report|update|watch):\s*/i, "").trim();
+  s = s.replace(/\s+(?:after|as|amid|following|before)\s+.+$/i, "").trim();
+  s = s.replace(/\s+(?:in|for)\s+[a-z0-9'’&-]+(?:\s+[a-z0-9'’&-]+)*$/i, "").trim();
+  s = s.replace(/[,\-–—]+$/, "").trim();
+  return s.trim() || String(title || "");
+}
+
+// Deterministic per-post hook. `big` is the huge scroll-stopping visual (~1-6
+// words, often a bold stat), `line` is the real headline kept on slide 1.
+function makeNewsHook(topic, rnd) {
+  const title = String(topic.title || "").replace(/\s+/g, " ").trim();
+  const st = findStatFact(topicFacts(topic, 6));
+  if (st && rnd() < 0.5) {
+    return { big: st.stat, line: shorten(title, 96) };
+  }
+  const big = phraseCut(stripFluff(title), 48);
+  const line = niceness(big).toLowerCase() === title.toLowerCase() ? "" : shorten(title, 96);
+  return { big, line };
+}
+
+const SAVE_SHARE = {
+  news: "Save this story — you'll want it later.",
+  howto: "Save this — you'll need it next time.",
+  routine: "Bookmark this routine for tomorrow.",
+  tip: "Save this 30-second fix."
+};
+
 // A story with a real snippet beats a title-only feed entry, every time.
 // Reject items that are newsletter/digest chit-chat rather than hard news.
 const NEWSLETTER_HINTS = [
@@ -204,7 +265,7 @@ function pickDeepest(coll) {
 // Carousel built from a curated news topic: real story facts, a real takeaway,
 // and a forward-looking line only when the article actually has one. Nothing is
 // repeated between the facts slide and the takeaway/watch slides.
-function newsCarouselSlides(topic, niche) {
+function newsCarouselSlides(topic, niche, rnd) {
   const all = topicFacts(topic, 6);
   const shown = all.slice(0, 4);
   const tail = all.slice(4);
@@ -217,45 +278,46 @@ function newsCarouselSlides(topic, niche) {
     shown.slice(0, -1).find((f) => fwd.test(f)) ||
     null;
 
+  const hk = makeNewsHook(topic, rnd);
   const slides = [
-    { kind: "title", text: shorten(String(topic.title || ""), 92) },
+    { kind: "hook", text: `${hk.big}\n${hk.line}` },
     { kind: "facts", text: shown.join("\n") }
   ];
   if (takeaway) slides.push({ kind: "body", text: shorten("THE TAKEAWAY — " + takeaway, 190) });
   if (watch && watch !== takeaway && !shown.includes(watch)) slides.push({ kind: "body", text: shorten("WHAT TO WATCH — " + watch, 170) });
-  const foot = sourceFoot(topic);
-  slides.push({ kind: "cta", text: `Follow ${config.instagram.handle} · ${foot || "More daily tech intel."}` });
+  slides.push({ kind: "cta", text: SAVE_SHARE.news });
   return slides;
 }
 
 // Carousel built from the evergreen how-to library.
 function howtoSlides(howto, niche) {
-  const slides = [{ kind: "title", text: howto.title.toUpperCase() }];
+  const line = shorten(String(howto.steps && howto.steps[0] || "A fix you can do in minutes."), 90);
+  const slides = [{ kind: "hook", text: `${howto.title}\n${line}` }];
   howto.steps.forEach((s, i) => {
     const d = (howto.details && howto.details[i]) || "";
     slides.push({ kind: "step", text: d ? `${s} — ${d}` : s });
   });
-  slides.push({ kind: "cta", text: `Follow ${config.instagram.handle} for more ${NICHES[niche].label.toLowerCase()}.` });
+  slides.push({ kind: "cta", text: SAVE_SHARE.howto });
   return slides;
 }
 
 // Single image card from the tip library.
 function tipCard(tip, niche) {
   return [
-    { kind: "title", text: tip.title.toUpperCase() },
-    { kind: "body", text: tip.body },
-    { kind: "cta", text: `Follow ${config.instagram.handle} for daily tech fixes.` }
+    { kind: "hook", text: `${tip.title}\n${shorten(tip.body, 110)}` },
+    { kind: "cta", text: SAVE_SHARE.tip }
   ];
 }
 
 // Single image "daily routine" card, with real detail per step.
 function routineCard(routine, niche) {
-  const slides = [{ kind: "title", text: routine.title.toUpperCase() }];
+  const line = shorten(String(routine.steps && routine.steps[0] || "Small habits, real difference."), 90);
+  const slides = [{ kind: "hook", text: `${routine.title}\n${line}` }];
   routine.steps.slice(0, 3).forEach((s, i) => {
     const d = (routine.details && routine.details[i]) || "";
     slides.push({ kind: "step", text: d ? `${s} — ${d}` : s });
   });
-  slides.push({ kind: "cta", text: `Follow ${config.instagram.handle} to build better tech habits.` });
+  slides.push({ kind: "cta", text: SAVE_SHARE.routine });
   return slides;
 }
 
@@ -314,17 +376,17 @@ function captionFor(post, rnd) {
     return `${post.title} ${emoji}\n\n${list}\n\nSave this for next time →\n\n${tags}\n\n${handle} — daily tech fixes.${line("Share this with someone who needs it.")}`;
   }
   if (post.format === "carousel") {
-    const headline = post.kind === "news" ? post.title : (post.slides[1]?.text || post.title);
+    const headline = post.title;
     const pts = captionPoints(post);
     const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
     const src = newsFoot ? "\n\n" + newsFoot : "";
-    return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\nSwipe for the full story →\n\n${tags}\n\n${handle} — daily tech intel.${line("Which detail surprised you most?")}`;
+    return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\nSave this for later →\n\n${tags}\n\n${handle} — daily tech intel.${line("Which detail surprised you most?")}`;
   }
   if (post.format === "routine") {
     const list = stepLines(post).join("\n");
     return `${post.title} ${emoji}\n\n${list}\n\nDrop a 🔔 to catch tomorrow's routine.\n\n${tags}\n\n${handle} — steady tech habits.${line("Bookmark this for later.")}`;
   }
-  const headline = post.slides[1]?.text || post.title;
+  const headline = post.title;
   const pts = captionPoints(post);
   const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
   const src = newsFoot ? "\n\n" + newsFoot : "";
@@ -358,7 +420,7 @@ function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
     const topic = pickDeepest(news);
     kind = "news";
     title = shorten(String(topic.title || ""), 56);
-    slides = newsCarouselSlides(topic, nicheId);
+    slides = newsCarouselSlides(topic, nicheId, rnd);
     _srcTopic = topic;
   } else if (format === "routine") {
     const routine = pick(n.routines, rnd);

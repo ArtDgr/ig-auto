@@ -15,7 +15,7 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
-function cardHtml(post, slide, index, total) {
+export function cardHtml(post, slide, index, total) {
   const accent = post.accent || config.accentColor || "#0E9384";
   const brand = (config.brand || "IT STUDIO").toUpperCase();
   const handle = config.instagram.handle;
@@ -23,11 +23,21 @@ function cardHtml(post, slide, index, total) {
   const text = esc(slide.text);
 
   const content =
-    kind === "title"
-      ? `<div class="title-wrap"><div class="kicker">${esc(post.nicheLabel || "")}</div><h1>${text}</h1><div class="rule"></div></div>`
-      : kind === "cta"
-        ? `<div class="cta-box"><span>${text}</span><div class="cta-swatch">${esc(handle)}</div></div>`
-        : kind === "brief"
+    kind === "hook"
+      ? (() => {
+          const parts = text.split("\n").filter((s) => s.trim());
+          const [big = "", ...rest] = parts;
+          const line = rest.join(" ").trim();
+          const stat = /^[\$0-9][\d.,kKmMbB%]*$/.test(big.trim());
+          const len = big.trim().length;
+          const fs = Math.max(64, Math.min(150, Math.floor(920 / Math.max(1, len * 0.56))));
+          return `<div class="hook-wrap"><div class="kicker">${esc(post.nicheLabel || "")}</div><div class="hook-big${stat ? " stat" : ""}" style="font-size:${fs}px">${esc(big)}</div>${line ? `<div class="hook-line">${esc(line)}</div>` : ""}<div class="rule"></div></div>`;
+        })()
+      : kind === "title"
+        ? `<div class="title-wrap"><div class="kicker">${esc(post.nicheLabel || "")}</div><h1>${text}</h1><div class="rule"></div></div>`
+        : kind === "cta"
+          ? `<div class="cta-box"><span>${text}</span><div class="cta-actions"><span class="pill save">SAVE THIS</span><span class="pill share">SHARE IT</span></div><div class="cta-swatch">${esc(handle)}</div></div>`
+          : kind === "brief"
           ? (() => {
               const parts = text.split("\n").map((s) => s.trim()).filter(Boolean);
               const [head = text, ...rest] = parts;
@@ -70,6 +80,10 @@ function cardHtml(post, slide, index, total) {
   .title-wrap { text-align: left; max-width: 900px; }
   .kicker { font-size: 32px; letter-spacing: 6px; color: ${accent}; text-transform: uppercase; font-weight: 800; margin-bottom: 26px; }
   h1 { font-size: 86px; line-height: 1.06; font-weight: 800; letter-spacing: 0.5px; color: #0F172A; }
+  .hook-wrap { text-align: left; max-width: 920px; }
+  .hook-big { font-weight: 800; letter-spacing: 0.5px; color: #0F172A; line-height: 1.02; margin-bottom: 34px; word-break: keep-all; }
+  .hook-big.stat { color: ${accent}; }
+  .hook-line { font-size: 44px; line-height: 1.32; font-weight: 500; color: #475569; max-width: 880px; }
   .rule { width: 120px; height: 10px; border-radius: 6px; background: ${accent}; margin-top: 44px; box-shadow: 0 4px 18px ${accent}55; }
   .body-text { max-width: 900px; }
   .body-text p { font-size: 54px; line-height: 1.34; font-weight: 400; color: #1E293B; }
@@ -100,11 +114,16 @@ function cardHtml(post, slide, index, total) {
   }
   .cta-box { text-align: center; max-width: 880px; }
   .cta-box span { display: block; font-size: 58px; line-height: 1.25; font-weight: 800; color: #0F172A; }
+  .cta-actions { display: flex; gap: 26px; justify-content: center; margin: 46px 0 0; }
+  .cta-actions .pill {
+    padding: 22px 44px; border-radius: 999px; font-weight: 800; font-size: 32px; letter-spacing: 1px;
+  }
+  .cta-actions .pill.save { background: linear-gradient(120deg, ${accent}, ${accent}cc); color: #FFFFFF; box-shadow: 0 10px 26px ${accent}44; }
+  .cta-actions .pill.share { border: 3px solid ${accent}; color: ${accent}; background: #FFFFFF; }
   .cta-box .cta-swatch {
-    margin: 40px auto 0; display: inline-block; padding: 22px 44px;
-    border-radius: 999px; background: linear-gradient(120deg, ${accent}, ${accent}cc);
-    color: #FFFFFF; font-weight: 800; font-size: 34px; letter-spacing: 1px;
-    box-shadow: 0 10px 26px ${accent}44;
+    margin: 40px auto 0; display: inline-block; padding: 20px 40px;
+    border-radius: 999px; background: #0F172A;
+    color: #FFFFFF; font-weight: 800; font-size: 32px; letter-spacing: 1px;
   }
   .bottom { display: flex; align-items: center; justify-content: space-between; font-size: 26px; color: #64748B; letter-spacing: 1px; }
   .bottom .niche { color: #475569; }

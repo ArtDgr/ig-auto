@@ -29,12 +29,12 @@ function wrap(text, maxLen) {
   return lines;
 }
 
-async function makeSlideImage(index, text, font, fontsize, isHook, outPng) {
+async function makeSlideImage(index, text, font, fontsize, isHook, outPng, fontcolor) {
   const lines = wrap(text, isHook ? 26 : 24);
   const txtFile = outPng.replace(/\.png$/, ".txt");
   fs.writeFileSync(txtFile, lines.join("\n"), "utf8");
   const draw = `drawtext=fontfile=${V.font}:textfile=${txtFile.replace(/\\/g, "/")}:` +
-    `fontsize=${fontsize}:fontcolor=white:line_spacing=20:` +
+    `fontsize=${fontsize}:fontcolor=${fontcolor || "white"}:line_spacing=20:` +
     `x=(w-text_w)/2:y=(h-text_h)/2-120:box=1:boxcolor=${hexRgba("0A0E1A", 0.9)}:boxborderw=40`;
   await ff([
     "-f", "lavfi", "-i", `color=c=${V.background.replace("#", "0x")}:s=${V.width}x${V.height}`,
@@ -106,7 +106,8 @@ export async function renderDeck(deck, outPath) {
   for (let i = 0; i < deck.slides.length; i++) {
     const s = deck.slides[i];
     const png = path.join(base, `slide_${i}.png`);
-    await makeSlideImage(i, s.text, V.font, s.kind === "hook" ? 72 : 62, s.kind === "hook", png);
+    const statColor = s.kind === "hook" && /^[\$0-9][\d.,kKmMbB%]*$/.test(s.text.trim()) ? (config.accentColor || "#0E9384").replace("#", "") : "white";
+    await makeSlideImage(i, s.text, V.font, s.kind === "hook" ? 72 : 62, s.kind === "hook", png, statColor);
     const clip = path.join(base, `clip_${i}.mp4`);
     await makeClip(png, durs[i], clip);
     clips.push(clip);

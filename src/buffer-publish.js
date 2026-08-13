@@ -90,6 +90,16 @@ function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postT
   return `mutation { createPost(input: { text: ${JSON.stringify(text)}, channelId: ${JSON.stringify(channelId)}, schedulingType: automatic, mode: ${dueAt ? "customScheduled" : "addToQueue"}${dueAt ? `, dueAt: ${JSON.stringify(dueAt)}` : ""}, needsApproval: false, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
 }
 
+// editPost replaces a whole scheduled post (text + assets + metadata + dueAt).
+// The channel and approval state are untouched, so this is safe to run right up
+// to publish time for a content/design refresh.
+function editPostMutation({ id, text, dueAt, imageUrls, postType = "post" }) {
+  const assets = (imageUrls || []).map((u) => `{ image: { url: ${JSON.stringify(u)} } }`);
+  const meta = `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
+  const frags = `... on PostActionSuccess { post { id status } } ... on InvalidInputError { message } ... on RestProxyError { message } ... on LimitReachedError { message } ... on UnexpectedError { message } ... on UnauthorizedError { message } ... on NotFoundError { message }`;
+  return `mutation { editPost(input: { id: ${JSON.stringify(id)}, text: ${JSON.stringify(text)}, schedulingType: automatic, mode: customScheduled, dueAt: ${JSON.stringify(dueAt)}, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
+}
+
 function loadState() {
   if (!fs.existsSync(SCHED_STATE)) return {};
   try {
@@ -198,6 +208,54 @@ export async function scheduleReel(dateStr, { dry = false, state: priorState } =
   return { scheduled: [{ reel: file, bufferId: pid, due }] };
 }
 
+// Refresh one or more already-scheduled Buffer posts with the current plan's
+// text + media (editPost replaces the whole post; dueAt is preserved).
+export async function updateSlots(dateStr, { dry = false, slots = [] } = {}) {
+  const plan = loadPlan();
+  if (!plan || plan.date !== dateStr) throw new Error(`No plan for ${dateStr} (have ${plan ? plan.date : "none"})`);
+  const manifestPath = path.join(config.instagram.postDir, "manifest.json");
+  if (!fs.existsSync(manifestPath)) throw new Error("No manifest.json — run ig-render first");
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  if (manifest.date !== dateStr) throw new Error(`Manifest date ${manifest.date} != ${dateStr}`);
+  const state = loadState();
+  const day = state[dateStr] || {};
+  const targets = slots.length
+    ? slots
+    : Object.keys(day).filter((k) => /^\d+$/.test(k)).map(Number).sort((a, b) => a - b);
+  const updated = [];
+  for (const slot of targets) {
+    const rec = day[slot];
+    if (!rec || !rec.bufferId || String(rec.bufferId).startsWith("web-")) {
+      console.log(`[buffer] slot ${slot}: ${rec ? "not a Buffer post (" + rec.bufferId + ")" : "not scheduled"} — skipping`);
+      continue;
+    }
+    const post = manifest.posts.find((p) => p.slot === slot);
+    if (!post) {
+      console.log(`[buffer] slot ${slot}: no post in manifest — skipping`);
+      continue;
+    }
+    const text = captionForPost(post);
+    const urls = postMediaUrls(post);
+    const mutation = editPostMutation({ id: rec.bufferId, text, dueAt: rec.dueAt, imageUrls: urls });
+    if (dry) {
+      console.log(`[buffer] (dry) slot ${slot} "${post.title}" -> ${rec.bufferId} @ ${rec.dueAt} (${urls.length} assets, caption ${text.length} chars)`);
+      console.log(`        caption: ${text.slice(0, 90).replace(/\n/g, " ")}…`);
+      console.log(`        asset 0: ${urls[0] || "(none)"}`);
+      updated.push({ slot, bufferId: rec.bufferId, text: text.slice(0, 80) + "…", urls });
+      continue;
+    }
+    const data = await gql(mutation);
+    const res = data.editPost || {};
+    if (res.post && res.post.id) {
+      console.log(`[buffer] updated slot ${slot} "${post.title}" -> ${res.post.id} (status ${res.post.status}) @ ${rec.dueAt}`);
+      updated.push({ slot, bufferId: rec.bufferId, status: res.post.status });
+    } else {
+      throw new Error(`Buffer editPost failed for slot ${slot} (${rec.bufferId}): ${res.message || "no post id in response"}`);
+    }
+  }
+  return { date: dateStr, updated };
+}
+
 export async function cmdStatus() {
   const orgs = await getOrganizations();
   console.log("Organizations:");
@@ -210,9 +268,9 @@ export async function cmdStatus() {
   }
 }
 
-export default { scheduleDate, scheduleReel, cmdStatus };
+export default { scheduleDate, scheduleReel, updateSlots, cmdStatus };
 
-// Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel]`
+// Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel] | update [--date=YYYYMMDD] [--slots=1,2] [--dry]`
 if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-publish.js")) {
   const args = process.argv.slice(2);
   const cmd = args[0] || "help";
@@ -234,8 +292,12 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
     } else if (cmd === "schedule") {
       const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
       await scheduleDate(date, { dry: has("dry"), reel: has("reel") });
+    } else if (cmd === "update") {
+      const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+      const slots = (flag("slots") || "").split(",").map((s) => parseInt(s, 10)).filter((n) => !isNaN(n));
+      await updateSlots(date, { dry: has("dry"), slots });
     } else {
-      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel]");
+      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel] | update [--date=YYYY-MM-DD] [--slots=1,2] [--dry]");
     }
   };
 

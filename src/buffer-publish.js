@@ -104,7 +104,7 @@ function saveState(state) {
   fs.writeFileSync(SCHED_STATE, JSON.stringify(state, null, 2));
 }
 
-export async function scheduleDate(dateStr, { dry = false } = {}) {
+export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) {
   const plan = loadPlan();
   if (!plan || plan.date !== dateStr) throw new Error(`No plan for ${dateStr} (have ${plan ? plan.date : "none"})`);
   const manifestPath = path.join(config.instagram.postDir, "manifest.json");
@@ -145,8 +145,57 @@ export async function scheduleDate(dateStr, { dry = false } = {}) {
     scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
   }
 
+  if (reel) {
+    const r = await scheduleReel(dateStr, { dry, state });
+    scheduled.push(...(r.scheduled || []));
+  }
+
   if (!dry) saveState(state);
   return { date: dateStr, scheduled };
+}
+
+export async function scheduleReel(dateStr, { dry = false, state: priorState } = {}) {
+  const reelDir = (config.instagramReel && config.instagramReel.postDir) || "out/instagram-reels";
+  if (!fs.existsSync(reelDir)) {
+    console.log("[buffer] no reel dir, skipping reel");
+    return { scheduled: [] };
+  }
+  const ymd = dateStr.replace(/-/g, "");
+  const mp4s = fs.readdirSync(reelDir).filter((f) => f.startsWith(ymd + "-") && f.endsWith(".mp4")).sort();
+  if (!mp4s.length) {
+    console.log(`[buffer] no reel for ${dateStr}, skipping reel`);
+    return { scheduled: [] };
+  }
+  const file = mp4s[0];
+  const capFile = path.join(reelDir, file.replace(/\.mp4$/, ".txt"));
+  const text = fs.existsSync(capFile) ? fs.readFileSync(capFile, "utf8").trim() : "";
+  const due = toIso(dateStr, (config.instagramReel && config.instagramReel.postingTime) || "15:00");
+  const state = priorState || loadState();
+
+  if (state[dateStr] && state[dateStr].reel) {
+    console.log(`[buffer] already scheduled reel for ${dateStr} (buffer ${state[dateStr].reel.bufferId})`);
+    return { scheduled: [] };
+  }
+
+  const videoUrl = `${repoBase()}/out/instagram-reels/${file}`;
+  const channelId = dry ? (config.buffer && config.buffer.channelId) || "CHANNEL_ID" : await resolveChannelId();
+  const mutation = createPostMutation({ text, channelId, dueAt: due, videoUrl, postType: "reel" });
+
+  if (dry) {
+    console.log(`[buffer] (dry) reel "${file}" @ ${due} (video ${videoUrl})`);
+    return { scheduled: [{ reel: file, due, videoUrl }] };
+  }
+
+  const data = await gql(mutation);
+  const res = data.createPost || {};
+  const pid = res.post && res.post.id;
+  if (!pid) {
+    throw new Error(`Buffer rejected reel ("${file}"): ${res.message || "no post id in response"}`);
+  }
+  state[dateStr] = state[dateStr] || {};
+  state[dateStr].reel = { file, bufferId: pid, dueAt: due };
+  console.log(`[buffer] scheduled reel "${file}" -> ${pid} @ ${due}`);
+  return { scheduled: [{ reel: file, bufferId: pid, due }] };
 }
 
 export async function cmdStatus() {
@@ -161,7 +210,7 @@ export async function cmdStatus() {
   }
 }
 
-export default { scheduleDate, cmdStatus };
+export default { scheduleDate, scheduleReel, cmdStatus };
 
 // Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel]`
 if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-publish.js")) {
@@ -184,9 +233,9 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
       }
     } else if (cmd === "schedule") {
       const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
-      await scheduleDate(date, { dry: has("dry") });
+      await scheduleDate(date, { dry: has("dry"), reel: has("reel") });
     } else {
-      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry]");
+      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel]");
     }
   };
 

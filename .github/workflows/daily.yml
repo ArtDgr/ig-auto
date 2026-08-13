@@ -22,10 +22,12 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Install deps + browsers
+      - name: Install deps + browsers + voice
         run: |
           npm ci
           npx playwright install --with-deps chromium firefox
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet edge-tts
 
       - name: Curate topics (RSS + deepen article cache)
         run: node src/scheduler.js curate
@@ -45,6 +47,11 @@ jobs:
       - name: QA gate (hard fail on defects)
         run: node src/qa-check.js
 
+      - name: Render daily reel (voice + video)
+        run: |
+          node src/scheduler.js reel
+          node -e "const fs=require('fs'),p=require('path');const d=new Date(new Date().getTime()+10*3600*1000).toISOString().slice(0,10).replace(/-/g,'');const dir='out/instagram-reels';const v=fs.readdirSync(dir).filter(f=>f.startsWith(d+'-')&&f.endsWith('.mp4'))[0];if(!v)throw new Error('no reel rendered for '+d);const c=fs.existsSync(p.join(dir,v.replace(/\.mp4$/,'.txt')))?fs.readFileSync(p.join(dir,v.replace(/\.mp4$/,'.txt')),'utf8').trim():'';if(!c)throw new Error('reel caption missing');if(fs.statSync(p.join(dir,v)).size<1000)throw new Error('reel file empty');console.log('reel OK: '+v)"
+
       - name: Prune old media (keep last 14 days)
         run: node src/prune-old.js
 
@@ -52,12 +59,12 @@ jobs:
         run: |
           git config user.name "ig-auto bot"
           git config user.email "ig-auto@users.noreply.github.com"
-          git add out/instagram-ready data
+          git add out/instagram-ready out/instagram-reels data
           git diff --cached --quiet || git commit -m "content $(date +%F) build"
           git push
 
-      - name: Schedule cards on Buffer
-        run: node src/buffer-publish.js schedule
+      - name: Schedule cards + reel on Buffer
+        run: node src/buffer-publish.js schedule --reel
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
 

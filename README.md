@@ -32,11 +32,17 @@ needed, no Meta developer token required.
 | AEST | UTC (prev day) | step |
 |---|---|---|
 | 05:30 | 19:30 | cron fires, build + QA + schedule |
-| 06:30 / 10:00 / 13:00 | 20:30 / 00:00 / 03:00 | cards publish via Buffer |
+| 06:00 / 12:00 / 17:00 | 20:00 / 02:00 / 07:00 | cards publish via Buffer |
+| 15:00 | 05:00 | daily reel publishes via Buffer |
+
+Reels are rendered in the same build (voice via edge-tts + ffmpeg, both available
+on the GitHub runner), committed to the repo, and scheduled on Buffer with the
+`--reel` flag — same cloud path as the cards.
 
 ## Local commands
 
 - `node src/buffer-publish.js status` — list Buffer orgs + channels
 - `node src/buffer-publish.js schedule --dry` — preview today's posts + times
-- `node src/buffer-publish.js schedule` — schedule today's cards on Buffer
-- `node src/buffer-publish.js schedule --date=YYYY-MM-DD` — specific day
+- `node src/buffer-publish.js schedule --dry --reel` — preview reel too
+- `node src/buffer-publish.js schedule --reel` — schedule today's cards + reel on Buffer
+- `node src/buffer-publish.js schedule --date=YYYY-MM-DD --reel` — specific day

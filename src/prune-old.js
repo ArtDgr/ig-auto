@@ -41,4 +41,20 @@ if (fs.existsSync(stateFile)) {
   } catch {}
 }
 
+// Prune old reels (mp4 + txt) so committed media stays within the retention window.
+const reelDir = (config.instagramReel && config.instagramReel.postDir) || "out/instagram-reels";
+let removedReels = 0;
+if (fs.existsSync(reelDir)) {
+  for (const f of fs.readdirSync(reelDir)) {
+    const m = /^(\d{8})-/.exec(f);
+    if (!m) continue;
+    const d = `${m[1].slice(0, 4)}-${m[1].slice(4, 6)}-${m[1].slice(6, 8)}`;
+    if (d < cutoff) {
+      fs.rmSync(path.join(reelDir, f), { force: true });
+      removedReels++;
+    }
+  }
+}
+
 if (removed) console.log(`[prune] removed ${removed} post dir(s) older than ${cutoff}`);
+if (removedReels) console.log(`[prune] removed ${removedReels} reel file(s) older than ${cutoff}`);

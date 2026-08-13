@@ -214,7 +214,7 @@
   "postsPerDay": 3,
   "distribution": {
     "instagram": 3,
-    "tiktok": 3,
+    "tiktok": 0,
     "youtube": 0
   },
   "tiktok": {
@@ -467,7 +467,7 @@
     }
   },
   "tiktokBot": {
-    "enabled": true,
+    "enabled": false,
     "postDir": "out/tiktok-ready",
     "profileDir": "profiles/tiktok-edge",
     "engine": "edge",

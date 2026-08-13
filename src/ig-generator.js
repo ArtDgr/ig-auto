@@ -253,6 +253,14 @@ function pickDeepest(coll) {
   if (!pool.length) pool = linked;
   if (!pool.length) pool = coll.filter((t) => !looksLikeNewsletter(t));
   if (!pool.length) pool = coll;
+  // Freshness first: stale "news" reads as a bot. If at least two recent items
+  // exist, only pick among them; otherwise fall back to depth alone.
+  const fresh = pool.filter((t) => {
+    if (!t.pubDate) return false;
+    const days = (Date.now() - new Date(t.pubDate).getTime()) / 86400000;
+    return days >= 0 && days <= 2;
+  });
+  if (fresh.length >= 2) pool = fresh;
   let best = pool[0];
   for (const t of pool) {
     if (contentDepth(t) > contentDepth(best)) best = t;
@@ -301,10 +309,15 @@ function howtoSlides(howto, niche) {
   return slides;
 }
 
-// Single image card from the tip library.
+// Single image card from the tip library. Punchy hook slide, then the expert
+// detail (exact path + the why + the gotcha) on its own slide so it's readable,
+// then a save/share CTA. This is the card that earns "this guy knows his stuff".
 function tipCard(tip, niche) {
+  const big = phraseCut(String(tip.title || "").replace(/\s+/g, " ").trim(), 42);
+  const body = String(tip.body || "").replace(/\s+/g, " ").trim();
   return [
-    { kind: "hook", text: `${tip.title}\n${shorten(tip.body, 110)}` },
+    { kind: "hook", text: `${big}\n${shorten(body, 120)}` },
+    { kind: "body", text: shorten(body, 230) },
     { kind: "cta", text: SAVE_SHARE.tip }
   ];
 }
@@ -409,7 +422,9 @@ const FORMAT_CYCLE = [
 function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
   const n = NICHES[nicheId];
   const news = topics.length ? topics : [];
-  const newsBias = mode === "news" ? 1 : mode === "mix" ? 0.6 : 0.3;
+  // "news" slots always show a real story; "evergreen" slots always show a
+  // pro tip/how-to/routine — the content that earns "this guy knows his stuff".
+  const newsBias = mode === "news" ? 1 : 0;
   let slides, kind, title, _srcTopic;
 
   // News slots always show a real story. Slot 0 = punchy single card; later

@@ -73,6 +73,7 @@ jobs:
         run: |
           git config user.name "ig-auto bot"
           git config user.email "ig-auto@users.noreply.github.com"
-          git add data/buffer-scheduled.json data/buffer-channels.json 2>/dev/null || true
+          git add data 2>/dev/null || true
+          git status --porcelain
           git diff --cached --quiet || git commit -m "buffer schedule state $(date +%F)"
           git push

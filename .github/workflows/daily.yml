@@ -33,6 +33,12 @@ jobs:
       - name: Generate IG plan (AEST today)
         run: node src/ig-generator.js
 
+      - name: Ensure lead facts (deep-fetch chosen articles)
+        run: node src/ensure-facts.js
+
+      - name: Regenerate plan with rich facts
+        run: node src/ig-generator.js
+
       - name: Render cards (light theme)
         run: node src/ig-render.js
 

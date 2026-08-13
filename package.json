@@ -1,0 +1,40 @@
+{
+  "name": "faceless-studio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Auto pipeline: curated tech news -> AI voiceover vertical videos -> YouTube upload + TikTok-ready files",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "curate": "node src/scheduler.js curate",
+    "generate": "node src/scheduler.js generate",
+    "render": "node src/scheduler.js render",
+    "captions": "node src/scheduler.js captions",
+    "daily": "node src/scheduler.js daily",
+    "igplan": "node src/scheduler.js igplan",
+    "igrender": "node src/scheduler.js igrender",
+    "ig:login": "node src/instagram-bot.js login",
+    "ig:dry": "node src/instagram-bot.js --dry --force",
+    "ig:post": "node src/instagram-bot.js",
+    "ig:reel:dry": "node src/reel-api.js --dry",
+    "ig:reel:post": "node src/reel-api.js",
+    "reel:gen": "node src/scheduler.js reel",
+    "tiktok:login": "node src/tiktok-bot.js login",
+    "tiktok:login:auto": "node src/tiktok-bot.js login:auto",
+    "tiktok:login:qr": "node src/tiktok-bot.js login:qr",
+    "post:slot": "node src/post-runner.js",
+    "authenticate": "node src/upload/youtube.js auth",
+    "upload": "node src/upload/youtube.js upload",
+    "bot": "node src/tiktok-bot.js",
+    "bot:dry": "node src/tiktok-bot.js --dry --force",
+    "cookies": "node src/import-cookies.js",
+    "cookies:ig": "node src/import-cookies.js --profile instagram"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.4.0",
+    "googleapis": "^140.0.0",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.62.1"
+  }
+}

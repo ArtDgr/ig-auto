@@ -1,0 +1,14 @@
+{
+  "url": "https://www.techradar.com/vpn/vpn-services/proton-vpn-rolls-out-rust-powered-proton-protocols-in-beta-across-all-major-apps",
+  "fetched": "2026-08-13T20:15:13.107Z",
+  "paragraphs": [
+    "Sign up for breaking news, reviews, opinion, top tech deals, and more.",
+    "Get full access to premium articles, exclusive features and a growing list of member rewards.",
+    "The new 'ProTun' architecture brings advanced kill switches, better app stability, and a foundation for post-quantum encryption to Windows, iOS, Android, and Linux",
+    "When you purchase through links on our site, we may earn an affiliate commission. Here’s how it works.",
+    "Following up on recent teasers, Proton VPN has officially rolled out a massive under-the-hood update across its consumer apps. Powered by a new custom-built architecture dubbed Proton Protocols (known internally as ProTUN), the update is now live in beta across Windows, iOS, iPadOS, Android, and Linux GUI.",
+    "This overhaul aims to improve connection stability and censorship resistance. It's a significant upgrade that further solidifies the provider's spot as one of the best VPN services on the market for privacy purists.",
+    "Alongside the stealthy new engine, the beta launch brings a host of highly requested functional tweaks. These include persistent ad-blocker statistics across app sessions, a new interactive globe map for visual server selection, and the highly anticipated Advanced Kill Switch.",
+    "The team at Proton VPN notes that the shift to this new protocol resolves multiple quality-of-life issues, paving the way for faster, more reliable connections and noticeably more responsive apps across all supported ecosystems."
+  ]
+}

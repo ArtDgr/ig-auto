@@ -1,0 +1,20 @@
+REEL REMINDER — action needed
+Generated: 8/13/2026, 1:19:52 PM
+
+Still no Meta Graph API token, so reels are staged but not published.
+Staged: 20260811-openai-says-it-slowed-astra-model-development-over-security-.mp4, 20260812-google-pixel-11-pro-xl-appears-on-geekbench-as-hands-on-imag.mp4, 20260812-openai-launches-gpt-5-6-cyber-with-reduced-safeguards-for-ex.mp4, 20260813-google-pixel-watch-5-debuts-with-gemini-intelligence-improve.mp4
+
+Unlock steps (FB account must be ~2 days old, created 2026-08-12):
+  1. Instagram > Followers > Link with Facebook — link IG to a Professional FB Page.
+  2. developers.facebook.com > Create App (Business type) > add the Instagram product.
+  3. Graph API Explorer > pick the app + the linked IG account > add scopes:
+     instagram_basic, instagram_content_publish + pages_show_list.
+  4. Generate token, exchange it for a 60-day token, paste into config.json:
+     "instagramReel": { "api": { "token": "...", "igUserId": "...", "enabled": true } }
+  5. Run:  node src/reel-api.js resolve-ig  then  node src/reel-api.js publish
+
+After that I can move the 3 daily image cards to the token path too, so the
+channel stops depending on the login session entirely. Once the token is in
+config.json, also set config.json -> instagram.publishVia = "api" so cards
+publish via the Graph API (reel-api.js cards) and never hit IG's flaky web
+composer (which A/B-tests a single-image variant that can't build carousels).

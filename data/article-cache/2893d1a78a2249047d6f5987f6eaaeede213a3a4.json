@@ -1,0 +1,14 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/cpus/benchmarking-amds-bc-250-offering-steam-machine-like-performance-at-half-the-price-unlocking-40-cus-eight-zen-2-cores-on-the-repurposed-ps5-apu",
+  "fetched": "2026-08-12T19:31:10.127Z",
+  "paragraphs": [
+    "Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.",
+    "When you purchase through links on our site, we may earn an affiliate commission. Here’s how it works.",
+    "The AMD BC-250 has taken on a new life. It’s a PS5 APU that was repurposed for mining during the crypto boom, and now it’s being repurposed once again as a Linux gaming board. The BC-250 has seen some coverage in years past. It was originally a board you could pick up for less than $100, but now you’ll likely spend over $200 on one. We’re taking a closer look at the board and the performance it offers now for a few key reasons.",
+    "First, we have the Steam Machine. Valve’s long-awaited console-like PC is here and much more expensive than anyone expected at over $1,000. You can easily put together a BC-250 build for around $400 or $500, and even less if you have a power supply and SSD lying around. If you can get in the realm of Steam Machine performance for half the price (and the BC-250 can, based on our testing), that’s pretty compelling.",
+    "There have also been some significant developments among the BC-250 community. The board only works in the first place due to a community-developed BIOS and GPU driver, and developers have continued to experiment with what’s possible with the hardware. Now, there are tools that enable all 40 Compute Units (CUs) on the board (it defaults to 24 CUs), as well as tools to enable the two disabled Zen 2 cores, taking the six-core CPU to an eight-core CPU.",
+    "Now, the BC-250 isn’t a cut-down PS5 APU, at least from a hardware perspective. It actually patches two more graphics CUs compared to the PS5. Though, as should become clear throughout this story, relating the BC-250 to the PS5 on anything but the silicon on the board isn’t the best idea.",
+    "All in, we spent about $350 on the BC-250, with around $200 of that going toward the board (it’s currently listed for around $175 on eBay) and the additional budget going toward a 3D-printed case, fans, and a power supply. You could spend as little as the cost of the board if you can 3D print a case, bring your own fans, and repurpose an old PSU and NVMe SSD. If you’re starting from scratch, you’ll spend between $400 and $500.",
+    "Even for “full” price, the BC-250 is significantly cheaper than what you can get elsewhere. The PS5 digital edition is now $600, while the Pro will run you $900. The newly-released Steam Machine starts at $1,050, and that’s with just 512 GB of storage. The BC-250 is significantly cheaper and offers performance that can rival these platforms. What you save in money, however, you spend in time."
+  ]
+}

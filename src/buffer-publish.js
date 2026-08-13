@@ -28,12 +28,8 @@ async function gql(query) {
 }
 
 async function getOrganizations() {
-  let data = await gql("{ organizations { id name } }");
-  if (!data || !data.organizations) {
-    data = await gql("{ organizations { nodes { id name } } }");
-    return (data.organizations && data.organizations.nodes) || [];
-  }
-  return data.organizations || [];
+  const data = await gql("{ account { id name organizations { id name } } }");
+  return (data.account && data.account.organizations) || [];
 }
 
 async function getChannels(orgId) {
@@ -85,11 +81,13 @@ function toIso(dateStr, hm) {
   return new Date(`${y}-${m}-${dd}T${hm}:00+10:00`).toISOString();
 }
 
-function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl }) {
+function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postType = "post" }) {
   const assets = [];
   for (const u of imageUrls || []) assets.push(`{ image: { url: ${JSON.stringify(u)} } }`);
   if (videoUrl) assets.push(`{ video: { url: ${JSON.stringify(videoUrl)} } }`);
-  return `mutation { createPost(input: { text: ${JSON.stringify(text)}, channelId: ${JSON.stringify(channelId)}, schedulingType: automatic, mode: ${dueAt ? "customScheduled" : "addToQueue"}${dueAt ? `, dueAt: ${JSON.stringify(dueAt)}` : ""}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ... on PostActionSuccess { post { id } } ... on MutationError { message } } }`;
+  const meta = `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
+  const frags = `... on PostActionSuccess { post { id status } } ... on InvalidInputError { message } ... on RestProxyError { message } ... on LimitReachedError { message } ... on UnexpectedError { message } ... on UnauthorizedError { message } ... on NotFoundError { message }`;
+  return `mutation { createPost(input: { text: ${JSON.stringify(text)}, channelId: ${JSON.stringify(channelId)}, schedulingType: automatic, mode: ${dueAt ? "customScheduled" : "addToQueue"}${dueAt ? `, dueAt: ${JSON.stringify(dueAt)}` : ""}, needsApproval: false, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
 }
 
 function loadState() {
@@ -136,10 +134,14 @@ export async function scheduleDate(dateStr, { dry = false } = {}) {
     }
 
     const data = await gql(mutation);
-    const pid = data.createPost && data.createPost.post && data.createPost.post.id;
+    const res = data.createPost || {};
+    const pid = res.post && res.post.id;
+    if (!pid) {
+      throw new Error(`Buffer rejected slot ${post.slot} ("${post.title}"): ${res.message || "no post id in response"}`);
+    }
     state[dateStr] = state[dateStr] || {};
-    state[dateStr][post.slot] = { postId: post.id, bufferId: pid || "ok", dueAt: due };
-    console.log(`[buffer] scheduled slot ${post.slot} "${post.title}" -> ${pid || "ok"} @ ${due}`);
+    state[dateStr][post.slot] = { postId: post.id, bufferId: pid, dueAt: due };
+    console.log(`[buffer] scheduled slot ${post.slot} "${post.title}" -> ${pid} @ ${due}`);
     scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
   }
 
@@ -188,8 +190,13 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
     }
   };
 
-  run().then(() => process.exit(0)).catch((e) => {
-    console.error("[buffer] " + e.message);
-    process.exit(1);
-  });
+  run()
+    .then(async () => {
+      await new Promise((r) => setTimeout(r, 150));
+      process.exit(0);
+    })
+    .catch((e) => {
+      console.error("[buffer] " + e.message);
+      setTimeout(() => process.exit(1), 150);
+    });
 }

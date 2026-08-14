@@ -77,3 +77,39 @@ jobs:
           git status --porcelain
           git diff --cached --quiet || git commit -m "buffer schedule state $(date +%F)"
           git push
+
+  # If anything in the daily build fails, email the boss the run link so it
+  # never silently goes out without posting. Skipped when SMTP secrets are not
+  # configured yet, so a missing secret can't add noise.
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: build-and-schedule
+    if: failure()
+    steps:
+      - name: Timestamp
+        id: ts
+        run: echo "now=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
+      - name: Email failure alert
+        if: ${{ secrets.SMTP_USERNAME != '' && secrets.SMTP_PASSWORD != '' }}
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "⚠️ IG auto-build FAILED — nothing posted today"
+          to: ${{ vars.ALERT_EMAIL || 'artdodger79@gmail.com' }}
+          from: The IT Support Guru Bot <${{ secrets.SMTP_USERNAME }}>
+          body: |
+            The daily Instagram build failed at ${{ steps.ts.outputs.now }}.
+
+            Repo: ${{ github.repository }}
+            Run:  https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            What this means:
+            • No posts were scheduled or published today.
+            • The next scheduled run is the next weekday 05:30 AEST build — it will retry automatically.
+
+            Open the run link to see which step failed and why.

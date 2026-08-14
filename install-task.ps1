@@ -23,10 +23,11 @@ $PostRunner = Join-Path $Project "src\post-runner.js"
 $SessionCheck = Join-Path $Project "src\session-check.js"
 $ReelCheck = Join-Path $Project "src\reel-check.js"
 $TikTokBot = Join-Path $Project "src\tiktok-bot.js"
+$WatchGH = Join-Path $Project "src\watch-gh-actions.js"
 $Days = @('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
 
 if (-not (Test-Path $NodeExe)) { Write-Host "Node.js not found at $NodeExe"; exit 1 }
-foreach ($f in $Scheduler, $ReelApi, $PostRunner, $SessionCheck, $ReelCheck, $TikTokBot) {
+foreach ($f in $Scheduler, $ReelApi, $PostRunner, $SessionCheck, $ReelCheck, $TikTokBot, $WatchGH) {
   if (-not (Test-Path $f)) { Write-Host "Missing: $f"; exit 1 }
 }
 
@@ -58,6 +59,16 @@ New-Task "$TaskPrefix IG Slot 2" "`"$PostRunner`" --slot=2" "13:00"
 New-Task "$TaskPrefix TikTok Slot 0" "`"$TikTokBot`"" "06:30"
 New-Task "$TaskPrefix TikTok Slot 1" "`"$TikTokBot`"" "10:00"
 New-Task "$TaskPrefix TikTok Slot 2" "`"$TikTokBot`"" "13:00"
+
+# GH Actions failure watchdog: every 15 minutes (Mon-Fri, 06:00-23:45) poll the
+# daily-ig-build workflow runs and raise a Windows toast if today's build failed
+# or never ran. Headless-safe: a toast only displays when a user is logged in.
+$WatchAction = New-ScheduledTaskAction -Execute $NodeExe -Argument "`"$WatchGH`"" -WorkingDirectory $Project
+$WatchTrigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek $Days -At "06:00"
+$WatchTrigger.Repetition = (New-ScheduledTaskTrigger -Once -At "06:00" -RepetitionInterval (New-TimeSpan -Minutes 15) -RepetitionDuration (New-TimeSpan -Hours 23)).Repetition
+Register-ScheduledTask -TaskName "$TaskPrefix GH Watch" -Action $WatchAction -Trigger $WatchTrigger `
+  -Settings $Settings -Principal $Principal -Force | Out-Null
+Write-Host "  '$TaskPrefix GH Watch' -> Mon-Fri every 15 min: src\watch-gh-actions.js"
 
 # One-time reminder: once the FB account has aged (~2 days after 2026-08-12),
 # check the reel path and write out/reel-reminder.txt until a Graph token is set.

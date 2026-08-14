@@ -1,0 +1,41 @@
+name: alert-test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fail-it:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Force a failure
+        run: exit 1
+
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: fail-it
+    if: failure()
+    steps:
+      - name: Timestamp
+        id: ts
+        run: echo "now=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
+      - name: Email failure alert
+        if: ${{ secrets.SMTP_USERNAME != '' && secrets.SMTP_PASSWORD != '' }}
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "✅ ALERT TEST — IG auto-build failure email works"
+          to: ${{ vars.ALERT_EMAIL || 'artdodger79@gmail.com' }}
+          from: The IT Support Guru Bot <${{ secrets.SMTP_USERNAME }}>
+          body: |
+            This is a test of the failure alert pipeline, sent at ${{ steps.ts.outputs.now }}.
+
+            If you can read this, the alert email from the GitHub Actions failure
+            handler is delivering correctly to artdodger79@gmail.com.
+
+            Repo: ${{ github.repository }}
+            Run:  https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}

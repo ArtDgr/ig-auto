@@ -1,42 +1,42 @@
 {
-  "date": "2026-08-14",
-  "generatedAt": "2026-08-13T23:52:29.100Z",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-16T19:45:24.985Z",
   "posts": [
     {
-      "id": "20260814-openai-hires-new-cro-as-executive-shake-up-continues",
+      "id": "20260817-ocypus-sigma-l36-pro-review-how-is-this-lcd-aio-so",
       "slot": 0,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "news",
-      "title": "OpenAI hires new CRO as executive shake-up continues",
-      "source": "TechCrunch",
-      "link": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "title": "Ocypus Sigma L36 Pro Review: How is this LCD AIO so…",
+      "source": "Tom's Hardware",
+      "link": "https://www.tomshardware.com/pc-components/liquid-cooling/ocypus-sigma-l36-pro-review",
       "slides": [
         {
           "kind": "hook",
-          "text": "$32 billion\nOpenAI hires new CRO as executive shake-up continues"
+          "text": "$139\nOcypus Sigma L36 Pro Review: How is this LCD AIO so cheap?"
         },
         {
           "kind": "facts",
-          "text": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief…\nThe move comes as part of a broader shake-up in the organization in the last month, which has seen the departures of COO Brad…\n2 executive, CEO of AGI deployment Fidji Simo.\nOpenAI co-founder and president Greg Brockman has taken a larger role in management following Simo’s departure, and announced…"
+          "text": "When you purchase through links on our site, we may earn an affiliate commission.\nThe Ocypus Sigma L36 Pro is a strong value contender, with a detachable 3.5-inch IPS display, excellent thermals, and a $139 price…\nWhy you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…\nFind out more about how we test."
         },
         {
           "kind": "body",
-          "text": "THE TAKEAWAY — “Denise has led our revenue organization through a formative period for the business and has worked tirelessly to get the team to…"
+          "text": "THE TAKEAWAY — This manufacturer is known for quirky design choices that help set it apart from its many competitors."
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "OpenAI hires new CRO as executive shake-up continues 🤖\n\nOpenAI hires new CRO as executive shake-up continues\n\n• OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief…\n• The move comes as part of a broader shake-up in the organization in the last month, which has seen the departures of COO Brad…\n• 2 executive, CEO of AGI deployment Fidji Simo.\n• OpenAI co-founder and president Greg Brockman has taken a larger role in management following Simo’s departure, and announced…\n\nSource: TechCrunch — https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/\n\nSave this for later →\n\n#genai #ai #artificialintelligence #aitech #chatgpt #machinelearning #aitips #aitools #pchelp #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Ocypus Sigma L36 Pro Review: How is this LCD AIO so… 💻\n\nOcypus Sigma L36 Pro Review: How is this LCD AIO so…\n\n• When you purchase through links on our site, we may earn an affiliate commission.\n• The Ocypus Sigma L36 Pro is a strong value contender, with a detachable 3.5-inch IPS display, excellent thermals, and a $139 price…\n• Why you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…\n• Find out more about how we test.\n\nSource: Tom's Hardware — https://www.tomshardware.com/pc-components/liquid-cooling/ocypus-sigma-l36-pro-review\n\nSave this for later →\n\n#laptop #laptops #benchmark #techreview #pcgaming #ssd #hardware #cpu #pchelp #techdaily #techtips #techsupport\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
       "status": "pending"
     },
     {
-      "id": "20260814-apple-wins-temporary-supreme-court-pause-in-epic-games",
+      "id": "20260817-top-stories-ios-27-beta-5-iphone-18-pro-rumors-and",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -44,65 +44,57 @@
       "emoji": "🍎",
       "format": "carousel",
       "kind": "news",
-      "title": "Apple wins temporary Supreme Court pause in Epic Games…",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/08/12/apple-wins-temporary-supreme-court-pause-in-epic-games-proceedings/",
+      "title": "Top Stories: iOS 27 Beta 5, iPhone 18 Pro Rumors, and…",
+      "source": "MacRumors",
+      "link": "https://www.macrumors.com/2026/08/15/top-stories-ios-27-beta-5/",
       "slides": [
         {
           "kind": "hook",
-          "text": "Apple wins temporary Supreme Court pause\nApple wins temporary Supreme Court pause in Epic Games proceedings"
+          "text": "27,\nTop Stories: iOS 27 Beta 5, iPhone 18 Pro Rumors, and More"
         },
         {
           "kind": "facts",
-          "text": "The Supreme Court has granted Apple a 24-hour extension to a California court deadline requiring the company to propose what…\nYesterday, Judge Yvonne Gonzalez Rogers rejected Apple’s request to pause the App Store fee proceedings while the Supreme Court…\nFor context, when Judge Gonzalez Rogers issued an injunction requiring Apple to allow developers to direct users to alternative…\nJudge Gonzalez Rogers later found Apple in contempt for violating the injunction."
+          "text": "Apple is likely winding down work on the initial release of iOS 27 as it prepares to install the operating system on new iPhone…\nOther news and rumors this week included a look at an alleged battery from the upcoming iPhone 18 Pro Max, third-party accessories…\nTop Stories Everything New in iOS 27 Beta 5 We're a little over a month away from the launch of iOS 27, and Apple is continuing to…\nThe fifth beta of ‌iOS 27‌ seeded to developers and public beta test Apple is likely winding down work on the initial release of…"
         },
         {
           "kind": "body",
-          "text": "THE TAKEAWAY — Even though the Supreme Court is reviewing the contempt finding, the case is also continuing in the lower court, where Judge…"
+          "text": "THE TAKEAWAY — The fifth beta of ‌iOS 27‌ seeded to developers and public beta testers this week changes the look of some app icons and adjusts…"
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Apple wins temporary Supreme Court pause in Epic Games… 🍎\n\nApple wins temporary Supreme Court pause in Epic Games…\n\n• The Supreme Court has granted Apple a 24-hour extension to a California court deadline requiring the company to propose what…\n• Yesterday, Judge Yvonne Gonzalez Rogers rejected Apple’s request to pause the App Store fee proceedings while the Supreme Court…\n• For context, when Judge Gonzalez Rogers issued an injunction requiring Apple to allow developers to direct users to alternative…\n• Judge Gonzalez Rogers later found Apple in contempt for violating the injunction.\n\nSource: 9to5Mac — https://9to5mac.com/2026/08/12/apple-wins-temporary-supreme-court-pause-in-epic-games-proceedings/\n\nSave this for later →\n\n#appletips #macbook #ios #apple #appleintelligence #macrumors #iphone #applenews #techsupport #techdaily #itsupportguru #pchelp\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Top Stories: iOS 27 Beta 5, iPhone 18 Pro Rumors, and… 🍎\n\nTop Stories: iOS 27 Beta 5, iPhone 18 Pro Rumors, and…\n\n• Apple is likely winding down work on the initial release of iOS 27 as it prepares to install the operating system on new iPhone…\n• Other news and rumors this week included a look at an alleged battery from the upcoming iPhone 18 Pro Max, third-party accessories…\n• Top Stories Everything New in iOS 27 Beta 5 We're a little over a month away from the launch of iOS 27, and Apple is continuing to…\n• The fifth beta of ‌iOS 27‌ seeded to developers and public beta test Apple is likely winding down work on the initial release of…\n\nSource: MacRumors — https://www.macrumors.com/2026/08/15/top-stories-ios-27-beta-5/\n\nSave this for later →\n\n#ios #macbook #appletips #macrumors #applenews #apple #iphone #macos #techtips #techdaily #pchelp #techsupport\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
       "status": "pending"
     },
     {
-      "id": "20260814-weekly-wifi-sanity-check",
+      "id": "20260817-feed-it-only-the-relevant-context",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "routine",
-      "kind": "routine",
-      "title": "Weekly WiFi sanity check",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
+      "format": "image",
+      "kind": "tip",
+      "title": "Feed it only the relevant context",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Weekly WiFi sanity check\nRestart the router"
+          "text": "Feed it only the relevant context\nThree focused paragraphs beat a pasted novel. AI reasoning degrades when you stuff the context window with noise.…"
         },
         {
-          "kind": "step",
-          "text": "Restart the router — Unplug power for a full 60 seconds, then plug back in — this clears the DHCP and thermal dropouts a quick reset can't fix, and a 2.4/5 GHz router typically takes 2–3 minutes to fully come back."
-        },
-        {
-          "kind": "step",
-          "text": "Run a speed test on your main device — Test the same room as your router first (a clean baseline), then the room you use most — download AND upload, twice each. If one room is consistently 30%+ slower, that's a signal, not a coincidence."
-        },
-        {
-          "kind": "step",
-          "text": "Forget and rejoin WiFi if it's weak — WiFi adapters can pin a stale, congested channel or a dead 5 GHz band. Forget the network, power-cycle the phone, rejoin and re-enter the password so it renegotiates a fresh connection."
+          "kind": "body",
+          "text": "Three focused paragraphs beat a pasted novel. AI reasoning degrades when you stuff the context window with noise. Extract the relevant section first, then prompt — you'll get sharper answers and use fewer tokens."
         },
         {
           "kind": "cta",
-          "text": "Bookmark this routine for tomorrow."
+          "text": "Save this 30-second fix."
         }
       ],
-      "caption": "Weekly WiFi sanity check 📱\n\n1. Restart the router\n     ✓ Unplug power for a full 60 seconds, then plug back in — this clears the DHCP and thermal dropouts a quick reset can't fix, and a 2.4/5 GHz router typically takes 2–3 minutes to fully come back.\n2. Run a speed test on your main device\n     ✓ Test the same room as your router first (a clean baseline), then the room you use most — download AND upload, twice each. If one room is consistently 30%+ slower, that's a signal, not a coincidence.\n3. Forget and rejoin WiFi if it's weak\n     ✓ WiFi adapters can pin a stale, congested channel or a dead 5 GHz band. Forget the network, power-cycle the phone, rejoin and re-enter the password so it renegotiates a fresh connection.\n\nDrop a 🔔 to catch tomorrow's routine.\n\n#smartphone #batterytips #samsung #gadgets #smartphonetips #android #tech #gadgetreviews #pchelp #techdaily #techtips #techsupport\n\n@theitsupportguru — steady tech habits.\n\nBookmark this for later.",
+      "caption": "Feed it only the relevant context 🤖\n\nFeed it only the relevant context\n\n#machinelearning #futuretech #artificialintelligence #aitips #ai #chatgpt #aitools #genai #techtips #pchelp #itsupportguru #techdaily\n\n@theitsupportguru — daily tech fixes.\n\nFollow for more like this.",
       "status": "pending"
     }
   ]

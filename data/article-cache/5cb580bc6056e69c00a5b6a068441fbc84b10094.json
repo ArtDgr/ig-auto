@@ -1,0 +1,14 @@
+{
+  "url": "https://www.ghacks.net/2026/08/17/chromeos-151-rolls-out-with-bookmark-bar-auto-hide-gemini-safe-browsing-and-18-security-fixes/",
+  "fetched": "2026-08-17T19:52:42.298Z",
+  "paragraphs": [
+    "Google is rolling out ChromeOS 151 (version 16733.48.0, browser version 151.0.7922.141) to Chromebooks and ChromeOS Flex devices on the Stable channel.",
+    "This update adds a bookmark bar auto-hide option, real-time Safe Browsing for Gemini sessions, ends support for legacy Chrome Apps in Kiosk mode, introduces hardware cutoffs for older ChromeOS Flex devices, tightens enterprise policy enforcement, and addresses 18 security vulnerabilities.",
+    "This is one of the most security-focused ChromeOS updates in recent releases.",
+    "ChromeOS 151 adds new controls for bookmark bar visibility under Settings and then Appearance. If Chrome sees that you rarely use the bookmark bar on the New Tab page, it can now hide it automatically to give you more vertical space.",
+    "If the bar is hidden because of low usage, Chrome shows a small notification so you can bring it back with one click. Administrators in schools and businesses can keep the bar visible for everyone by using the updated BookmarkBarEnabled policy.",
+    "Google has added real-time Safe Browsing protection to Gemini sessions in Chrome. When you use Gemini to summarize web pages, read research papers, or automate web tasks, Chrome now checks for new malicious domains and deceptive redirects in real time.",
+    "As outlined in the ChromeOS 150 rollout, ChromeOS 151 ends support for legacy packaged Chrome Apps in Kiosk mode.",
+    "Legacy Chrome Apps no longer launch in Kiosk sessions, so organizations managing digital signage, interactive displays, or student testing kiosks must migrate those workflows to Progressive Web Apps."
+  ]
+}

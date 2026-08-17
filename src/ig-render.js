@@ -19,7 +19,7 @@ function esc(s) {
 // keyword that matches the story chooses a subject motif (chip, phone, shield…)
 // plus its accent. Falls back to the niche theme when nothing matches.
 const svgWrap = (accent, inner) =>
-  `<svg viewBox="0 0 200 200" fill="none" stroke="${accent}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+  `<svg viewBox="0 0 200 200" fill="none" stroke="${accent}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
 
 const TOPIC_THEMES = [
   {
@@ -212,8 +212,8 @@ export function cardHtml(post, slide, index, total) {
     position: relative;
   }
   .motif { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-  .motif svg { position: absolute; right: -70px; top: 50%; transform: translateY(-50%); width: 720px; height: 720px; opacity: .16; }
-  .motif svg.motif-2 { right: auto; left: -150px; bottom: -160px; top: auto; width: 460px; height: 460px; opacity: .10; }
+  .motif svg { position: absolute; right: -40px; top: 50%; transform: translateY(-50%); width: 780px; height: 780px; opacity: .30; filter: drop-shadow(0 12px 30px ${accent}22); }
+  .motif svg.motif-2 { right: auto; left: -120px; bottom: -140px; top: auto; width: 500px; height: 500px; opacity: .20; filter: drop-shadow(0 10px 24px ${accent}1a); }
   .motif::before, .motif::after { content: ""; position: absolute; border-radius: 50%; }
   .motif::before { width: 560px; height: 560px; right: -200px; top: -190px; border: 88px solid ${accent}0d; }
   .motif::after { width: 460px; height: 460px; left: -190px; bottom: -150px; border: 64px solid ${accent}0a; }

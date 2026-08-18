@@ -234,9 +234,9 @@
       ]
     }
   ],
-  "postsPerDay": 3,
+  "postsPerDay": 4,
   "distribution": {
-    "instagram": 3,
+    "instagram": 4,
     "tiktok": 0,
     "youtube": 0
   },
@@ -408,10 +408,11 @@
     "postingTimes": [
       "06:00",
       "12:00",
-      "17:00"
+      "17:00",
+      "20:00"
     ],
     "minWarmupDays": 5,
-    "maxPerDay": 3,
+    "maxPerDay": 4,
     "headless": true,
     "speed": 0.3,
     "staggerMinutes": [
@@ -473,7 +474,8 @@
     "slots": [
       "06:00",
       "12:00",
-      "17:00"
+      "17:00",
+      "20:00"
     ],
     "timezone": "Australia/Sydney",
     "daysOfWeek": [

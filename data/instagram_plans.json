@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-18T22:39:35.586Z",
+  "generatedAt": "2026-08-18T23:03:35.615Z",
   "posts": [
     {
       "id": "20260819-monday-s-android-app-deals-and-freebies-demon-castle",
@@ -28,7 +28,7 @@
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#smartphone #tech #iphone #gadgets #techgear #smartphonetips #samsung #batterytips #itsupportguru #techsupport #techtips #pchelp\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#iphone #tech #batterytips #gadgets #smartphone #android #smartphonetips #techgear #itsupportguru #pchelp #techsupport #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
       "status": "pending"
     },
     {
@@ -46,7 +46,7 @@
       "slides": [
         {
           "kind": "hook",
-          "text": "Intel Xeon 658X Review: Granite Rapids\nIntel Xeon 658X Review: Granite Rapids For Workstations"
+          "text": "600\nIntel Xeon 658X Review: Granite Rapids For Workstations"
         },
         {
           "kind": "facts",
@@ -61,44 +61,65 @@
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n• Somewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\n• Though a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#aws #azure #docker #devops #cloud #devopslife #techops #cloudinfra #itsupportguru #pchelp #techsupport #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n• Somewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\n• Though a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#cloudinfra #azure #devops #devopslife #cloudcomputing #cloud #docker #aws #techdaily #techsupport #pchelp #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
       "status": "pending"
     },
     {
-      "id": "20260819-monthly-apple-account-check",
+      "id": "20260819-apple-admits-it-may-not-make-any-commission-from",
       "slot": 2,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
       "accent": "#C7E1FF",
       "emoji": "🍎",
-      "format": "routine",
-      "kind": "routine",
-      "title": "Monthly Apple account check",
+      "format": "carousel",
+      "kind": "news",
+      "title": "Apple admits it may not make any commission from…",
+      "source": "9to5Mac",
+      "link": "https://9to5mac.com/2026/08/18/apple-admits-it-may-not-make-any-commission-from-alternative-app-stores/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Apple admits it may not make any commission\nApple admits it may not make any commission from alternative app stores"
+        },
+        {
+          "kind": "facts",
+          "text": "Apple has been fighting hard to ensure that it is still able to take a commission from app sales made through third-party stores.\nIts aggression in doing this landed it in hot water with the judge in the long-running Epic Games case.\nThe company has since submitted a proposal for a more toned down version with lower commissions , but it has admitted in new…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "Apple admits it may not make any commission from… 🍎\n\nApple admits it may not make any commission from…\n\n• Apple has been fighting hard to ensure that it is still able to take a commission from app sales made through third-party stores.\n• Its aggression in doing this landed it in hot water with the judge in the long-running Epic Games case.\n• The company has since submitted a proposal for a more toned down version with lower commissions , but it has admitted in new…\n\nSource: 9to5Mac — https://9to5mac.com/2026/08/18/apple-admits-it-may-not-make-any-commission-from-alternative-app-stores/\n\nSave this for later →\n\n#macos #macbook #macrumors #applenews #ios #appletips #iphone #apple #techsupport #pchelp #techtips #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "status": "pending"
+    },
+    {
+      "id": "20260819-ram-is-the-second-cheapest-upgrade",
+      "slot": 3,
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
+      "format": "image",
+      "kind": "tip",
+      "title": "RAM is the second-cheapest upgrade",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monthly Apple account check\nReview Safari passwords for reused ones"
+          "text": "RAM is the second-cheapest upgrade\nIf a PC is sluggish with multiple tabs open, RAM is usually the pain — not the CPU. Going from 16GB to 32GB is the…"
         },
         {
-          "kind": "step",
-          "text": "Review Safari passwords for reused ones"
-        },
-        {
-          "kind": "step",
-          "text": "Check iCloud storage plan usage"
-        },
-        {
-          "kind": "step",
-          "text": "Revoke apps that have your Apple ID access"
+          "kind": "body",
+          "text": "If a PC is sluggish with multiple tabs open, RAM is usually the pain — not the CPU. Going from 16GB to 32GB is the budget-friendly fix that stops the constant swapping that makes everything feel laggy."
         },
         {
           "kind": "cta",
-          "text": "Bookmark this routine for tomorrow."
+          "text": "Save this 30-second fix."
         }
       ],
-      "caption": "Monthly Apple account check 🍎\n\n1. Review Safari passwords for reused ones\n2. Check iCloud storage plan usage\n3. Revoke apps that have your Apple ID access\n\nDrop a 🔔 to catch tomorrow's routine.\n\n#ios #appleintelligence #macos #appletips #macrumors #applenews #iphone #macbook #techsupport #techdaily #techtips #itsupportguru\n\n@theitsupportguru — steady tech habits.\n\nBookmark this for later.",
+      "caption": "RAM is the second-cheapest upgrade 💻\n\nRAM is the second-cheapest upgrade\n\n#ssd #pc #cpu #laptops #hardware #pcgaming #techreview #benchmark #itsupportguru #techsupport #techdaily #pchelp\n\n@theitsupportguru — daily tech fixes.\n\nFollow for more like this.",
       "status": "pending"
     }
   ]

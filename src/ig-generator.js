@@ -512,21 +512,20 @@ export function generateIgPlan() {
   // laptops, security. (it-support/cloud rotate in on the 25% wildcard days.)
   const CORE = ["ai", "gadgets", "apple", "hardware", "security"];
   const dayNicheOrder = rnd() < 0.75 ? shuffle(CORE, rnd) : shuffle(nicheIds, rnd);
-  const formats = shuffle(["carousel", "image", "routine"], rnd);
-  // Don't pick an evergreen image card for slot 0 — the news lead must be a
-  // real story. If slot 0 landed on "image", that's fine (newsCard); if it
-  // landed on "routine", swap the routine out for the slot-2 default.
+  // Four daily posts, four formats: no format repeats more than twice, and the
+  // news lead at slot 0 must never be an evergreen routine.
+  const formats = shuffle(["carousel", "image", "routine", "carousel"], rnd);
   if (formats[0] === "routine") {
     const t = formats[2];
     formats[2] = formats[0];
     formats[0] = t;
   }
-  // Slots 0 and 1 are both fresh, fact-rich news posters (slot 0 single-card,
-  // slot 1 a full swipe-story). Slot 2 is the helpful evergreen how-to.
-  const modes = ["news", "news", "evergreen"];
+  // Slots 0-2 are fresh, fact-rich news posters (slot 0 single-card, slots 1-2
+  // full swipe-stories). Slot 3 is the helpful evergreen how-to/tip/routine.
+  const modes = ["news", "news", "news", "evergreen"];
 
   const posts = [];
-  for (let slot = 0; slot < 3; slot++) {
+  for (let slot = 0; slot < 4; slot++) {
     const nicheId = dayNicheOrder[slot];
     const format = formats[slot];
     const topics = topicsForNiche(nicheId);

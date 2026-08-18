@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import config from "../config.json" with { type: "json" };
+import { isRetailPromo } from "./unbiased.js";
 
 const DATA = path.join("data", "topics.json");
 const OUT = path.join("data", "scripts.json");
@@ -34,7 +35,7 @@ function buildDeck(topic, index) {
   const hook = `${config.brand}: ${shorten(raw, 46)}`;
 
   const bodyPoints = longForm
-    ? longForm.map((s) => shorten(s, 88))
+    ? longForm.map((s) => shorten(s, 88)).filter((s) => !isRetailPromo(s))
     : [
         shorten(`Here's why people can't stop talking about: ${raw}`, 88),
         shorten(`One quick breakdown, no fluff — ${raw}.`, 80),
@@ -152,7 +153,7 @@ function buildReelDeck(topic) {
   const handle = (config.instagram && config.instagram.handle) || "@theitsupportguru";
   const hk = makeReelHook(topic);
   const bodyPoints = longForm
-    ? longForm.map((s) => shorten(s, 88)).slice(0, 3)
+    ? longForm.map((s) => shorten(s, 88)).filter((s) => !isRetailPromo(s)).slice(0, 3)
     : [
         `The short version: ${shorten(raw, 78)}.`,
         "Why it matters: this sits right at the frontier of bleeding-edge tech.",

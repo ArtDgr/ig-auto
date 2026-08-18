@@ -4,6 +4,7 @@ import crypto from "node:crypto";
 import config from "../config.json" with { type: "json" };
 import { NICHES } from "./ig-content-lib.js";
 import { loadTopics } from "./generator.js";
+import { isRetailPromo } from "./unbiased.js";
 
 const PLANS = path.join("data", "instagram_plans.json");
 const ARTICLE_CACHE = path.join("data", "article-cache");
@@ -110,6 +111,7 @@ function topicFacts(topic, n = 4) {
   const out = [];
   for (const s of sents) {
     if (out.length >= n) break;
+    if (isRetailPromo(s)) continue;
     const low = s.toLowerCase();
     if (NEWSLETTER_HINTS.some((h) => low.includes(h))) continue;
     const t = shorten(s, 132);
@@ -362,7 +364,7 @@ function captionPoints(post) {
   for (const s of post.slides || []) {
     if (s.kind !== "facts" && s.kind !== "brief") continue;
     const lines = String(s.text || "").split("\n").map((l) => l.trim().replace(/^[•▸\-*]\s*/, "")).filter(Boolean);
-    for (const t of lines) if (t && !pts.includes(t)) pts.push(t);
+    for (const t of lines) if (t && !isRetailPromo(t) && !pts.includes(t)) pts.push(t);
   }
   return pts.slice(0, 4);
 }

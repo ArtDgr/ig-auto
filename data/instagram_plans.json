@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-18T22:04:21.245Z",
+  "generatedAt": "2026-08-18T22:12:58.067Z",
   "posts": [
     {
       "id": "20260819-monday-s-android-app-deals-and-freebies-demon-castle",
@@ -50,14 +50,18 @@
         },
         {
           "kind": "facts",
-          "text": "Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\nToday we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…"
+          "text": "Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\nToday we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\nSomewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\nThough a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…"
+        },
+        {
+          "kind": "body",
+          "text": "THE TAKEAWAY — Perhaps this is why Intel has been retooling the Xeon workstation brand."
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#aws #azure #docker #devops #cloud #devopslife #techops #cloudinfra #itsupportguru #pchelp #techsupport #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n• Somewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\n• Though a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#aws #azure #docker #devops #cloud #devopslife #techops #cloudinfra #itsupportguru #pchelp #techsupport #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
       "status": "pending"
     },
     {

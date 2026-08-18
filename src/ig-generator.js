@@ -247,6 +247,17 @@ function contentDepth(t) {
     articleCacheParas(t).reduce((a, p) => a + String(p).length, 0)
   );
 }
+// Deals/freebies stories: only feature *free* apps or genuinely free offers.
+// Paid-app discounts, hardware sales and store sale round-ups are promotional
+// by nature and never become a post (we don't advertise retailers or stores).
+const FREE_DEAL_RE = /(free\b|freebie|free app|free apps|free game|free games|free download|free to play|app of the (?:day|week)|app sale|app deals|free with|100% free|at no cost)/i;
+const PAID_DEAL_RE = /(discount|\b% off\b|deal(?:s)?\b|sale\b|bogo|clearance|coupon|save\s|\$\d|price drop|reduced)/i;
+function isFreeDeal(t) {
+  return FREE_DEAL_RE.test(String(t.title || "") + " " + String(t.snippet || ""));
+}
+function isPaidDeal(t) {
+  return PAID_DEAL_RE.test(String(t.title || "") + " " + String(t.snippet || ""));
+}
 function pickDeepest(coll) {
   // Prefer real, linkable articles with the deepest snippet. Linkless digest
   // items (long text, no URL) are poor leads and only used as a last resort.
@@ -255,6 +266,13 @@ function pickDeepest(coll) {
   if (!pool.length) pool = linked;
   if (!pool.length) pool = coll.filter((t) => !looksLikeNewsletter(t));
   if (!pool.length) pool = coll;
+  // Unbiased stance: paid-deal / store-sale round-ups never become posts.
+  const free = pool.filter(isFreeDeal);
+  if (free.length) pool = free;
+  else {
+    const nonPaid = pool.filter((t) => !isPaidDeal(t));
+    if (nonPaid.length) pool = nonPaid;
+  }
   // Freshness first: stale "news" reads as a bot. If at least two recent items
   // exist, only pick among them; otherwise fall back to depth alone.
   const fresh = pool.filter((t) => {

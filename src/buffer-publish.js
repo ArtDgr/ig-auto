@@ -93,8 +93,10 @@ function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postT
 // editPost replaces a whole scheduled post (text + assets + metadata + dueAt).
 // The channel and approval state are untouched, so this is safe to run right up
 // to publish time for a content/design refresh.
-function editPostMutation({ id, text, dueAt, imageUrls, postType = "post" }) {
-  const assets = (imageUrls || []).map((u) => `{ image: { url: ${JSON.stringify(u)} } }`);
+function editPostMutation({ id, text, dueAt, imageUrls, videoUrl, postType = "post" }) {
+  const assets = [];
+  for (const u of imageUrls || []) assets.push(`{ image: { url: ${JSON.stringify(u)} } }`);
+  if (videoUrl) assets.push(`{ video: { url: ${JSON.stringify(videoUrl)} } }`);
   const meta = `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
   const frags = `... on PostActionSuccess { post { id status } } ... on InvalidInputError { message } ... on RestProxyError { message } ... on LimitReachedError { message } ... on UnexpectedError { message } ... on UnauthorizedError { message } ... on NotFoundError { message }`;
   return `mutation { editPost(input: { id: ${JSON.stringify(id)}, text: ${JSON.stringify(text)}, schedulingType: automatic, mode: customScheduled, dueAt: ${JSON.stringify(dueAt)}, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;

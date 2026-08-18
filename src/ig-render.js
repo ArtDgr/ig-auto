@@ -241,7 +241,12 @@ export function cardHtml(post, slide, index, total) {
   h1 { font-size: 86px; line-height: 1.06; font-weight: 800; letter-spacing: 0.5px; color: #0F172A; }
   .hook-wrap { text-align: left; max-width: 920px; }
   .hook-big { font-weight: 800; letter-spacing: 0.5px; color: #0F172A; line-height: 1.02; margin-bottom: 34px; word-break: keep-all; }
-  .hook-big.stat { color: ${accent}; }
+  .hook-big.stat { color: ${accent}; text-shadow: 0 10px 40px ${accent}44; }
+  .hook-big.gradient {
+    background: linear-gradient(120deg, ${accent} 0%, ${accent}cc 48%, #0F172A 105%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    filter: drop-shadow(0 8px 24px ${accent}33);
+  }
   .hook-line { font-size: 44px; line-height: 1.32; font-weight: 500; color: #475569; max-width: 880px; }
   .rule { width: 120px; height: 10px; border-radius: 6px; background: ${accent}; margin-top: 44px; box-shadow: 0 4px 18px ${accent}55; }
   .body-text { max-width: 900px; }

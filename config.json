@@ -174,12 +174,28 @@
         "admin",
         "patch",
         "ghacks",
-        "windows 11"
+        "windows 11",
+        "how to",
+        "fix",
+        "troubleshoot",
+        "guide",
+        "open source",
+        "software",
+        "linux",
+        "powershell",
+        "sysadmin",
+        "powershell",
+        "app"
       ],
       "feeds": [
         "https://www.windowscentral.com/rss.xml",
         "https://www.ghacks.net/feed/",
-        "https://www.computerworld.com/index.rss"
+        "https://www.computerworld.com/index.rss",
+        "https://news.google.com/rss/search?q=site:lifewire.com&hl=en-US&gl=US&ceid=US:en",
+        "https://www.itechguides.com/feed/",
+        "https://4sysops.com/feed/",
+        "https://superuser.com/feeds",
+        "https://www.spiceworks.com/feed/"
       ]
     },
     {
@@ -203,11 +219,18 @@
         "devops",
         "sre",
         "uptime",
-        "cooling"
+        "cooling",
+        "open source",
+        "automation",
+        "cicd",
+        "ci/cd",
+        "software"
       ],
       "feeds": [
         "https://www.theregister.com/headlines.atom",
-        "https://www.servethehome.com/feed/"
+        "https://www.servethehome.com/feed/",
+        "https://sourceforge.net/blog/feed/",
+        "https://geekflare.com/feed/"
       ]
     }
   ],

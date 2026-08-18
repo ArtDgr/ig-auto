@@ -72,6 +72,7 @@ function parseFeed(text, nicheId) {
   const parser = new XMLParser({
     ignoreAttributes: false,
     cdataPropName: "text",
+    processEntities: false,
     maxDepth: 30
   });
   try {
@@ -137,19 +138,29 @@ function matchesNiche(item, niche) {
   return niche.keywords.some((k) => t.includes(k.toLowerCase()));
 }
 
+const FEED_UA_CHROME =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
+const FEED_UA_PLAIN = "Mozilla/5.0";
+
 async function fetchFeed(url, timeoutMs = 12000) {
-  const ctl = new AbortController();
-  const t = setTimeout(() => ctl.abort(), timeoutMs);
-  try {
-    const res = await fetch(url, {
-      signal: ctl.signal,
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; FacelessStudio/1.0)" }
-    });
-    if (!res.ok) throw new Error("status " + res.status);
-    return await res.text();
-  } finally {
-    clearTimeout(t);
+  // Some feeds only serve browser UAs (SourceForge, Spiceworks); others block
+  // Chrome and accept a plain Mozilla string (Super User). Try both in order.
+  for (const ua of [FEED_UA_CHROME, FEED_UA_PLAIN]) {
+    const ctl = new AbortController();
+    const t = setTimeout(() => ctl.abort(), timeoutMs);
+    try {
+      const res = await fetch(url, {
+        signal: ctl.signal,
+        headers: { "User-Agent": ua }
+      });
+      if (res.ok) return await res.text();
+      if (res.status === 403 || res.status === 429) continue;
+      throw new Error("status " + res.status);
+    } finally {
+      clearTimeout(t);
+    }
   }
+  throw new Error("status 403/429 on all user agents");
 }
 
 const seen = new Set();

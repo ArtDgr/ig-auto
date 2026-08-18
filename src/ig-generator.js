@@ -150,7 +150,14 @@ const SOURCE_NAMES = {
   "androidcentral.com": "Android Central",
   "9to5google.com": "9to5Google",
   "androidauthority.com": "Android Authority",
-  "theverge.com": "The Verge"
+  "theverge.com": "The Verge",
+  "lifewire.com": "Lifewire",
+  "itechguides.com": "ITechGuides",
+  "sourceforge.net": "SourceForge",
+  "4sysops.com": "4sysops",
+  "superuser.com": "Super User",
+  "geekflare.com": "Geekflare",
+  "spiceworks.com": "Spiceworks"
 };
 function sourceName(topic) {
   try {

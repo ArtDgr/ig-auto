@@ -152,7 +152,7 @@ export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) 
       throw new Error(`Buffer rejected slot ${post.slot} ("${post.title}"): ${res.message || "no post id in response"}`);
     }
     state[dateStr] = state[dateStr] || {};
-    state[dateStr][post.slot] = { postId: post.id, bufferId: pid, dueAt: due };
+    state[dateStr][post.slot] = { postId: post.id, bufferId: pid, dueAt: due, niche: post.niche || "", title: post.title };
     console.log(`[buffer] scheduled slot ${post.slot} "${post.title}" -> ${pid} @ ${due}`);
     scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
   }
@@ -205,9 +205,22 @@ export async function scheduleReel(dateStr, { dry = false, state: priorState } =
     throw new Error(`Buffer rejected reel ("${file}"): ${res.message || "no post id in response"}`);
   }
   state[dateStr] = state[dateStr] || {};
-  state[dateStr].reel = { file, bufferId: pid, dueAt: due };
+  state[dateStr].reel = { file, bufferId: pid, dueAt: due, niche: reelNiche(dateStr) };
   console.log(`[buffer] scheduled reel "${file}" -> ${pid} @ ${due}`);
   return { scheduled: [{ reel: file, bufferId: pid, due }] };
+}
+
+// Reel niche comes from the reel script's deck (data/reel.json) so the boost
+// agent can attribute reel performance to a niche for rotation weighting.
+function reelNiche(dateStr) {
+  try {
+    const ymd = dateStr.replace(/-/g, "");
+    if (fs.existsSync("data/reel.json")) {
+      const r = JSON.parse(fs.readFileSync("data/reel.json", "utf8"));
+      if (r && r.date && String(r.date).replace(/-/g, "") === ymd && r.deck && r.deck.niche) return r.deck.niche;
+    }
+  } catch {}
+  return "";
 }
 
 // Refresh one or more already-scheduled Buffer posts with the current plan's
@@ -271,6 +284,7 @@ export async function cmdStatus() {
 }
 
 export default { scheduleDate, scheduleReel, updateSlots, cmdStatus };
+export { gql, repoBase, resolveChannelId, createPostMutation, loadState, saveState, aestDate, toIso };
 
 // Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel] | update [--date=YYYYMMDD] [--slots=1,2] [--dry]`
 if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-publish.js")) {

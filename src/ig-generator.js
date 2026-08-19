@@ -505,13 +505,54 @@ function dateKeyShort() {
   return fileDate().replace(/-/g, "") + "-";
 }
 
+// Weighted day-niche pick. When the boost agent has written niche-weights.json
+// (winners get up to 3x rotation weight), sample niches weighted by performance;
+// otherwise fall back to the CORE/wildcard split.
+function loadNicheWeights() {
+  try {
+    if (fs.existsSync("data/niche-weights.json")) {
+      const w = JSON.parse(fs.readFileSync("data/niche-weights.json", "utf8"));
+      if (w && Object.keys(w).length) return w;
+    }
+  } catch {}
+  return null;
+}
+
+function pickWeightedNicheOrder(weights, rnd, count) {
+  const ids = Object.keys(NICHES);
+  const order = [];
+  const pool = ids.slice();
+  for (let i = 0; i < count; i++) {
+    const tot = pool.reduce((s, id) => s + (weights[id] ?? 1), 0);
+    let r = rnd() * tot;
+    let pick = pool[pool.length - 1];
+    for (const id of pool) {
+      r -= weights[id] ?? 1;
+      if (r <= 0) {
+        pick = id;
+        break;
+      }
+    }
+    order.push(pick);
+    pool.splice(pool.indexOf(pick), 1);
+  }
+  return order;
+}
+
 export function generateIgPlan() {
   const rnd = mulberry32(hashStr(fileDate()));
   const nicheIds = Object.keys(NICHES);
-  // Favour the requested categories: frontier AI, smartphone/gadgets, Apple,
-  // laptops, security. (it-support/cloud rotate in on the 25% wildcard days.)
-  const CORE = ["ai", "gadgets", "apple", "hardware", "security"];
-  const dayNicheOrder = rnd() < 0.75 ? shuffle(CORE, rnd) : shuffle(nicheIds, rnd);
+  const weights = loadNicheWeights();
+  let dayNicheOrder;
+  if (weights) {
+    // Boost-driven rotation: every niche can win, winners show up more often.
+    dayNicheOrder = pickWeightedNicheOrder(weights, rnd, 4);
+  } else {
+    // Favour the requested categories: frontier AI, smartphone/gadgets, Apple,
+    // laptops, security. (it-support/cloud rotate in on the 25% wildcard days.)
+    const CORE = ["ai", "gadgets", "apple", "hardware", "security"];
+    dayNicheOrder = rnd() < 0.75 ? shuffle(CORE, rnd) : shuffle(nicheIds, rnd);
+  }
   // Four daily posts, four formats: no format repeats more than twice, and the
   // news lead at slot 0 must never be an evergreen routine.
   const formats = shuffle(["carousel", "image", "routine", "carousel"], rnd);

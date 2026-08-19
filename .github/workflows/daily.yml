@@ -69,6 +69,11 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
 
+      - name: Boost agent (monitor metrics + reweight niches + repost winner)
+        run: node src/boost-agent.js
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+
       - name: Commit schedule state
         run: |
           git config user.name "ig-auto bot"

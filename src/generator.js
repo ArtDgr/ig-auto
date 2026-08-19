@@ -162,7 +162,7 @@ function buildReelDeck(topic) {
   const slides = [{ text: hk.big, kind: "hook" }];
   if (hk.line) slides.push({ text: hk.line, kind: "body" });
   bodyPoints.forEach((b) => slides.push({ text: b, kind: "body" }));
-  slides.push({ text: `Save this. Share it. Follow ${handle} — daily tech intel.`, kind: "cta" });
+  slides.push({ text: `Save this. Share it. Follow ${handle} — daily tech intel for IT pros.`, kind: "cta" });
   return {
     id: slug(raw),
     niche: topic.nicheId || "",
@@ -181,7 +181,7 @@ function reelCaption(deck) {
   const base = (ig.baseHashtags || []).map((t) => t);
   const niche = (ig.nicheHashtags && ig.nicheHashtags[deck.niche]) || [];
   const tags = [...new Set([...base, ...niche]).values()].slice(0, ig.hashtagLimit || 15).join(" ");
-  return `${hook}.\n\n${tags}\n\n${ig.handle} — bleeding-edge tech intel.`;
+  return `${hook}.\n\n${tags}\n\n${ig.handle} — daily tech intel for IT pros.`;
 }
 
 export function generateReel() {

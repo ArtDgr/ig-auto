@@ -38,6 +38,12 @@ function mixHex(a, b, t) {
   return "0x" + ((r << 16) | (g << 8) | bl).toString(16).toUpperCase().padStart(6, "0");
 }
 
+function seedFromId(id) {
+  let h = 0;
+  for (const c of String(id)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return (h % 2147483647) + 1;
+}
+
 function ensureTmp() {
   fs.mkdirSync(TMP, { recursive: true });
 }
@@ -88,6 +94,27 @@ function gradientSource(accent, dur, speed) {
   return `gradients=size=1080x1920:rate=${FPS}:nb_colors=4:c0=${hex0x(accent)}:c1=${c1}:c2=0x0A0E1A:c3=0x06202E:type=radial:speed=${speed}:duration=${dur}`;
 }
 
+// Conway's Game of Life in the niche accent over near-black. Scaled up with
+// nearest-neighbour it reads as living circuitry / a neural net crawling over
+// the gradient — technology that moves, not a flat background.
+function lifeSource(accent, dur, seed) {
+  const glow = mixHex(accent, "#0A0E1A", 0.25);
+  return `life=size=135x240:rate=${FPS}:ratio=0.07:mold=6:stitch=1:seed=${seed}:life_color=${hex0x(accent)}:death_color=0x04060C:mold_color=${hex0x(glow)}`;
+}
+
+// Layered "tech" background: animated radial gradient base, glowing Game-of-Life
+// circuitry screen-blended over it, a soft light sweep, and a faint tech grid.
+// Deterministic per seed so re-renders match.
+function techBgExpr(accent, dur, seed) {
+  const sweep = `(w+3000)*mod(t,${dur.toFixed(2)})/${dur.toFixed(2)}-3000`;
+  return (
+    `[1:v]scale=1080:1920:flags=neighbor,format=rgb24[life];` +
+    `[0:v][life]blend=all_mode=screen:all_opacity=0.85[blend];` +
+    `[blend]drawbox=x='${sweep}':y=0:w=300:h=1920:color=0xFFFFFF@0.06:t=fill,` +
+    `drawgrid=width=1080:height=6:thickness=2:color=0xFFFFFF@0.03[bg]`
+  );
+}
+
 // One fully-styled slide: gradient bg + pop-in text + accent kicker + progress
 // bar + smooth fade in/out. Every frame moves — no more flat static cards.
 async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
@@ -133,10 +160,14 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
     .join(",");
 
   const speed = isHook ? 0.15 : isCta ? 0.2 : 0.1;
+  const seed = opts.seed || 11;
+  const bg = techBgExpr(accent, dur, seed);
   await ff([
     "-f", "lavfi", "-i", gradientSource(accent, dur, speed),
+    "-f", "lavfi", "-i", lifeSource(accent, dur, seed),
+    "-filter_complex", `${bg};[bg]${chain}[v]`,
+    "-map", "[v]",
     "-t", String(dur),
-    "-vf", chain,
     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
     "-y", outMp4
   ]);
@@ -159,10 +190,11 @@ export async function renderDeck(deck, outPath) {
   const durs = weights.map((w) => Math.max(1.5, (w / wsum) * total));
 
   const accent = accentFor(deck.niche);
+  const seed = seedFromId(deck.id);
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed });
     clips.push(clip);
   }
 

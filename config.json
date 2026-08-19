@@ -317,8 +317,10 @@
       "#techsupport",
       "#techtips",
       "#itsupportguru",
-      "#pchelp",
-      "#techdaily"
+      "#sysadmin",
+      "#techdaily",
+      "#itpro",
+      "#helpdesk"
     ],
     "nicheHashtags": {
       "ai": [
@@ -330,7 +332,8 @@
         "#genai",
         "#aitools",
         "#futuretech",
-        "#aitips"
+        "#aitips",
+        "#copilot"
       ],
       "gadgets": [
         "#gadgets",
@@ -353,7 +356,8 @@
         "#applenews",
         "#appleintelligence",
         "#macrumors",
-        "#appletips"
+        "#appletips",
+        "#itpro"
       ],
       "hardware": [
         "#laptop",
@@ -365,7 +369,9 @@
         "#benchmark",
         "#techreview",
         "#laptops",
-        "#ssd"
+        "#ssd",
+        "#chipshortage",
+        "#ram"
       ],
       "security": [
         "#cybersecurity",
@@ -377,7 +383,9 @@
         "#datasecurity",
         "#infosec",
         "#password",
-        "#2fa"
+        "#2fa",
+        "#cyberdefense",
+        "#secops"
       ],
       "cloud-devops": [
         "#cloud",
@@ -389,7 +397,8 @@
         "#docker",
         "#devopslife",
         "#cloudinfra",
-        "#techops"
+        "#techops",
+        "#sre"
       ],
       "it-support": [
         "#itsupport",
@@ -401,10 +410,26 @@
         "#computertips",
         "#fixyourpc",
         "#troubleshooting",
-        "#ithelp"
+        "#ithelp",
+        "#sysadmin",
+        "#helpdesk"
       ]
     },
-    "cta": "Follow @theitsupportguru for daily tech fixes and IT advice.",
+    "cta": "Follow @theitsupportguru — daily tech intel for IT pros.",
+    "engagement": {
+      "primaryAudience": "IT professional / cybersecurity professional",
+      "secondaryAudience": "home user",
+      "replyWindowMinutes": 60,
+      "ctaRotation": [
+        "Save this for the next ticket.",
+        "What's your fix for this one? Drop it in the comments.",
+        "Share this with the colleague who keeps asking.",
+        "A or B? Comment which one you'd ship.",
+        "Bookmark this — you'll need it at 2am.",
+        "Tag the coworker who needs this one."
+      ],
+      "commentPing": true
+    },
     "postingTimes": [
       "06:00",
       "12:00",

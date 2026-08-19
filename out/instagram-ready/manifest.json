@@ -1,10 +1,78 @@
 {
-  "date": "2026-08-19",
-  "renderedAt": "2026-08-18T23:04:00.330Z",
+  "date": "2026-08-20",
+  "renderedAt": "2026-08-19T23:13:36.599Z",
   "posts": [
     {
-      "id": "20260819-monday-s-android-app-deals-and-freebies-demon-castle",
+      "id": "20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone",
       "slot": 0,
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
+      "format": "carousel",
+      "kind": "news",
+      "title": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…",
+      "source": "Ghacks",
+      "link": "https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside…"
+        },
+        {
+          "kind": "facts",
+          "text": "GSC Game World has announced the free 2.\nThank you for being a Ghacks reader.\n2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks ."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"… 🛠️\n\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…\n\n• GSC Game World has announced the free 2.\n• Thank you for being a Ghacks reader.\n• 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks .\n\nSource: Ghacks — https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/\n\nSave this for later →\n\n#windows #troubleshooting #techsupport #sysadmin #helpdesk #windows11 #itsupport #computertips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nTag the coworker who needs this one.",
+      "status": "pending",
+      "media": [
+        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\01.png",
+        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\02.png",
+        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\03.png"
+      ]
+    },
+    {
+      "id": "20260820-cisa-flags-actively-exploited-ray-flaw-that-can",
+      "slot": 1,
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
+      "format": "carousel",
+      "kind": "news",
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can…",
+      "source": "The Hacker News",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "CISA Flags Actively Exploited Ray Flaw That Can\nCISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE"
+        },
+        {
+          "kind": "facts",
+          "text": "Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\nRay is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\nAs of writing, the GitHub project has more than"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "CISA Flags Actively Exploited Ray Flaw That Can… 🔐\n\nCISA Flags Actively Exploited Ray Flaw That Can…\n\n• Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\n• Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\n• As of writing, the GitHub project has more than\n\nSource: The Hacker News — https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html\n\nSave this for later →\n\n#security #datasecurity #privacy #cybersecurity #cyberdefense #cybersectips #onlinesafety #2fa #itsupportguru #itpro #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "status": "pending",
+      "media": [
+        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\01.png",
+        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\02.png",
+        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\03.png"
+      ]
+    },
+    {
+      "id": "20260820-monday-s-android-app-deals-and-freebies-demon-castle",
+      "slot": 2,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
       "accent": "#FFB020",
@@ -28,119 +96,66 @@
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#iphone #tech #batterytips #gadgets #smartphone #android #smartphonetips #techgear #itsupportguru #pchelp #techsupport #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
+      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#smartphone #gadgets #batterytips #tech #android #iphone #smartphonetips #techgear #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — daily tech intel.\n\nA or B? Comment which one you'd ship.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260819-monday-s-android-app-deals-and-freebies-demon-castle\\01.png",
-        "out\\instagram-ready\\20260819-monday-s-android-app-deals-and-freebies-demon-castle\\02.png",
-        "out\\instagram-ready\\20260819-monday-s-android-app-deals-and-freebies-demon-castle\\03.png"
+        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\01.png",
+        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\02.png",
+        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\03.png"
       ]
     },
     {
-      "id": "20260819-intel-xeon-658x-review-granite-rapids-for-workstations",
-      "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Intel Xeon 658X Review: Granite Rapids For Workstations",
-      "source": "ServeTheHome",
-      "link": "https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "600\nIntel Xeon 658X Review: Granite Rapids For Workstations"
-        },
-        {
-          "kind": "facts",
-          "text": "Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\nToday we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\nSomewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\nThough a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…"
-        },
-        {
-          "kind": "body",
-          "text": "THE TAKEAWAY — Perhaps this is why Intel has been retooling the Xeon workstation brand."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n• Somewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\n• Though a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#cloudinfra #azure #devops #devopslife #cloudcomputing #cloud #docker #aws #techdaily #techsupport #pchelp #techtips\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
-      "status": "pending",
-      "media": [
-        "out\\instagram-ready\\20260819-intel-xeon-658x-review-granite-rapids-for-workstations\\01.png",
-        "out\\instagram-ready\\20260819-intel-xeon-658x-review-granite-rapids-for-workstations\\02.png",
-        "out\\instagram-ready\\20260819-intel-xeon-658x-review-granite-rapids-for-workstations\\03.png",
-        "out\\instagram-ready\\20260819-intel-xeon-658x-review-granite-rapids-for-workstations\\04.png"
-      ]
-    },
-    {
-      "id": "20260819-apple-admits-it-may-not-make-any-commission-from",
-      "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Apple admits it may not make any commission from…",
-      "source": "9to5Mac",
-      "link": "https://9to5mac.com/2026/08/18/apple-admits-it-may-not-make-any-commission-from-alternative-app-stores/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Apple admits it may not make any commission\nApple admits it may not make any commission from alternative app stores"
-        },
-        {
-          "kind": "facts",
-          "text": "Apple has been fighting hard to ensure that it is still able to take a commission from app sales made through third-party stores.\nIts aggression in doing this landed it in hot water with the judge in the long-running Epic Games case.\nThe company has since submitted a proposal for a more toned down version with lower commissions , but it has admitted in new…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "Apple admits it may not make any commission from… 🍎\n\nApple admits it may not make any commission from…\n\n• Apple has been fighting hard to ensure that it is still able to take a commission from app sales made through third-party stores.\n• Its aggression in doing this landed it in hot water with the judge in the long-running Epic Games case.\n• The company has since submitted a proposal for a more toned down version with lower commissions , but it has admitted in new…\n\nSource: 9to5Mac — https://9to5mac.com/2026/08/18/apple-admits-it-may-not-make-any-commission-from-alternative-app-stores/\n\nSave this for later →\n\n#macos #macbook #macrumors #applenews #ios #appletips #iphone #apple #techsupport #pchelp #techtips #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nWhich detail surprised you most?",
-      "status": "pending",
-      "media": [
-        "out\\instagram-ready\\20260819-apple-admits-it-may-not-make-any-commission-from\\01.png",
-        "out\\instagram-ready\\20260819-apple-admits-it-may-not-make-any-commission-from\\02.png",
-        "out\\instagram-ready\\20260819-apple-admits-it-may-not-make-any-commission-from\\03.png"
-      ]
-    },
-    {
-      "id": "20260819-ram-is-the-second-cheapest-upgrade",
+      "id": "20260820-check-a-gpu-before-you-buy-a-game-laptop",
       "slot": 3,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
       "accent": "#8FE3B0",
       "emoji": "💻",
-      "format": "image",
-      "kind": "tip",
-      "title": "RAM is the second-cheapest upgrade",
+      "format": "carousel",
+      "kind": "howto",
+      "title": "Check a GPU before you buy a game laptop",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "RAM is the second-cheapest upgrade\nIf a PC is sluggish with multiple tabs open, RAM is usually the pain — not the CPU. Going from 16GB to 32GB is the…"
+          "text": "Check a GPU before you buy a game laptop\nLook up the laptop model on a benchmark site"
         },
         {
-          "kind": "body",
-          "text": "If a PC is sluggish with multiple tabs open, RAM is usually the pain — not the CPU. Going from 16GB to 32GB is the budget-friendly fix that stops the constant swapping that makes everything feel laggy."
+          "kind": "step",
+          "text": "Look up the laptop model on a benchmark site"
+        },
+        {
+          "kind": "step",
+          "text": "Compare sustained FPS at your target resolution"
+        },
+        {
+          "kind": "step",
+          "text": "Skim the thermal/review notes — throttling hides there"
+        },
+        {
+          "kind": "step",
+          "text": "Confirm the GPU's total TGP in the reviews"
+        },
+        {
+          "kind": "step",
+          "text": "Warranty length is the tiebreaker."
         },
         {
           "kind": "cta",
-          "text": "Save this 30-second fix."
+          "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "RAM is the second-cheapest upgrade 💻\n\nRAM is the second-cheapest upgrade\n\n#ssd #pc #cpu #laptops #hardware #pcgaming #techreview #benchmark #itsupportguru #techsupport #techdaily #pchelp\n\n@theitsupportguru — daily tech fixes.\n\nFollow for more like this.",
+      "caption": "Check a GPU before you buy a game laptop 💻\n\n1. Look up the laptop model on a benchmark site\n2. Compare sustained FPS at your target resolution\n3. Skim the thermal/review notes\n     ✓ throttling hides there\n4. Confirm the GPU's total TGP in the reviews\n5. Warranty length is the tiebreaker.\n\nSave this for the next ticket →\n\n#ssd #laptops #gpu #benchmark #hardware #laptop #chipshortage #pc #helpdesk #sysadmin #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260819-ram-is-the-second-cheapest-upgrade\\01.png",
-        "out\\instagram-ready\\20260819-ram-is-the-second-cheapest-upgrade\\02.png",
-        "out\\instagram-ready\\20260819-ram-is-the-second-cheapest-upgrade\\03.png"
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\01.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\02.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\03.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\04.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\05.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\06.png",
+        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\07.png"
       ]
     }
   ]

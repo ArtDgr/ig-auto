@@ -12,7 +12,7 @@ export const NICHES = {
     label: "IT Support & Troubleshooting",
     accent: "#00E5FF",
     emoji: "🛠️",
-    tags: ["#itsupport", "#techsupport", "#pchelp", "#windows11", "#windows", "#pc", "#computertips", "#fixyourpc", "#techfix", "#troubleshooting", "#computerfix", "#slowpc", "#ithelp"],
+    tags: ["#itsupport", "#techsupport", "#pchelp", "#windows11", "#windows", "#pc", "#computertips", "#fixyourpc", "#techfix", "#troubleshooting", "#computerfix", "#slowpc", "#ithelp", "#sysadmin", "#helpdesk", "#techticket"],
     tips: [
       { title: "Find what's really slowing Windows", body: "Don't guess — open Task Manager (Ctrl+Shift+Esc) > Performance and watch the CPU, Disk and Memory graphs during the lag. The one pinned at 100% is your culprit, and 9 times out of 10 it's a background updater or a browser tab, not a virus." },
       { title: "See hidden files on Windows", body: "Windows hides system files by default, which is exactly where the 'bloat' is. File Explorer > View > Show > Hidden items, and untick 'Hide protected operating system files' when you're hunting a culprit. Turn it back off when you're done." },
@@ -37,6 +37,12 @@ export const NICHES = {
       { title: "End-of-day shutdown routine", steps: ["Close heavy apps so Windows can flush caches", "Let pending updates install rather than force-shutting", "Nothing to unplug — let it sleep normally", "Fans still loud? Open Task Manager first, don't just leave it", "Done — tomorrow boots fresh and fast."] },
       { title: "Weekly router reboot", steps: ["Unplug the router's power for a full 60 seconds", "Plug it back in and wait for steady lights", "Reconnect devices that dropped off", "Run a quick speed test to confirm it's healthy", "Same day each week = stable WiFi, fewer 'why is it slow' moments."] },
       { title: "Monthly backup ritual", steps: ["Plug in your backup drive", "Run File History or your backup tool", "Check the last backup date, not just the last success", "Copy crucial photos to a second location", "Glance at drive health while you're there — simple maintenance."] }
+    ],
+    humor: [
+      { title: "The 2am ticket", body: "Ticket #4827 at 2:14am: 'The internet is down.' Turns out the user had unplugged the router to charge their phone. We've all taken that call. The fix is 60 seconds, the recovery time is longer." },
+      { title: "Have you tried turning it off", body: "IT's oldest joke is also its best advice — because it clears state, flushes memory, and resets broken sessions. Half the tickets we take close with a reboot, and that's not a failure. It's the cheapest reliable fix we have." },
+      { title: "The one that got away", body: "You troubleshoot for 90 minutes. You test six things. You give up and reboot — and it works. The log's clean, the cause is gone, and the ticket closes with 'works on my end.' We don't question it. We move on." },
+      { title: "It works on my machine", body: "'It works on my machine' is how the most frustrating bug in IT starts — and it's almost always a config difference, not a lie. Containers exist because of this sentence. Docker turned a meme into a career path." }
     ]
   },
   "cloud-devops": {
@@ -141,18 +147,20 @@ export const NICHES = {
     label: "Cybersecurity & Privacy",
     accent: "#FF4D4D",
     emoji: "🔐",
-    tags: ["#cybersecurity", "#security", "#privacy", "#cybersectips", "#phishing", "#onlinesafety", "#datasecurity", "#infosec", "#password", "#2fa", "#securetech", "#securitytips"],
+    tags: ["#cybersecurity", "#security", "#privacy", "#cybersectips", "#phishing", "#onlinesafety", "#datasecurity", "#infosec", "#password", "#2fa", "#cyberdefense", "#secops", "#threathunting", "#incidentresponse", "#zerotrust"],
     tips: [
       { title: "Spot a phishing email in 2 seconds", body: "Never trust the display name — check the actual sender address. A 'PayPal' email from 'paypaI-support@mail.ru' is phishing no matter how official it looks. Then hover the links: if the URL doesn't match the company's real domain, delete it." },
       { title: "Password manager beats memory", body: "Reusing a password is how one breach becomes ten. A password manager generates and stores a unique password for every site, so a leak anywhere doesn't cascade. You memorize one master password; it handles the rest." },
       { title: "2FA: authenticator app over SMS", body: "SMS codes are better than nothing, but SIM-swap attacks can steal them. Use an authenticator app (or hardware key) for your email, banking, and anything important. The app ties the code to your device, not your phone number." },
       { title: "Hover every link before you click", body: "In an email, hover over a link and read the real URL in the status bar before clicking. Look-alikes like 'amaz0n.com' or 'micros0ft.com' are social engineering, not typos. One hover beats a world of regret." },
-      { title: "Free WiFi is a public network", body: "On coffee-shop WiFi, unencrypted traffic is readable by anyone on the same network. For anything sensitive — banking, work, passwords — use your phone's hotspot or a VPN. Public WiFi is a convenience, not a security tool." },
-      { title: "Update or get exploited", body: "Most breaches exploit old, known vulnerabilities — not zero-days. Auto-updates close the doors that scammers already know about. If a device says 'restart to update', the restart is the security step, not an inconvenience." },
+      { title: "Patch day is a security control", body: "Most breaches exploit known, patched-able vulnerabilities — not zero-days. A scheduled monthly patch window is a security control, not IT housekeeping. The org that treats 'restart to update' as a security step gets hit far less often." },
+      { title: "Assume the account is compromised", body: "If a user account may be compromised, don't fix and forget: force a reset, revoke sessions, audit for mailbox rules and MFA registrations, then check login history. Attackers set persistence that a simple password change never touches." },
+      { title: "Zero trust for small orgs too", body: "Zero trust isn't just for enterprises. Least-privilege access, MFA on everything, and logging who touches what applies at a 20-person office. The attackers don't check company size — the defenses shouldn't either." },
       { title: "Beware 'official-looking' SMS", body: "Texts can be spoofed to look like they come from your bank. If a text asks for a code or urges urgent action, call the number on the back of your card — never the one in the message. Real banks don't ask for codes by text." },
       { title: "Lock your screen, always", body: "A locked device is 90% of the prevention. Windows key + L when you step away, biometrics on your phone. It takes one second and stops the most common data loss on the planet: someone picking up an unlocked device." }
     ],
     howtos: [
+      { title: "Respond to a suspected breach", steps: ["Isolate the affected machine from the network", "Revoke the account's sessions and reset credentials", "Check for persistence: mailbox rules, new MFA, scheduled tasks", "Audit logs for what the attacker accessed", "Report and document — then patch the gap that let it in."] },
       { title: "Spot a phishing email in 30 seconds", steps: ["Check the sender address, not just the display name", "Hover links to see the real URL", "Watch for urgency and threats — 'act now' is a red flag", "Look for odd grammar and typos in the body", "In doubt? Contact the company on a known number."] },
       { title: "Set up 2FA on any account", steps: ["Open Settings > Security > Two-factor", "Prefer an authenticator app over SMS", "Scan the QR with your authenticator", "Save the backup codes somewhere safe", "Test a login with a code before you log out."] },
       { title: "Create a strong, memorable passphrase", steps: ["Pick four random words, e.g. Guitar-Maple-Frost-Cedar", "Keep it long — 16+ characters", "Add symbols only if a site demands them", "Never reuse it anywhere else", "Let your password manager remember the rest."] },
@@ -170,9 +178,14 @@ export const NICHES = {
     ],
     routines: [
       { title: "Monday security sweep", steps: ["Install pending security updates", "Check the last logins on your top three accounts", "Revoke sessions you don't recognize", "Confirm 2FA is on for the important ones", "Close the tab — safer than most already."] },
-      { title: "Weekly password ritual", steps: ["Never type your bank password into anything that asks", "Rotate the password on your least-trusted site", "Check the manager for weak or reused ones", "Turn on a password breach alert", "Bit by bit, the vault gets stronger."] },
-      { title: "Daily 1-minute check", steps: ["Skim notifications for unknown logins", "See an urgent text or email? Pause ten seconds", "Confirm you didn't click anything unusual", "Lock your screen when stepping away", "That's the whole habit — 60 seconds."] },
+      { title: "Weekly patch window", steps: ["Pick a day and time — same slot weekly", "Apply OS, browser, and critical app updates", "Reboot and confirm the build number", "Log what got patched — know your baseline", "Next week, do it again. That's the control."] },
+      { title: "Weekly credential audit", steps: ["List accounts with admin or privileged access", "Revoke anything unused or stale", "Force MFA on every privileged account", "Check for shared passwords — kill them", "Rotate anything that ever touched a breach."] },
       { title: "Monthly privacy audit", steps: ["Download an app permission report", "Revoke camera, mic, and location you forgot", "Delete old accounts and saved passwords", "Retire abandoned apps entirely", "Test your 2FA backup codes still work."] }
+    ],
+    humor: [
+      { title: "It's not paranoia, it's infosec", body: "Clicking a link from your own CEO without checking the domain? That's how one team 'renamed' their whole domain with a ransom note. The paranoia isn't a bug — it's the job. Hover the link, verify the sender, then click." },
+      { title: "The password with 12 exclamation marks", body: "'Password123!!!!!!' looks strong to the person who wrote it and takes a cracking tool about 3 seconds. Length beats punctuation every time. Four random words, one master password, and a manager for the rest." },
+      { title: "Patch Tuesday is a holiday", body: "Everyone on the internet dreads Patch Tuesday except IT — that's when the security debt gets paid. Miss a month and you're the newsletter headline. The monthly reboot isn't the enemy; the unpatched box is." }
     ]
   },
   apple: {
@@ -211,7 +224,7 @@ export const NICHES = {
     tags: ["#laptop", "#pc", "#hardware", "#gpu", "#cpu", "#nvidia", "#amd", "#intel", "#ssd", "#ram", "#benchmark", "#gamingpc", "#laptops", "#techreview", "#notebook"],
     tips: [
       { title: "SSD over HDD changes everything", body: "Swapping a spinning drive for an SSD is the single biggest speed gain you can buy — boots and app opens go from minutes to seconds. It's a 15-minute swap on most laptops and it revives even decade-old machines." },
-      { title: "RAM is the second-cheapest upgrade", body: "If a PC is sluggish with multiple tabs open, RAM is usually the pain — not the CPU. Going from 16GB to 32GB is the budget-friendly fix that stops the constant swapping that makes everything feel laggy." },
+      { title: "RAM prices are climbing — time your upgrade", body: "With the chip shortage squeezing DRAM supply, RAM prices are trending up again. If a PC is sluggish with multiple tabs open, RAM is usually the pain — but 'buy now' isn't always right. Compare current module prices to your upgrade's benefit, and lock in a good price when it dips. Timing an upgrade is now a real part of the decision." },
       { title: "Match the chip to the chassis", body: "A thin laptop with an H-series CPU will throttle under sustained load — the chassis can't cool it. For portability pick a U-series chip; for sustained work, an H-series in a chunkier, better-cooled chassis. The number alone doesn't tell the story." },
       { title: "The GPU's TGP matters more than the name", body: "Two laptops with the 'same' RTX chip can differ hugely in performance because of TGP — how many watts the GPU is allowed to draw. A higher-wattage, lower-tier GPU often beats a low-power version of a higher tier. Check the reviews for real sustained numbers." },
       { title: "A bright panel beats a dim 4K", body: "Read the panel specs before buying: brightness (nits), refresh rate, and color gamut matter more than OLED hype. A bright 120Hz panel you can actually see beats a dim 4K one you strain to read. Nits are the spec that gets skipped." },
@@ -220,7 +233,7 @@ export const NICHES = {
       { title: "Check battery health before buying used", body: "Laptop batteries degrade, and the listing won't tell you the real capacity. Run a battery report (Windows: `powercfg /batteryreport`) before paying top dollar. A battery at 70% health means a replacement cost you should price in." }
     ],
     howtos: [
-      { title: "Speed up an old Windows laptop", steps: ["Check disk usage — a full drive kills everything", "Upgrade to an SSD or add a RAM module", "Disable startup apps in Task Manager", "Update drivers and firmware from the vendor", "Reinstall Windows 11 clean if it still crawls."] },
+      { title: "Speed up an old Windows laptop", steps: ["Check disk usage — a full drive kills everything", "Upgrade to an SSD first — the cheapest big win", "Only then weigh RAM: chip-shortage prices are up, so compare cost vs benefit", "Disable startup apps in Task Manager", "Reinstall Windows 11 clean if it still crawls."] },
       { title: "Check a GPU before you buy a game laptop", steps: ["Look up the laptop model on a benchmark site", "Compare sustained FPS at your target resolution", "Skim the thermal/review notes — throttling hides there", "Confirm the GPU's total TGP in the reviews", "Warranty length is the tiebreaker."] },
       { title: "Monitor your laptop's real temps", steps: ["Install a lightweight temp tool (open-source)", "Run a 15-minute stress load or a game", "Watch CPU/GPU temps while under load", "Below 90C sustained is fine; above, clean the vents", "Raise the laptop on a stand — bottom airflow helps."] },
       { title: "Set up proper battery care", steps: ["Cap charge at 80% if your vendor offers it", "Avoid leaving it at 100% for weeks on end", "Occasional deep discharge is fine, not daily", "Keep firmware and battery drivers updated", "A battery at 80% capacity after 2 years is normal."] },
@@ -230,7 +243,7 @@ export const NICHES = {
     routines: [
       { title: "Monthly laptop health check", steps: ["Run a disk check and free 10% drive space", "Update drivers and firmware from the vendor", "Check fan vents and clean light dust", "Glance at temps after a load test", "Log the battery health % — done in 10 minutes."] },
       { title: "Weekly backup ritual", steps: ["Backup drive or cloud-sync your work files", "Verify the last backup date, not just success", "Test one restore of a folder you really need", "Stash critical documents in a second location", "Automate it so you stop thinking about it."] },
-      { title: "Quarterly hardware review", steps: ["Compare your current spec to your main apps' needs", "Check if RAM or SSD upgrades are affordable now", "Look up warranty remaining on laptop and battery", "Decide upgrade vs new purchase, with the numbers", "Either way, budget one hour of maintenance weekly."] }
+      { title: "Quarterly hardware review", steps: ["Compare your current spec to your main apps' needs", "Check RAM/SSD prices — chip-shortage means timing matters", "Look up warranty remaining on laptop and battery", "Decide upgrade vs new purchase, with the numbers", "Either way, budget one hour of maintenance weekly."] }
     ]
   }
 };

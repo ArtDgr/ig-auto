@@ -74,6 +74,15 @@ function fileDate() {
   return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 }
 
+// Deterministic humor schedule: Friday is always the "IT-isms" slot (matches the
+// growth strategy ~3 humor/week), plus a light rotation on other days so humor
+// lands in the mix without being predictable.
+function isHumorDay(rnd) {
+  const dow = new Date(fileDate() + "T00:00:00").getDay(); // 0=Sun ... 5=Fri
+  if (dow === 5) return true;
+  return rnd() < 0.3;
+}
+
 function topicsForNiche(nicheId) {
   const data = loadTopics();
   if (!Array.isArray(data)) return [];
@@ -230,8 +239,19 @@ const SAVE_SHARE = {
   news: "Save this story — you'll want it later.",
   howto: "Save this — you'll need it next time.",
   routine: "Bookmark this routine for tomorrow.",
-  tip: "Save this 30-second fix."
+  tip: "Save this 30-second fix.",
+  humor: "Send this to the person who needs to hear it."
 };
+
+// Engagement CTA rotation from config (fallback set keeps older runs stable).
+// Deterministic per post so a given post always carries the same closing line.
+function ctaRotation(post) {
+  const ig = config.instagram || {};
+  const list = (ig.engagement && ig.engagement.ctaRotation) || [];
+  if (!list.length) return SAVE_SHARE[post.kind] || SAVE_SHARE.tip;
+  const rnd = mulberry32(hashStr("cta" + String(post.slot) + String(post.title)));
+  return list[Math.floor(rnd() * list.length)];
+}
 
 // A story with a real snippet beats a title-only feed entry, every time.
 // Reject items that are newsletter/digest chit-chat rather than hard news.
@@ -361,6 +381,18 @@ function routineCard(routine, niche) {
   return slides;
 }
 
+// Single image "IT-isms" humor card — the Friday slot content. Real IT comedy,
+// the kind that lands in group chats: the joke, the punchline, the why-it's-real.
+function humorCard(item, niche) {
+  const big = phraseCut(String(item.title || "").replace(/\s+/g, " ").trim(), 40);
+  const body = String(item.body || "").replace(/\s+/g, " ").trim();
+  return [
+    { kind: "hook", text: `${big}\n${shorten(body, 90)}` },
+    { kind: "body", text: shorten(body, 200) },
+    { kind: "cta", text: SAVE_SHARE.tip }
+  ];
+}
+
 // Single image card from a deep news story: headline + real facts + attribution.
 function newsCard(topic) {
   const raw = shorten(String(topic.title || "A new tech story just broke."), 90);
@@ -400,6 +432,7 @@ function captionFor(post, rnd) {
   const tags = pickTags(post.niche, rnd).map((t) => "#" + t).join(" ");
   const emoji = n.emoji;
   const line = (s) => `\n\n${s}`;
+  const cta = () => ctaRotation(post);
 
   const stepLines = (post) =>
     post.slides
@@ -413,24 +446,24 @@ function captionFor(post, rnd) {
 
   if (post.format === "carousel" && post.kind === "howto") {
     const list = stepLines(post).join("\n");
-    return `${post.title} ${emoji}\n\n${list}\n\nSave this for next time →\n\n${tags}\n\n${handle} — daily tech fixes.${line("Share this with someone who needs it.")}`;
+    return `${post.title} ${emoji}\n\n${list}\n\nSave this for the next ticket →\n\n${tags}\n\n${handle} — daily tech intel for IT pros.${line(cta())}`;
   }
   if (post.format === "carousel") {
     const headline = post.title;
     const pts = captionPoints(post);
     const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
     const src = newsFoot ? "\n\n" + newsFoot : "";
-    return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\nSave this for later →\n\n${tags}\n\n${handle} — daily tech intel.${line("Which detail surprised you most?")}`;
+    return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\nSave this for later →\n\n${tags}\n\n${handle} — daily tech intel.${line(cta())}`;
   }
   if (post.format === "routine") {
     const list = stepLines(post).join("\n");
-    return `${post.title} ${emoji}\n\n${list}\n\nDrop a 🔔 to catch tomorrow's routine.\n\n${tags}\n\n${handle} — steady tech habits.${line("Bookmark this for later.")}`;
+    return `${post.title} ${emoji}\n\n${list}\n\nDrop a 🔔 to catch tomorrow's routine.\n\n${tags}\n\n${handle} — steady tech habits.${line(cta())}`;
   }
   const headline = post.title;
   const pts = captionPoints(post);
   const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
   const src = newsFoot ? "\n\n" + newsFoot : "";
-  return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\n${tags}\n\n${handle} — daily tech fixes.${line("Follow for more like this.")}`;
+  return `${post.title} ${emoji}\n\n${headline}${bullets}${src}\n\n${tags}\n\n${handle} — daily tech intel for IT pros.${line(cta())}`;
 }
 
 // Deterministic caption for a finished post (used by the Buffer/cloud publisher).
@@ -452,18 +485,37 @@ function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
   // "news" slots always show a real story; "evergreen" slots always show a
   // pro tip/how-to/routine — the content that earns "this guy knows his stuff".
   const newsBias = mode === "news" ? 1 : 0;
-  let slides, kind, title, _srcTopic;
+  let slides, kind, title, _srcTopic, _humorNicheId;
 
   // News slots always show a real story. Slot 0 = punchy single card; later
   // news slots get a full swipe-story so there's room for depth.
   const newsStory = news.length && (mode === "news" || rnd() < newsBias);
 
   if (newsStory) {
-    const topic = pickDeepest(news);
+    let topic = pickDeepest(news);
+    // A lead that can't support two facts reads as a bot — fall back to the
+    // deepest story in this niche that actually has real sentences to show.
+    if (topicFacts(topic, 6).length < 2) {
+      let best = null;
+      for (const t of news) {
+        if (topicFacts(t, 6).length >= 2 && (!best || contentDepth(t) > contentDepth(best))) best = t;
+      }
+      if (best) topic = best;
+    }
     kind = "news";
     title = shorten(String(topic.title || ""), 56);
     slides = newsCarouselSlides(topic, nicheId, rnd);
     _srcTopic = topic;
+  } else if (isHumorDay(rnd)) {
+    // Humor lives in the IT-pro/security niches; on a humor day pick from any
+    // niche that has humor content so the Friday "IT-isms" slot always fires.
+    const humorNiche = Object.entries(NICHES).find(([, nn]) => nn.humor && nn.humor.length);
+    const n2 = humorNiche ? humorNiche[1] : n;
+    const item = pick(n2.humor, rnd);
+    kind = "humor";
+    title = item.title;
+    slides = humorCard(item, n2.id || nicheId);
+    _humorNicheId = n2.id;
   } else if (format === "routine") {
     const routine = pick(n.routines, rnd);
     kind = "routine";
@@ -482,13 +534,15 @@ function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
   }
 
   const formatOut = kind === "news" ? "carousel" : format;
+  const postNicheId = _humorNicheId || nicheId;
+  const nMeta = NICHES[postNicheId] || n;
   const post = {
     id: `${dateKeyShort()}${slug(title)}`,
     slot: 0,
-    niche: nicheId,
-    nicheLabel: n.label,
-    accent: n.accent,
-    emoji: n.emoji,
+    niche: postNicheId,
+    nicheLabel: nMeta.label,
+    accent: nMeta.accent,
+    emoji: nMeta.emoji,
     format: formatOut,
     kind,
     title,

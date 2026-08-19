@@ -114,8 +114,17 @@ const BLEED_KEYS = [
 
 export function pickReelTopic(flat) {
   if (!flat.length) return null;
+  // Never re-run the previous build day's reel topic — a repeat reel reads as
+  // a broken loop. Look up yesterday's reel deck title from data/reel.json when
+  // it belongs to an earlier date, or from the last rendered reel caption.
+  const prevTitle = previousReelTitle();
+  const clean = flat.filter(
+    (t) => !isRetailPromo((t.title || "") + " " + (t.snippet || ""))
+  );
+  if (clean.length) flat = clean;
   const score = (t) => {
     const s = (t.title + " " + (t.snippet || "") + " " + (t.nicheId || "")).toLowerCase();
+    if (prevTitle && s.includes(prevTitle.slice(0, 24).toLowerCase())) return -1;
     let sc = 0;
     for (const k of BLEED_KEYS) if (s.includes(k)) sc += 5;
     sc += ({ ai: 4, gadgets: 2, security: 1, "cloud-devops": 1, "it-support": 0 }[t.nicheId] || 0);
@@ -128,6 +137,26 @@ export function pickReelTopic(flat) {
     return sc;
   };
   return [...flat].sort((a, b) => score(b) - score(a))[0];
+}
+
+// Reel topic used by the most recent prior build day (previous reel in
+// out/instagram-reels), so today never repeats it. If today's file already
+// exists (a re-run), skip it and use the one before.
+function previousReelTitle() {
+  try {
+    const dir = (config.instagramReel && config.instagramReel.postDir) || "out/instagram-reels";
+    if (fs.existsSync(dir)) {
+      const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mp4")).sort();
+      if (files.length) {
+        let prev = files[files.length - 1];
+        const now = new Date();
+        const ymd = new Date(now.getTime() - now.getTimezoneOffset() * 60000).toISOString().slice(0, 10).replace(/-/g, "");
+        if (prev.startsWith(ymd) && files.length > 1) prev = files[files.length - 2];
+        return prev.replace(/^\d{8}-/, "").replace(/\.mp4$/, "").replace(/-/g, " ").trim();
+      }
+    }
+  } catch {}
+  return null;
 }
 
 // TikTok-style reel hook: lead with a bold stat when the story has one,

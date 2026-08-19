@@ -1,129 +1,137 @@
 {
-  "date": "2026-08-21",
-  "generatedAt": "2026-08-21T12:00:00.000Z",
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-19T23:23:23.599Z",
   "posts": [
     {
-      "id": "20260821-cavern-c2-uses-dns-and-google-apps-script-to-blend",
+      "id": "20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone",
       "slot": 0,
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
+      "format": "carousel",
+      "kind": "news",
+      "title": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…",
+      "source": "Ghacks",
+      "link": "https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside…"
+        },
+        {
+          "kind": "facts",
+          "text": "GSC Game World has announced the free 2.\nThank you for being a Ghacks reader.\n2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks ."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"… 🛠️\n\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…\n\n• GSC Game World has announced the free 2.\n• Thank you for being a Ghacks reader.\n• 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks .\n\nSource: Ghacks — https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/\n\nSave this for later →\n\n#windows #troubleshooting #techsupport #sysadmin #helpdesk #windows11 #itsupport #computertips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nTag the coworker who needs this one.",
+      "status": "pending"
+    },
+    {
+      "id": "20260820-cisa-flags-actively-exploited-ray-flaw-that-can",
+      "slot": 1,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
       "accent": "#FF4D4D",
       "emoji": "🔐",
       "format": "carousel",
       "kind": "news",
-      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend…",
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can…",
       "source": "The Hacker News",
-      "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
       "slides": [
         {
           "kind": "hook",
-          "text": "2025\nCavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic"
+          "text": "CISA Flags Actively Exploited Ray Flaw That Can\nCISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE"
         },
         {
           "kind": "facts",
-          "text": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used…\nRussian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to…"
+          "text": "Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\nRay is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\nAs of writing, the GitHub project has more than"
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Cavern C2 Uses DNS and Google Apps Script to Blend… 🔐\n\nCavern C2 Uses DNS and Google Apps Script to Blend…\n\n• Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used…\n• Russian cybersecurity company Kaspersky said its ongoing monitoring of the threat activity cluster since December 2025 has led to…\n\nSource: The Hacker News — https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html\n\nSave this for later →\n\n#2fa #cybersectips #password #security #privacy #cyberdefense #phishing #datasecurity #techdaily #itpro #sysadmin #techtips\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
+      "caption": "CISA Flags Actively Exploited Ray Flaw That Can… 🔐\n\nCISA Flags Actively Exploited Ray Flaw That Can…\n\n• Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\n• Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\n• As of writing, the GitHub project has more than\n\nSource: The Hacker News — https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html\n\nSave this for later →\n\n#security #datasecurity #privacy #cybersecurity #cyberdefense #cybersectips #onlinesafety #2fa #itsupportguru #itpro #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor",
-      "slot": 1,
+      "id": "20260820-monday-s-android-app-deals-and-freebies-demon-castle",
+      "slot": 2,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "news",
+      "title": "Monday’s Android app deals and freebies: Demon Castle,…",
+      "source": "9to5toys",
+      "link": "https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Monday’s Android app deals and freebies: Demon\nMonday’s Android app deals and freebies: Demon Castle, Deus Ex GO, SENTINEL 519, GNOSIA, more"
+        },
+        {
+          "kind": "facts",
+          "text": "Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\nBut for now it’s all about the Google Play deals and they are all waiting below/.\nHe also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#smartphone #gadgets #batterytips #tech #android #iphone #smartphonetips #techgear #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — daily tech intel.\n\nA or B? Comment which one you'd ship.",
+      "status": "pending"
+    },
+    {
+      "id": "20260820-check-a-gpu-before-you-buy-a-game-laptop",
+      "slot": 3,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
       "accent": "#8FE3B0",
       "emoji": "💻",
       "format": "carousel",
-      "kind": "news",
-      "title": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor…",
-      "source": "Tom's Hardware",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Asus ROG Swift PG32UCWM 32-inch OLED gaming\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor review: A flagship display with premium…"
-        },
-        {
-          "kind": "facts",
-          "text": "When you purchase through links on our site, we may earn an affiliate commission.\nThe Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\nIt is a flagship among flagships.\nWhy you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…"
-        },
-        {
-          "kind": "body",
-          "text": "THE TAKEAWAY — With prices generally higher than their LCD counterparts, the best OLED gaming monitors remain a premium category."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor… 💻\n\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor…\n\n• When you purchase through links on our site, we may earn an affiliate commission.\n• The Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\n• It is a flagship among flagships.\n• Why you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…\n\nSource: Tom's Hardware — https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review\n\nSave this for later →\n\n#ram #gpu #laptop #techreview #laptops #chipshortage #pcgaming #pc #techtips #itsupportguru #helpdesk #techsupport\n\n@theitsupportguru — daily tech intel.\n\nWhat's your fix for this one? Drop it in the comments.",
-      "status": "pending"
-    },
-    {
-      "id": "20260821-intel-xeon-658x-review-granite-rapids-for-workstations",
-      "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Intel Xeon 658X Review: Granite Rapids For Workstations",
-      "source": "ServeTheHome",
-      "link": "https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Intel Xeon 658X Review: Granite Rapids\nIntel Xeon 658X Review: Granite Rapids For Workstations"
-        },
-        {
-          "kind": "facts",
-          "text": "Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\nToday we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\nSomewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\nThough a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…"
-        },
-        {
-          "kind": "body",
-          "text": "THE TAKEAWAY — Perhaps this is why Intel has been retooling the Xeon workstation brand."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• Intel's Granite Rapids CPUs have finally made it to the workstation market as the Xeon 600 family.\n• Today we are reviewing the Xeon 658X, a 24 core chip that packs a punch, thanks in part to its memory bandwidth The post Intel…\n• Somewhere between the shift in demand from desktops to laptops in the consumer world and the AI-based explosion in demand for…\n• Though a long-standing pillar of Intel’s CPU lineup for generations, the Xeon workstation lineup has not attracted the same degree…\n\nSource: ServeTheHome — https://www.servethehome.com/intel-xeon-658x-review-granite-rapids-for-workstations/\n\nSave this for later →\n\n#docker #sre #kubernetes #cloud #devopslife #azure #techops #devops #sysadmin #techtips #itsupportguru #techdaily\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
-      "status": "pending"
-    },
-    {
-      "id": "20260821-it-works-on-my-machine",
-      "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
-      "format": "carousel",
-      "kind": "humor",
-      "title": "It works on my machine",
+      "kind": "howto",
+      "title": "Check a GPU before you buy a game laptop",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "It works on my machine\n'It works on my machine' is how the most frustrating bug in IT starts — and it's almost…"
+          "text": "Check a GPU before you buy a game laptop\nLook up the laptop model on a benchmark site"
         },
         {
-          "kind": "body",
-          "text": "'It works on my machine' is how the most frustrating bug in IT starts — and it's almost always a config difference, not a lie. Containers exist because of this sentence. Docker turned a meme into a…"
+          "kind": "step",
+          "text": "Look up the laptop model on a benchmark site"
+        },
+        {
+          "kind": "step",
+          "text": "Compare sustained FPS at your target resolution"
+        },
+        {
+          "kind": "step",
+          "text": "Skim the thermal/review notes — throttling hides there"
+        },
+        {
+          "kind": "step",
+          "text": "Confirm the GPU's total TGP in the reviews"
+        },
+        {
+          "kind": "step",
+          "text": "Warranty length is the tiebreaker."
         },
         {
           "kind": "cta",
-          "text": "Save this 30-second fix."
+          "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "It works on my machine 🍎\n\nIt works on my machine\n\nSave this for later →\n\n#appletips #macos #applenews #itpro #iphone #appleintelligence #apple #macrumors #techtips #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Check a GPU before you buy a game laptop 💻\n\n1. Look up the laptop model on a benchmark site\n2. Compare sustained FPS at your target resolution\n3. Skim the thermal/review notes\n     ✓ throttling hides there\n4. Confirm the GPU's total TGP in the reviews\n5. Warranty length is the tiebreaker.\n\nSave this for the next ticket →\n\n#ssd #laptops #gpu #benchmark #hardware #laptop #chipshortage #pc #helpdesk #sysadmin #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     }
   ]

@@ -283,8 +283,24 @@ export async function cmdStatus() {
   }
 }
 
-export default { scheduleDate, scheduleReel, updateSlots, cmdStatus };
-export { gql, repoBase, resolveChannelId, createPostMutation, loadState, saveState, aestDate, toIso };
+// Delete a scheduled Buffer post by its post id (used to pull duplicate posts
+// when publishing moves between systems).
+export async function deletePost(postId, { dry = false } = {}) {
+  if (!postId) throw new Error("deletePost requires a Buffer post id");
+  if (dry) {
+    console.log(`[buffer] (dry) would delete post ${postId}`);
+    return { id: postId, dry: true };
+  }
+  const mutation = `mutation { deletePost(input: { id: ${JSON.stringify(postId)} }) { ... on DeletePostSuccess { id } ... on VoidMutationError { message } } }`;
+  const data = await gql(mutation);
+  const res = data.deletePost || {};
+  if (!res.id) throw new Error(`Buffer deletePost failed for ${postId}: ${res.message || "no id in response"}`);
+  console.log(`[buffer] deleted post ${postId}`);
+  return { id: res.id };
+}
+
+export default { scheduleDate, scheduleReel, updateSlots, cmdStatus, deletePost };
+export { gql, repoBase, resolveChannelId, createPostMutation, loadState, saveState, aestDate, toIso, deletePost as deletePostNamed };
 
 // Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel] | update [--date=YYYYMMDD] [--slots=1,2] [--dry]`
 if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-publish.js")) {
@@ -312,8 +328,12 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
       const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
       const slots = (flag("slots") || "").split(",").map((s) => parseInt(s, 10)).filter((n) => !isNaN(n));
       await updateSlots(date, { dry: has("dry"), slots });
+    } else if (cmd === "delete") {
+      const id = flag("id");
+      if (!id) throw new Error("delete requires --id=<buffer post id>");
+      await deletePost(id, { dry: has("dry") });
     } else {
-      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel] | update [--date=YYYY-MM-DD] [--slots=1,2] [--dry]");
+      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel] | update [--date=YYYY-MM-DD] [--slots=1,2] [--dry] | delete --id=<post id> [--dry]");
     }
   };
 

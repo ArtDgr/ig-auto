@@ -45,12 +45,12 @@ function main() {
     }
 
     let igCode = 0;
-    // Instagram is this channel's primary feed; only instagram.enabled=false or a
-    // headless_placeholder/index.json launch toggle disables it. Other tools that
-    // manage distribution.tiktok must never mute IG, so we don't read
-    // distribution.instagram here.
-    const igEnabled = config.instagram?.enabled !== false;
-    if (igEnabled) {
+    // When Buffer owns posting (config.buffer.ownsPosting), local IG publishing
+    // is a no-op — the scheduled queue in Buffer is the single source of truth.
+    // This prevents duplicates if legacy Windows scheduled tasks still fire.
+    if (config.buffer?.ownsPosting) {
+      console.log("[post-runner] Buffer owns posting (config.buffer.ownsPosting=true) — skipping local IG bot to avoid duplicates.");
+    } else if (config.instagram?.enabled !== false) {
       if (config.instagram?.publishVia === "api") {
         const apiArgs = ["cards", dry ? "--dry" : ""].filter(Boolean);
         igCode = await runNode("src/reel-api.js", apiArgs);

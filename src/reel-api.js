@@ -216,6 +216,11 @@ async function resolveIg() {
 function main() {
   const cmd = process.argv[2] || "publish";
   const dry = process.argv.includes("--dry");
+  if (config.buffer?.ownsPosting && (cmd === "publish" || cmd === "cards")) {
+    console.log("[reel-api] Buffer owns posting (config.buffer.ownsPosting=true) — skipping local reel/card publishing to avoid duplicates.");
+    process.exitCode = 0;
+    return;
+  }
   if (cmd === "status") {
     statusCheck().catch((e) => console.error("Status error: " + e.message));
     return;

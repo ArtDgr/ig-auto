@@ -161,14 +161,14 @@
     },
     "6a8366af185705c2324b6521": {
       "bufferId": "6a8366af185705c2324b6521",
-      "views": 1,
-      "reach": 1,
+      "views": 2,
+      "reach": 2,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 1.8,
+      "score": 3.6,
       "raw": [
         {
           "name": "Reactions",
@@ -184,7 +184,7 @@
         },
         {
           "name": "Views",
-          "value": 1
+          "value": 2
         },
         {
           "name": "Shares",
@@ -200,7 +200,7 @@
         },
         {
           "name": "Reach",
-          "value": 1
+          "value": 2
         }
       ],
       "text": "Samsung Galaxy S26 FE, A08 and A07s surface on the Google Play Console.\n\n#techsupport #techtips #itsupportguru #pchelp #",
@@ -1190,7 +1190,386 @@
       "type": "card",
       "niche": "it-support",
       "firstSeenAt": "2026-08-19T03:03:26.376Z"
+    },
+    "6a85cb10a89be59870211323": {
+      "bufferId": "6a85cb10a89be59870211323",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Y",
+      "assets": [
+        "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/696059da7b71f5f5cc3c31ec/69605fa5457dae6a34efc47d/6a85cb10a89be59870211323_thumbnail.jpg"
+      ],
+      "sentAt": "2026-08-18T20:31:02.000Z",
+      "type": "card",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a85cb10a89be59870211320": {
+      "bufferId": "6a85cb10a89be59870211320",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Apple admits it may not make any commission from… 🍎\n\nApple admits it may not make any commission from…\n\n• Apple has bee",
+      "assets": [
+        "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/696059da7b71f5f5cc3c31ec/69605fa5457dae6a34efc47d/6a85cb10a89be59870211320_thumbnail.jpg"
+      ],
+      "sentAt": "2026-08-19T03:00:57.000Z",
+      "type": "card",
+      "niche": "apple",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a85cb0fa89be59870211316": {
+      "bufferId": "6a85cb0fa89be59870211316",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• I",
+      "assets": [
+        "https://buffer-updates-media-backfill-bucket.s3.amazonaws.com/696059da7b71f5f5cc3c31ec/69605fa5457dae6a34efc47d/6a85cb0fa89be59870211316_thumbnail.jpg"
+      ],
+      "sentAt": "2026-08-19T00:01:03.000Z",
+      "type": "card",
+      "niche": "cloud-devops",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a84e5545284c02bafea77ce": {
+      "bufferId": "6a84e5545284c02bafea77ce",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "RAM is the second-cheapest upgrade 💻\n\nRAM is the second-cheapest upgrade\n\n#cpu #pc #laptop #pcgaming #benchmark #laptop",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-ram-is-the-second-cheapest-upgrade/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-ram-is-the-second-cheapest-upgrade/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-ram-is-the-second-cheapest-upgrade/03.png"
+      ],
+      "sentAt": "2026-08-19T10:02:00.817Z",
+      "type": "card",
+      "niche": "hardware",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a84b7c34cc5b353b07ee2bc": {
+      "bufferId": "6a84b7c34cc5b353b07ee2bc",
+      "views": 16,
+      "reach": 17,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 29.6,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 16
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 17
+        }
+      ],
+      "text": "Apple Watch Series 11 vs Google Pixel Watch 5: Flagship smartwatches,.\n\n#techsupport #techtips #itsupportguru #pchelp #t",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260819-apple-watch-series-11-vs-google-pixel-watch-5-flagship-smart.mp4?v=2"
+      ],
+      "sentAt": "2026-08-19T05:01:29.226Z",
+      "type": "reel",
+      "niche": "apple",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a84b7bf57fccd2c75f07e8c": {
+      "bufferId": "6a84b7bf57fccd2c75f07e8c",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Intel Xeon 658X Review: Granite Rapids For Workstations ☁️\n\nIntel Xeon 658X Review: Granite Rapids For Workstations\n\n• I",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-intel-xeon-658x-review-granite-rapids-for-workstations/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-intel-xeon-658x-review-granite-rapids-for-workstations/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-intel-xeon-658x-review-granite-rapids-for-workstations/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-intel-xeon-658x-review-granite-rapids-for-workstations/04.png"
+      ],
+      "sentAt": "2026-08-19T02:00:50.924Z",
+      "type": "card",
+      "niche": "cloud-devops",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a84b7be8be90925015fad02": {
+      "bufferId": "6a84b7be8be90925015fad02",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Y",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-monday-s-android-app-deals-and-freebies-demon-castle/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-monday-s-android-app-deals-and-freebies-demon-castle/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-monday-s-android-app-deals-and-freebies-demon-castle/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260819-monday-s-android-app-deals-and-freebies-demon-castle/04.png"
+      ],
+      "sentAt": "2026-08-18T20:00:56.596Z",
+      "type": "card",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-19T23:48:16.139Z"
     }
   },
-  "updatedAt": "2026-08-19T03:04:53.530Z"
+  "updatedAt": "2026-08-19T23:48:16.140Z"
 }

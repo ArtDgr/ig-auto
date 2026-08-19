@@ -1,7 +1,8 @@
 {
   "it-support": 0.5,
-  "gadgets": 0.59,
+  "gadgets": 0.61,
   "cloud-devops": 0.5,
   "ai": 0.5,
-  "apple": 3
+  "apple": 3,
+  "hardware": 0.5
 }

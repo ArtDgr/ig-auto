@@ -1,9 +1,9 @@
 {
   "date": "2026-08-20",
-  "renderedAt": "2026-08-19T23:13:36.599Z",
+  "renderedAt": "2026-08-19T23:47:30.994Z",
   "posts": [
     {
-      "id": "20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone",
+      "id": "20260820-microsoft-s-delivery-optimization-troubleshooter-turns",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -11,33 +11,38 @@
       "emoji": "🛠️",
       "format": "carousel",
       "kind": "news",
-      "title": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…",
-      "source": "Ghacks",
-      "link": "https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/",
+      "title": "Microsoft’s Delivery Optimization troubleshooter turns…",
+      "source": "4sysops",
+      "link": "https://4sysops.com/archives/microsofts-delivery-optimization-troubleshooter-turns-failed-peering-into-a-support-ready-zip/",
       "slides": [
         {
           "kind": "hook",
-          "text": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside…"
+          "text": "Microsoft’s Delivery Optimization\nMicrosoft’s Delivery Optimization troubleshooter turns failed peering into a support-ready ZIP"
         },
         {
           "kind": "facts",
-          "text": "GSC Game World has announced the free 2.\nThank you for being a Ghacks reader.\n2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks ."
+          "text": "Microsoft’s free Delivery Optimization Troubleshooter gives Windows administrators a faster way to diagnose failed peer downloads…\nA single PowerShell command gathers service logs, policies, network data, performance counters, and event information, while an…\nSource Install the script from the PowerShell Gallery and create a bundle with: The script saves a ZIP file under %TEMP% using a…\nIt includes Delivery Optimization logs, service status, configuration and registry data, ipconfig /all, proxy settings, Network…"
+        },
+        {
+          "kind": "body",
+          "text": "THE TAKEAWAY — After the administrator triggers the failing Windows Update or application download and presses Enter, the script captures the…"
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "S.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"… 🛠️\n\nS.T.A.L.K.E.R. 2 Reveals Free 2.0 \"Back to the Zone\"…\n\n• GSC Game World has announced the free 2.\n• Thank you for being a Ghacks reader.\n• 2 Reveals Free 2.0 \"Back to the Zone\" Update Launching August 20 Alongside First DLC appeared first on gHacks .\n\nSource: Ghacks — https://www.ghacks.net/2026/08/17/s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone-update-launching-august-20-alongside-first-dlc/\n\nSave this for later →\n\n#windows #troubleshooting #techsupport #sysadmin #helpdesk #windows11 #itsupport #computertips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nTag the coworker who needs this one.",
+      "caption": "Microsoft’s Delivery Optimization troubleshooter turns… 🛠️\n\nMicrosoft’s Delivery Optimization troubleshooter turns…\n\n• Microsoft’s free Delivery Optimization Troubleshooter gives Windows administrators a faster way to diagnose failed peer downloads…\n• A single PowerShell command gathers service logs, policies, network data, performance counters, and event information, while an…\n• Source Install the script from the PowerShell Gallery and create a bundle with: The script saves a ZIP file under %TEMP% using a…\n• It includes Delivery Optimization logs, service status, configuration and registry data, ipconfig /all, proxy settings, Network…\n\nSource: 4sysops — https://4sysops.com/archives/microsofts-delivery-optimization-troubleshooter-turns-failed-peering-into-a-support-ready-zip/\n\nSave this for later →\n\n#windows #troubleshooting #techsupport #sysadmin #helpdesk #windows11 #itsupport #computertips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\01.png",
-        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\02.png",
-        "out\\instagram-ready\\20260820-s-t-a-l-k-e-r-2-reveals-free-2-0-back-to-the-zone\\03.png"
+        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/01.png",
+        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/02.png",
+        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/03.png",
+        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/04.png"
       ]
     },
     {
-      "id": "20260820-cisa-flags-actively-exploited-ray-flaw-that-can",
+      "id": "20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent",
       "slot": 1,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
@@ -45,33 +50,38 @@
       "emoji": "🔐",
       "format": "carousel",
       "kind": "news",
-      "title": "CISA Flags Actively Exploited Ray Flaw That Can…",
+      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
       "source": "The Hacker News",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
       "slides": [
         {
           "kind": "hook",
-          "text": "CISA Flags Actively Exploited Ray Flaw That Can\nCISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE"
+          "text": "Phishing 3.0: The Fight Moves to Agent Versus\nPhishing 3.0: The Fight Moves to Agent Versus Agent"
         },
         {
           "kind": "facts",
-          "text": "Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\nRay is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\nAs of writing, the GitHub project has more than"
+          "text": "Most email defenses still do the job they did a decade ago.\nScan the message, look for something malicious, block it.\nThat worked when the danger sat in the payload, a bad link or an attachment.\nIt stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person."
+        },
+        {
+          "kind": "body",
+          "text": "THE TAKEAWAY — Malicious links, infected attachments, spam."
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "CISA Flags Actively Exploited Ray Flaw That Can… 🔐\n\nCISA Flags Actively Exploited Ray Flaw That Can…\n\n• Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited…\n• Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine…\n• As of writing, the GitHub project has more than\n\nSource: The Hacker News — https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html\n\nSave this for later →\n\n#security #datasecurity #privacy #cybersecurity #cyberdefense #cybersectips #onlinesafety #2fa #itsupportguru #itpro #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most email defenses still do the job they did a decade ago.\n• Scan the message, look for something malicious, block it.\n• That worked when the danger sat in the payload, a bad link or an attachment.\n• It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.\n\nSource: The Hacker News — https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html\n\nSave this for later →\n\n#security #datasecurity #privacy #cybersecurity #cyberdefense #cybersectips #onlinesafety #2fa #itsupportguru #itpro #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\01.png",
-        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\02.png",
-        "out\\instagram-ready\\20260820-cisa-flags-actively-exploited-ray-flaw-that-can\\03.png"
+        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/01.png",
+        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/02.png",
+        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/03.png",
+        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/04.png"
       ]
     },
     {
-      "id": "20260820-monday-s-android-app-deals-and-freebies-demon-castle",
+      "id": "20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger",
       "slot": 2,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -79,29 +89,34 @@
       "emoji": "📱",
       "format": "carousel",
       "kind": "news",
-      "title": "Monday’s Android app deals and freebies: Demon Castle,…",
-      "source": "9to5toys",
-      "link": "https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/",
+      "title": "Yes, the Pixelsnap magnets on Pixel 11 are stronger…",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/08/19/pixel-11-magnets-stronger/",
       "slides": [
         {
           "kind": "hook",
-          "text": "Monday’s Android app deals and freebies: Demon\nMonday’s Android app deals and freebies: Demon Castle, Deus Ex GO, SENTINEL 519, GNOSIA, more"
+          "text": "Yes, the Pixelsnap magnets on Pixel 11 are\nYes, the Pixelsnap magnets on Pixel 11 are stronger this year"
         },
         {
           "kind": "facts",
-          "text": "Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\nBut for now it’s all about the Google Play deals and they are all waiting below/.\nHe also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…"
+          "text": "Pixelsnap is one of the best things added to Pixel phones in a number of years, but it wasn’t quite a perfect first attempt.\nLuckily, this year those pesky magnets are a little stronger and more reliable on the Pixel 11 series.\nIn my testing, the magnets this year are just below the strength of the Magsafe connection on an iPhone.\nThings will connect more securely to the back of your phone, so you’re less likely to knock things off or encounter issues with…"
+        },
+        {
+          "kind": "body",
+          "text": "THE TAKEAWAY — You can sort of see in the quick demo below how there is a little extra force needed to pry the Pixelsnap kickstand from the back…"
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Monday’s Android app deals and freebies: Demon Castle,… 📱\n\nMonday’s Android app deals and freebies: Demon Castle,…\n\n• Your Monday afternoon lineup of the best Android game and app deals is now ready to roll, including titles like Demon Castle…\n• But for now it’s all about the Google Play deals and they are all waiting below/.\n• He also covers all things music for 9to5Mac, including the weekly Logic Pros series exploring music production on Mac and iOS…\n\nSource: 9to5toys — https://9to5toys.com/2026/08/17/monday-android-app-deals-free-demon-castle-deus-ex-go/\n\nSave this for later →\n\n#smartphone #gadgets #batterytips #tech #android #iphone #smartphonetips #techgear #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — daily tech intel.\n\nA or B? Comment which one you'd ship.",
+      "caption": "Yes, the Pixelsnap magnets on Pixel 11 are stronger… 📱\n\nYes, the Pixelsnap magnets on Pixel 11 are stronger…\n\n• Pixelsnap is one of the best things added to Pixel phones in a number of years, but it wasn’t quite a perfect first attempt.\n• Luckily, this year those pesky magnets are a little stronger and more reliable on the Pixel 11 series.\n• In my testing, the magnets this year are just below the strength of the Magsafe connection on an iPhone.\n• Things will connect more securely to the back of your phone, so you’re less likely to knock things off or encounter issues with…\n\nSource: 9to5Google — https://9to5google.com/2026/08/19/pixel-11-magnets-stronger/\n\nSave this for later →\n\n#smartphone #gadgets #batterytips #tech #android #iphone #smartphonetips #techgear #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\01.png",
-        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\02.png",
-        "out\\instagram-ready\\20260820-monday-s-android-app-deals-and-freebies-demon-castle\\03.png"
+        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/01.png",
+        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/02.png",
+        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/03.png",
+        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/04.png"
       ]
     },
     {
@@ -149,13 +164,13 @@
       "caption": "Check a GPU before you buy a game laptop 💻\n\n1. Look up the laptop model on a benchmark site\n2. Compare sustained FPS at your target resolution\n3. Skim the thermal/review notes\n     ✓ throttling hides there\n4. Confirm the GPU's total TGP in the reviews\n5. Warranty length is the tiebreaker.\n\nSave this for the next ticket →\n\n#ssd #laptops #gpu #benchmark #hardware #laptop #chipshortage #pc #helpdesk #sysadmin #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\01.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\02.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\03.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\04.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\05.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\06.png",
-        "out\\instagram-ready\\20260820-check-a-gpu-before-you-buy-a-game-laptop\\07.png"
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/01.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/02.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/03.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/04.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/05.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/06.png",
+        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/07.png"
       ]
     }
   ]

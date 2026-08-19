@@ -1,0 +1,14 @@
+{
+  "url": "https://4sysops.com/archives/microsofts-delivery-optimization-troubleshooter-turns-failed-peering-into-a-support-ready-zip/",
+  "fetched": "2026-08-19T23:47:11.259Z",
+  "paragraphs": [
+    "Install the script from the PowerShell Gallery and create a bundle with:",
+    "The script saves a ZIP file under %TEMP% using a name such as dosvc-diag-[username]-[machinename]-[timestamp].zip. It includes Delivery Optimization logs, service status, configuration and registry data, ipconfig /all, proxy settings, Network List Manager information, connection-cost data, event logs, and a performance snapshot.",
+    "For an issue that can be reproduced, add the -ReproduceIssue parameter:",
+    "DeliveryOptimizationTroubleshooter.ps1 -GenerateSupportBundle -ReproduceIssue",
+    "The tool temporarily enables verbose tracing, expands log limits, clears older logs, and restarts the Delivery Optimization service. After the administrator triggers the failing Windows Update or application download and presses Enter, the script captures the reproduction logs and restores normal tracing settings.",
+    "The most useful first file is troubleshooter-output.txt, which reports structured pass/fail checks. It can quickly show that a Connected Cache host is configured but unreachable. status-dosvc.txt then provides per-download details, including the calling application and the amount of content obtained through HTTP, LAN peers, or Connected Cache.",
+    "perfsnap-dosvc.txt helps identify broader routing problems by showing monthly bandwidth totals by source. Zero Connected Cache traffic on a device that should use the cache is a strong indication that connectivity or configuration needs investigation.",
+    "Delivery Optimization can combine the original Microsoft download source with Microsoft Connected Cache and eligible peer devices. Content received from peers is hash-verified, so peer-assisted delivery does not require treating another workstation as a trusted file server."
+  ]
+}

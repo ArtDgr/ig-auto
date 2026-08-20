@@ -125,11 +125,13 @@ export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) 
   if (manifest.date !== dateStr) throw new Error(`Manifest date ${manifest.date} != ${dateStr}`);
 
   const times = config.instagram.postingTimes || ["06:30", "10:00", "13:00"];
+  const gfCfg = (config.instagram && config.instagram.fridayGadgetFocus) || {};
   const state = loadState();
   const scheduled = [];
 
   for (const post of manifest.posts) {
-    const due = toIso(dateStr, times[post.slot] || times[0]);
+    const gfTime = post.kind === "gadget-focus" ? gfCfg.time : null;
+    const due = toIso(dateStr, gfTime || times[post.slot] || times[0]);
     if (state[dateStr] && state[dateStr][post.slot]) {
       console.log(`[buffer] already scheduled slot ${post.slot} for ${dateStr} (buffer ${state[dateStr][post.slot].bufferId})`);
       continue;

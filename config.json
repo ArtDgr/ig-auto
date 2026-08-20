@@ -36,7 +36,9 @@
         "https://news.google.com/rss/search?q=site:reuters.com%20technology&hl=en-US&gl=US&ceid=US:en",
         "https://techcrunch.com/feed/",
         "https://www.zdnet.com/news/rss.xml",
-        "https://feeds.twit.tv/twit.xml"
+        "https://feeds.twit.tv/twit.xml",
+        "https://www.wired.com/feed/rss",
+        "https://www.theverge.com/rss/index.xml"
       ]
     },
     {
@@ -67,7 +69,10 @@
         "https://www.androidcentral.com/rss.xml",
         "https://9to5google.com/feed/",
         "https://www.androidauthority.com/feed/",
-        "https://www.theverge.com/rss/mobile/index.xml"
+        "https://www.theverge.com/rss/mobile/index.xml",
+        "https://www.engadget.com/rss.xml",
+        "https://www.xda-developers.com/feed/",
+        "https://www.androidheadlines.com/feed"
       ]
     },
     {
@@ -93,7 +98,8 @@
       "feeds": [
         "https://feeds.macrumors.com/MacRumors-All",
         "https://9to5mac.com/feed/",
-        "https://appleinsider.com/rss/news"
+        "https://appleinsider.com/rss/news",
+        "https://www.wired.com/feed/rss"
       ]
     },
     {
@@ -124,7 +130,9 @@
         "https://news.google.com/rss/search?q=site:notebookcheck.net&hl=en-US&gl=US&ceid=US:en",
         "https://www.tomshardware.com/feeds/all",
         "https://www.techradar.com/rss",
-        "https://feeds.arstechnica.com/arstechnica/gadgets"
+        "https://feeds.arstechnica.com/arstechnica/gadgets",
+        "https://www.phoronix.com/rss.php",
+        "https://feeds.arstechnica.com/arstechnica/technology-lab"
       ]
     },
     {
@@ -153,7 +161,8 @@
         "https://krebsonsecurity.com/feed/",
         "https://thehackernews.com/feeds/posts/default",
         "https://www.bleepingcomputer.com/feed/",
-        "https://www.darkreading.com/rss.xml"
+        "https://www.darkreading.com/rss.xml",
+        "https://www.wired.com/feed/rss"
       ]
     },
     {
@@ -195,7 +204,9 @@
         "https://www.itechguides.com/feed/",
         "https://4sysops.com/feed/",
         "https://superuser.com/feeds",
-        "https://www.spiceworks.com/feed/"
+        "https://www.spiceworks.com/feed/",
+        "https://www.maketecheasier.com/feed/",
+        "https://www.engadget.com/rss.xml"
       ]
     },
     {
@@ -230,7 +241,9 @@
         "https://www.theregister.com/headlines.atom",
         "https://www.servethehome.com/feed/",
         "https://sourceforge.net/blog/feed/",
-        "https://geekflare.com/feed/"
+        "https://geekflare.com/feed/",
+        "https://blog.cloudflare.com/rss/",
+        "https://aws.amazon.com/blogs/aws/feed/"
       ]
     }
   ],
@@ -436,6 +449,13 @@
       "17:00",
       "20:00"
     ],
+    "fridayGadgetFocus": {
+      "enabled": true,
+      "slot": 4,
+      "time": "18:00",
+      "label": "FRIDAY TECH GADGET FOCUS",
+      "cta": "Which one's on your wishlist? Drop it below 👇"
+    },
     "minWarmupDays": 5,
     "maxPerDay": 4,
     "headless": true,

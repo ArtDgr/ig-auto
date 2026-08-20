@@ -1,0 +1,14 @@
+{
+  "url": "https://9to5mac.com/2026/08/19/astropad-workbench-1-3-adds-faster-streaming-privacy-curtain-and-more/",
+  "fetched": "2026-08-20T20:09:32.956Z",
+  "paragraphs": [
+    "Astropad has released Workbench 1.3, its largest update to the remote desktop app since the launch earlier this year. The release adds several tools for accessing unattended Macs, along with changes to performance and reliability.",
+    "Workbench, which first arrived in April, provides remote access to a Mac from an iPhone or iPad. Astropad has particularly focused on monitoring AI agents and controlling headless Mac mini setups.",
+    "Version 1.3 rebuilds the video streaming system for Apple silicon. Astropad says streaming is 30% faster, while content-aware encoding adjusts how text and images are processed to improve text clarity and refresh rates.",
+    "Another addition, called Watchdog, monitors Workbench in the background and relaunches it following a crash, disconnection, or failure to respond.",
+    "Picture-in-picture support lets users keep the remote Mac visible while working in another app. On iPad, shortcut mapping can redirect commands normally handled by iPadOS to the connected Mac.",
+    "Astropad says the release also includes 71 bug fixes covering keyboard input, clipboard syncing, sign-ins, and other parts of the app.",
+    "Since debuting, Workbench has gained improved external mouse support, smoother zooming, smarter sleep handling, visible macOS cursors, and the ability to send Command-Space from an iPad.",
+    "Later releases added non-English speech-to-text, longer background connections, faster connection times, improved encryption, more reliable clipboard syncing, Japanese Kana keyboard support, and compatibility fixes for Wispr Flow and Apple Pencil Scribble."
+  ]
+}

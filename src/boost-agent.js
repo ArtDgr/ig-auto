@@ -216,9 +216,17 @@ export async function repostWinner({ dry = false } = {}) {
   const recent = state.reposts.filter((r) => r.createdAt >= cutoff);
   const alreadyIds = new Set(recent.map((r) => r.bufferId));
   const maxReposts = cfg.maxReposts || 1;
+  // The Friday Tech Gadget Focus spotlight is a priority boost: if a recent one
+  // exists with assets and hasn't been boosted, push it ahead of the week's
+  // other winners so the spotlight post always gets its second life.
+  const gadgetFocus = candidates
+    .filter((p) => /friday tech gadget focus|gadget focus/i.test(p.text || "") && !alreadyIds.has(p.bufferId))
+    .sort((a, b) => b.score - a.score);
   const winner =
-    candidates.find((p) => !alreadyIds.has(p.bufferId)) ||
-    candidates.filter((p) => (recent.filter((r) => r.bufferId === p.bufferId).length) < maxReposts).sort((a, b) => b.score - a.score)[0];
+    (gadgetFocus[0] && cfg.preferGadgetFocus !== false) || null
+      ? gadgetFocus[0]
+      : candidates.find((p) => !alreadyIds.has(p.bufferId)) ||
+        candidates.filter((p) => (recent.filter((r) => r.bufferId === p.bufferId).length) < maxReposts).sort((a, b) => b.score - a.score)[0];
 
   if (!winner) {
     console.log("[boost] all strong posts already boosted this window");

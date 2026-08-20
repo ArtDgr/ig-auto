@@ -393,6 +393,23 @@ function humorCard(item, niche) {
   ];
 }
 
+// Friday "Tech Gadget Focus": the single hottest gadget story of the week as a
+// punchy scroll-stopper. A bold one-word hook, the gadget's real headline, the
+// deepest facts we actually have, then a save/share CTA. Nothing promotional —
+// the story must stand on real product facts.
+function gadgetFocusCard(topic, rnd) {
+  const title = String(topic.title || "").replace(/\s+/g, " ").trim();
+  const st = findStatFact(topicFacts(topic, 6));
+  const big = st && rnd() < 0.5 ? st.stat : phraseCut(stripFluff(title), 48);
+  const line = niceness(big).toLowerCase() === title.toLowerCase() ? "" : shorten(title, 96);
+  const facts = topicFacts(topic, 4);
+  return [
+    { kind: "hook", text: `${big}\n${line}` },
+    { kind: "brief", text: facts.join("\n") || shorten(String(topic.snippet || ""), 230) },
+    { kind: "cta", text: SAVE_SHARE.news }
+  ];
+}
+
 // Single image card from a deep news story: headline + real facts + attribution.
 function newsCard(topic) {
   const raw = shorten(String(topic.title || "A new tech story just broke."), 90);
@@ -444,6 +461,15 @@ function captionFor(post, rnd) {
 
   const newsFoot = post.source ? `Source: ${post.source}${post.link ? " — " + post.link : ""}` : null;
 
+  if (post.kind === "gadget-focus") {
+    const gf = (config.instagram && config.instagram.fridayGadgetFocus) || {};
+    const pts = captionPoints(post);
+    const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
+    const src = newsFoot ? "\n\n" + newsFoot : "";
+    const kick = gf.label || "Friday Tech Gadget Focus";
+    const ask = gf.cta || "Which one's on your wishlist?";
+    return `${kick} ${emoji}\n\n${post.title}${bullets}${src}\n\n${ask}\n\n${tags}\n\n${handle} — the gadget worth your attention.${line(cta())}`;
+  }
   if (post.format === "carousel" && post.kind === "howto") {
     const list = stepLines(post).join("\n");
     return `${post.title} ${emoji}\n\n${list}\n\nSave this for the next ticket →\n\n${tags}\n\n${handle} — daily tech intel for IT pros.${line(cta())}`;
@@ -559,6 +585,41 @@ function dateKeyShort() {
   return fileDate().replace(/-/g, "") + "-";
 }
 
+// Friday "Tech Gadget Focus": pull the single deepest, freshest gadget story
+// from the gadgets niche and wrap it in the punchy scroll-stopper card.
+// Friday-only (slot 4) — config.fridayGadgetFocus.enabled gates it.
+const DEVICE_HINT = /(pixel|galaxy|iphone|ipad|macbook|mac|watch|fold|foldable|surface|laptop|samsung|apple|google|oneplus|xiaomi|oppo|vivo|motorola|nothing|earbuds|headphones|tablet|camera|console|monitor|gpu|rtx|ryzen)/i;
+function pickGadgetFocusTopic() {
+  const topics = topicsForNiche("gadgets");
+  if (!topics.length) return null;
+  const device = topics.filter((t) => DEVICE_HINT.test(String(t.title || "")));
+  const pool = device.length >= 2 ? device : topics;
+  return pickDeepest(pool);
+}
+function buildGadgetFocus(rnd, slot = 4) {
+  const topic = pickGadgetFocusTopic();
+  const gf = (config.instagram && config.instagram.fridayGadgetFocus) || {};
+  const n = NICHES.gadgets;
+  const title = gf.label || "Friday Tech Gadget Focus";
+  const post = {
+    id: `${dateKeyShort()}gadget-focus-${slug(topic ? topic.title : title)}`,
+    slot,
+    niche: "gadgets",
+    nicheLabel: n.label,
+    accent: n.accent,
+    emoji: n.emoji,
+    format: "carousel",
+    kind: "gadget-focus",
+    title: topic ? shorten(String(topic.title || ""), 56) : title,
+    source: topic ? sourceName(topic) : null,
+    link: topic && topic.link ? topic.link : null,
+    slides: gadgetFocusCard(topic || { title, snippet: "" }, rnd)
+  };
+  post.caption = captionFor(post, rnd);
+  post.status = "pending";
+  return post;
+}
+
 // Weighted day-niche pick. When the boost agent has written niche-weights.json
 // (winners get up to 3x rotation weight), sample niches weighted by performance;
 // otherwise fall back to the CORE/wildcard split.
@@ -627,6 +688,14 @@ export function generateIgPlan() {
     const post = buildPost(nicheId, format, topics, rnd, slot, modes[slot]);
     post.slot = slot;
     posts.push(post);
+  }
+
+  // Friday: append the "Tech Gadget Focus" spotlight as a fifth post.
+  const gfCfg = (config.instagram && config.instagram.fridayGadgetFocus) || {};
+  const dow = new Date(fileDate() + "T00:00:00").getDay(); // 0=Sun ... 5=Fri
+  if (gfCfg.enabled !== false && dow === 5) {
+    const gfPost = buildGadgetFocus(rnd, gfCfg.slot || 4);
+    posts.push(gfPost);
   }
 
   const plan = { date: fileDate(), generatedAt: new Date().toISOString(), posts };

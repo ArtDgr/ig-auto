@@ -24,7 +24,7 @@ function cacheSize(link) {
 export async function ensureLeadFacts() {
   const plan = loadPlan();
   if (!plan) throw new Error("No plan found — run ig-generator first");
-  const targets = (plan.posts || []).filter((p) => p.kind === "news" && cacheSize(p.link) < 2);
+  const targets = (plan.posts || []).filter((p) => (p.kind === "news" || p.kind === "gadget-focus") && cacheSize(p.link) < 2);
   for (const p of targets) {
     console.log(`[ensure-facts] fetching lead article: ${p.title}`);
     await fetchParagraphs({ link: p.link, title: p.title }).catch((e) => {

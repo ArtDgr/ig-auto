@@ -1,49 +1,10 @@
 {
-  "date": "2026-08-20",
-  "renderedAt": "2026-08-19T23:47:30.994Z",
+  "date": "2026-08-21",
+  "renderedAt": "2026-08-20T19:57:03.693Z",
   "posts": [
     {
-      "id": "20260820-microsoft-s-delivery-optimization-troubleshooter-turns",
+      "id": "20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Microsoft’s Delivery Optimization troubleshooter turns…",
-      "source": "4sysops",
-      "link": "https://4sysops.com/archives/microsofts-delivery-optimization-troubleshooter-turns-failed-peering-into-a-support-ready-zip/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Microsoft’s Delivery Optimization\nMicrosoft’s Delivery Optimization troubleshooter turns failed peering into a support-ready ZIP"
-        },
-        {
-          "kind": "facts",
-          "text": "Microsoft’s free Delivery Optimization Troubleshooter gives Windows administrators a faster way to diagnose failed peer downloads…\nA single PowerShell command gathers service logs, policies, network data, performance counters, and event information, while an…\nSource Install the script from the PowerShell Gallery and create a bundle with: The script saves a ZIP file under %TEMP% using a…\nIt includes Delivery Optimization logs, service status, configuration and registry data, ipconfig /all, proxy settings, Network…"
-        },
-        {
-          "kind": "body",
-          "text": "THE TAKEAWAY — After the administrator triggers the failing Windows Update or application download and presses Enter, the script captures the…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "Microsoft’s Delivery Optimization troubleshooter turns… 🛠️\n\nMicrosoft’s Delivery Optimization troubleshooter turns…\n\n• Microsoft’s free Delivery Optimization Troubleshooter gives Windows administrators a faster way to diagnose failed peer downloads…\n• A single PowerShell command gathers service logs, policies, network data, performance counters, and event information, while an…\n• Source Install the script from the PowerShell Gallery and create a bundle with: The script saves a ZIP file under %TEMP% using a…\n• It includes Delivery Optimization logs, service status, configuration and registry data, ipconfig /all, proxy settings, Network…\n\nSource: 4sysops — https://4sysops.com/archives/microsofts-delivery-optimization-troubleshooter-turns-failed-peering-into-a-support-ready-zip/\n\nSave this for later →\n\n#windows #troubleshooting #techsupport #sysadmin #helpdesk #windows11 #itsupport #computertips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nTag the coworker who needs this one.",
-      "status": "pending",
-      "media": [
-        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/01.png",
-        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/02.png",
-        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/03.png",
-        "out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/04.png"
-      ]
-    },
-    {
-      "id": "20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent",
-      "slot": 1,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
       "accent": "#FF4D4D",
@@ -71,106 +32,125 @@
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most email defenses still do the job they did a decade ago.\n• Scan the message, look for something malicious, block it.\n• That worked when the danger sat in the payload, a bad link or an attachment.\n• It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.\n\nSource: The Hacker News — https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html\n\nSave this for later →\n\n#security #datasecurity #privacy #cybersecurity #cyberdefense #cybersectips #onlinesafety #2fa #itsupportguru #itpro #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most email defenses still do the job they did a decade ago.\n• Scan the message, look for something malicious, block it.\n• That worked when the danger sat in the payload, a bad link or an attachment.\n• It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.\n\nSource: The Hacker News — https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html\n\nSave this for later →\n\n#phishing #password #security #privacy #2fa #secops #datasecurity #infosec #techtips #techdaily #sysadmin #itpro\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/01.png",
-        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/02.png",
-        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/03.png",
-        "out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/04.png"
+        "out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/01.png",
+        "out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/02.png",
+        "out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/03.png",
+        "out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/04.png"
       ]
     },
     {
-      "id": "20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger",
-      "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "id": "20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor",
+      "slot": 1,
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "news",
-      "title": "Yes, the Pixelsnap magnets on Pixel 11 are stronger…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/08/19/pixel-11-magnets-stronger/",
+      "title": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor…",
+      "source": "Tom's Hardware",
+      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review",
       "slides": [
         {
           "kind": "hook",
-          "text": "Yes, the Pixelsnap magnets on Pixel 11 are\nYes, the Pixelsnap magnets on Pixel 11 are stronger this year"
+          "text": "Asus ROG Swift PG32UCWM 32-inch OLED gaming\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor review: A flagship display with premium…"
         },
         {
           "kind": "facts",
-          "text": "Pixelsnap is one of the best things added to Pixel phones in a number of years, but it wasn’t quite a perfect first attempt.\nLuckily, this year those pesky magnets are a little stronger and more reliable on the Pixel 11 series.\nIn my testing, the magnets this year are just below the strength of the Magsafe connection on an iPhone.\nThings will connect more securely to the back of your phone, so you’re less likely to knock things off or encounter issues with…"
+          "text": "When you purchase through links on our site, we may earn an affiliate commission.\nThe Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\nIt is a flagship among flagships.\nWhy you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…"
         },
         {
           "kind": "body",
-          "text": "THE TAKEAWAY — You can sort of see in the quick demo below how there is a little extra force needed to pry the Pixelsnap kickstand from the back…"
+          "text": "THE TAKEAWAY — With prices generally higher than their LCD counterparts, the best OLED gaming monitors remain a premium category."
         },
         {
           "kind": "cta",
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "Yes, the Pixelsnap magnets on Pixel 11 are stronger… 📱\n\nYes, the Pixelsnap magnets on Pixel 11 are stronger…\n\n• Pixelsnap is one of the best things added to Pixel phones in a number of years, but it wasn’t quite a perfect first attempt.\n• Luckily, this year those pesky magnets are a little stronger and more reliable on the Pixel 11 series.\n• In my testing, the magnets this year are just below the strength of the Magsafe connection on an iPhone.\n• Things will connect more securely to the back of your phone, so you’re less likely to knock things off or encounter issues with…\n\nSource: 9to5Google — https://9to5google.com/2026/08/19/pixel-11-magnets-stronger/\n\nSave this for later →\n\n#smartphone #gadgets #batterytips #tech #android #iphone #smartphonetips #techgear #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
+      "caption": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor… 💻\n\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor…\n\n• When you purchase through links on our site, we may earn an affiliate commission.\n• The Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\n• It is a flagship among flagships.\n• Why you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…\n\nSource: Tom's Hardware — https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review\n\nSave this for later →\n\n#hardware #laptop #chipshortage #ssd #pcgaming #cpu #ram #pc #techtips #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/01.png",
-        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/02.png",
-        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/03.png",
-        "out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/04.png"
+        "out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/01.png",
+        "out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/02.png",
+        "out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/03.png",
+        "out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/04.png"
       ]
     },
     {
-      "id": "20260820-check-a-gpu-before-you-buy-a-game-laptop",
-      "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "id": "20260821-qualcomm-modular-open-sourced-at-modcon-2026",
+      "slot": 2,
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
-      "kind": "howto",
-      "title": "Check a GPU before you buy a game laptop",
+      "kind": "news",
+      "title": "Qualcomm Modular Open-Sourced at ModCon 2026",
+      "source": "ServeTheHome",
+      "link": "https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "2026\nQualcomm Modular Open-Sourced at ModCon 2026"
+        },
+        {
+          "kind": "facts",
+          "text": "Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance…\nA few weeks ago, we covered Qualcomm’s acquisition of Modular at Qualcomm Investor Day 2026.\nModular’s mission is to build an AI stack that runs across platforms.\nToday, the company took another step at ModCon 2026, open-sourcing its platform."
+        },
+        {
+          "kind": "body",
+          "text": "THE TAKEAWAY — Qualcomm needed to get there, and specifically also show other companies why it should invest in its hardware/ software platform,…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "Qualcomm Modular Open-Sourced at ModCon 2026 ☁️\n\nQualcomm Modular Open-Sourced at ModCon 2026\n\n• Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance…\n• A few weeks ago, we covered Qualcomm’s acquisition of Modular at Qualcomm Investor Day 2026.\n• Modular’s mission is to build an AI stack that runs across platforms.\n• Today, the company took another step at ModCon 2026, open-sourcing its platform.\n\nSource: ServeTheHome — https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026/\n\nSave this for later →\n\n#kubernetes #devops #azure #docker #aws #devopslife #cloud #techops #itsupportguru #techtips #helpdesk #itpro\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/01.png",
+        "out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/02.png",
+        "out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/03.png",
+        "out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/04.png"
+      ]
+    },
+    {
+      "id": "20260821-the-one-that-got-away",
+      "slot": 3,
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
+      "format": "carousel",
+      "kind": "humor",
+      "title": "The one that got away",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Check a GPU before you buy a game laptop\nLook up the laptop model on a benchmark site"
+          "text": "The one that got away\nYou troubleshoot for 90 minutes. You test six things. You give up and reboot — and it…"
         },
         {
-          "kind": "step",
-          "text": "Look up the laptop model on a benchmark site"
-        },
-        {
-          "kind": "step",
-          "text": "Compare sustained FPS at your target resolution"
-        },
-        {
-          "kind": "step",
-          "text": "Skim the thermal/review notes — throttling hides there"
-        },
-        {
-          "kind": "step",
-          "text": "Confirm the GPU's total TGP in the reviews"
-        },
-        {
-          "kind": "step",
-          "text": "Warranty length is the tiebreaker."
+          "kind": "body",
+          "text": "You troubleshoot for 90 minutes. You test six things. You give up and reboot — and it works. The log's clean, the cause is gone, and the ticket closes with 'works on my end.' We don't question it.…"
         },
         {
           "kind": "cta",
-          "text": "Save this — you'll need it next time."
+          "text": "Save this 30-second fix."
         }
       ],
-      "caption": "Check a GPU before you buy a game laptop 💻\n\n1. Look up the laptop model on a benchmark site\n2. Compare sustained FPS at your target resolution\n3. Skim the thermal/review notes\n     ✓ throttling hides there\n4. Confirm the GPU's total TGP in the reviews\n5. Warranty length is the tiebreaker.\n\nSave this for the next ticket →\n\n#ssd #laptops #gpu #benchmark #hardware #laptop #chipshortage #pc #helpdesk #sysadmin #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "The one that got away 🍎\n\nThe one that got away\n\nSave this for later →\n\n#macbook #ios #macrumors #itpro #applenews #apple #appleintelligence #macos #techdaily #sysadmin #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/01.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/02.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/03.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/04.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/05.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/06.png",
-        "out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/07.png"
+        "out/instagram-ready/20260821-the-one-that-got-away/01.png",
+        "out/instagram-ready/20260821-the-one-that-got-away/02.png",
+        "out/instagram-ready/20260821-the-one-that-got-away/03.png"
       ]
     }
   ]

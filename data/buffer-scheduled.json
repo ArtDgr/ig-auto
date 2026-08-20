@@ -122,5 +122,41 @@
       "dueAt": "2026-08-20T05:00:00.000Z",
       "niche": "it-support"
     }
+  },
+  "2026-08-21": {
+    "0": {
+      "postId": "20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent",
+      "bufferId": "6a875c380fde1e61dd0b89d9",
+      "dueAt": "2026-08-20T20:00:00.000Z",
+      "niche": "security",
+      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent"
+    },
+    "1": {
+      "postId": "20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor",
+      "bufferId": "6a875c39ca8e6cdb1797d915",
+      "dueAt": "2026-08-21T02:00:00.000Z",
+      "niche": "hardware",
+      "title": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor…"
+    },
+    "2": {
+      "postId": "20260821-qualcomm-modular-open-sourced-at-modcon-2026",
+      "bufferId": "6a875c3a2517aaad20533b91",
+      "dueAt": "2026-08-21T07:00:00.000Z",
+      "niche": "cloud-devops",
+      "title": "Qualcomm Modular Open-Sourced at ModCon 2026"
+    },
+    "3": {
+      "postId": "20260821-the-one-that-got-away",
+      "bufferId": "6a875c3b2517aaad20533bb4",
+      "dueAt": "2026-08-21T10:00:00.000Z",
+      "niche": "apple",
+      "title": "The one that got away"
+    },
+    "reel": {
+      "file": "20260821-google-s-pixel-11-pro-fold-feels-like-the-end-of-an-era.mp4",
+      "bufferId": "6a875c3c0fde1e61dd0b8a02",
+      "dueAt": "2026-08-21T05:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

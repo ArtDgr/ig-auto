@@ -1407,14 +1407,14 @@
     },
     "6a84b7c34cc5b353b07ee2bc": {
       "bufferId": "6a84b7c34cc5b353b07ee2bc",
-      "views": 16,
-      "reach": 17,
+      "views": 17,
+      "reach": 18,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 29.6,
+      "score": 31.4,
       "raw": [
         {
           "name": "Reactions",
@@ -1430,7 +1430,7 @@
         },
         {
           "name": "Views",
-          "value": 16
+          "value": 17
         },
         {
           "name": "Shares",
@@ -1446,7 +1446,7 @@
         },
         {
           "name": "Reach",
-          "value": 17
+          "value": 18
         }
       ],
       "text": "Apple Watch Series 11 vs Google Pixel Watch 5: Flagship smartwatches,.\n\n#techsupport #techtips #itsupportguru #pchelp #t",
@@ -1569,7 +1569,340 @@
       "type": "card",
       "niche": "gadgets",
       "firstSeenAt": "2026-08-19T23:48:16.139Z"
+    },
+    "6a863c745bebcc0cdc263208": {
+      "bufferId": "6a863c745bebcc0cdc263208",
+      "views": 9,
+      "reach": 9,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 16.2,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 9
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 9
+        }
+      ],
+      "text": "Google’s Pixel 11 Pro Fold feels like the end of an era.\r\n\r\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260820-google-s-pixel-11-pro-fold-feels-like-the-end-of-an-era.mp4"
+      ],
+      "sentAt": "2026-08-20T05:00:52.506Z",
+      "type": "reel",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a863c72e5065537ab4a8a5e": {
+      "bufferId": "6a863c72e5065537ab4a8a5e",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Check a GPU before you buy a game laptop 💻\n\n1. Look up the laptop model on a benchmark site\n2. Compare sustained FPS at",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/04.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/05.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/06.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-check-a-gpu-before-you-buy-a-game-laptop/07.png"
+      ],
+      "sentAt": "2026-08-20T10:02:55.980Z",
+      "type": "card",
+      "niche": "hardware",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a863c71e222548121738d09": {
+      "bufferId": "6a863c71e222548121738d09",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Yes, the Pixelsnap magnets on Pixel 11 are stronger… 📱\n\nYes, the Pixelsnap magnets on Pixel 11 are stronger…\n\n• Pixelsn",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-yes-the-pixelsnap-magnets-on-pixel-11-are-stronger/04.png"
+      ],
+      "sentAt": "2026-08-20T07:01:44.764Z",
+      "type": "card",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a863c706d2f57ba06c32c79": {
+      "bufferId": "6a863c706d2f57ba06c32c79",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most emai",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-phishing-3-0-the-fight-moves-to-agent-versus-agent/04.png"
+      ],
+      "sentAt": "2026-08-20T02:01:05.768Z",
+      "type": "card",
+      "niche": "security",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a863c69e5065537ab4a8a12": {
+      "bufferId": "6a863c69e5065537ab4a8a12",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Microsoft’s Delivery Optimization troubleshooter turns… 🛠️\n\nMicrosoft’s Delivery Optimization troubleshooter turns…\n\n• ",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260820-microsoft-s-delivery-optimization-troubleshooter-turns/04.png"
+      ],
+      "sentAt": "2026-08-20T01:30:23.301Z",
+      "type": "card",
+      "niche": "it-support",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a851d564cc5b353b0853f94": {
+      "bufferId": "6a851d564cc5b353b0853f94",
+      "views": 4,
+      "reach": 4,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 7.2,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 4
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 4
+        }
+      ],
+      "text": "Google Kicks Off Fall Hardware Season With.\n\n#techsupport #techtips #itsupportguru #pchelp #techdaily #apple #iphone #ma",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260814-google-kicks-off-fall-hardware-season-with-new-pixel-11-smar.mp4"
+      ],
+      "sentAt": "2026-08-20T08:31:31.007Z",
+      "type": "reel",
+      "niche": "it-support",
+      "firstSeenAt": "2026-08-20T19:57:49.062Z"
     }
   },
-  "updatedAt": "2026-08-19T23:48:16.140Z"
+  "updatedAt": "2026-08-20T19:57:49.063Z"
 }

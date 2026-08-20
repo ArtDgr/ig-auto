@@ -1,6 +1,6 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-20T19:56:53.273Z",
+  "generatedAt": "2026-08-20T20:27:46.799Z",
   "posts": [
     {
       "id": "20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent",
@@ -128,6 +128,35 @@
         }
       ],
       "caption": "The one that got away 🍎\n\nThe one that got away\n\nSave this for later →\n\n#macbook #ios #macrumors #itpro #applenews #apple #appleintelligence #macos #techdaily #sysadmin #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
+      "status": "pending"
+    },
+    {
+      "id": "20260821-gadget-focus-the-big-three-us-carriers-are-offering-some-pixel-11-mod",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "The big three US carriers are offering some Pixel 11…",
+      "source": "GSMArena",
+      "link": "https://www.gsmarena.com/the_big_three_us_carriers_are_offering_some_pixel_11_models_for_free_here_is_what_you_need_to_know-news-74260.php",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "The big three US carriers are offering some\nThe big three US carriers are offering some Pixel 11 models for free, here is what you need to…"
+        },
+        {
+          "kind": "brief",
+          "text": "The Google Pixel 11 series is now available in stores and from carriers in select regions, following a week of pre-orders.\nHere’s a look at what the big three US carriers have to offer.\nT-Mobile is offering the three non-folding models for free – or as the carrier puts it “get the Pixel 11 Pro XL on Us”.\nThis means that it’s $1,300 off, making the base model free."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe big three US carriers are offering some Pixel 11…\n\n• The Google Pixel 11 series is now available in stores and from carriers in select regions, following a week of pre-orders.\n• Here’s a look at what the big three US carriers have to offer.\n• T-Mobile is offering the three non-folding models for free – or as the carrier puts it “get the Pixel 11 Pro XL on Us”.\n• This means that it’s $1,300 off, making the base model free.\n\nSource: GSMArena — https://www.gsmarena.com/the_big_three_us_carriers_are_offering_some_pixel_11_models_for_free_here_is_what_you_need_to_know-news-74260.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#smartphone #batterytips #android #tech #samsung #smartphonetips #gadgets #gadgetreviews #techtips #helpdesk #itpro #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

@@ -9,14 +9,14 @@ const V = config.video;
 const TMP = path.join("out", "staging");
 const FPS = 30;
 
-// Per-niche accent colors drive the animated gradient + glow. Deep navy base
-// keeps text legible while the accent tint makes every reel feel on-brand.
+// Per-niche accent colors drive the animated gradient + glow. All sit in the
+// black/white/electric-blue brand family; security reels skew red.
 const REEL_ACCENTS = {
-  ai: "#FF5C7A",
-  gadgets: "#FFB020",
+  ai: "#00A8FF",
+  gadgets: "#00A8FF",
   apple: "#38BDF8",
-  hardware: "#34D399",
-  security: "#FF4D4D",
+  hardware: "#22D3EE",
+  security: "#FF5A50",
   "it-support": "#00E5FF",
   "cloud-devops": "#818CF8"
 };
@@ -130,24 +130,39 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
 
   const big = lines[0] || "";
   const stat = isHook && /^[\$0-9][\d.,kKmMbB%]*$/.test(big.trim());
-  const fontsize = isHook ? 88 : isCta ? 66 : 62;
+  const fontsize = isHook ? 96 : isCta ? 66 : 62;
   const textColor = isHook && stat ? hex0x(accent) : "0xFFFFFF";
 
-  // Pop-in: text rises 60px and fades in over the first ~0.6s. Kicker fades in
+  // Punch-in: frame starts slightly zoomed-in and settles to full size, so the
+// first frame feels alive. The scaled frame is cropped back to 1080x1920 at
+// every frame so the concat stays uniform. Hook/CTA punch harder than body.
+  const zoomIn = isHook ? 1.10 : isCta ? 1.08 : 1.05;
+  const zf = `1+(${zoomIn}-1)*max(0,1-t/0.6)`;
+  const zoomF = `scale=w='iw*${zf}':h='ih*${zf}':eval=frame,crop=${V.width}:${V.height}:(iw-${V.width})/2:(ih-${V.height})/2`;
+
+  // Text pop-in: rises 60px and fades in over the first ~0.6s. Kicker fades in
   // from the top so the composition feels alive, not pasted on.
-  const kicker = isHook ? "TECH INTEL" : isCta ? "FOLLOW FOR MORE" : kind === "body" ? "THE DETAILS" : "";
+  const kicker = isHook ? "DAILY IT FIX" : isCta ? "FOLLOW FOR MORE" : kind === "body" ? "THE DETAILS" : "";
   const textF =
     `drawtext=fontfile=assets/arialbd.ttf:textfile=${txtFile.replace(/\\/g, "/")}:` +
-    `fontsize=${fontsize}:fontcolor=${textColor}:line_spacing=26:` +
+    `fontsize=${fontsize}:fontcolor=${textColor}:line_spacing=30:` +
     `shadowcolor=0x0A0E1A@0.85:shadowx=0:shadowy=12:borderw=3:bordercolor=0x0A0E1A@0.5:` +
     `x=(w-text_w)/2:y='(h-text_h)/2-90+60*(1-min(1,t/0.5))':` +
     `alpha='if(lt(t,0.15),0,min(1,(t-0.15)/0.45))'`;
 
   const kickerF = kicker
-    ? `drawtext=fontfile=assets/arialbd.ttf:text=${kicker}:fontsize=40:fontcolor=${hex0x(accent)}:` +
+    ? `drawtext=fontfile=assets/arialbd.ttf:text=${kicker}:fontsize=42:fontcolor=${hex0x(accent)}:` +
       `shadowcolor=0x0A0E1A@0.7:shadowx=0:shadowy=6:` +
       `x=(w-text_w)/2:y=300:` +
       `alpha='if(lt(t,0.1),0,min(1,(t-0.1)/0.4))'`
+    : "";
+
+  // Animated accent underline under the hook text: draws left-to-right across
+  // the center in the first ~0.8s, giving the hook an active "marking" motion.
+  const barY = `(h+250)`;
+  const drawF = isHook
+    ? `drawbox=x='(w-560)*min(1,t/0.8)':y=${barY}:w=560:h=14:color=${hex0x(accent)}@0.9:t=fill` +
+      `,drawbox=x='(w-560)*min(1,t/0.8)':y=${barY}:w=560:h=2:color=0xFFFFFF@0.4:t=fill`
     : "";
 
   const barW = `iw*${(index + 1) / total}`;
@@ -155,7 +170,7 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
     `drawbox=x=0:y=ih-16:w=${barW}:h=16:color=${hex0x(accent)}@0.9:t=fill` +
     `,drawbox=x=0:y=ih-20:w=iw:h=4:color=0x0A0E1A@0.6:t=fill`;
 
-  const chain = [textF, kickerF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
+  const chain = [zoomF, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
     .filter(Boolean)
     .join(",");
 

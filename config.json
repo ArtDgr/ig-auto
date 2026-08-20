@@ -1,6 +1,6 @@
 {
   "brand": "The IT Support Guru",
-  "tagline": "Daily tech fixes, IT advice, and smart tech habits.",
+  "tagline": "Daily IT fixes, tech secrets & troubleshooting guides. Save time. Save money. Save your devices. Follow for 5 posts a day.",
   "startedAt": "2026-08-01",
   "language": "en",
   "niches": [
@@ -428,7 +428,14 @@
         "#helpdesk"
       ]
     },
-    "cta": "Follow @theitsupportguru — daily tech intel for IT pros.",
+    "cta": "Follow @theitsupportguru — daily IT fixes for IT pros.",
+    "accent": "#00A8FF",
+    "brandColors": {
+      "electricBlue": "#00A8FF",
+      "redFlag": "#FF3B30",
+      "black": "#05070B",
+      "white": "#FFFFFF"
+    },
     "engagement": {
       "primaryAudience": "IT professional / cybersecurity professional",
       "secondaryAudience": "home user",
@@ -437,9 +444,9 @@
         "Save this for the next ticket.",
         "What's your fix for this one? Drop it in the comments.",
         "Share this with the colleague who keeps asking.",
-        "A or B? Comment which one you'd ship.",
         "Bookmark this — you'll need it at 2am.",
-        "Tag the coworker who needs this one."
+        "Tag the coworker who needs this one.",
+        "Save time, save money, save your devices. Follow for 5 posts a day."
       ],
       "commentPing": true
     },
@@ -543,7 +550,8 @@
       "Tue",
       "Wed",
       "Thu",
-      "Fri"
+      "Fri",
+      "Sat"
     ],
     "ramp": {
       "week1": 1,

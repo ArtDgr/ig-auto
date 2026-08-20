@@ -240,7 +240,10 @@ const SAVE_SHARE = {
   howto: "Save this — you'll need it next time.",
   routine: "Bookmark this routine for tomorrow.",
   tip: "Save this 30-second fix.",
-  humor: "Send this to the person who needs to hear it."
+  humor: "Send this to the person who needs to hear it.",
+  redflag: "Save this before it becomes a repair bill.",
+  myth: "Share this with the person who still believes it.",
+  secrets: "Save this — insider knowledge only pays off when you use it."
 };
 
 // Engagement CTA rotation from config (fallback set keeps older runs stable).
@@ -410,6 +413,55 @@ function gadgetFocusCard(topic, rnd) {
   ];
 }
 
+// ---- 5-pillar daily system (brand strategy) ----
+// Slot 0: Daily Red Flag (signature static, red) — a silent problem made visible.
+// Slot 1: Tech Mythbuster (static) — a widely-believed myth vs the real truth.
+// Slot 2: IT Guru Secrets (carousel) — insider knowledge that earns authority.
+// Slot 3: Micro Guide (carousel) — the bread-and-butter troubleshooting how-to.
+// Reel:   Daily IT Fix — punchy hook -> demo -> save CTA.
+
+const PILLAR_KICKERS = {
+  redflag: "DAILY RED FLAG",
+  myth: "TECH MYTHBUSTER",
+  secrets: "IT GURU SECRETS",
+  howto: "MICRO GUIDE"
+};
+
+function redFlagCard(flag, niche) {
+  const big = phraseCut(String(flag.flag || "Something is quietly wrong."), 40);
+  const why = String(flag.why || "").replace(/\s+/g, " ").trim();
+  const fix = String(flag.fix || "").replace(/\s+/g, " ").trim();
+  return [
+    { kind: "hook", text: `${big}\n${shorten(why, 110)}` },
+    { kind: "body", text: shorten("WHY IT'S A PROBLEM — " + why, 200) },
+    { kind: "body", text: shorten("THE FIX — " + fix, 210) },
+    { kind: "cta", text: "Save this before it costs you a repair bill." }
+  ];
+}
+
+function mythCard(m, niche) {
+  const myth = String(m.myth || "").replace(/\s+/g, " ").trim();
+  const truth = String(m.truth || "").replace(/\s+/g, " ").trim();
+  return [
+    { kind: "hook", text: `${phraseCut(myth, 42)}` },
+    { kind: "body", text: shorten("THE TRUTH — " + truth, 220) },
+    { kind: "cta", text: "Share this with the person who still believes it." }
+  ];
+}
+
+function secretCard(s, niche) {
+  const line = shorten(String(s.secrets && s.secrets[0] || "Insider knowledge, free."), 90);
+  return [
+    { kind: "hook", text: `${s.title}\n${line}` },
+    { kind: "facts", text: (s.secrets || []).join("\n") },
+    { kind: "cta", text: "Save this — insider knowledge only pays off when you use it." }
+  ];
+}
+
+function microGuideCard(howto, niche) {
+  return howtoSlides(howto, niche);
+}
+
 // Single image card from a deep news story: headline + real facts + attribution.
 function newsCard(topic) {
   const raw = shorten(String(topic.title || "A new tech story just broke."), 90);
@@ -470,6 +522,23 @@ function captionFor(post, rnd) {
     const ask = gf.cta || "Which one's on your wishlist?";
     return `${kick} ${emoji}\n\n${post.title}${bullets}${src}\n\n${ask}\n\n${tags}\n\n${handle} — the gadget worth your attention.${line(cta())}`;
   }
+  if (post.kind === "redflag") {
+    const body = post.slides.find((s) => /WHY IT'S A PROBLEM/i.test(s.text || ""));
+    const fix = post.slides.find((s) => /THE FIX/i.test(s.text || ""));
+    const whyLine = body ? body.text.replace(/^WHY IT'S A PROBLEM\s*—\s*/i, "").trim() : "";
+    const fixLine = fix ? fix.text.replace(/^THE FIX\s*—\s*/i, "").trim() : "";
+    return `🚩 DAILY RED FLAG\n\n${post.title}\n\nWhy it's a problem: ${whyLine}\nThe fix: ${fixLine}\n\nSave this before it becomes a repair bill →\n\n${tags}\n\n${handle} — daily tech fixes for IT pros.${line(cta())}`;
+  }
+  if (post.kind === "myth") {
+    const body = post.slides.find((s) => /THE TRUTH/i.test(s.text || ""));
+    const truth = body ? body.text.replace(/^THE TRUTH\s*—\s*/i, "").trim() : "";
+    return `🛑 TECH MYTHBUSTER\n\nMyth: ${post.title}\nTruth: ${truth}\n\nShare this with the person who still believes it →\n\n${tags}\n\n${handle} — separating tech fact from fiction.${line(cta())}`;
+  }
+  if (post.kind === "secrets") {
+    const pts = captionPoints(post);
+    const bullets = pts.length ? "\n\n" + pts.map((p) => "• " + p).join("\n") : "";
+    return `${post.title} 🔓\n\nInsider knowledge, free.${bullets}\n\nSave this — it'll be your shortcut later →\n\n${tags}\n\n${handle} — the IT secrets nobody else shares.${line(cta())}`;
+  }
   if (post.format === "carousel" && post.kind === "howto") {
     const list = stepLines(post).join("\n");
     return `${post.title} ${emoji}\n\n${list}\n\nSave this for the next ticket →\n\n${tags}\n\n${handle} — daily tech intel for IT pros.${line(cta())}`;
@@ -505,25 +574,52 @@ const FORMAT_CYCLE = [
   { 0: "image", 1: "routine", 2: "carousel" }
 ];
 
-function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
-  const n = NICHES[nicheId];
-  const news = topics.length ? topics : [];
-  // "news" slots always show a real story; "evergreen" slots always show a
-  // pro tip/how-to/routine — the content that earns "this guy knows his stuff".
-  const newsBias = mode === "news" ? 1 : 0;
+// The 5-pillar daily system. Every post carries a `pillar` key so the renderer
+// can apply the brand's visual identity (thick borders, black/white/electric
+// blue; red for Red Flag) and captions stay on-voice.
+function buildPillarPost(nicheId, pillar, rnd, slot = 0) {
+  const n = NICHES[nicheId] || {};
+  const topics = topicsForNiche(nicheId);
   let slides, kind, title, _srcTopic, _humorNicheId;
+  const p = pillar.kind;
 
-  // News slots always show a real story. Slot 0 = punchy single card; later
-  // news slots get a full swipe-story so there's room for depth.
-  const newsStory = news.length && (mode === "news" || rnd() < newsBias);
-
-  if (newsStory) {
-    let topic = pickDeepest(news);
-    // A lead that can't support two facts reads as a bot — fall back to the
-    // deepest story in this niche that actually has real sentences to show.
+  if (p === "redflag") {
+    const flag = pick(n.redflags || [], rnd);
+    kind = "redflag";
+    title = flag.flag;
+    slides = redFlagCard(flag, nicheId);
+  } else if (p === "myth") {
+    const m = pick(n.myths || [], rnd);
+    kind = "myth";
+    title = m.myth;
+    slides = mythCard(m, nicheId);
+  } else if (p === "secrets") {
+    const s = pick(n.secrets || [], rnd);
+    kind = "secrets";
+    title = s.title;
+    slides = secretCard(s, nicheId);
+  } else if (p === "guide") {
+    // Micro Guide: the bread-and-butter troubleshooting carousel. Prefer a deep
+    // fresh news story when it reads like a fix/lesson, else the how-to library.
+    const howto = pick(n.howtos || [], rnd);
+    kind = "howto";
+    title = howto.title;
+    slides = microGuideCard(howto, nicheId);
+  } else if (p === "humor") {
+    const item = pick(n.humor || [], rnd);
+    kind = "humor";
+    title = item.title;
+    slides = humorCard(item, nicheId);
+  } else if (p === "tip") {
+    const tip = pick(n.tips || [], rnd);
+    kind = "tip";
+    title = tip.title;
+    slides = tipCard(tip, nicheId);
+  } else if (p === "news") {
+    let topic = pickDeepest(topics);
     if (topicFacts(topic, 6).length < 2) {
       let best = null;
-      for (const t of news) {
+      for (const t of topics) {
         if (topicFacts(t, 6).length >= 2 && (!best || contentDepth(t) > contentDepth(best))) best = t;
       }
       if (best) topic = best;
@@ -532,45 +628,24 @@ function buildPost(nicheId, format, topics, rnd, slot = 0, mode = "mix") {
     title = shorten(String(topic.title || ""), 56);
     slides = newsCarouselSlides(topic, nicheId, rnd);
     _srcTopic = topic;
-  } else if (isHumorDay(rnd)) {
-    // Humor lives in the IT-pro/security niches; on a humor day pick from any
-    // niche that has humor content so the Friday "IT-isms" slot always fires.
-    const humorNiche = Object.entries(NICHES).find(([, nn]) => nn.humor && nn.humor.length);
-    const n2 = humorNiche ? humorNiche[1] : n;
-    const item = pick(n2.humor, rnd);
-    kind = "humor";
-    title = item.title;
-    slides = humorCard(item, n2.id || nicheId);
-    _humorNicheId = n2.id;
-  } else if (format === "routine") {
-    const routine = pick(n.routines, rnd);
-    kind = "routine";
-    title = routine.title;
-    slides = routineCard(routine, nicheId);
-  } else if (format === "carousel") {
-    const howto = pick(n.howtos, rnd);
-    kind = "howto";
-    title = howto.title;
-    slides = howtoSlides(howto, nicheId);
   } else {
-    const tip = pick(n.tips, rnd);
+    const tip = pick(n.tips || [], rnd);
     kind = "tip";
     title = tip.title;
     slides = tipCard(tip, nicheId);
   }
 
-  const formatOut = kind === "news" ? "carousel" : format;
-  const postNicheId = _humorNicheId || nicheId;
-  const nMeta = NICHES[postNicheId] || n;
+  const formatOut = kind === "news" || kind === "howto" || kind === "secrets" ? "carousel" : "image";
   const post = {
     id: `${dateKeyShort()}${slug(title)}`,
-    slot: 0,
-    niche: postNicheId,
-    nicheLabel: nMeta.label,
-    accent: nMeta.accent,
-    emoji: nMeta.emoji,
+    slot,
+    niche: nicheId,
+    nicheLabel: n.label,
+    accent: n.accent,
+    emoji: n.emoji,
     format: formatOut,
     kind,
+    pillar: PILLAR_KICKERS[kind] || null,
     title,
     source: _srcTopic ? sourceName(_srcTopic) : null,
     link: _srcTopic && _srcTopic.link ? _srcTopic.link : null,
@@ -668,25 +743,23 @@ export function generateIgPlan() {
     const CORE = ["ai", "gadgets", "apple", "hardware", "security"];
     dayNicheOrder = rnd() < 0.75 ? shuffle(CORE, rnd) : shuffle(nicheIds, rnd);
   }
-  // Four daily posts, four formats: no format repeats more than twice, and the
-  // news lead at slot 0 must never be an evergreen routine.
-  const formats = shuffle(["carousel", "image", "routine", "carousel"], rnd);
-  if (formats[0] === "routine") {
-    const t = formats[2];
-    formats[2] = formats[0];
-    formats[0] = t;
-  }
-  // Slots 0-2 are fresh, fact-rich news posters (slot 0 single-card, slots 1-2
-  // full swipe-stories). Slot 3 is the helpful evergreen how-to/tip/routine.
-  const modes = ["news", "news", "news", "evergreen"];
+  // The 5-pillar daily system (brand strategy):
+  //   slot 0: Daily Red Flag   (signature static, red)
+  //   slot 1: Tech Mythbuster  (static, shareable myth vs truth)
+  //   slot 2: IT Guru Secrets  (carousel, authority layer)
+  //   slot 3: Micro Guide      (carousel, bread-and-butter how-to)
+  //   reel : Daily IT Fix      (punchy hook -> demo -> save CTA)
+  const pillars = [
+    { kind: "redflag" },
+    { kind: "myth" },
+    { kind: "secrets" },
+    { kind: "guide" }
+  ];
 
   const posts = [];
   for (let slot = 0; slot < 4; slot++) {
     const nicheId = dayNicheOrder[slot];
-    const format = formats[slot];
-    const topics = topicsForNiche(nicheId);
-    const post = buildPost(nicheId, format, topics, rnd, slot, modes[slot]);
-    post.slot = slot;
+    const post = buildPillarPost(nicheId, pillars[slot], rnd, slot);
     posts.push(post);
   }
 
@@ -715,12 +788,14 @@ export function appendIgSlot(plan, slotIndex) {
   const nicheIds = Object.keys(NICHES);
   const CORE = ["ai", "gadgets", "apple", "hardware", "security"];
   const nicheId = rnd() < 0.75 ? pick(CORE, rnd) : pick(nicheIds, rnd);
-  const formats = ["carousel", "image", "routine"];
-  const existing = new Set(plan.posts.map((p) => p.format));
-  const avail = formats.filter((f) => !existing.has(f));
-  const format = avail.length ? pick(avail, rnd) : pick(formats, rnd);
-  const topics = topicsForNiche(nicheId);
-  const post = buildPost(nicheId, format, topics, rnd);
+  const pillars = [
+    { kind: "redflag" },
+    { kind: "myth" },
+    { kind: "secrets" },
+    { kind: "guide" }
+  ];
+  const pillar = pillars[slotIndex] || pick(pillars, rnd);
+  const post = buildPillarPost(nicheId, pillar, rnd, slotIndex);
   post.slot = slotIndex;
   const idx = plan.posts.findIndex((p) => p.slot === slotIndex);
   if (idx >= 0) plan.posts.splice(idx, 1, post);

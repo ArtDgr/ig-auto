@@ -2,8 +2,8 @@ name: daily-ig-build
 
 on:
   schedule:
-    # Sun-Thu 19:30 UTC = 05:30 AEST Mon-Fri (Australia/Brisbane, UTC+10, no DST)
-    - cron: "30 19 * * 0-4"
+    # Sun-Fri 19:30 UTC = 05:30 AEST Mon-Sat (Australia/Brisbane, UTC+10, no DST)
+    - cron: "30 19 * * 0-5"
   workflow_dispatch:
 
 permissions:

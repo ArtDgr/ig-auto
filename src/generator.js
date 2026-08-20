@@ -181,22 +181,25 @@ function buildReelDeck(topic) {
   const longForm = sentences.length >= 3 ? sentences : null;
   const handle = (config.instagram && config.instagram.handle) || "@theitsupportguru";
   const hk = makeReelHook(topic);
+  // Daily IT Fix: 3-5s hook (a punchy stat/question), 10-15s of the real story
+  // as quick fix-framed facts, then a 5s save/share CTA. Short, punchy, useful.
   const bodyPoints = longForm
-    ? longForm.map((s) => shorten(s, 88)).filter((s) => !isRetailPromo(s)).slice(0, 3)
+    ? longForm.map((s) => shorten(s, 80)).filter((s) => !isRetailPromo(s)).slice(0, 3)
     : [
-        `The short version: ${shorten(raw, 78)}.`,
+        `The short version: ${shorten(raw, 72)}.`,
         "Why it matters: this sits right at the frontier of bleeding-edge tech.",
         "What to watch: how the AI and hardware giants respond over the next week."
       ];
   const slides = [{ text: hk.big, kind: "hook" }];
   if (hk.line) slides.push({ text: hk.line, kind: "body" });
   bodyPoints.forEach((b) => slides.push({ text: b, kind: "body" }));
-  slides.push({ text: `Save this. Share it. Follow ${handle} — daily tech intel for IT pros.`, kind: "cta" });
+  slides.push({ text: `Save this. Share it. Follow ${handle} — daily IT fixes for IT pros.`, kind: "cta" });
   return {
     id: slug(raw),
     niche: topic.nicheId || "",
     href: topic.link || "",
     title: shorten(raw, 70),
+    pillar: "DAILY IT FIX",
     slides
   };
 }
@@ -210,7 +213,7 @@ function reelCaption(deck) {
   const base = (ig.baseHashtags || []).map((t) => t);
   const niche = (ig.nicheHashtags && ig.nicheHashtags[deck.niche]) || [];
   const tags = [...new Set([...base, ...niche]).values()].slice(0, ig.hashtagLimit || 15).join(" ");
-  return `${hook}.\n\n${tags}\n\n${ig.handle} — daily tech intel for IT pros.`;
+  return `${hook}.\n\nSave this fix for later.\n\n${tags}\n\n${ig.handle} — daily IT fixes for IT pros.`;
 }
 
 export function generateReel() {

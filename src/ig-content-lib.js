@@ -43,6 +43,25 @@ export const NICHES = {
       { title: "Have you tried turning it off", body: "IT's oldest joke is also its best advice — because it clears state, flushes memory, and resets broken sessions. Half the tickets we take close with a reboot, and that's not a failure. It's the cheapest reliable fix we have." },
       { title: "The one that got away", body: "You troubleshoot for 90 minutes. You test six things. You give up and reboot — and it works. The log's clean, the cause is gone, and the ticket closes with 'works on my end.' We don't question it. We move on." },
       { title: "It works on my machine", body: "'It works on my machine' is how the most frustrating bug in IT starts — and it's almost always a config difference, not a lie. Containers exist because of this sentence. Docker turned a meme into a career path." }
+    ],
+    myths: [
+      { myth: "Restarting your PC wipes your data", truth: "A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it." },
+      { myth: "Closing apps saves your battery", truth: "Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed." },
+      { myth: "Antivirus alone keeps you safe", truth: "A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself." },
+      { myth: "More RAM always makes your PC faster", truth: "Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust." },
+      { myth: "You need a registry cleaner", truth: "Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs." }
+    ],
+    secrets: [
+      { title: "5 Windows tools IT pros use that you don't", secrets: ["Event Viewer shows the real error behind every crash", "`powercfg /batteryreport` reveals true battery health", "MSConfig safe boot isolates driver problems", "Reliability Monitor charts every blue screen in history", "The built-in Steps Recorder captures exact repro steps"] },
+      { title: "What IT does before calling it a hardware problem", secrets: ["Force-restart once — clears 80% of weird states", "Check disk space before touching drivers", "Test a clean user profile before reinstalling", "Re-seat RAM and cables before ordering parts", "Always rule out the power supply first"] },
+      { title: "The hidden Windows tools nobody uses", secrets: ["`sfc /scannow` repairs corrupted system files", "`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store", "`msinfo32` exports a full hardware report", "`resmon` shows what's actually maxing your disk", "`gpresult` reveals every applied policy at once"] }
+    ],
+    redflags: [
+      { flag: "Your PC takes 5 minutes to boot", why: "That's startup bloat, not normal — dozens of apps auto-launch silently.", fix: "Task Manager > Startup, disable everything you don't open in the first 5 minutes." },
+      { flag: "You 'clean' your PC with booster apps", why: "They delete the wrong things and claim to fix problems you don't have.", fix: "Use Settings > Storage and Disk Cleanup — nothing more." },
+      { flag: "You never restart your PC", why: "Caches, stuck sessions and pending updates pile up until something breaks.", fix: "One restart a week clears state and flushes memory." },
+      { flag: "You ignore the Windows Update restart prompt", why: "Patching is security — every missed update is an open door.", fix: "Schedule updates for the weekend and let it finish." },
+      { flag: "Your system drive is under 15% free space", why: "A full drive crawls no matter how new the PC is.", fix: "Settings > Storage > Temporary files — clear it, then empty the Recycle Bin." }
     ]
   },
   "cloud-devops": {
@@ -73,6 +92,22 @@ export const NICHES = {
       { title: "Daily 10-minute ops habit", steps: ["Glance at error logs — target zero new", "Check disk usage on production servers", "Confirm no stuck deployments", "Scan three key systems for pending updates", "Log off with a clean board."] },
       { title: "Weekly Terraform hygiene", steps: ["Run terraform plan to spot drift", "Remove unused resources — they still bill", "Tag anything untagged", "Update provider versions monthly", "Apply and re-run your tests."] },
       { title: "Monthly cost audit", steps: ["Download your itemized bill", "Find the top three services — is each needed?", "Turn off dev machines at night with schedules", "Downsize anything over-provisioned", "Document what you changed."] }
+    ],
+    myths: [
+      { myth: "The cloud saves you money automatically", truth: "Cloud saves money with discipline — unmonitored resources bill forever. Without budget alerts and auto-shutdown, the bill is the surprise." },
+      { myth: "Docker containers are mini VMs", truth: "Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all." },
+      { myth: "Autoscaling handles everything", truth: "Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first." },
+      { myth: "A backup that says 'success' is safe", truth: "Your backup is only as good as a restore you've actually tested. Corruption, missing buckets and wrong regions hide until you need it." }
+    ],
+    secrets: [
+      { title: "Ops rules that prevent the worst outages", secrets: ["Set budgets and alerts before you build", "Cap autoscale and scale dev to zero", "Tag everything at creation, never later", "Test restores monthly — 'success' isn't proof", "Make infra code so it's reviewable and rollback-able"] },
+      { title: "Why 'works on my machine' finally died", secrets: ["Docker packages the app with its runtime", "Dev and prod now run identical containers", "Config drift is the real enemy, not the code", "IaC makes every change reviewable in PRs", "Local repros became a checkbox, not a mystery"] }
+    ],
+    redflags: [
+      { flag: "You have no cloud budget alert", why: "Surprise bills come from resources you forgot were still running.", fix: "Create a budget with 50/80/100% alerts today — it takes five minutes." },
+      { flag: "Your backup has never been restored", why: "Unrestored backups are often corrupt, missing or in the wrong region.", fix: "Run a monthly restore drill to a scratch environment." },
+      { flag: "You click-click-click in the console instead of IaC", why: "Manual clicks are invisible, unreviewable and can't be rolled back.", fix: "Write Terraform or CloudFormation — infra as code." },
+      { flag: "Dev machines run 24/7", why: "A dev server left running bills all night for zero users.", fix: "Schedule them to shut down at 7pm and start at 7am." }
     ]
   },
   ai: {
@@ -103,6 +138,21 @@ export const NICHES = {
       { title: "Daily 5-minute prompt practice", steps: ["Rewrite a real email or answer from yesterday", "Prompt for specific improvements", "Compare and keep the better version", "Save the prompt to your vault", "Five minutes a day compounds fast."] },
       { title: "Weekly AI hygiene", steps: ["Review what you pasted into AI tools", "Rotate any credentials that leaked into prompts", "Clear chat histories holding client data", "Update your saved prompt library", "Set one rule for next week's AI use."] },
       { title: "Monthly capability re-test", steps: ["Pick three tasks you gave up on with AI", "Re-prompt them with a current model", "Track whether results changed", "Adopt what actually works now", "Models move fast — test monthly, not yearly."] }
+    ],
+    myths: [
+      { myth: "AI is always right", truth: "Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it." },
+      { myth: "You need the most expensive model", truth: "Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning." },
+      { myth: "AI replaces IT pros", truth: "Used right, AI automates the grunt work — log triage, script writing, ticket drafting. The pro who verifies and ships the result is still the one who matters." },
+      { myth: "ChatGPT remembers everything", truth: "Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap." }
+    ],
+    secrets: [
+      { title: "Prompt tricks IT pros use daily", secrets: ["Give the model a role: 'You are a senior sysadmin'", "State the goal and constraints, not just the question", "Ask for options, then a recommendation", "Verify code before running — AI writes plausible bugs too", "Version your best prompts like you version code"] },
+      { title: "How to actually verify AI output", secrets: ["Ask for a source for every key claim", "Independently check the top two sources", "Watch for plausible-but-wrong dates and names", "Treat AI as a lead, never the verdict", "When in doubt, mark it unverified"] }
+    ],
+    redflags: [
+      { flag: "You paste client data into public AI chats", why: "Prompts can be logged, stored, or used for training.", fix: "Use enterprise or local instances for anything sensitive." },
+      { flag: "You run AI-generated code without review", why: "Models produce confident, plausible-looking bugs.", fix: "Read it, test it, and don't run untested AI output." },
+      { flag: "You let an AI agent spend or delete", why: "Autonomous agents with no guardrails make costly mistakes.", fix: "Hard limits on spend, scope and accounts before autonomy." }
     ]
   },
   gadgets: {
@@ -141,6 +191,23 @@ export const NICHES = {
           "Routers radiate a doughnut-shaped signal, not evenly — corner cupboards, fish tanks and metal racks eat it. Even moving it 1 m off the floor or out of a cabinet can double the usable range.",
           "One metric per week is the trick that makes this a habit: note the speed number in the same app, same room, same time of day — trends beat one-off tests every time."
         ] }
+    ],
+    myths: [
+      { myth: "Closing all your apps saves battery", truth: "Idle apps barely drain — it's screen brightness and the one app hammering the CPU that eat your battery. Closing background tabs changes almost nothing." },
+      { myth: "You must drain your battery to 0%", truth: "Modern lithium batteries prefer partial charges. Draining to zero regularly wears them faster — charge to 80%, not to the red line and back." },
+      { myth: "More megapixels means better photos", truth: "Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light." },
+      { myth: "5G is always faster than WiFi", truth: "At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection." },
+      { myth: "Off-brand cables are fine", truth: "Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried." }
+    ],
+    secrets: [
+      { title: "What reviewers check that you don't", secrets: ["TGP — how many watts the GPU actually draws", "Sustained performance, not peak benchmark numbers", "Thermal throttling after 20 minutes of load", "Screen brightness in nits, not just resolution", "Battery health capacity, not just mAh"] },
+      { title: "How to tell if your battery is really dying", secrets: ["Check Settings > Battery > Battery Health", "Under 85% means meaningful capacity is gone", "Watch which app sits at 40%+ in battery usage", "A rogue location app drains more than screen", "Restart weekly to clear silent background hogs"] }
+    ],
+    redflags: [
+      { flag: "Your phone hits 0% by 3pm", why: "That's a worn battery or a background app hogging power.", fix: "Check battery health and Settings > Battery for the biggest drainer." },
+      { flag: "You charge overnight to 100% every night", why: "Lithium batteries age fastest at the extremes.", fix: "Charge to 80% for daily use and keep the phone off 100% at night." },
+      { flag: "You buy phones on megapixel counts", why: "Sensor and processing beat megapixels every time.", fix: "Read real photo tests, not the spec sheet." },
+      { flag: "You've never checked your battery health", why: "Worn batteries fail at the worst moment.", fix: "One tap: Settings > Battery > Battery Health." }
     ]
   },
   security: {
@@ -186,6 +253,25 @@ export const NICHES = {
       { title: "It's not paranoia, it's infosec", body: "Clicking a link from your own CEO without checking the domain? That's how one team 'renamed' their whole domain with a ransom note. The paranoia isn't a bug — it's the job. Hover the link, verify the sender, then click." },
       { title: "The password with 12 exclamation marks", body: "'Password123!!!!!!' looks strong to the person who wrote it and takes a cracking tool about 3 seconds. Length beats punctuation every time. Four random words, one master password, and a manager for the rest." },
       { title: "Patch Tuesday is a holiday", body: "Everyone on the internet dreads Patch Tuesday except IT — that's when the security debt gets paid. Miss a month and you're the newsletter headline. The monthly reboot isn't the enemy; the unpatched box is." }
+    ],
+    myths: [
+      { myth: "Incognito mode makes you anonymous", truth: "Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do." },
+      { myth: "A strong password is enough", truth: "Even great passwords get stolen in breaches. 2FA is what actually stops the attacker from using them." },
+      { myth: "Antivirus means you can't get hacked", truth: "AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human." },
+      { myth: "Only important people get targeted", truth: "Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense." },
+      { myth: "Public WiFi is a free pass", truth: "Public networks can be sniffed. Without a VPN, your login can ride on the same air as a stranger's." }
+    ],
+    secrets: [
+      { title: "5 security habits IT pros actually run", secrets: ["Password manager + unique password per site", "Authenticator app instead of SMS codes", "Lock screen on every device, every time", "Updates installed within days of release", "Backups tested by restore, not by 'it said success'"] },
+      { title: "What happens in the first hour of a breach", secrets: ["Isolate the machine from the network", "Revoke sessions and reset credentials", "Check for persistence — mailbox rules, new MFA", "Pull logs to see what was actually accessed", "Patch the gap before reconnecting"] },
+      { title: "Phishing tells that fool most people", secrets: ["Display name lies — check the sender address", "Hover links to see the real URL", "Urgency and threats are pressure, not proof", "Odd grammar is a smell, not a guarantee", "When in doubt, call the number on the card"] }
+    ],
+    redflags: [
+      { flag: "You reuse one password everywhere", why: "One breach anywhere becomes access everywhere.", fix: "Password manager, unique password per site, change the important ones first." },
+      { flag: "You click links in unexpected emails", why: "Display names lie — the address and URL are what matter.", fix: "Hover links, check the sender address, verify through the real site." },
+      { flag: "You still use SMS for 2FA", why: "SIM-swap attacks can hijack your codes.", fix: "Move to an authenticator app or a hardware key." },
+      { flag: "Your router hasn't been updated in years", why: "Unpatched router firmware is a silent back door.", fix: "Check firmware once a quarter — security patches hide there." },
+      { flag: "Your screen is unlocked when you step away", why: "An unlocked device is the most common data loss on the planet.", fix: "Windows key + L every single time. One second, no exceptions." }
     ]
   },
   apple: {
@@ -215,6 +301,20 @@ export const NICHES = {
       { title: "Sunday Apple maintenance", steps: ["Update iOS and all installed apps", "Check iCloud backup ran overnight", "Clear the screenshot and duplicates albums", "Review which apps use location", "Charge to 80% and set the week up clean."] },
       { title: "Weekly iPhone battery watch", steps: ["Open Settings > Battery to see usage", "Spot any app at 40%+ — cull it", "Turn on Low Power Mode before long days", "Unplug at 80-90%, not 100% all night", "One week of this and battery life ticks up."] },
       { title: "Monthly Apple account check", steps: ["Review Safari passwords for reused ones", "Check iCloud storage plan usage", "Revoke apps that have your Apple ID access", "Update app privacy settings you forgot", "Sign out of iCloud on devices you sold."] }
+    ],
+    myths: [
+      { myth: "Macs can't get viruses", truth: "macOS has malware too — it's just less common. Phishing and social engineering hit Mac users just as hard; good habits matter on every OS." },
+      { myth: "Force-quitting apps saves battery", truth: "Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power." },
+      { myth: "You must charge your iPhone to 100%", truth: "Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months." }
+    ],
+    secrets: [
+      { title: "Hidden macOS tools most people never find", secrets: ["Three-finger drag in Trackpad settings — a one-gesture superpower", "Control Center custom controls — toggles without Settings hunting", "Stage Manager for real multitasking", "App Library search instead of page-swiping", "Battery Health — check it before you buy any used Apple device"] },
+      { title: "The fastest way to find anything on a Mac", secrets: ["Spotlight is the app launcher and file finder", "Swipe left past the last page for App Library", "Drag onto the Dock to avoid desktop clutter", "Use Activity Monitor to find the real battery hog", "Screenshots live in one album — clean it weekly"] }
+    ],
+    redflags: [
+      { flag: "You've never checked iPhone battery health", why: "A worn battery dies at the worst moment.", fix: "Settings > Battery > Battery Health — one tap." },
+      { flag: "Your iCloud is 95% full", why: "Full storage silently breaks backups and updates.", fix: "Offload apps, clear the Screenshots album, upgrade only if needed." },
+      { flag: "You keep every screenshot you ever took", why: "They pile up and eat iCloud space silently.", fix: "Wipe the Screenshots album once a week." }
     ]
   },
   hardware: {
@@ -244,6 +344,21 @@ export const NICHES = {
       { title: "Monthly laptop health check", steps: ["Run a disk check and free 10% drive space", "Update drivers and firmware from the vendor", "Check fan vents and clean light dust", "Glance at temps after a load test", "Log the battery health % — done in 10 minutes."] },
       { title: "Weekly backup ritual", steps: ["Backup drive or cloud-sync your work files", "Verify the last backup date, not just success", "Test one restore of a folder you really need", "Stash critical documents in a second location", "Automate it so you stop thinking about it."] },
       { title: "Quarterly hardware review", steps: ["Compare your current spec to your main apps' needs", "Check RAM/SSD prices — chip-shortage means timing matters", "Look up warranty remaining on laptop and battery", "Decide upgrade vs new purchase, with the numbers", "Either way, budget one hour of maintenance weekly."] }
+    ],
+    myths: [
+      { myth: "A bigger CPU number is always faster", truth: "Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec." },
+      { myth: "More VRAM is all that matters", truth: "Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier." },
+      { myth: "You need a 'gaming' laptop for gaming", truth: "Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges." },
+      { myth: "A 4K screen is always better", truth: "Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read." }
+    ],
+    secrets: [
+      { title: "What reviewers check that you don't", secrets: ["Sustained FPS at your resolution, not peak numbers", "Thermal throttling after 20 minutes of load", "The GPU's real TGP in watts", "Panel brightness in nits — skipped too often", "Battery capacity, not just 'up to 10 hours'"] },
+      { title: "The upgrade that changes everything", secrets: ["SSD over HDD is the single biggest speed gain", "RAM matters when tabs pile up — check Task Manager first", "A laptop stand unlocks bottom airflow", "Clean vents quarterly — dust is the silent throttler", "`powercfg /batteryreport` shows true battery health"] }
+    ],
+    redflags: [
+      { flag: "Your laptop is always hot", why: "Dust and dried thermal paste silently throttle performance.", fix: "Clean the vents quarterly, repaste every couple of years." },
+      { flag: "You bought a laptop on the spec sheet alone", why: "TGP and thermals beat the headline numbers.", fix: "Read the thermal reviews, not just the benchmark score." },
+      { flag: "You've never run a battery report", why: "Laptop batteries degrade silently.", fix: "Run `powercfg /batteryreport` before you trust a 'like new' listing." }
     ]
   }
 };

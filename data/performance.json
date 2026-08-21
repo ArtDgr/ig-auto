@@ -1572,14 +1572,14 @@
     },
     "6a863c745bebcc0cdc263208": {
       "bufferId": "6a863c745bebcc0cdc263208",
-      "views": 9,
-      "reach": 9,
+      "views": 12,
+      "reach": 12,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 16.2,
+      "score": 21.6,
       "raw": [
         {
           "name": "Reactions",
@@ -1595,7 +1595,7 @@
         },
         {
           "name": "Views",
-          "value": 9
+          "value": 12
         },
         {
           "name": "Shares",
@@ -1611,7 +1611,7 @@
         },
         {
           "name": "Reach",
-          "value": 9
+          "value": 12
         }
       ],
       "text": "Google’s Pixel 11 Pro Fold feels like the end of an era.\r\n\r\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #",
@@ -1852,14 +1852,14 @@
     },
     "6a851d564cc5b353b0853f94": {
       "bufferId": "6a851d564cc5b353b0853f94",
-      "views": 4,
-      "reach": 4,
+      "views": 9,
+      "reach": 8,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 7.2,
+      "score": 15.4,
       "raw": [
         {
           "name": "Reactions",
@@ -1875,7 +1875,7 @@
         },
         {
           "name": "Views",
-          "value": 4
+          "value": 9
         },
         {
           "name": "Shares",
@@ -1891,7 +1891,7 @@
         },
         {
           "name": "Reach",
-          "value": 4
+          "value": 8
         }
       ],
       "text": "Google Kicks Off Fall Hardware Season With.\n\n#techsupport #techtips #itsupportguru #pchelp #techdaily #apple #iphone #ma",
@@ -1902,7 +1902,391 @@
       "type": "reel",
       "niche": "it-support",
       "firstSeenAt": "2026-08-20T19:57:49.062Z"
+    },
+    "6a87636a31c3944fac8a5196": {
+      "bufferId": "6a87636a31c3944fac8a5196",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "FRIDAY TECH GADGET FOCUS 📱\n\nThe big three US carriers are offering some Pixel 11…\n\n• The Google Pixel 11 series is now ",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-gadget-focus-the-big-three-us-carriers-are-offering-some-pixel-11-mod/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-gadget-focus-the-big-three-us-carriers-are-offering-some-pixel-11-mod/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-gadget-focus-the-big-three-us-carriers-are-offering-some-pixel-11-mod/03.png"
+      ],
+      "sentAt": "2026-08-21T08:00:49.148Z",
+      "type": "card",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-21T19:49:16.572Z"
+    },
+    "6a875c3c0fde1e61dd0b8a02": {
+      "bufferId": "6a875c3c0fde1e61dd0b8a02",
+      "views": 3,
+      "reach": 3,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 5.4,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 3
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 3
+        }
+      ],
+      "text": "Google’s Pixel 11 Pro Fold feels like the end of an era.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #it",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260821-google-s-pixel-11-pro-fold-feels-like-the-end-of-an-era.mp4"
+      ],
+      "sentAt": "2026-08-21T05:02:13.547Z",
+      "type": "reel",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-21T19:49:16.572Z"
+    },
+    "6a875c3b2517aaad20533bb4": {
+      "bufferId": "6a875c3b2517aaad20533bb4",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "The one that got away 🍎\n\nThe one that got away\n\nSave this for later →\n\n#macos #applenews #itpro #ios #macrumors #apple ",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-the-one-that-got-away/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-the-one-that-got-away/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-the-one-that-got-away/03.png"
+      ],
+      "sentAt": "2026-08-21T10:01:39.217Z",
+      "type": "card",
+      "niche": "apple",
+      "firstSeenAt": "2026-08-21T19:49:16.572Z"
+    },
+    "6a875c3a2517aaad20533b91": {
+      "bufferId": "6a875c3a2517aaad20533b91",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Qualcomm Modular Open-Sourced at ModCon 2026 ☁️\n\nQualcomm Modular Open-Sourced at ModCon 2026\n\n• Qualcomm's Modular soft",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-qualcomm-modular-open-sourced-at-modcon-2026/04.png"
+      ],
+      "sentAt": "2026-08-21T07:00:33.917Z",
+      "type": "card",
+      "niche": "cloud-devops",
+      "firstSeenAt": "2026-08-21T19:49:16.572Z"
+    },
+    "6a875c39ca8e6cdb1797d915": {
+      "bufferId": "6a875c39ca8e6cdb1797d915",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor… 💻\n\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor…\n\n• When yo",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor/04.png"
+      ],
+      "sentAt": "2026-08-21T02:00:49.563Z",
+      "type": "card",
+      "niche": "hardware",
+      "firstSeenAt": "2026-08-21T19:49:16.573Z"
+    },
+    "6a875c380fde1e61dd0b89d9": {
+      "bufferId": "6a875c380fde1e61dd0b89d9",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most emai",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent/04.png"
+      ],
+      "sentAt": "2026-08-20T20:01:07.928Z",
+      "type": "card",
+      "niche": "security",
+      "firstSeenAt": "2026-08-21T19:49:16.573Z"
+    },
+    "6a8640c16d2f57ba06c35c5b": {
+      "bufferId": "6a8640c16d2f57ba06c35c5b",
+      "views": 26,
+      "reach": 25,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 46,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 26
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 25
+        }
+      ],
+      "text": "Apple Watch Series 11 vs Google Pixel Watch 5: Flagship smartwatches,.\n\n#techsupport #techtips #itsupportguru #pchelp #t",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260819-apple-watch-series-11-vs-google-pixel-watch-5-flagship-smart.mp4?v=2"
+      ],
+      "sentAt": "2026-08-21T08:31:13.287Z",
+      "type": "reel",
+      "niche": "it-support",
+      "firstSeenAt": "2026-08-21T19:49:16.573Z"
     }
   },
-  "updatedAt": "2026-08-21T00:04:47.181Z"
+  "updatedAt": "2026-08-21T19:49:16.574Z"
 }

@@ -165,5 +165,41 @@
       "dueAt": "2026-08-21T05:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-08-22": {
+    "0": {
+      "postId": "20260822-you-click-click-click-in-the-console-instead-of-iac",
+      "bufferId": "6a88abb8b1e0795f7f62c8f1",
+      "dueAt": "2026-08-21T20:00:00.000Z",
+      "niche": "cloud-devops",
+      "title": "You click-click-click in the console instead of IaC"
+    },
+    "1": {
+      "postId": "20260822-you-must-charge-your-iphone-to-100",
+      "bufferId": "6a88abb95b4a6e681b3046f9",
+      "dueAt": "2026-08-22T02:00:00.000Z",
+      "niche": "apple",
+      "title": "You must charge your iPhone to 100%"
+    },
+    "2": {
+      "postId": "20260822-the-hidden-windows-tools-nobody-uses",
+      "bufferId": "6a88abba3869cf66589615ab",
+      "dueAt": "2026-08-22T07:00:00.000Z",
+      "niche": "it-support",
+      "title": "The hidden Windows tools nobody uses"
+    },
+    "3": {
+      "postId": "20260822-buy-a-laptop-that-fits-your-work",
+      "bufferId": "6a88abba1b38003a90d31077",
+      "dueAt": "2026-08-22T10:00:00.000Z",
+      "niche": "hardware",
+      "title": "Buy a laptop that fits your work"
+    },
+    "reel": {
+      "file": "20260822-poco-m8x-arrives-with-the-snapdragon-4-gen-5-soc-a-120hz-dis.mp4",
+      "bufferId": "6a88abbb5b4a6e681b304723",
+      "dueAt": "2026-08-22T05:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

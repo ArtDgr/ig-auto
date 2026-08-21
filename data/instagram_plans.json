@@ -1,133 +1,145 @@
 {
   "date": "2026-08-21",
-  "generatedAt": "2026-08-20T20:27:46.799Z",
+  "generatedAt": "2026-08-21T00:04:30.118Z",
   "posts": [
     {
-      "id": "20260821-phishing-3-0-the-fight-moves-to-agent-versus-agent",
+      "id": "20260821-your-screen-is-unlocked-when-you-step-away",
       "slot": 0,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
       "accent": "#FF4D4D",
       "emoji": "🔐",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "source": "The Hacker News",
-      "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+      "format": "image",
+      "kind": "redflag",
+      "pillar": "DAILY RED FLAG",
+      "title": "Your screen is unlocked when you step away",
+      "source": null,
+      "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Phishing 3.0: The Fight Moves to Agent Versus\nPhishing 3.0: The Fight Moves to Agent Versus Agent"
-        },
-        {
-          "kind": "facts",
-          "text": "Most email defenses still do the job they did a decade ago.\nScan the message, look for something malicious, block it.\nThat worked when the danger sat in the payload, a bad link or an attachment.\nIt stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person."
+          "text": "Your screen is unlocked when you step\nAn unlocked device is the most common data loss on the planet."
         },
         {
           "kind": "body",
-          "text": "THE TAKEAWAY — Malicious links, infected attachments, spam."
+          "text": "WHY IT'S A PROBLEM — An unlocked device is the most common data loss on the planet."
+        },
+        {
+          "kind": "body",
+          "text": "THE FIX — Windows key + L every single time. One second, no exceptions."
         },
         {
           "kind": "cta",
-          "text": "Save this story — you'll want it later."
+          "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "Phishing 3.0: The Fight Moves to Agent Versus Agent 🔐\n\nPhishing 3.0: The Fight Moves to Agent Versus Agent\n\n• Most email defenses still do the job they did a decade ago.\n• Scan the message, look for something malicious, block it.\n• That worked when the danger sat in the payload, a bad link or an attachment.\n• It stopped working when the danger moved into the message's intent, and it is failing now that the sender is no longer a person.\n\nSource: The Hacker News — https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html\n\nSave this for later →\n\n#phishing #password #security #privacy #2fa #secops #datasecurity #infosec #techtips #techdaily #sysadmin #itpro\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour screen is unlocked when you step away\n\nWhy it's a problem: An unlocked device is the most common data loss on the planet.\nThe fix: Windows key + L every single time. One second, no exceptions.\n\nSave this before it becomes a repair bill →\n\n#datasecurity #security #infosec #2fa #secops #onlinesafety #cyberdefense #password #helpdesk #sysadmin #techtips #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260821-asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor",
+      "id": "20260821-more-vram-is-all-that-matters",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
       "accent": "#8FE3B0",
       "emoji": "💻",
-      "format": "carousel",
-      "kind": "news",
-      "title": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor…",
-      "source": "Tom's Hardware",
-      "link": "https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review",
+      "format": "image",
+      "kind": "myth",
+      "pillar": "TECH MYTHBUSTER",
+      "title": "More VRAM is all that matters",
+      "source": null,
+      "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Asus ROG Swift PG32UCWM 32-inch OLED gaming\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor review: A flagship display with premium…"
-        },
-        {
-          "kind": "facts",
-          "text": "When you purchase through links on our site, we may earn an affiliate commission.\nThe Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\nIt is a flagship among flagships.\nWhy you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TAKEAWAY — With prices generally higher than their LCD counterparts, the best OLED gaming monitors remain a premium category."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
-          "text": "Save this story — you'll want it later."
+          "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "Asus ROG Swift PG32UCWM 32-inch OLED gaming monitor… 💻\n\nAsus ROG Swift PG32UCWM 32-inch OLED gaming monitor…\n\n• When you purchase through links on our site, we may earn an affiliate commission.\n• The Asus ROG Swift PG32UCWM games with an addictive quality that carries over to its incredibly sharp and colorful image.\n• It is a flagship among flagships.\n• Why you can trust Tom's Hardware Our expert reviewers spend hours testing and comparing products and services so you can choose…\n\nSource: Tom's Hardware — https://www.tomshardware.com/monitors/gaming-monitors/asus-rog-swift-pg32ucwm-32-inch-oled-gaming-monitor-review\n\nSave this for later →\n\n#hardware #laptop #chipshortage #ssd #pcgaming #cpu #ram #pc #techtips #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — daily tech intel.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#hardware #laptop #laptops #cpu #ssd #chipshortage #pc #ram #helpdesk #techsupport #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260821-qualcomm-modular-open-sourced-at-modcon-2026",
+      "id": "20260821-ops-rules-that-prevent-the-worst-outages",
       "slot": 2,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
       "accent": "#7C5CFF",
       "emoji": "☁️",
       "format": "carousel",
-      "kind": "news",
-      "title": "Qualcomm Modular Open-Sourced at ModCon 2026",
-      "source": "ServeTheHome",
-      "link": "https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026/",
+      "kind": "secrets",
+      "pillar": "IT GURU SECRETS",
+      "title": "Ops rules that prevent the worst outages",
+      "source": null,
+      "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "2026\nQualcomm Modular Open-Sourced at ModCon 2026"
+          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
         },
         {
           "kind": "facts",
-          "text": "Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance…\nA few weeks ago, we covered Qualcomm’s acquisition of Modular at Qualcomm Investor Day 2026.\nModular’s mission is to build an AI stack that runs across platforms.\nToday, the company took another step at ModCon 2026, open-sourcing its platform."
-        },
-        {
-          "kind": "body",
-          "text": "THE TAKEAWAY — Qualcomm needed to get there, and specifically also show other companies why it should invest in its hardware/ software platform,…"
+          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
         },
         {
           "kind": "cta",
-          "text": "Save this story — you'll want it later."
+          "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Qualcomm Modular Open-Sourced at ModCon 2026 ☁️\n\nQualcomm Modular Open-Sourced at ModCon 2026\n\n• Qualcomm's Modular software is now open-source as a big announcement from ModCon 2026 and an unexpected guest made an appearance…\n• A few weeks ago, we covered Qualcomm’s acquisition of Modular at Qualcomm Investor Day 2026.\n• Modular’s mission is to build an AI stack that runs across platforms.\n• Today, the company took another step at ModCon 2026, open-sourcing its platform.\n\nSource: ServeTheHome — https://www.servethehome.com/qualcomm-modular-amd-open-sourced-at-modcon-2026/\n\nSave this for later →\n\n#kubernetes #devops #azure #docker #aws #devopslife #cloud #techops #itsupportguru #techtips #helpdesk #itpro\n\n@theitsupportguru — daily tech intel.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Ops rules that prevent the worst outages 🔓\n\nInsider knowledge, free.\n\n• Set budgets and alerts before you build\n• Cap autoscale and scale dev to zero\n• Tag everything at creation, never later\n• Test restores monthly — 'success' isn't proof\n\nSave this — it'll be your shortcut later →\n\n#azure #docker #kubernetes #aws #devops #sre #cloudinfra #cloudcomputing #techtips #itpro #techdaily #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260821-the-one-that-got-away",
+      "id": "20260821-set-up-icloud-keychain-properly",
       "slot": 3,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
       "accent": "#C7E1FF",
       "emoji": "🍎",
       "format": "carousel",
-      "kind": "humor",
-      "title": "The one that got away",
+      "kind": "howto",
+      "pillar": "MICRO GUIDE",
+      "title": "Set up iCloud Keychain properly",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The one that got away\nYou troubleshoot for 90 minutes. You test six things. You give up and reboot — and it…"
+          "text": "Set up iCloud Keychain properly\nSettings > your name > iCloud > Passwords & Keychain"
         },
         {
-          "kind": "body",
-          "text": "You troubleshoot for 90 minutes. You test six things. You give up and reboot — and it works. The log's clean, the cause is gone, and the ticket closes with 'works on my end.' We don't question it.…"
+          "kind": "step",
+          "text": "Settings > your name > iCloud > Passwords & Keychain"
+        },
+        {
+          "kind": "step",
+          "text": "Turn on Passwords & Keychain"
+        },
+        {
+          "kind": "step",
+          "text": "Add your important logins to it"
+        },
+        {
+          "kind": "step",
+          "text": "Enable it on your Mac too (System Settings > Apple Account)"
+        },
+        {
+          "kind": "step",
+          "text": "Autofill everywhere, one passcode to remember."
         },
         {
           "kind": "cta",
-          "text": "Save this 30-second fix."
+          "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "The one that got away 🍎\n\nThe one that got away\n\nSave this for later →\n\n#macbook #ios #macrumors #itpro #applenews #apple #appleintelligence #macos #techdaily #sysadmin #itsupportguru\n\n@theitsupportguru — daily tech intel.\n\nSave this for the next ticket.",
+      "caption": "Set up iCloud Keychain properly 🍎\n\n1. Settings > your name > iCloud > Passwords & Keychain\n2. Turn on Passwords & Keychain\n3. Add your important logins to it\n4. Enable it on your Mac too (System Settings > Apple Account)\n5. Autofill everywhere, one passcode to remember.\n\nSave this for the next ticket →\n\n#appleintelligence #applenews #macos #apple #appletips #macbook #iphone #itpro #itsupportguru #sysadmin #helpdesk\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
@@ -156,7 +168,7 @@
           "text": "Save this story — you'll want it later."
         }
       ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe big three US carriers are offering some Pixel 11…\n\n• The Google Pixel 11 series is now available in stores and from carriers in select regions, following a week of pre-orders.\n• Here’s a look at what the big three US carriers have to offer.\n• T-Mobile is offering the three non-folding models for free – or as the carrier puts it “get the Pixel 11 Pro XL on Us”.\n• This means that it’s $1,300 off, making the base model free.\n\nSource: GSMArena — https://www.gsmarena.com/the_big_three_us_carriers_are_offering_some_pixel_11_models_for_free_here_is_what_you_need_to_know-news-74260.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#smartphone #batterytips #android #tech #samsung #smartphonetips #gadgets #gadgetreviews #techtips #helpdesk #itpro #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe big three US carriers are offering some Pixel 11…\n\n• The Google Pixel 11 series is now available in stores and from carriers in select regions, following a week of pre-orders.\n• Here’s a look at what the big three US carriers have to offer.\n• T-Mobile is offering the three non-folding models for free – or as the carrier puts it “get the Pixel 11 Pro XL on Us”.\n• This means that it’s $1,300 off, making the base model free.\n\nSource: GSMArena — https://www.gsmarena.com/the_big_three_us_carriers_are_offering_some_pixel_11_models_for_free_here_is_what_you_need_to_know-news-74260.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#tech #smartphone #smartphonetips #android #gadgets #batterytips #gadgetreviews #iphone #techdaily #techtips #sysadmin #itpro\n\n@theitsupportguru — the gadget worth your attention.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

@@ -1684,14 +1684,14 @@
     },
     "6a863c71e222548121738d09": {
       "bufferId": "6a863c71e222548121738d09",
-      "views": 0,
-      "reach": 0,
+      "views": 1,
+      "reach": 1,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 0,
+      "score": 1.8,
       "raw": [
         {
           "name": "Reactions",
@@ -1707,7 +1707,7 @@
         },
         {
           "name": "Views",
-          "value": 0
+          "value": 1
         },
         {
           "name": "Shares",
@@ -1723,7 +1723,7 @@
         },
         {
           "name": "Reach",
-          "value": 0
+          "value": 1
         }
       ],
       "text": "Yes, the Pixelsnap magnets on Pixel 11 are stronger… 📱\n\nYes, the Pixelsnap magnets on Pixel 11 are stronger…\n\n• Pixelsn",
@@ -2236,14 +2236,14 @@
     },
     "6a8640c16d2f57ba06c35c5b": {
       "bufferId": "6a8640c16d2f57ba06c35c5b",
-      "views": 26,
-      "reach": 25,
+      "views": 29,
+      "reach": 28,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 46,
+      "score": 51.400000000000006,
       "raw": [
         {
           "name": "Reactions",
@@ -2259,7 +2259,7 @@
         },
         {
           "name": "Views",
-          "value": 26
+          "value": 29
         },
         {
           "name": "Shares",
@@ -2275,7 +2275,7 @@
         },
         {
           "name": "Reach",
-          "value": 25
+          "value": 28
         }
       ],
       "text": "Apple Watch Series 11 vs Google Pixel Watch 5: Flagship smartwatches,.\n\n#techsupport #techtips #itsupportguru #pchelp #t",
@@ -2286,7 +2286,63 @@
       "type": "reel",
       "niche": "it-support",
       "firstSeenAt": "2026-08-21T19:49:16.573Z"
+    },
+    "6a88abb8b1e0795f7f62c8f1": {
+      "bufferId": "6a88abb8b1e0795f7f62c8f1",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "🚩 DAILY RED FLAG\n\nYou click-click-click in the console instead of IaC\n\nWhy it's a problem: Manual clicks are invisible,",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260822-you-click-click-click-in-the-console-instead-of-iac/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260822-you-click-click-click-in-the-console-instead-of-iac/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260822-you-click-click-click-in-the-console-instead-of-iac/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260822-you-click-click-click-in-the-console-instead-of-iac/04.png"
+      ],
+      "sentAt": "2026-08-21T20:01:13.703Z",
+      "type": "card",
+      "niche": "cloud-devops",
+      "firstSeenAt": "2026-08-23T19:46:44.928Z"
     }
   },
-  "updatedAt": "2026-08-21T19:49:16.574Z"
+  "updatedAt": "2026-08-23T19:46:44.931Z"
 }

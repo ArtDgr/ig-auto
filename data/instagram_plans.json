@@ -1,43 +1,43 @@
 {
-  "date": "2026-08-22",
-  "generatedAt": "2026-08-21T19:48:01.764Z",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-23T19:45:32.070Z",
   "posts": [
     {
-      "id": "20260822-you-click-click-click-in-the-console-instead-of-iac",
+      "id": "20260824-you-never-restart-your-pc",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You click-click-click in the console instead of IaC",
+      "title": "You never restart your PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You click-click-click in the console\nManual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Manual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Write Terraform or CloudFormation — infra as code."
+          "text": "THE FIX — One restart a week clears state and flushes memory."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou click-click-click in the console instead of IaC\n\nWhy it's a problem: Manual clicks are invisible, unreviewable and can't be rolled back.\nThe fix: Write Terraform or CloudFormation — infra as code.\n\nSave this before it becomes a repair bill →\n\n#cloud #cloudinfra #azure #devopslife #devops #cloudcomputing #kubernetes #aws #helpdesk #techsupport #itpro #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#windows11 #troubleshooting #techsupport #windows #helpdesk #computertips #itsupport #pc #itpro #sysadmin #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260822-you-must-charge-your-iphone-to-100",
+      "id": "20260824-force-quitting-apps-saves-battery",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -46,100 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#appletips #itpro #applenews #ios #macrumors #macbook #appleintelligence #iphone #sysadmin #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#appletips #applenews #ios #macbook #appleintelligence #iphone #macos #apple #helpdesk #techsupport #itpro #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260822-the-hidden-windows-tools-nobody-uses",
+      "id": "20260824-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The hidden Windows tools nobody uses",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
+          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
         },
         {
           "kind": "facts",
-          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
+          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The hidden Windows tools nobody uses 🔓\n\nInsider knowledge, free.\n\n• `sfc /scannow` repairs corrupted system files\n• `DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n• `msinfo32` exports a full hardware report\n• `resmon` shows what's actually maxing your disk\n\nSave this — it'll be your shortcut later →\n\n#helpdesk #troubleshooting #ithelp #techsupport #pchelp #fixyourpc #pc #windows11 #itpro #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• TGP — how many watts the GPU actually draws\n• Sustained performance, not peak benchmark numbers\n• Thermal throttling after 20 minutes of load\n• Screen brightness in nits, not just resolution\n\nSave this — it'll be your shortcut later →\n\n#batterytips #smartphone #gadgets #iphone #tech #smartphonetips #gadgetreviews #android #techdaily #helpdesk #itsupportguru #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260822-buy-a-laptop-that-fits-your-work",
+      "id": "20260824-respond-to-a-suspected-breach",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Buy a laptop that fits your work",
+      "title": "Respond to a suspected breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
+          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "List the three apps that slow your current PC"
+          "text": "Isolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "Match CPU tier and RAM to that list"
+          "text": "Revoke the account's sessions and reset credentials"
         },
         {
           "kind": "step",
-          "text": "Confirm the port needs — USB-C, HDMI, storage"
+          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
         },
         {
           "kind": "step",
-          "text": "Get 16GB+ RAM and an SSD minimum"
+          "text": "Audit logs for what the attacker accessed"
         },
         {
           "kind": "step",
-          "text": "Buy from a brand with known reliability and warranty."
+          "text": "Report and document — then patch the gap that let it in."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n4. Get 16GB+ RAM and an SSD minimum\n5. Buy from a brand with known reliability and warranty.\n\nSave this for the next ticket →\n\n#cpu #laptop #pc #hardware #chipshortage #pcgaming #ssd #laptops #itsupportguru #helpdesk #itpro #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Respond to a suspected breach 🔐\n\n1. Isolate the affected machine from the network\n2. Revoke the account's sessions and reset credentials\n3. Check for persistence: mailbox rules, new MFA, scheduled tasks\n4. Audit logs for what the attacker accessed\n5. Report and document\n     ✓ then patch the gap that let it in.\n\nSave this for the next ticket →\n\n#infosec #security #password #cyberdefense #secops #privacy #onlinesafety #2fa #techtips #techdaily #sysadmin #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

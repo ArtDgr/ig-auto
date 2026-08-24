@@ -117,6 +117,17 @@ function saveState(state) {
 }
 
 export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) {
+  // Stealth sustainability: bi-weekly random gating (~30% execution = ~94% reduction)
+  // Knuth hash gives pseudo-random 30% RUN distribution, not clustered
+  if (!dry) {
+    const n = parseInt(dateStr.replace(/-/g, ""), 10);
+    let hash = (n * 2654435761) % 100;
+    if (hash < 0) hash += 100;
+    if (hash >= 30) {
+      console.log(`[buffer] Skipped - bi-weekly random cycle (hash ${hash}/100, date ${dateStr})`);
+      return { date: dateStr, scheduled: [], skipped: true };
+    }
+  }
   const plan = loadPlan();
   if (!plan || plan.date !== dateStr) throw new Error(`No plan for ${dateStr} (have ${plan ? plan.date : "none"})`);
   const manifestPath = path.join(config.instagram.postDir, "manifest.json");
@@ -129,7 +140,19 @@ export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) 
   const state = loadState();
   const scheduled = [];
 
-  for (const post of manifest.posts) {
+  // Random 2-4 posts per bi-weekly run (shuffle manifest then slice)
+  const n2 = parseInt(dateStr.replace(/-/g, ""), 10);
+  let hash2 = (n2 * 1664525) % 3;
+  if (hash2 < 0) hash2 += 3;
+  const targetCount = 2 + hash2; // 2,3,4
+  const shuffled = [...manifest.posts].sort((a, b) => {
+    let ha = 17; for (const ch of (a.id + dateStr)) ha = (ha * 31 + ch.charCodeAt(0)) % 1000;
+    let hb = 17; for (const ch of (b.id + dateStr)) hb = (hb * 31 + ch.charCodeAt(0)) % 1000;
+    return ha - hb;
+  }).slice(0, Math.min(targetCount, manifest.posts.length));
+  if (!dry) console.log(`[buffer] stealth: selected ${shuffled.length}/${manifest.posts.length} posts for ${dateStr} (target ${targetCount})`);
+
+  for (const post of shuffled) {
     const gfTime = post.kind === "gadget-focus" ? gfCfg.time : null;
     const due = toIso(dateStr, gfTime || times[post.slot] || times[0]);
     if (state[dateStr] && state[dateStr][post.slot]) {

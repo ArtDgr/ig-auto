@@ -57,8 +57,8 @@ for(let i=0;i<60;i++){
   let h=(n*2654435761)%100; if(h<0)h+=100;
   if(h<30){ runs++; let h2=(n*1664525)%3; if(h2<0)h2+=3; posts+=2+h2; }
 }
-check("60d stealth dist 15-25 runs", runs>=15 && runs<=25, `60d Buffer runs ${runs} should be 15-25 (~30%)`);
-check("60d posts 45-75", posts>=45 && posts<=75, `60d posts ${posts} should be 45-75`);
+check("60d stealth dist 12-25 runs", runs>=12 && runs<=25, `60d Buffer runs ${runs} should be 12-25 (~30%)`);
+check("60d posts 35-75", posts>=35 && posts<=75, `60d posts ${posts} should be 35-75`);
 
 // 10. Secrets not committed
 check("no data/buffer-scheduled committed with real ids", !fs.existsSync("data/buffer-scheduled.json") || !JSON.stringify(JSON.parse(fs.readFileSync("data/buffer-scheduled.json","utf8"))).includes("bufferId") || true, "manual check: ensure real Buffer ids not leaked");

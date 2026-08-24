@@ -140,7 +140,7 @@ export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) 
   const state = loadState();
   const scheduled = [];
 
-  // Random 2-4 posts per bi-weekly run (shuffle manifest then slice)
+  // Random 2-4 posts per bi-weekly run (shuffle manifest then slice) + random times
   const n2 = parseInt(dateStr.replace(/-/g, ""), 10);
   let hash2 = (n2 * 1664525) % 3;
   if (hash2 < 0) hash2 += 3;
@@ -150,11 +150,19 @@ export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) 
     let hb = 17; for (const ch of (b.id + dateStr)) hb = (hb * 31 + ch.charCodeAt(0)) % 1000;
     return ha - hb;
   }).slice(0, Math.min(targetCount, manifest.posts.length));
-  if (!dry) console.log(`[buffer] stealth: selected ${shuffled.length}/${manifest.posts.length} posts for ${dateStr} (target ${targetCount})`);
+  // Shuffle posting times same date seed so each RUN gets random day/times combo
+  const shuffledTimes = [...times].sort((a,b)=>{
+    let ha=19; for(const ch of (a+dateStr)) ha=(ha*37+ch.charCodeAt(0))%1000;
+    let hb=19; for(const ch of (b+dateStr)) hb=(hb*37+ch.charCodeAt(0))%1000;
+    return ha-hb;
+  });
+  if (!dry) console.log(`[buffer] stealth: selected ${shuffled.length}/${manifest.posts.length} posts for ${dateStr} (target ${targetCount}) times ${shuffledTimes.slice(0,shuffled.length).join(",")}`);
 
+  let timeIdx=0;
   for (const post of shuffled) {
     const gfTime = post.kind === "gadget-focus" ? gfCfg.time : null;
-    const due = toIso(dateStr, gfTime || times[post.slot] || times[0]);
+    const due = toIso(dateStr, gfTime || shuffledTimes[timeIdx % shuffledTimes.length] || times[post.slot] || times[0]);
+    timeIdx++;
     if (state[dateStr] && state[dateStr][post.slot]) {
       console.log(`[buffer] already scheduled slot ${post.slot} for ${dateStr} (buffer ${state[dateStr][post.slot].bufferId})`);
       continue;

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.servethehome.com/fujitsus-arm-based-monaka-data-center-cpu-at-hot-chips-2026/",
+  "fetched": "2026-08-24T19:58:17.077Z",
+  "paragraphs": [
+    "After a short break, we are back for the second set of CPU sessions at Hot Chips 2026. Leading the second group of presentations is Fujitsu, who has come to this year’s show to dive deeper on Monaka, their next-generation server CPU. The successor to Fujitsu’s initial Arm-based CPU, the A64FX, the Monaka is designed to be a cutting-edge CPU aimed at the data center market. The company has previously disclosed that the chiplet-based CPU will offer up to 144 CPU cores, and will utilize 3D stacked chiplets to bring the whole chip together.",
+    "While Fujitsu’s earlier A64FX CPU was primarily seen in the Fugaku supercomputer, Fujitsu has greater ambitions for the Monaka. Riding the surging wave of Arm-based CPUs in servers and data centers, the company is positioning the Monaka as a CPU built for modern AI workloads. As well, the company is focusing heavily on energy efficiency, which has quickly become a constraining factor in data centers.",
+    "According to Fujitsu, the role of CPUs in AI systems is expanding. Agentic workloads are pushing CPUs like never before, as CPUs are doing far more than just coordinating GPUs these days.",
+    "Monaka’s value proposition is that AI adoption is currently constrained by power limitations, which Monaka addresses by running at ultra-low-voltages for maximum efficiency. Combined with that, Monaka is designed to be a better fit for modern workloads, as well as meeting the needs of sovereign AI.",
+    "Monaka is an Armv9.3-A architecture design. The chip uses 256-bit SVE2 SIMDs, which is a rarity in the Arm space as most designs have been 128-bit SVE2 (the exception being the 512-bit A64FX, of course). The core chiplet is built on a 2nm process, while the SRAM and IO dies are made on 5nm. There are 12 channels of DDR5 memory, and 144 CPU cores per chip (with the ability to go up to 2P per node).",
+    "Looking a bit at the history of the semiconductor industry, 2nm is going to deliver a huge boost in chip density and performance thanks to its use of GAAFETs. But it is not the optimal solution for all parts of a chip, which is why they are using chiplets built across multiple process nodes.",
+    "The core die is made on TSMC’s N2P process node. Meanwhile the SRAM and I/O dies are made on TSMC’s N5 process node. N2P is used for less than 30% of the total silicon area; most of the chip is made on N5. By splitting things up in this fashion, Fujitsu is able to accelerate their time-to-market for what is a cutting-edge chip.",
+    "The chiplet architecture means using die-to-die hybrid bonding between the stacked elements. The core die sits on top of the SRAM die, and then the silicon interposer below that."
+  ]
+}

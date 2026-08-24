@@ -1,84 +1,84 @@
 {
-  "date": "2026-08-24",
-  "renderedAt": "2026-08-23T19:45:42.692Z",
+  "date": "2026-08-25",
+  "renderedAt": "2026-08-24T19:58:37.286Z",
   "posts": [
     {
-      "id": "20260824-you-never-restart-your-pc",
+      "id": "20260825-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#windows11 #troubleshooting #techsupport #windows #helpdesk #computertips #itsupport #pc #itpro #sysadmin #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #macbook #macos #itpro #applenews #appletips #ios #macrumors #techsupport #techtips #itsupportguru #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260824-you-never-restart-your-pc/01.png",
-        "out/instagram-ready/20260824-you-never-restart-your-pc/02.png",
-        "out/instagram-ready/20260824-you-never-restart-your-pc/03.png",
-        "out/instagram-ready/20260824-you-never-restart-your-pc/04.png"
+        "out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/01.png",
+        "out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/02.png",
+        "out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/03.png",
+        "out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/04.png"
       ]
     },
     {
-      "id": "20260824-force-quitting-apps-saves-battery",
+      "id": "20260825-antivirus-alone-keeps-you-safe",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#appletips #applenews #ios #macbook #appleintelligence #iphone #macos #apple #helpdesk #techsupport #itpro #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#pchelp #windows #pc #sysadmin #windows11 #techsupport #helpdesk #itsupport #techdaily #itpro #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260824-force-quitting-apps-saves-battery/01.png",
-        "out/instagram-ready/20260824-force-quitting-apps-saves-battery/02.png",
-        "out/instagram-ready/20260824-force-quitting-apps-saves-battery/03.png"
+        "out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/01.png",
+        "out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/02.png",
+        "out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/03.png"
       ]
     },
     {
-      "id": "20260824-what-reviewers-check-that-you-don-t",
+      "id": "20260825-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -87,33 +87,33 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• TGP — how many watts the GPU actually draws\n• Sustained performance, not peak benchmark numbers\n• Thermal throttling after 20 minutes of load\n• Screen brightness in nits, not just resolution\n\nSave this — it'll be your shortcut later →\n\n#batterytips #smartphone #gadgets #iphone #tech #smartphonetips #gadgetreviews #android #techdaily #helpdesk #itsupportguru #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#batterytips #samsung #gadgetreviews #android #tech #gadgets #techgear #smartphone #techtips #itpro #itsupportguru #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260824-what-reviewers-check-that-you-don-t/01.png",
-        "out/instagram-ready/20260824-what-reviewers-check-that-you-don-t/02.png",
-        "out/instagram-ready/20260824-what-reviewers-check-that-you-don-t/03.png"
+        "out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/01.png",
+        "out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/02.png",
+        "out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/03.png"
       ]
     },
     {
-      "id": "20260824-respond-to-a-suspected-breach",
+      "id": "20260825-lock-down-your-router",
       "slot": 3,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
@@ -122,49 +122,49 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Respond to a suspected breach",
+      "title": "Lock down your router",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
+          "text": "Lock down your router\nLog in to your router's admin page"
         },
         {
           "kind": "step",
-          "text": "Isolate the affected machine from the network"
+          "text": "Log in to your router's admin page"
         },
         {
           "kind": "step",
-          "text": "Revoke the account's sessions and reset credentials"
+          "text": "Change the default admin password"
         },
         {
           "kind": "step",
-          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
+          "text": "Turn off remote management"
         },
         {
           "kind": "step",
-          "text": "Audit logs for what the attacker accessed"
+          "text": "Use WPA2 or WPA3 encryption"
         },
         {
           "kind": "step",
-          "text": "Report and document — then patch the gap that let it in."
+          "text": "Update the firmware — security patches hide there."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Respond to a suspected breach 🔐\n\n1. Isolate the affected machine from the network\n2. Revoke the account's sessions and reset credentials\n3. Check for persistence: mailbox rules, new MFA, scheduled tasks\n4. Audit logs for what the attacker accessed\n5. Report and document\n     ✓ then patch the gap that let it in.\n\nSave this for the next ticket →\n\n#infosec #security #password #cyberdefense #secops #privacy #onlinesafety #2fa #techtips #techdaily #sysadmin #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Lock down your router 🔐\n\n1. Log in to your router's admin page\n2. Change the default admin password\n3. Turn off remote management\n4. Use WPA2 or WPA3 encryption\n5. Update the firmware\n     ✓ security patches hide there.\n\nSave this for the next ticket →\n\n#cyberdefense #datasecurity #cybersectips #cybersecurity #infosec #2fa #secops #phishing #techsupport #itpro #helpdesk #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/01.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/02.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/03.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/04.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/05.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/06.png",
-        "out/instagram-ready/20260824-respond-to-a-suspected-breach/07.png"
+        "out/instagram-ready/20260825-lock-down-your-router/01.png",
+        "out/instagram-ready/20260825-lock-down-your-router/02.png",
+        "out/instagram-ready/20260825-lock-down-your-router/03.png",
+        "out/instagram-ready/20260825-lock-down-your-router/04.png",
+        "out/instagram-ready/20260825-lock-down-your-router/05.png",
+        "out/instagram-ready/20260825-lock-down-your-router/06.png",
+        "out/instagram-ready/20260825-lock-down-your-router/07.png"
       ]
     }
   ]

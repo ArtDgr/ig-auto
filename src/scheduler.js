@@ -84,17 +84,33 @@ async function igRenderStep() {
 async function reelStep() {
   const dir = path.join("out", "instagram-reels");
   fs.mkdirSync(dir, { recursive: true });
-  const script = generateReel();
+  let script;
+  try {
+    script = generateReel();
+  } catch (e) {
+    console.warn("[reel] generate failed: " + e.message);
+    return;
+  }
   if (!script || !script.deck) { console.warn("[reel] no deck to render"); return; }
   const out = path.join(dir, `${script.date}-${script.deck.id}.mp4`);
   if (!fs.existsSync(out)) {
-    await renderDeck(script.deck, out);
-    console.log("[reel] rendered " + path.basename(out));
+    try {
+      await renderDeck(script.deck, out);
+      console.log("[reel] rendered " + path.basename(out));
+    } catch (e) {
+      console.warn("[reel] render failed (non-blocking): " + e.message);
+      try { fs.writeFileSync(out + ".failed", String(e.message).slice(0,500)); } catch {}
+      return;
+    }
   } else {
     console.log("[reel] already rendered " + path.basename(out));
   }
-  fs.writeFileSync(path.join(dir, `${script.date}-${script.deck.id}.txt`), script.caption, "utf8");
-  console.log("[reel] caption ready: " + path.basename(out).replace(/\.mp4$/, ".txt"));
+  try {
+    fs.writeFileSync(path.join(dir, `${script.date}-${script.deck.id}.txt`), script.caption, "utf8");
+    console.log("[reel] caption ready: " + path.basename(out).replace(/\.mp4$/, ".txt"));
+  } catch (e) {
+    console.warn("[reel] caption write failed: " + e.message);
+  }
 }
 
 async function daily() {

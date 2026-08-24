@@ -237,5 +237,41 @@
       "dueAt": "2026-08-24T05:00:00.000Z",
       "niche": "hardware"
     }
+  },
+  "2026-08-25": {
+    "0": {
+      "postId": "20260825-you-ve-never-checked-iphone-battery-health",
+      "bufferId": "6a8ca2a27fa16d24f51e3412",
+      "dueAt": "2026-08-24T20:00:00.000Z",
+      "niche": "apple",
+      "title": "You've never checked iPhone battery health"
+    },
+    "1": {
+      "postId": "20260825-antivirus-alone-keeps-you-safe",
+      "bufferId": "6a8ca2a47d9f7e77e0f1e4c6",
+      "dueAt": "2026-08-25T02:00:00.000Z",
+      "niche": "it-support",
+      "title": "Antivirus alone keeps you safe"
+    },
+    "2": {
+      "postId": "20260825-how-to-tell-if-your-battery-is-really-dying",
+      "bufferId": "6a8ca2a319ad82349020d998",
+      "dueAt": "2026-08-25T07:00:00.000Z",
+      "niche": "gadgets",
+      "title": "How to tell if your battery is really dying"
+    },
+    "3": {
+      "postId": "20260825-lock-down-your-router",
+      "bufferId": "6a8ca2a12a0955d667d5d2eb",
+      "dueAt": "2026-08-25T10:00:00.000Z",
+      "niche": "security",
+      "title": "Lock down your router"
+    },
+    "reel": {
+      "file": "20260825-huawei-pura-x-view-previewed-more-iphone-18-pro-leaks-week-3.mp4",
+      "bufferId": "6a8ca2a47fa16d24f51e3436",
+      "dueAt": "2026-08-25T05:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

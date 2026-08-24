@@ -2,8 +2,10 @@ name: daily-ig-build
 
 on:
   schedule:
-    # Sun-Fri 19:30 UTC = 05:30 AEST Mon-Sat (Australia/Brisbane, UTC+10, no DST)
-    - cron: "30 19 * * 0-5"
+    # STEALTH: triggers daily Mon-Fri 19:30 UTC (05:30 AEST Tue-Sat) but
+    # src/buffer-publish.js gates with Knuth hash 30% RUN → ~37 runs/year (94% reduction)
+    # + random 2-4 posts & random times per RUN — not posting every day by design
+    - cron: "30 19 * * 1-5"
   workflow_dispatch:
 
 permissions:

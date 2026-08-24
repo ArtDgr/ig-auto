@@ -49,6 +49,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Stealth audit (triple-check algorithm safety)
+        run: node src/stealth-audit.js
+
       - name: Build daily Instagram content
         run: npm run daily
 

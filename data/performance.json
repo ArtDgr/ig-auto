@@ -2345,18 +2345,18 @@
     },
     "6a8b4e24cde3609ce4beea8d": {
       "bufferId": "6a8b4e24cde3609ce4beea8d",
-      "views": 81,
-      "reach": 74,
-      "likes": 0,
+      "views": 106,
+      "reach": 96,
+      "likes": 1,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 140.2,
+      "score": 183.8,
       "raw": [
         {
           "name": "Reactions",
-          "value": 0
+          "value": 1
         },
         {
           "name": "Comments",
@@ -2364,11 +2364,11 @@
         },
         {
           "name": "Eng. Rate",
-          "value": 0
+          "value": 1.04
         },
         {
           "name": "Views",
-          "value": 81
+          "value": 106
         },
         {
           "name": "Shares",
@@ -2384,7 +2384,7 @@
         },
         {
           "name": "Reach",
-          "value": 74
+          "value": 96
         }
       ],
       "text": "Framework Laptop 16 With GeForce RTX 5070 12GB, One-Piece Keyboard &.\n\nSave this fix for later.\n\n#techsupport #techtips ",
@@ -2623,14 +2623,14 @@
     },
     "6a88abbd24833b288b23a5a9": {
       "bufferId": "6a88abbd24833b288b23a5a9",
-      "views": 5,
-      "reach": 5,
+      "views": 6,
+      "reach": 6,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 9,
+      "score": 10.8,
       "raw": [
         {
           "name": "Reactions",
@@ -2646,7 +2646,7 @@
         },
         {
           "name": "Views",
-          "value": 5
+          "value": 6
         },
         {
           "name": "Shares",
@@ -2662,7 +2662,7 @@
         },
         {
           "name": "Reach",
-          "value": 5
+          "value": 6
         }
       ],
       "text": "Apple Watch Series 11 vs Google Pixel Watch 5: Flagship smartwatches,.\n\n#techsupport #techtips #itsupportguru #pchelp #t",
@@ -2676,14 +2676,14 @@
     },
     "6a875c3e6fdda4cc4c3ffdc1": {
       "bufferId": "6a875c3e6fdda4cc4c3ffdc1",
-      "views": 1,
-      "reach": 1,
+      "views": 6,
+      "reach": 6,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 1.8,
+      "score": 10.8,
       "raw": [
         {
           "name": "Reactions",
@@ -2699,7 +2699,7 @@
         },
         {
           "name": "Views",
-          "value": 1
+          "value": 6
         },
         {
           "name": "Shares",
@@ -2715,7 +2715,7 @@
         },
         {
           "name": "Reach",
-          "value": 1
+          "value": 6
         }
       ],
       "text": "Google’s Pixel 11 Pro Fold feels like the end of an era.\r\n\r\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #",
@@ -2726,7 +2726,279 @@
       "type": "reel",
       "niche": "it-support",
       "firstSeenAt": "2026-08-24T19:59:34.618Z"
+    },
+    "6a8ca2a47fa16d24f51e3436": {
+      "bufferId": "6a8ca2a47fa16d24f51e3436",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Huawei Pura X View previewed, more iPhone 18 Pro leaks, Week 34 in re.\n\nSave this fix for later.\n\n#techsupport #techtips",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260825-huawei-pura-x-view-previewed-more-iphone-18-pro-leaks-week-3.mp4"
+      ],
+      "sentAt": "2026-08-25T05:00:41.446Z",
+      "type": "reel",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-25T19:58:29.263Z"
+    },
+    "6a8ca2a47d9f7e77e0f1e4c6": {
+      "bufferId": "6a8ca2a47d9f7e77e0f1e4c6",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-antivirus-alone-keeps-you-safe/03.png"
+      ],
+      "sentAt": "2026-08-25T02:00:28.710Z",
+      "type": "card",
+      "niche": "it-support",
+      "firstSeenAt": "2026-08-25T19:58:29.263Z"
+    },
+    "6a8ca2a319ad82349020d998": {
+      "bufferId": "6a8ca2a319ad82349020d998",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• ",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-how-to-tell-if-your-battery-is-really-dying/03.png"
+      ],
+      "sentAt": "2026-08-25T07:00:41.074Z",
+      "type": "card",
+      "niche": "gadgets",
+      "firstSeenAt": "2026-08-25T19:58:29.263Z"
+    },
+    "6a8ca2a27fa16d24f51e3412": {
+      "bufferId": "6a8ca2a27fa16d24f51e3412",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst mome",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-you-ve-never-checked-iphone-battery-health/04.png"
+      ],
+      "sentAt": "2026-08-24T20:00:55.636Z",
+      "type": "card",
+      "niche": "apple",
+      "firstSeenAt": "2026-08-25T19:58:29.263Z"
+    },
+    "6a8b4e25a3b8277a839e92dd": {
+      "bufferId": "6a8b4e25a3b8277a839e92dd",
+      "views": 2,
+      "reach": 2,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 3.6,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 2
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 2
+        }
+      ],
+      "text": "Google Kicks Off Fall Hardware Season With.\n\n#techsupport #techtips #itsupportguru #pchelp #techdaily #apple #iphone #ma",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-reels/20260814-google-kicks-off-fall-hardware-season-with-new-pixel-11-smar.mp4"
+      ],
+      "sentAt": "2026-08-25T08:30:55.262Z",
+      "type": "reel",
+      "niche": "it-support",
+      "firstSeenAt": "2026-08-25T19:58:29.264Z"
     }
   },
-  "updatedAt": "2026-08-24T19:59:34.620Z"
+  "updatedAt": "2026-08-25T19:58:29.266Z"
 }

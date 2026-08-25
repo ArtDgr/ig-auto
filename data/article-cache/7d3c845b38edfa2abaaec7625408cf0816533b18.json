@@ -1,0 +1,14 @@
+{
+  "url": "https://9to5mac.com/2026/08/25/apple-launches-next-gen-apple-silicon-chips-m6-and-m5-ultra/",
+  "fetched": "2026-08-25T19:56:59.562Z",
+  "paragraphs": [
+    "Apple has unveiled two new Apple Silicon chips today. The M6 chip debuts in a new Mac mini model and marks Apple’s first 2nm processor. The M5 Ultra launches in a refreshed Mac Studio and is Apple’s most powerful chip ever.",
+    "The M6 is Apple’s first 2-nanometer chip, which the company says increases transistor density and power efficiency. This allows it to upgrade compute blocks without increasing die size.",
+    "The M6 features a 12-core CPU, two more than the M5 chip. Notably, it’s Apple’s first processor with all three CPU core types. That includes two super cores, four performance cores, and six efficiency cores.",
+    "Super cores prioritize maximum single-threaded performance and are Apple’s most powerful core type. Performance cores are optimized for demanding multithreaded work, and efficiency cores handle background tasks.",
+    "All told, Apple says this means M6 has “the world’s fastest single-threaded performance” and offers “up to 1.2x faster multithreaded performance as compared to M5.”",
+    "M6 features a 12-core GPU, which is two more cores than M5. There’s a Neural Accelerator in each core. Apple says this enables a 30% increase in peak GPU compute for AI compared to M5. The M6 GPU also features updates to its shader core architecture, Dynamic Caching, and hardware-accelerated ray tracing.",
+    "M6 supports up to 32GB of unified memory with up to 170GB/s of unified memory bandwidth. That’s up to 10% faster than M5.",
+    "Additionally, M6 can process FP8 natively in hardware, whereas M5 handles FP8 through software. FP8 is an 8-bit format designed to make AI workloads faster and more memory-efficient"
+  ]
+}

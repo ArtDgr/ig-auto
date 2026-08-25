@@ -1,145 +1,145 @@
 {
-  "date": "2026-08-25",
-  "generatedAt": "2026-08-24T19:58:25.297Z",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-25T19:57:05.446Z",
   "posts": [
     {
-      "id": "20260825-you-ve-never-checked-iphone-battery-health",
+      "id": "20260826-you-buy-phones-on-megapixel-counts",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You buy phones on megapixel counts",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Read real photo tests, not the spec sheet."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #macbook #macos #itpro #applenews #appletips #ios #macrumors #techsupport #techtips #itsupportguru #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou buy phones on megapixel counts\n\nWhy it's a problem: Sensor and processing beat megapixels every time.\nThe fix: Read real photo tests, not the spec sheet.\n\nSave this before it becomes a repair bill →\n\n#tech #android #gadgets #techgear #batterytips #smartphone #iphone #samsung #techtips #itpro #techdaily #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260825-antivirus-alone-keeps-you-safe",
+      "id": "20260826-docker-containers-are-mini-vms",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus alone keeps you safe",
+      "title": "Docker containers are mini VMs",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus alone keeps you safe"
+          "text": "Docker containers are mini VMs"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
+          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#pchelp #windows #pc #sysadmin #windows11 #techsupport #helpdesk #itsupport #techdaily #itpro #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#cloud #devops #techops #cloudcomputing #sre #devopslife #cloudinfra #azure #techtips #itsupportguru #helpdesk #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260825-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20260826-what-happens-in-the-first-hour-of-a-breach",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "What happens in the first hour of a breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#batterytips #samsung #gadgetreviews #android #tech #gadgets #techgear #smartphone #techtips #itpro #itsupportguru #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#security #cyberdefense #2fa #privacy #onlinesafety #cybersecurity #infosec #cybersectips #techtips #sysadmin #techsupport #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260825-lock-down-your-router",
+      "id": "20260826-set-up-proper-battery-care",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Lock down your router",
+      "title": "Set up proper battery care",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Lock down your router\nLog in to your router's admin page"
+          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Log in to your router's admin page"
+          "text": "Cap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Change the default admin password"
+          "text": "Avoid leaving it at 100% for weeks on end"
         },
         {
           "kind": "step",
-          "text": "Turn off remote management"
+          "text": "Occasional deep discharge is fine, not daily"
         },
         {
           "kind": "step",
-          "text": "Use WPA2 or WPA3 encryption"
+          "text": "Keep firmware and battery drivers updated"
         },
         {
           "kind": "step",
-          "text": "Update the firmware — security patches hide there."
+          "text": "A battery at 80% capacity after 2 years is normal."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Lock down your router 🔐\n\n1. Log in to your router's admin page\n2. Change the default admin password\n3. Turn off remote management\n4. Use WPA2 or WPA3 encryption\n5. Update the firmware\n     ✓ security patches hide there.\n\nSave this for the next ticket →\n\n#cyberdefense #datasecurity #cybersectips #cybersecurity #infosec #2fa #secops #phishing #techsupport #itpro #helpdesk #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Set up proper battery care 💻\n\n1. Cap charge at 80% if your vendor offers it\n2. Avoid leaving it at 100% for weeks on end\n3. Occasional deep discharge is fine, not daily\n4. Keep firmware and battery drivers updated\n5. A battery at 80% capacity after 2 years is normal.\n\nSave this for the next ticket →\n\n#ram #chipshortage #pc #techreview #gpu #cpu #ssd #benchmark #helpdesk #techdaily #techtips #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     }
   ]

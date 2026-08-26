@@ -1,170 +1,170 @@
 {
-  "date": "2026-08-24",
-  "renderedAt": "2026-08-24T00:29:00.846Z",
+  "date": "2026-08-27",
+  "renderedAt": "2026-08-26T23:16:21.559Z",
   "posts": [
     {
-      "id": "20260824-you-never-restart-your-pc",
+      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#windows11 #troubleshooting #techsupport #windows #helpdesk #computertips #itsupport #pc #itpro #sysadmin #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260824-you-never-restart-your-pc\\01.png",
-        "out\\instagram-ready\\20260824-you-never-restart-your-pc\\02.png",
-        "out\\instagram-ready\\20260824-you-never-restart-your-pc\\03.png",
-        "out\\instagram-ready\\20260824-you-never-restart-your-pc\\04.png"
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\01.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\02.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\03.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\04.png"
       ]
     },
     {
-      "id": "20260824-force-quitting-apps-saves-battery",
+      "id": "20260827-more-ram-always-makes-your-pc-faster",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "More RAM always makes your PC faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "More RAM always makes your PC faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#appletips #applenews #ios #macbook #appleintelligence #iphone #macos #apple #helpdesk #techsupport #itpro #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260824-force-quitting-apps-saves-battery\\01.png",
-        "out\\instagram-ready\\20260824-force-quitting-apps-saves-battery\\02.png",
-        "out\\instagram-ready\\20260824-force-quitting-apps-saves-battery\\03.png"
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\01.png",
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\02.png",
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\03.png"
       ]
     },
     {
-      "id": "20260824-what-reviewers-check-that-you-don-t",
+      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• TGP — how many watts the GPU actually draws\n• Sustained performance, not peak benchmark numbers\n• Thermal throttling after 20 minutes of load\n• Screen brightness in nits, not just resolution\n\nSave this — it'll be your shortcut later →\n\n#batterytips #smartphone #gadgets #iphone #tech #smartphonetips #gadgetreviews #android #techdaily #helpdesk #itsupportguru #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260824-what-reviewers-check-that-you-don-t\\01.png",
-        "out\\instagram-ready\\20260824-what-reviewers-check-that-you-don-t\\02.png",
-        "out\\instagram-ready\\20260824-what-reviewers-check-that-you-don-t\\03.png"
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\01.png",
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\02.png",
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\03.png"
       ]
     },
     {
-      "id": "20260824-respond-to-a-suspected-breach",
+      "id": "20260827-verify-ai-facts-before-sharing",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Respond to a suspected breach",
+      "title": "Verify AI facts before sharing",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
+          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Isolate the affected machine from the network"
+          "text": "Ask the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Revoke the account's sessions and reset credentials"
+          "text": "Independently check the top two sources"
         },
         {
           "kind": "step",
-          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
+          "text": "Watch for plausible but wrong dates and names"
         },
         {
           "kind": "step",
-          "text": "Audit logs for what the attacker accessed"
+          "text": "Use AI as a lead, not the verdict"
         },
         {
           "kind": "step",
-          "text": "Report and document — then patch the gap that let it in."
+          "text": "When in doubt, mark it unverified."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Respond to a suspected breach 🔐\n\n1. Isolate the affected machine from the network\n2. Revoke the account's sessions and reset credentials\n3. Check for persistence: mailbox rules, new MFA, scheduled tasks\n4. Audit logs for what the attacker accessed\n5. Report and document\n     ✓ then patch the gap that let it in.\n\nSave this for the next ticket →\n\n#infosec #security #password #cyberdefense #secops #privacy #onlinesafety #2fa #techtips #techdaily #sysadmin #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\01.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\02.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\03.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\04.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\05.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\06.png",
-        "out\\instagram-ready\\20260824-respond-to-a-suspected-breach\\07.png"
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\01.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\02.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\03.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\04.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\05.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\06.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\07.png"
       ]
     }
   ]

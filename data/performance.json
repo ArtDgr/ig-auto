@@ -2729,14 +2729,14 @@
     },
     "6a8ca2a47fa16d24f51e3436": {
       "bufferId": "6a8ca2a47fa16d24f51e3436",
-      "views": 0,
-      "reach": 0,
+      "views": 4,
+      "reach": 4,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 0,
+      "score": 7.2,
       "raw": [
         {
           "name": "Reactions",
@@ -2752,7 +2752,7 @@
         },
         {
           "name": "Views",
-          "value": 0
+          "value": 4
         },
         {
           "name": "Shares",
@@ -2768,7 +2768,7 @@
         },
         {
           "name": "Reach",
-          "value": 0
+          "value": 4
         }
       ],
       "text": "Huawei Pura X View previewed, more iPhone 18 Pro leaks, Week 34 in re.\n\nSave this fix for later.\n\n#techsupport #techtips",
@@ -2948,14 +2948,14 @@
     },
     "6a8b4e25a3b8277a839e92dd": {
       "bufferId": "6a8b4e25a3b8277a839e92dd",
-      "views": 2,
-      "reach": 2,
+      "views": 3,
+      "reach": 3,
       "likes": 0,
       "comments": 0,
       "saves": 0,
       "shares": 0,
       "follows": 0,
-      "score": 3.6,
+      "score": 5.4,
       "raw": [
         {
           "name": "Reactions",
@@ -2971,7 +2971,7 @@
         },
         {
           "name": "Views",
-          "value": 2
+          "value": 3
         },
         {
           "name": "Shares",
@@ -2987,7 +2987,7 @@
         },
         {
           "name": "Reach",
-          "value": 2
+          "value": 3
         }
       ],
       "text": "Google Kicks Off Fall Hardware Season With.\n\n#techsupport #techtips #itsupportguru #pchelp #techdaily #apple #iphone #ma",
@@ -2998,7 +2998,66 @@
       "type": "reel",
       "niche": "it-support",
       "firstSeenAt": "2026-08-25T19:58:29.264Z"
+    },
+    "6a8ca2a12a0955d667d5d2eb": {
+      "bufferId": "6a8ca2a12a0955d667d5d2eb",
+      "views": 0,
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "saves": 0,
+      "shares": 0,
+      "follows": 0,
+      "score": 0,
+      "raw": [
+        {
+          "name": "Reactions",
+          "value": 0
+        },
+        {
+          "name": "Comments",
+          "value": 0
+        },
+        {
+          "name": "Eng. Rate",
+          "value": 0
+        },
+        {
+          "name": "Views",
+          "value": 0
+        },
+        {
+          "name": "Shares",
+          "value": 0
+        },
+        {
+          "name": "Saves",
+          "value": 0
+        },
+        {
+          "name": "Follows",
+          "value": 0
+        },
+        {
+          "name": "Reach",
+          "value": 0
+        }
+      ],
+      "text": "Lock down your router 🔐\n\n1. Log in to your router's admin page\n2. Change the default admin password\n3. Turn off remote ",
+      "assets": [
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/01.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/02.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/03.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/04.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/05.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/06.png",
+        "https://raw.githubusercontent.com/ArtDgr/ig-auto/main/out/instagram-ready/20260825-lock-down-your-router/07.png"
+      ],
+      "sentAt": "2026-08-25T10:02:01.127Z",
+      "type": "card",
+      "niche": "security",
+      "firstSeenAt": "2026-08-26T22:25:55.744Z"
     }
   },
-  "updatedAt": "2026-08-25T19:58:29.266Z"
+  "updatedAt": "2026-08-26T22:25:55.746Z"
 }

@@ -23,17 +23,17 @@ const REEL_ACCENTS = {
 
 // Topic-matched reel themes — mirrors TOPIC_THEMES in ig-render.js but
 // tuned for video: accent + life ratio/mold/speed per subject.
-// If reel is about cybersecurity → red shield circuitry, smartphone → warm amber, AI → violet neural etc.
+// ORDER MATTERS: specific hardware/phone before generic AI — Framework RTX must be hardware teal, not AI violet
 const TOPIC_REEL_THEMES = [
   { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
-  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
+  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
+  { re: /(phone|pixel|galaxy|iphone|android|samsung|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, accent: "#F59E0B", life: { ratio: 0.06, mold: 5, speed: 0.15 } },
   { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, accent: "#16A34A", life: { ratio: 0.05, mold: 6, speed: 0.10 } },
   { re: /(wifi|router|signal|mesh|network)/i, accent: "#0EA5E9", life: { ratio: 0.07, mold: 6, speed: 0.14 } },
   { re: /(camera|photo|lens|sensor|image)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 6, speed: 0.13 } },
-  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
   { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, accent: "#2563EB", life: { ratio: 0.07, mold: 6, speed: 0.10 } },
-  { re: /(phone|pixel|galaxy|iphone|android|samsung|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, accent: "#F59E0B", life: { ratio: 0.06, mold: 5, speed: 0.15 } },
   { re: /(apple|mac|macos|ios|ipad|app.store|siri|macbook|apple.silicon)/i, accent: "#0EA5E9", life: { ratio: 0.05, mold: 5, speed: 0.13 } },
+  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
 ];
 
 function accentFor(niche) {

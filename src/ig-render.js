@@ -151,6 +151,23 @@ const NICHE_THEMES = {
   }
 };
 
+// Photo backgrounds per topic — real tech images (Unsplash w=1080 h=1350 crop) with dark overlay for legibility
+const TOPIC_PHOTOS = [
+  { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, url: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, url: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, url: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(phone|pixel|galaxy|iphone|android|samsung|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(wifi|router|signal|mesh|network)/i, url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(camera|photo|lens|sensor|image)/i, url: "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, url: "https://images.unsplash.com/photo-1451187580459-43490279c429?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(apple|mac|macos|ios|ipad|app.store|siri|macbook|apple.silicon)/i, url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1080&q=80&auto=format&fit=crop" },
+];
+function photoForPost(post, hayTitle, hayNiche) {
+  const t = TOPIC_PHOTOS.find(p=> p.re.test(hayTitle)) || TOPIC_PHOTOS.find(p=> p.re.test(hayNiche));
+  return t ? t.url : null;
+}
+
 // Red Flag posts always override to the signature red theme regardless of niche.
 function accentForPost(post) {
   if (post.kind === "redflag") return BRAND_RED;
@@ -169,7 +186,9 @@ export function cardHtml(post, slide, index, total) {
   const bodySel = theme.cls ? `body.${theme.cls}` : "body";
   const motifSvg = topic ? topic.svg(accent) : "";
   const isRedFlag = post.kind === "redflag";
-  const bg = isRedFlag
+  const photoUrl = photoForPost(post, hayTitle, hayNiche);
+  const photoBg = photoUrl ? `linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.72)), url('${photoUrl}') center/cover no-repeat` : null;
+  const bg = photoBg || (isRedFlag
     ? `radial-gradient(1000px 700px at 85% -10%, rgba(255,59,48,.24), transparent 62%),
       radial-gradient(820px 620px at -12% 112%, rgba(255,59,48,.12), transparent 60%),
       linear-gradient(160deg, #0B0505 0%, #140707 55%, #1A0A0A 100%)`
@@ -179,7 +198,7 @@ export function cardHtml(post, slide, index, total) {
         linear-gradient(160deg, #05070B 0%, #0A0D14 55%, #0E1118 100%)`
       : theme.bg || `radial-gradient(1100px 760px at 88% -12%, ${accent}1f, transparent 62%),
         radial-gradient(900px 620px at -12% 112%, ${accent}12, transparent 60%),
-        linear-gradient(160deg, #05070B 0%, #0A0D14 55%, #0E1118 100%)`;
+        linear-gradient(160deg, #05070B 0%, #0A0D14 55%, #0E1118 100%)`);
   const brand = (config.brand || "IT STUDIO").toUpperCase();
   const handle = config.instagram.handle;
   const kind = slide.kind;

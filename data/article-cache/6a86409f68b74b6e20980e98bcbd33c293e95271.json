@@ -1,0 +1,14 @@
+{
+  "url": "https://www.ghacks.net/2026/08/26/whatsapp-adds-multiple-passkeys-alphanumeric-passwords-and-caller-context-in-security-update/",
+  "fetched": "2026-08-26T22:24:32.610Z",
+  "paragraphs": [
+    "Meta has introduced three new security features for WhatsApp. Users can now add more than one passkey to their account, upgrade their two-step verification PIN to a longer alphanumeric password, and see more information about calls from unknown numbers.",
+    "Meta says that over a billion people use passkeys on WhatsApp. The new passkey and password options are available in the app's account settings. Meta describes these updates as additional ways to secure accounts alongside WhatsApp's default end-to-end encryption.",
+    "A passkey allows users to log into WhatsApp using a fingerprint, Face ID, or screen lock code. Meta calls this the fastest and most secure way to verify identity without needing codes or PINs. More than a billion people have set up a passkey.",
+    "Users can now add multiple passkeys to their account. This is helpful for anyone who uses both Android and iOS devices. To set up a passkey, go to Settings, then Account, then Passkeys.",
+    "Two-step verification adds another layer of protection against account takeover, even if someone gets your one-time passcode. Previously, this used a six-digit PIN.",
+    "Meta has replaced the PIN with a longer password that can include letters, numbers, and special characters. This makes it harder to guess. Meta recommends that anyone using a simple PIN like \"123456\" switch to a stronger password.",
+    "When a call comes in from a number not saved in contacts, WhatsApp now shows extra information to help users decide whether to answer.",
+    "On Android, users will now see more information about a non-contact caller, including whether the number is from a different country and whether they have any groups in common."
+  ]
+}

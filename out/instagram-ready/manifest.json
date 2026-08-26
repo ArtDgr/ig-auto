@@ -1,170 +1,170 @@
 {
-  "date": "2026-08-26",
-  "renderedAt": "2026-08-25T19:57:16.524Z",
+  "date": "2026-08-27",
+  "renderedAt": "2026-08-26T22:24:44.238Z",
   "posts": [
     {
-      "id": "20260826-you-buy-phones-on-megapixel-counts",
+      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You buy phones on megapixel counts",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read real photo tests, not the spec sheet."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou buy phones on megapixel counts\n\nWhy it's a problem: Sensor and processing beat megapixels every time.\nThe fix: Read real photo tests, not the spec sheet.\n\nSave this before it becomes a repair bill →\n\n#tech #android #gadgets #techgear #batterytips #smartphone #iphone #samsung #techtips #itpro #techdaily #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260826-you-buy-phones-on-megapixel-counts/01.png",
-        "out/instagram-ready/20260826-you-buy-phones-on-megapixel-counts/02.png",
-        "out/instagram-ready/20260826-you-buy-phones-on-megapixel-counts/03.png",
-        "out/instagram-ready/20260826-you-buy-phones-on-megapixel-counts/04.png"
+        "out/instagram-ready/20260827-you-bought-a-laptop-on-the-spec-sheet-alone/01.png",
+        "out/instagram-ready/20260827-you-bought-a-laptop-on-the-spec-sheet-alone/02.png",
+        "out/instagram-ready/20260827-you-bought-a-laptop-on-the-spec-sheet-alone/03.png",
+        "out/instagram-ready/20260827-you-bought-a-laptop-on-the-spec-sheet-alone/04.png"
       ]
     },
     {
-      "id": "20260826-docker-containers-are-mini-vms",
+      "id": "20260827-more-ram-always-makes-your-pc-faster",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Docker containers are mini VMs",
+      "title": "More RAM always makes your PC faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Docker containers are mini VMs"
+          "text": "More RAM always makes your PC faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
+          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#cloud #devops #techops #cloudcomputing #sre #devopslife #cloudinfra #azure #techtips #itsupportguru #helpdesk #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260826-docker-containers-are-mini-vms/01.png",
-        "out/instagram-ready/20260826-docker-containers-are-mini-vms/02.png",
-        "out/instagram-ready/20260826-docker-containers-are-mini-vms/03.png"
+        "out/instagram-ready/20260827-more-ram-always-makes-your-pc-faster/01.png",
+        "out/instagram-ready/20260827-more-ram-always-makes-your-pc-faster/02.png",
+        "out/instagram-ready/20260827-more-ram-always-makes-your-pc-faster/03.png"
       ]
     },
     {
-      "id": "20260826-what-happens-in-the-first-hour-of-a-breach",
+      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What happens in the first hour of a breach",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#security #cyberdefense #2fa #privacy #onlinesafety #cybersecurity #infosec #cybersectips #techtips #sysadmin #techsupport #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260826-what-happens-in-the-first-hour-of-a-breach/01.png",
-        "out/instagram-ready/20260826-what-happens-in-the-first-hour-of-a-breach/02.png",
-        "out/instagram-ready/20260826-what-happens-in-the-first-hour-of-a-breach/03.png"
+        "out/instagram-ready/20260827-the-fastest-way-to-find-anything-on-a-mac/01.png",
+        "out/instagram-ready/20260827-the-fastest-way-to-find-anything-on-a-mac/02.png",
+        "out/instagram-ready/20260827-the-fastest-way-to-find-anything-on-a-mac/03.png"
       ]
     },
     {
-      "id": "20260826-set-up-proper-battery-care",
+      "id": "20260827-verify-ai-facts-before-sharing",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up proper battery care",
+      "title": "Verify AI facts before sharing",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
+          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Cap charge at 80% if your vendor offers it"
+          "text": "Ask the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Avoid leaving it at 100% for weeks on end"
+          "text": "Independently check the top two sources"
         },
         {
           "kind": "step",
-          "text": "Occasional deep discharge is fine, not daily"
+          "text": "Watch for plausible but wrong dates and names"
         },
         {
           "kind": "step",
-          "text": "Keep firmware and battery drivers updated"
+          "text": "Use AI as a lead, not the verdict"
         },
         {
           "kind": "step",
-          "text": "A battery at 80% capacity after 2 years is normal."
+          "text": "When in doubt, mark it unverified."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up proper battery care 💻\n\n1. Cap charge at 80% if your vendor offers it\n2. Avoid leaving it at 100% for weeks on end\n3. Occasional deep discharge is fine, not daily\n4. Keep firmware and battery drivers updated\n5. A battery at 80% capacity after 2 years is normal.\n\nSave this for the next ticket →\n\n#ram #chipshortage #pc #techreview #gpu #cpu #ssd #benchmark #helpdesk #techdaily #techtips #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260826-set-up-proper-battery-care/01.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/02.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/03.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/04.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/05.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/06.png",
-        "out/instagram-ready/20260826-set-up-proper-battery-care/07.png"
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/01.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/02.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/03.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/04.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/05.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/06.png",
+        "out/instagram-ready/20260827-verify-ai-facts-before-sharing/07.png"
       ]
     }
   ]

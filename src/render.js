@@ -21,8 +21,29 @@ const REEL_ACCENTS = {
   "cloud-devops": "#818CF8"
 };
 
+// Topic-matched reel themes — mirrors TOPIC_THEMES in ig-render.js but
+// tuned for video: accent + life ratio/mold/speed per subject.
+// If reel is about cybersecurity → red shield circuitry, smartphone → warm amber, AI → violet neural etc.
+const TOPIC_REEL_THEMES = [
+  { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
+  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
+  { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, accent: "#16A34A", life: { ratio: 0.05, mold: 6, speed: 0.10 } },
+  { re: /(wifi|router|signal|mesh|network)/i, accent: "#0EA5E9", life: { ratio: 0.07, mold: 6, speed: 0.14 } },
+  { re: /(camera|photo|lens|sensor|image)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 6, speed: 0.13 } },
+  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
+  { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, accent: "#2563EB", life: { ratio: 0.07, mold: 6, speed: 0.10 } },
+  { re: /(phone|pixel|galaxy|iphone|android|samsung|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, accent: "#F59E0B", life: { ratio: 0.06, mold: 5, speed: 0.15 } },
+  { re: /(apple|mac|macos|ios|ipad|app.store|siri|macbook|apple.silicon)/i, accent: "#0EA5E9", life: { ratio: 0.05, mold: 5, speed: 0.13 } },
+];
+
 function accentFor(niche) {
   return REEL_ACCENTS[niche] || config.accentColor || "#0E9384";
+}
+function themeForDeck(deck) {
+  const hay = `${deck.niche || ""} ${deck.title || ""} ${deck.slides?.map(s=>s.text).join(" ") || ""}`;
+  const topic = TOPIC_REEL_THEMES.find(t=> t.re.test(hay));
+  if (topic) return { accent: topic.accent, life: topic.life, topic: true };
+  return { accent: accentFor(deck.niche), life: null, topic: false };
 }
 
 function hex0x(hex) {
@@ -97,9 +118,11 @@ function gradientSource(accent, dur, speed) {
 // Conway's Game of Life in the niche accent over near-black. Scaled up with
 // nearest-neighbour it reads as living circuitry / a neural net crawling over
 // the gradient — technology that moves, not a flat background.
-function lifeSource(accent, dur, seed) {
+function lifeSource(accent, dur, seed, opts = {}) {
   const glow = mixHex(accent, "#0A0E1A", 0.25);
-  return `life=size=135x240:rate=${FPS}:ratio=0.07:mold=6:stitch=1:seed=${seed}:life_color=${hex0x(accent)}:death_color=0x04060C:mold_color=${hex0x(glow)}`;
+  const ratio = opts.ratio ?? 0.07;
+  const mold = opts.mold ?? 6;
+  return `life=size=135x240:rate=${FPS}:ratio=${ratio}:mold=${mold}:stitch=1:seed=${seed}:life_color=${hex0x(accent)}:death_color=0x04060C:mold_color=${hex0x(glow)}`;
 }
 
 // Layered "tech" background: animated radial gradient base, glowing Game-of-Life
@@ -174,12 +197,12 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
     .filter(Boolean)
     .join(",");
 
-  const speed = isHook ? 0.15 : isCta ? 0.2 : 0.1;
+  const speed = opts.lifeOpts?.speed ?? (isHook ? 0.15 : isCta ? 0.2 : 0.1);
   const seed = opts.seed || 11;
   const bg = techBgExpr(accent, dur, seed);
   await ff([
     "-f", "lavfi", "-i", gradientSource(accent, dur, speed),
-    "-f", "lavfi", "-i", lifeSource(accent, dur, seed),
+    "-f", "lavfi", "-i", lifeSource(accent, dur, seed, opts.lifeOpts || {}),
     "-filter_complex", `${bg};[bg]${chain}[v]`,
     "-map", "[v]",
     "-t", String(dur),
@@ -204,12 +227,15 @@ export async function renderDeck(deck, outPath) {
   const wsum = weights.reduce((a, b) => a + b, 0);
   const durs = weights.map((w) => Math.max(1.5, (w / wsum) * total));
 
-  const accent = accentFor(deck.niche);
+  const theme = themeForDeck(deck);
+  const accent = theme.accent;
+  const lifeOpts = theme.life || {};
   const seed = seedFromId(deck.id);
+  console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent} life=${JSON.stringify(lifeOpts)}`);
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts });
     clips.push(clip);
   }
 

@@ -1,145 +1,174 @@
 {
-  "date": "2026-08-27",
-  "generatedAt": "2026-08-26T22:24:33.326Z",
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-27T19:28:38.093Z",
   "posts": [
     {
-      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260828-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#macos #ios #macrumors #macbook #appletips #appleintelligence #applenews #iphone #helpdesk #techsupport #techtips #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260827-more-ram-always-makes-your-pc-faster",
+      "id": "20260828-more-megapixels-means-better-photos",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More RAM always makes your PC faster",
+      "title": "More megapixels means better photos",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More RAM always makes your PC faster"
+          "text": "More megapixels means better photos"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
+          "text": "THE TRUTH — Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More megapixels means better photos\nTruth: Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light.\n\nShare this with the person who still believes it →\n\n#smartphone #batterytips #techgear #gadgetreviews #gadgets #android #tech #samsung #techdaily #techsupport #itsupportguru #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260828-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #techreview #laptop #cpu #hardware #chipshortage #gpu #benchmark #itpro #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260827-verify-ai-facts-before-sharing",
+      "id": "20260828-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Verify AI facts before sharing",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Ask the AI for a source for each claim"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Independently check the top two sources"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Watch for plausible but wrong dates and names"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "step",
-          "text": "Use AI as a lead, not the verdict"
+          "text": "Send them to email or Slack"
         },
         {
           "kind": "step",
-          "text": "When in doubt, mark it unverified."
+          "text": "Sleep soundly — the alert does the watching."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Add a budget alert so you never overspend ☁️\n\n1. Open Billing > Budgets in your console\n2. Create a budget for your monthly target\n3. Add alerts at 50%, 80%, and 100%\n4. Send them to email or Slack\n5. Sleep soundly\n     ✓ the alert does the watching.\n\nSave this for the next ticket →\n\n#kubernetes #techops #devopslife #docker #devops #cloudcomputing #cloud #cloudinfra #techsupport #techdaily #helpdesk #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "status": "pending"
+    },
+    {
+      "id": "20260828-gadget-focus-deals-last-day-pixel-11-offers-350-gift-cards-free-watch",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Deals: Last day Pixel 11 offers – $350 gift cards,…",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/08/27/deals-last-day-pixel-11-offers-power-banks-echo-display/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Deals: Last day Pixel 11 offers – $350 gift\nDeals: Last day Pixel 11 offers – $350 gift cards, FREE watch, smart display power bank $110…"
+        },
+        {
+          "kind": "brief",
+          "text": "Head below for a closer look."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nDeals: Last day Pixel 11 offers – $350 gift cards,…\n\n• Head below for a closer look.\n\nSource: 9to5Google — https://9to5google.com/2026/08/27/deals-last-day-pixel-11-offers-power-banks-echo-display/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#techgear #samsung #gadgets #android #smartphone #batterytips #smartphonetips #gadgetreviews #techsupport #techdaily #techtips #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

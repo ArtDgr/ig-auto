@@ -1,30 +1,26 @@
 {
-  "date": "20260828",
+  "date": "20260829",
   "deck": {
-    "id": "samsung-s-galaxy-s26-fe-pairs-last-year-s-hardware-with-last",
-    "niche": "gadgets",
-    "href": "",
-    "title": "Samsung’s Galaxy S26 FE pairs last year’s hardware with last month’s…",
+    "id": "iphone-ultra-what-to-expect-from-apple-s-first-foldable-ipho",
+    "niche": "apple",
+    "href": "https://appleinsider.com/articles/26/08/28/iphone-ultra-what-to-expect-from-apples-first-foldable-iphone-and-when?utm_source=rss",
+    "title": "iPhone Ultra: What to expect from Apple's first foldable iPhone, and…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "4,900",
+        "text": "iPhone Ultra: What to expect from Apple's f…",
         "kind": "hook"
       },
       {
-        "text": "Samsung’s Galaxy S26 FE pairs last year’s h…",
+        "text": "Rumors of a folding iPhone go back more than a decade, and the device will fina…",
         "kind": "body"
       },
       {
-        "text": "The Galaxy S26 FE holds few surprises.",
+        "text": "Here's what the rumor mill thinks is coming.",
         "kind": "body"
       },
       {
-        "text": "The Fan Edition phones are rarely Samsung's most exciting launches of the year,…",
-        "kind": "body"
-      },
-      {
-        "text": "Hardware-wise, little has changed since the S25 FE launched 12 months ago, and…",
+        "text": "Apple's foldable iPhone might be right around the corner.",
         "kind": "body"
       },
       {
@@ -33,5 +29,5 @@
       }
     ]
   },
-  "caption": "Samsung’s Galaxy S26 FE pairs last year’s hardware with last month’s.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "iPhone Ultra: What to expect from Apple's first foldable iPhone, and.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

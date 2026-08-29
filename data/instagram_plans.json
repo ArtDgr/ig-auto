@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-28",
-  "generatedAt": "2026-08-28T03:40:48.596Z",
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T02:22:41.567Z",
   "posts": [
     {
-      "id": "20260828-you-ve-never-checked-iphone-battery-health",
+      "id": "20260829-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -12,92 +12,92 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#macos #ios #macrumors #macbook #appletips #appleintelligence #applenews #iphone #helpdesk #techsupport #techtips #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #applenews #itpro #appletips #macos #iphone #apple #macrumors #techdaily #techtips #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260828-more-megapixels-means-better-photos",
+      "id": "20260829-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More megapixels means better photos",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More megapixels means better photos"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More megapixels means better photos\nTruth: Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light.\n\nShare this with the person who still believes it →\n\n#smartphone #batterytips #techgear #gadgetreviews #gadgets #android #tech #samsung #techdaily #techsupport #itsupportguru #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#ram #benchmark #techreview #laptops #gpu #hardware #pc #cpu #techdaily #helpdesk #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260828-the-upgrade-that-changes-everything",
+      "id": "20260829-what-it-does-before-calling-it-a-hardware-problem",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "What IT does before calling it a hardware problem",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #techreview #laptop #cpu #hardware #chipshortage #gpu #benchmark #itpro #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#windows #computertips #pc #itsupport #pchelp #fixyourpc #techsupport #troubleshooting #itsupportguru #techtips #helpdesk #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260828-add-a-budget-alert-so-you-never-overspend",
+      "id": "20260829-deploy-your-first-docker-container",
       "slot": 3,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -106,69 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Add a budget alert so you never overspend",
+      "title": "Deploy your first Docker container",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
+          "text": "Deploy your first Docker container\nInstall Docker Desktop or spin up a cloud VM"
         },
         {
           "kind": "step",
-          "text": "Open Billing > Budgets in your console"
+          "text": "Install Docker Desktop or spin up a cloud VM"
         },
         {
           "kind": "step",
-          "text": "Create a budget for your monthly target"
+          "text": "Run: docker run -d -p 8080:80 nginx"
         },
         {
           "kind": "step",
-          "text": "Add alerts at 50%, 80%, and 100%"
+          "text": "Open localhost:8080 — you're live"
         },
         {
           "kind": "step",
-          "text": "Send them to email or Slack"
+          "text": "See what happened: docker logs <container-id>"
         },
         {
           "kind": "step",
-          "text": "Sleep soundly — the alert does the watching."
+          "text": "Stop it with docker stop <id> — that's containers in 5 minutes."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Add a budget alert so you never overspend ☁️\n\n1. Open Billing > Budgets in your console\n2. Create a budget for your monthly target\n3. Add alerts at 50%, 80%, and 100%\n4. Send them to email or Slack\n5. Sleep soundly\n     ✓ the alert does the watching.\n\nSave this for the next ticket →\n\n#kubernetes #techops #devopslife #docker #devops #cloudcomputing #cloud #cloudinfra #techsupport #techdaily #helpdesk #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
-      "status": "pending"
-    },
-    {
-      "id": "20260828-gadget-focus-deals-last-day-pixel-11-offers-350-gift-cards-free-watch",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Deals: Last day Pixel 11 offers – $350 gift cards,…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/08/27/deals-last-day-pixel-11-offers-power-banks-echo-display/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "$350\nDeals: Last day Pixel 11 offers – $350 gift cards, FREE watch, smart display power bank $110…"
-        },
-        {
-          "kind": "brief",
-          "text": "Head below for a closer look.\nToday is your last chance at the enhanced trade-in value, up to $350 in FREE gift cards, and the Pixel Watch 5 offers (you can…\nThe countdown clocks are now counting down at Amazon and elsewhere on the Pixel 11 deals.\nThe phones have already released and been delivered to pre-order customers, but the deals were extended right through and today is…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nDeals: Last day Pixel 11 offers – $350 gift cards,…\n\n• Head below for a closer look.\n• Today is your last chance at the enhanced trade-in value, up to $350 in FREE gift cards, and the Pixel Watch 5 offers (you can…\n• The countdown clocks are now counting down at Amazon and elsewhere on the Pixel 11 deals.\n• The phones have already released and been delivered to pre-order customers, but the deals were extended right through and today is…\n\nSource: 9to5Google — https://9to5google.com/2026/08/27/deals-last-day-pixel-11-offers-power-banks-echo-display/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#techgear #batterytips #android #gadgets #samsung #smartphone #iphone #smartphonetips #itpro #techsupport #itsupportguru #techtips\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Deploy your first Docker container ☁️\n\n1. Install Docker Desktop or spin up a cloud VM\n2. Run: docker run -d -p 8080:80 nginx\n3. Open localhost:8080\n     ✓ you're live\n4. See what happened: docker logs <container-id>\n5. Stop it with docker stop <id>\n     ✓ that's containers in 5 minutes.\n\nSave this for the next ticket →\n\n#azure #cloud #devops #cloudinfra #techops #docker #sre #aws #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

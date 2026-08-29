@@ -1,0 +1,14 @@
+{
+  "url": "https://blog.cloudflare.com/botbase-for-operators/",
+  "fetched": "2026-08-29T02:22:40.812Z",
+  "paragraphs": [
+    "Last month, on our second Content Independence Day, we announced a couple of features designed to give website owners more visibility and control over automated traffic: BotBase added a searchable directory of known bots to the Cloudflare dashboard, while Business Insights helped owners understand how crawlers interact with their content. We know that the ecosystem of bots is vast, making it all the more important for site owners to be able to manage bot traffic sustainably.",
+    "But this ecosystem goes both ways. While website owners need to decide which automated traffic they allow, bot operators need a clear way to identify themselves, explain what their bots do, and keep that information current. BotBase works best when both sides can participate.",
+    "When we launched BotBase, we said we would build tools to bring bot operators into this ecosystem. Until now, their experience largely ended at submission. After pressing submit, an operator had no easy way to check the submission's status, understand why it was rejected, or update an existing entry. Today, we start to change that with the launch of BotBase for Operators, tackling what bot operators need first: transparency.",
+    "Imagine you’re a bot operator looking to submit your bot to BotBase. Where on the dashboard would you look for such a submission form? Previously, the form lived under Manage Account → Configurations, which tied the bot clearly to your account, but didn’t acknowledge its connection to the bots ecosystem.",
+    "Starting today, the bot submission experience has a home next to the rest of your bot and trust tools: Protect & Connect → Application Security → BotBase (new!). All customers can access this today directly from the Cloudflare dashboard.",
+    "Finding BotBase solves the \"where\" problem. The \"what happens next\" problem is the one that we’ve heard is deeply important to bot operators, so we’ll cover that in the rest of this post.",
+    "We spoke to many bot operators, and the resounding feedback was this: submitting a bot feels like a black box. You fill in the form, press submit, and wait, with no way to tell whether anything happened next.",
+    "Now, the Submission history tab shows every bot submitted from your account, each with a clear status:"
+  ]
+}

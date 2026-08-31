@@ -1,103 +1,103 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T02:22:41.567Z",
+  "date": "2026-09-01",
+  "generatedAt": "2026-08-31T23:17:40.904Z",
   "posts": [
     {
-      "id": "20260829-you-keep-every-screenshot-you-ever-took",
+      "id": "20260901-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #applenews #itpro #appletips #macos #iphone #apple #macrumors #techdaily #techtips #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#pcgaming #pc #chipshortage #cpu #ssd #laptop #laptops #hardware #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260829-a-bigger-cpu-number-is-always-faster",
+      "id": "20260901-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#ram #benchmark #techreview #laptops #gpu #hardware #pc #cpu #techdaily #helpdesk #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#applenews #macbook #appletips #macos #appleintelligence #macrumors #iphone #apple #techtips #helpdesk #techsupport #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260829-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20260901-5-security-habits-it-pros-actually-run",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "5 security habits IT pros actually run",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#windows #computertips #pc #itsupport #pchelp #fixyourpc #techsupport #troubleshooting #itsupportguru #techtips #helpdesk #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "5 security habits IT pros actually run 🔓\n\nInsider knowledge, free.\n\n• Password manager + unique password per site\n• Authenticator app instead of SMS codes\n• Lock screen on every device, every time\n• Updates installed within days of release\n\nSave this — it'll be your shortcut later →\n\n#secops #password #security #cybersecurity #cyberdefense #phishing #infosec #onlinesafety #itsupportguru #techdaily #helpdesk #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260829-deploy-your-first-docker-container",
+      "id": "20260901-put-a-website-behind-https",
       "slot": 3,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Deploy your first Docker container",
+      "title": "Put a website behind HTTPS",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Deploy your first Docker container\nInstall Docker Desktop or spin up a cloud VM"
+          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Install Docker Desktop or spin up a cloud VM"
+          "text": "Point your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Run: docker run -d -p 8080:80 nginx"
+          "text": "Install nginx or any web server"
         },
         {
           "kind": "step",
-          "text": "Open localhost:8080 — you're live"
+          "text": "Run certbot for a free Let's Encrypt cert"
         },
         {
           "kind": "step",
-          "text": "See what happened: docker logs <container-id>"
+          "text": "Let certbot schedule auto-renewal"
         },
         {
           "kind": "step",
-          "text": "Stop it with docker stop <id> — that's containers in 5 minutes."
+          "text": "Test https:// — a green padlock, no cost."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Deploy your first Docker container ☁️\n\n1. Install Docker Desktop or spin up a cloud VM\n2. Run: docker run -d -p 8080:80 nginx\n3. Open localhost:8080\n     ✓ you're live\n4. See what happened: docker logs <container-id>\n5. Stop it with docker stop <id>\n     ✓ that's containers in 5 minutes.\n\nSave this for the next ticket →\n\n#azure #cloud #devops #cloudinfra #techops #docker #sre #aws #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Put a website behind HTTPS ☁️\n\n1. Point your domain at your server's IP\n2. Install nginx or any web server\n3. Run certbot for a free Let's Encrypt cert\n4. Let certbot schedule auto-renewal\n5. Test https://\n     ✓ a green padlock, no cost.\n\nSave this for the next ticket →\n\n#devopslife #devops #cloud #aws #azure #cloudcomputing #docker #sre #itpro #techdaily #itsupportguru #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     }
   ]

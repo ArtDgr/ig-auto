@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-27",
-  "renderedAt": "2026-08-30T23:56:48.429Z",
+  "date": "2026-09-01",
+  "renderedAt": "2026-08-31T23:17:52.695Z",
   "posts": [
     {
-      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260901-your-laptop-is-always-hot",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,159 +12,159 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#pcgaming #pc #chipshortage #cpu #ssd #laptop #laptops #hardware #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\01.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\02.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\03.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\04.png"
+        "out/instagram-ready/20260901-your-laptop-is-always-hot/01.png",
+        "out/instagram-ready/20260901-your-laptop-is-always-hot/02.png",
+        "out/instagram-ready/20260901-your-laptop-is-always-hot/03.png",
+        "out/instagram-ready/20260901-your-laptop-is-always-hot/04.png"
       ]
     },
     {
-      "id": "20260827-more-ram-always-makes-your-pc-faster",
+      "id": "20260901-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More RAM always makes your PC faster",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More RAM always makes your PC faster"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#applenews #macbook #appletips #macos #appleintelligence #macrumors #iphone #apple #techtips #helpdesk #techsupport #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\01.png",
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\02.png",
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\03.png"
+        "out/instagram-ready/20260901-force-quitting-apps-saves-battery/01.png",
+        "out/instagram-ready/20260901-force-quitting-apps-saves-battery/02.png",
+        "out/instagram-ready/20260901-force-quitting-apps-saves-battery/03.png"
       ]
     },
     {
-      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260901-5-security-habits-it-pros-actually-run",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "5 security habits IT pros actually run",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "5 security habits IT pros actually run 🔓\n\nInsider knowledge, free.\n\n• Password manager + unique password per site\n• Authenticator app instead of SMS codes\n• Lock screen on every device, every time\n• Updates installed within days of release\n\nSave this — it'll be your shortcut later →\n\n#secops #password #security #cybersecurity #cyberdefense #phishing #infosec #onlinesafety #itsupportguru #techdaily #helpdesk #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\01.png",
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\02.png",
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\03.png"
+        "out/instagram-ready/20260901-5-security-habits-it-pros-actually-run/01.png",
+        "out/instagram-ready/20260901-5-security-habits-it-pros-actually-run/02.png",
+        "out/instagram-ready/20260901-5-security-habits-it-pros-actually-run/03.png"
       ]
     },
     {
-      "id": "20260827-verify-ai-facts-before-sharing",
+      "id": "20260901-put-a-website-behind-https",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Verify AI facts before sharing",
+      "title": "Put a website behind HTTPS",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
+          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Ask the AI for a source for each claim"
+          "text": "Point your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Independently check the top two sources"
+          "text": "Install nginx or any web server"
         },
         {
           "kind": "step",
-          "text": "Watch for plausible but wrong dates and names"
+          "text": "Run certbot for a free Let's Encrypt cert"
         },
         {
           "kind": "step",
-          "text": "Use AI as a lead, not the verdict"
+          "text": "Let certbot schedule auto-renewal"
         },
         {
           "kind": "step",
-          "text": "When in doubt, mark it unverified."
+          "text": "Test https:// — a green padlock, no cost."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Put a website behind HTTPS ☁️\n\n1. Point your domain at your server's IP\n2. Install nginx or any web server\n3. Run certbot for a free Let's Encrypt cert\n4. Let certbot schedule auto-renewal\n5. Test https://\n     ✓ a green padlock, no cost.\n\nSave this for the next ticket →\n\n#devopslife #devops #cloud #aws #azure #cloudcomputing #docker #sre #itpro #techdaily #itsupportguru #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\01.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\02.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\03.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\04.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\05.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\06.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\07.png"
+        "out/instagram-ready/20260901-put-a-website-behind-https/01.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/02.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/03.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/04.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/05.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/06.png",
+        "out/instagram-ready/20260901-put-a-website-behind-https/07.png"
       ]
     }
   ]

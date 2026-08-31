@@ -156,11 +156,11 @@ const TOPIC_PHOTOS = [
   { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, url: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1080&q=80&auto=format&fit=crop" },
   { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, url: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1080&q=80&auto=format&fit=crop" },
   { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, url: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(phone|pixel|galaxy|iphone|android|samsung|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, url: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(android|samsung|galaxy|pixel|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1080&q=80&auto=format&fit=crop" },
   { re: /(wifi|router|signal|mesh|network)/i, url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1080&q=80&auto=format&fit=crop" },
   { re: /(camera|photo|lens|sensor|image)/i, url: "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1080&q=80&auto=format&fit=crop" },
   { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, url: "https://images.unsplash.com/photo-1451187580459-43490279c429?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(apple|mac|macos|ios|ipad|app.store|siri|macbook|apple.silicon)/i, url: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1080&q=80&auto=format&fit=crop" },
   { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1080&q=80&auto=format&fit=crop" },
 ];
 function photoForPost(post, hayTitle, hayNiche) {

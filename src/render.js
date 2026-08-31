@@ -33,6 +33,7 @@ const TOPIC_REEL_THEMES = [
   { re: /(wifi|router|signal|mesh|network)/i, accent: "#0EA5E9", life: { ratio: 0.07, mold: 6, speed: 0.14 } },
   { re: /(camera|photo|lens|sensor|image)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 6, speed: 0.13 } },
   { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, accent: "#2563EB", life: { ratio: 0.07, mold: 6, speed: 0.10 } },
+  { re: /(windows|microsoft|office|365|outlook|teams|powershell|fix|troubleshoot|how.to|guide)/i, accent: "#00A8FF", life: { ratio: 0.06, mold: 5, speed: 0.13 } },
   { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
 ];
 

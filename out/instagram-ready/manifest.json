@@ -1,170 +1,170 @@
 {
-  "date": "2026-08-29",
-  "renderedAt": "2026-08-29T02:22:52.938Z",
+  "date": "2026-08-27",
+  "renderedAt": "2026-08-30T23:56:48.429Z",
   "posts": [
     {
-      "id": "20260829-you-keep-every-screenshot-you-ever-took",
+      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #applenews #itpro #appletips #macos #iphone #apple #macrumors #techdaily #techtips #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260829-you-keep-every-screenshot-you-ever-took/01.png",
-        "out/instagram-ready/20260829-you-keep-every-screenshot-you-ever-took/02.png",
-        "out/instagram-ready/20260829-you-keep-every-screenshot-you-ever-took/03.png",
-        "out/instagram-ready/20260829-you-keep-every-screenshot-you-ever-took/04.png"
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\01.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\02.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\03.png",
+        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\04.png"
       ]
     },
     {
-      "id": "20260829-a-bigger-cpu-number-is-always-faster",
+      "id": "20260827-more-ram-always-makes-your-pc-faster",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "More RAM always makes your PC faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "More RAM always makes your PC faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#ram #benchmark #techreview #laptops #gpu #hardware #pc #cpu #techdaily #helpdesk #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260829-a-bigger-cpu-number-is-always-faster/01.png",
-        "out/instagram-ready/20260829-a-bigger-cpu-number-is-always-faster/02.png",
-        "out/instagram-ready/20260829-a-bigger-cpu-number-is-always-faster/03.png"
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\01.png",
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\02.png",
+        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\03.png"
       ]
     },
     {
-      "id": "20260829-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#windows #computertips #pc #itsupport #pchelp #fixyourpc #techsupport #troubleshooting #itsupportguru #techtips #helpdesk #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260829-what-it-does-before-calling-it-a-hardware-problem/01.png",
-        "out/instagram-ready/20260829-what-it-does-before-calling-it-a-hardware-problem/02.png",
-        "out/instagram-ready/20260829-what-it-does-before-calling-it-a-hardware-problem/03.png"
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\01.png",
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\02.png",
+        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\03.png"
       ]
     },
     {
-      "id": "20260829-deploy-your-first-docker-container",
+      "id": "20260827-verify-ai-facts-before-sharing",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Deploy your first Docker container",
+      "title": "Verify AI facts before sharing",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Deploy your first Docker container\nInstall Docker Desktop or spin up a cloud VM"
+          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Install Docker Desktop or spin up a cloud VM"
+          "text": "Ask the AI for a source for each claim"
         },
         {
           "kind": "step",
-          "text": "Run: docker run -d -p 8080:80 nginx"
+          "text": "Independently check the top two sources"
         },
         {
           "kind": "step",
-          "text": "Open localhost:8080 — you're live"
+          "text": "Watch for plausible but wrong dates and names"
         },
         {
           "kind": "step",
-          "text": "See what happened: docker logs <container-id>"
+          "text": "Use AI as a lead, not the verdict"
         },
         {
           "kind": "step",
-          "text": "Stop it with docker stop <id> — that's containers in 5 minutes."
+          "text": "When in doubt, mark it unverified."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Deploy your first Docker container ☁️\n\n1. Install Docker Desktop or spin up a cloud VM\n2. Run: docker run -d -p 8080:80 nginx\n3. Open localhost:8080\n     ✓ you're live\n4. See what happened: docker logs <container-id>\n5. Stop it with docker stop <id>\n     ✓ that's containers in 5 minutes.\n\nSave this for the next ticket →\n\n#azure #cloud #devops #cloudinfra #techops #docker #sre #aws #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/01.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/02.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/03.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/04.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/05.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/06.png",
-        "out/instagram-ready/20260829-deploy-your-first-docker-container/07.png"
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\01.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\02.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\03.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\04.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\05.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\06.png",
+        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\07.png"
       ]
     }
   ]

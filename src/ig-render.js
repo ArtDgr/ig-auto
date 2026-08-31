@@ -161,6 +161,7 @@ const TOPIC_PHOTOS = [
   { re: /(wifi|router|signal|mesh|network)/i, url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1080&q=80&auto=format&fit=crop" },
   { re: /(camera|photo|lens|sensor|image)/i, url: "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1080&q=80&auto=format&fit=crop" },
   { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, url: "https://images.unsplash.com/photo-1451187580459-43490279c429?w=1080&q=80&auto=format&fit=crop" },
+  { re: /(windows|microsoft|office|365|outlook|teams|powershell|fix|troubleshoot|how.to|guide)/i, url: "https://images.unsplash.com/photo-1593642532400-2682810df593?w=1080&q=80&auto=format&fit=crop" },
   { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1080&q=80&auto=format&fit=crop" },
 ];
 function photoForPost(post, hayTitle, hayNiche) {

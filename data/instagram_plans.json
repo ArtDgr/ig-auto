@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-08-31T23:17:40.904Z",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-01T21:55:36.948Z",
   "posts": [
     {
-      "id": "20260901-your-laptop-is-always-hot",
+      "id": "20260902-your-system-drive-is-under-15-free-space",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "Your system drive is under 15% free space",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#pcgaming #pc #chipshortage #cpu #ssd #laptop #laptops #hardware #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#helpdesk #itsupport #computertips #pc #pchelp #techsupport #fixyourpc #troubleshooting #sysadmin #techdaily #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260901-force-quitting-apps-saves-battery",
+      "id": "20260902-you-need-the-most-expensive-model",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "You need the most expensive model",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "You need the most expensive model"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#applenews #macbook #appletips #macos #appleintelligence #macrumors #iphone #apple #techtips #helpdesk #techsupport #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need the most expensive model\nTruth: Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #ai #aitools #aitech #chatgpt #machinelearning #futuretech #copilot #itsupportguru #techtips #helpdesk #techsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260901-5-security-habits-it-pros-actually-run",
+      "id": "20260902-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 security habits IT pros actually run",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "5 security habits IT pros actually run 🔓\n\nInsider knowledge, free.\n\n• Password manager + unique password per site\n• Authenticator app instead of SMS codes\n• Lock screen on every device, every time\n• Updates installed within days of release\n\nSave this — it'll be your shortcut later →\n\n#secops #password #security #cybersecurity #cyberdefense #phishing #infosec #onlinesafety #itsupportguru #techdaily #helpdesk #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#macos #applenews #appletips #iphone #macbook #ios #appleintelligence #apple #techdaily #itpro #sysadmin #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260901-put-a-website-behind-https",
+      "id": "20260902-buy-a-laptop-that-fits-your-work",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Put a website behind HTTPS",
+      "title": "Buy a laptop that fits your work",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
+          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Point your domain at your server's IP"
+          "text": "List the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Install nginx or any web server"
+          "text": "Match CPU tier and RAM to that list"
         },
         {
           "kind": "step",
-          "text": "Run certbot for a free Let's Encrypt cert"
+          "text": "Confirm the port needs — USB-C, HDMI, storage"
         },
         {
           "kind": "step",
-          "text": "Let certbot schedule auto-renewal"
+          "text": "Get 16GB+ RAM and an SSD minimum"
         },
         {
           "kind": "step",
-          "text": "Test https:// — a green padlock, no cost."
+          "text": "Buy from a brand with known reliability and warranty."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Put a website behind HTTPS ☁️\n\n1. Point your domain at your server's IP\n2. Install nginx or any web server\n3. Run certbot for a free Let's Encrypt cert\n4. Let certbot schedule auto-renewal\n5. Test https://\n     ✓ a green padlock, no cost.\n\nSave this for the next ticket →\n\n#devopslife #devops #cloud #aws #azure #cloudcomputing #docker #sre #itpro #techdaily #itsupportguru #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n4. Get 16GB+ RAM and an SSD minimum\n5. Buy from a brand with known reliability and warranty.\n\nSave this for the next ticket →\n\n#ssd #hardware #pc #ram #chipshortage #gpu #benchmark #pcgaming #itpro #techdaily #sysadmin #helpdesk\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

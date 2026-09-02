@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-01T21:55:36.948Z",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-02T21:57:08.729Z",
   "posts": [
     {
-      "id": "20260902-your-system-drive-is-under-15-free-space",
+      "id": "20260903-you-ignore-the-windows-update-restart-prompt",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -12,134 +12,134 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
+      "title": "You ignore the Windows Update restart prompt",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+          "text": "You ignore the Windows Update restart\nPatching is security — every missed update is an open door."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+          "text": "WHY IT'S A PROBLEM — Patching is security — every missed update is an open door."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+          "text": "THE FIX — Schedule updates for the weekend and let it finish."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#helpdesk #itsupport #computertips #pc #pchelp #techsupport #fixyourpc #troubleshooting #sysadmin #techdaily #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou ignore the Windows Update restart prompt\n\nWhy it's a problem: Patching is security — every missed update is an open door.\nThe fix: Schedule updates for the weekend and let it finish.\n\nSave this before it becomes a repair bill →\n\n#helpdesk #itsupport #pc #windows11 #techsupport #pchelp #windows #fixyourpc #techtips #sysadmin #techdaily #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260902-you-need-the-most-expensive-model",
+      "id": "20260903-5g-is-always-faster-than-wifi",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need the most expensive model",
+      "title": "5G is always faster than WiFi",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need the most expensive model"
+          "text": "5G is always faster than WiFi"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning."
+          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need the most expensive model\nTruth: Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #ai #aitools #aitech #chatgpt #machinelearning #futuretech #copilot #itsupportguru #techtips #helpdesk #techsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: 5G is always faster than WiFi\nTruth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection.\n\nShare this with the person who still believes it →\n\n#gadgets #samsung #techgear #iphone #batterytips #smartphone #gadgetreviews #tech #techtips #helpdesk #itsupportguru #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260902-hidden-macos-tools-most-people-never-find",
+      "id": "20260903-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#macos #applenews #appletips #iphone #macbook #ios #appleintelligence #apple #techdaily #itpro #sysadmin #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#hardware #chipshortage #pcgaming #cpu #ssd #techreview #benchmark #gpu #techtips #itsupportguru #sysadmin #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260902-buy-a-laptop-that-fits-your-work",
+      "id": "20260903-set-up-a-github-actions-pipeline",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Buy a laptop that fits your work",
+      "title": "Set up a GitHub Actions pipeline",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
+          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "List the three apps that slow your current PC"
+          "text": "Add a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "Match CPU tier and RAM to that list"
+          "text": "Use a simple job: checkout + run tests"
         },
         {
           "kind": "step",
-          "text": "Confirm the port needs — USB-C, HDMI, storage"
+          "text": "Push — the pipeline runs automatically"
         },
         {
           "kind": "step",
-          "text": "Get 16GB+ RAM and an SSD minimum"
+          "text": "Add a deploy job that SSHes to your VM"
         },
         {
           "kind": "step",
-          "text": "Buy from a brand with known reliability and warranty."
+          "text": "Now every commit tests and ships, hands-free."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n4. Get 16GB+ RAM and an SSD minimum\n5. Buy from a brand with known reliability and warranty.\n\nSave this for the next ticket →\n\n#ssd #hardware #pc #ram #chipshortage #gpu #benchmark #pcgaming #itpro #techdaily #sysadmin #helpdesk\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Set up a GitHub Actions pipeline ☁️\n\n1. Add a workflow file in .github/workflows/\n2. Use a simple job: checkout + run tests\n3. Push\n     ✓ the pipeline runs automatically\n4. Add a deploy job that SSHes to your VM\n5. Now every commit tests and ships, hands-free.\n\nSave this for the next ticket →\n\n#techops #devops #cloudinfra #devopslife #kubernetes #docker #cloud #aws #itpro #itsupportguru #techdaily #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

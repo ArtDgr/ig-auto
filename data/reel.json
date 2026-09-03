@@ -1,30 +1,26 @@
 {
-  "date": "20260903",
+  "date": "20260904",
   "deck": {
-    "id": "vivo-t5-5g-unveiled-dimensity-7500-turbo-soc-144hz-curved-di",
-    "niche": "gadgets",
-    "href": "https://www.gsmarena.com/vivo_t5_5g_features_price_sale_date-news-74444.php",
-    "title": "vivo T5 5G unveiled: Dimensity 7500 Turbo SoC, 144Hz curved display,…",
+    "id": "m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair",
+    "niche": "apple",
+    "href": "https://appleinsider.com/articles/26/09/03/m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair?utm_source=rss",
+    "title": "M4 Macs can share local AI work with PCs using Nvidia PAIR",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "7500",
+        "text": "M4 Macs can share local AI work with PCs us…",
         "kind": "hook"
       },
       {
-        "text": "vivo T5 5G unveiled: Dimensity 7500 Turbo S…",
+        "text": "Got an M4 Mac ?",
         "kind": "body"
       },
       {
-        "text": "vivo launched the T5 4G in May, and as promised, the company unveiled the T5 5G…",
+        "text": "Nvidia's new free tool lets it offload local AI tasks to your PC, turning your…",
         "kind": "body"
       },
       {
-        "text": "vivo says the T5 5G is \"designed for ambitious young hustlers who seek powerful…",
-        "kind": "body"
-      },
-      {
-        "text": "It has up to 256GB of UFS 3.1 storage onboard and runs Android 16-based OriginO…",
+        "text": "M5 MacBook Pro The Personal AI Router (PAIR) isn't hardware.",
         "kind": "body"
       },
       {
@@ -33,5 +29,5 @@
       }
     ]
   },
-  "caption": "vivo T5 5G unveiled: Dimensity 7500 Turbo SoC, 144Hz curved display,.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "M4 Macs can share local AI work with PCs using Nvidia PAIR.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

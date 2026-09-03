@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-03",
-  "renderedAt": "2026-09-02T21:57:21.034Z",
+  "date": "2026-09-04",
+  "renderedAt": "2026-09-03T21:50:32.395Z",
   "posts": [
     {
-      "id": "20260903-you-ignore-the-windows-update-restart-prompt",
+      "id": "20260904-your-system-drive-is-under-15-free-space",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -12,159 +12,193 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You ignore the Windows Update restart prompt",
+      "title": "Your system drive is under 15% free space",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You ignore the Windows Update restart\nPatching is security — every missed update is an open door."
+          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Patching is security — every missed update is an open door."
+          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Schedule updates for the weekend and let it finish."
+          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou ignore the Windows Update restart prompt\n\nWhy it's a problem: Patching is security — every missed update is an open door.\nThe fix: Schedule updates for the weekend and let it finish.\n\nSave this before it becomes a repair bill →\n\n#helpdesk #itsupport #pc #windows11 #techsupport #pchelp #windows #fixyourpc #techtips #sysadmin #techdaily #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#fixyourpc #windows11 #troubleshooting #itsupport #windows #pc #ithelp #pchelp #techsupport #itpro #itsupportguru #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260903-you-ignore-the-windows-update-restart-prompt/01.png",
-        "out/instagram-ready/20260903-you-ignore-the-windows-update-restart-prompt/02.png",
-        "out/instagram-ready/20260903-you-ignore-the-windows-update-restart-prompt/03.png",
-        "out/instagram-ready/20260903-you-ignore-the-windows-update-restart-prompt/04.png"
+        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/01.png",
+        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/02.png",
+        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/03.png",
+        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/04.png"
       ]
     },
     {
-      "id": "20260903-5g-is-always-faster-than-wifi",
+      "id": "20260904-more-vram-is-all-that-matters",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "5G is always faster than WiFi",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5G is always faster than WiFi"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: 5G is always faster than WiFi\nTruth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection.\n\nShare this with the person who still believes it →\n\n#gadgets #samsung #techgear #iphone #batterytips #smartphone #gadgetreviews #tech #techtips #helpdesk #itsupportguru #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #pc #laptop #pcgaming #ram #hardware #cpu #techreview #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260903-5g-is-always-faster-than-wifi/01.png",
-        "out/instagram-ready/20260903-5g-is-always-faster-than-wifi/02.png",
-        "out/instagram-ready/20260903-5g-is-always-faster-than-wifi/03.png"
+        "out/instagram-ready/20260904-more-vram-is-all-that-matters/01.png",
+        "out/instagram-ready/20260904-more-vram-is-all-that-matters/02.png",
+        "out/instagram-ready/20260904-more-vram-is-all-that-matters/03.png"
       ]
     },
     {
-      "id": "20260903-the-upgrade-that-changes-everything",
+      "id": "20260904-prompt-tricks-it-pros-use-daily",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "Prompt tricks IT pros use daily",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#hardware #chipshortage #pcgaming #cpu #ssd #techreview #benchmark #gpu #techtips #itsupportguru #sysadmin #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#ai #genai #aitips #copilot #aitools #machinelearning #artificialintelligence #chatgpt #techtips #sysadmin #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260903-the-upgrade-that-changes-everything/01.png",
-        "out/instagram-ready/20260903-the-upgrade-that-changes-everything/02.png",
-        "out/instagram-ready/20260903-the-upgrade-that-changes-everything/03.png"
+        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/01.png",
+        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/02.png",
+        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/03.png"
       ]
     },
     {
-      "id": "20260903-set-up-a-github-actions-pipeline",
+      "id": "20260904-get-notifications-under-control-on-iphone",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a GitHub Actions pipeline",
+      "title": "Get notifications under control on iPhone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
+          "text": "Get notifications under control on iPhone\nSettings > Notifications"
         },
         {
           "kind": "step",
-          "text": "Add a workflow file in .github/workflows/"
+          "text": "Settings > Notifications"
         },
         {
           "kind": "step",
-          "text": "Use a simple job: checkout + run tests"
+          "text": "Turn off everything that isn't an actual person"
         },
         {
           "kind": "step",
-          "text": "Push — the pipeline runs automatically"
+          "text": "Leave badges only for mail and messages"
         },
         {
           "kind": "step",
-          "text": "Add a deploy job that SSHes to your VM"
+          "text": "Enable Scheduled Summary for the rest"
         },
         {
           "kind": "step",
-          "text": "Now every commit tests and ships, hands-free."
+          "text": "One quiet morning of work and you'll feel it."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up a GitHub Actions pipeline ☁️\n\n1. Add a workflow file in .github/workflows/\n2. Use a simple job: checkout + run tests\n3. Push\n     ✓ the pipeline runs automatically\n4. Add a deploy job that SSHes to your VM\n5. Now every commit tests and ships, hands-free.\n\nSave this for the next ticket →\n\n#techops #devops #cloudinfra #devopslife #kubernetes #docker #cloud #aws #itpro #itsupportguru #techdaily #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Get notifications under control on iPhone 🍎\n\n1. Settings > Notifications\n2. Turn off everything that isn't an actual person\n3. Leave badges only for mail and messages\n4. Enable Scheduled Summary for the rest\n5. One quiet morning of work and you'll feel it.\n\nSave this for the next ticket →\n\n#applenews #appleintelligence #apple #macbook #ios #appletips #itpro #macos #helpdesk #itsupportguru #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/01.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/02.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/03.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/04.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/05.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/06.png",
-        "out/instagram-ready/20260903-set-up-a-github-actions-pipeline/07.png"
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/01.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/02.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/03.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/04.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/05.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/06.png",
+        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/07.png"
+      ]
+    },
+    {
+      "id": "20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Pixel 12 Pro Fold could copy iPhone Ultra tech for an…",
+      "source": "Android Authority",
+      "link": "https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Pixel 12 Pro Fold could copy iPhone Ultra tech\nPixel 12 Pro Fold could copy iPhone Ultra tech for an almost crease-free display"
+        },
+        {
+          "kind": "brief",
+          "text": "A couple of other Android brands could copy Apple's solution too.\nAffiliate links on Android Authority may earn us a commission.\nThe Google Pixel 11 Pro Fold launched last month, and it has a reduced display crease compared to previous Pixel foldables.\nHowever, it sounds like the Pixel 12 Pro Fold could take a page from the iPhone Ultra‘s playbook in this regard."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nPixel 12 Pro Fold could copy iPhone Ultra tech for an…\n\n• A couple of other Android brands could copy Apple's solution too.\n• Affiliate links on Android Authority may earn us a commission.\n• The Google Pixel 11 Pro Fold launched last month, and it has a reduced display crease compared to previous Pixel foldables.\n• However, it sounds like the Pixel 12 Pro Fold could take a page from the iPhone Ultra‘s playbook in this regard.\n\nSource: Android Authority — https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#android #samsung #batterytips #gadgets #smartphonetips #tech #gadgetreviews #techgear #techdaily #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — the gadget worth your attention.\n\nShare this with the colleague who keeps asking.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/01.png",
+        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/02.png",
+        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/03.png"
       ]
     }
   ]

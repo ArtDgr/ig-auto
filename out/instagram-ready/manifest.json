@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-04",
-  "renderedAt": "2026-09-03T21:50:32.395Z",
+  "date": "2026-09-05",
+  "renderedAt": "2026-09-04T21:40:00.325Z",
   "posts": [
     {
-      "id": "20260904-your-system-drive-is-under-15-free-space",
+      "id": "20260905-you-clean-your-pc-with-booster-apps",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -12,193 +12,159 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
+      "title": "You 'clean' your PC with booster apps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+          "text": "You 'clean' your PC with booster apps\nThey delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+          "text": "WHY IT'S A PROBLEM — They delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+          "text": "THE FIX — Use Settings > Storage and Disk Cleanup — nothing more."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#fixyourpc #windows11 #troubleshooting #itsupport #windows #pc #ithelp #pchelp #techsupport #itpro #itsupportguru #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou 'clean' your PC with booster apps\n\nWhy it's a problem: They delete the wrong things and claim to fix problems you don't have.\nThe fix: Use Settings > Storage and Disk Cleanup — nothing more.\n\nSave this before it becomes a repair bill →\n\n#computertips #itsupport #helpdesk #pc #pchelp #fixyourpc #troubleshooting #windows #itpro #techtips #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/01.png",
-        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/02.png",
-        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/03.png",
-        "out/instagram-ready/20260904-your-system-drive-is-under-15-free-space/04.png"
+        "out/instagram-ready/20260905-you-clean-your-pc-with-booster-apps/01.png",
+        "out/instagram-ready/20260905-you-clean-your-pc-with-booster-apps/02.png",
+        "out/instagram-ready/20260905-you-clean-your-pc-with-booster-apps/03.png",
+        "out/instagram-ready/20260905-you-clean-your-pc-with-booster-apps/04.png"
       ]
     },
     {
-      "id": "20260904-more-vram-is-all-that-matters",
+      "id": "20260905-chatgpt-remembers-everything",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "ChatGPT remembers everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "ChatGPT remembers everything"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #pc #laptop #pcgaming #ram #hardware #cpu #techreview #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: ChatGPT remembers everything\nTruth: Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap.\n\nShare this with the person who still believes it →\n\n#copilot #ai #chatgpt #artificialintelligence #machinelearning #futuretech #aitools #aitips #itsupportguru #sysadmin #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260904-more-vram-is-all-that-matters/01.png",
-        "out/instagram-ready/20260904-more-vram-is-all-that-matters/02.png",
-        "out/instagram-ready/20260904-more-vram-is-all-that-matters/03.png"
+        "out/instagram-ready/20260905-chatgpt-remembers-everything/01.png",
+        "out/instagram-ready/20260905-chatgpt-remembers-everything/02.png",
+        "out/instagram-ready/20260905-chatgpt-remembers-everything/03.png"
       ]
     },
     {
-      "id": "20260904-prompt-tricks-it-pros-use-daily",
+      "id": "20260905-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#ai #genai #aitips #copilot #aitools #machinelearning #artificialintelligence #chatgpt #techtips #sysadmin #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• TGP — how many watts the GPU actually draws\n• Sustained performance, not peak benchmark numbers\n• Thermal throttling after 20 minutes of load\n• Screen brightness in nits, not just resolution\n\nSave this — it'll be your shortcut later →\n\n#samsung #smartphone #batterytips #tech #gadgetreviews #android #iphone #techgear #techtips #sysadmin #helpdesk #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/01.png",
-        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/02.png",
-        "out/instagram-ready/20260904-prompt-tricks-it-pros-use-daily/03.png"
+        "out/instagram-ready/20260905-what-reviewers-check-that-you-don-t/01.png",
+        "out/instagram-ready/20260905-what-reviewers-check-that-you-don-t/02.png",
+        "out/instagram-ready/20260905-what-reviewers-check-that-you-don-t/03.png"
       ]
     },
     {
-      "id": "20260904-get-notifications-under-control-on-iphone",
+      "id": "20260905-set-up-proper-battery-care",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Get notifications under control on iPhone",
+      "title": "Set up proper battery care",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Get notifications under control on iPhone\nSettings > Notifications"
+          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Settings > Notifications"
+          "text": "Cap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Turn off everything that isn't an actual person"
+          "text": "Avoid leaving it at 100% for weeks on end"
         },
         {
           "kind": "step",
-          "text": "Leave badges only for mail and messages"
+          "text": "Occasional deep discharge is fine, not daily"
         },
         {
           "kind": "step",
-          "text": "Enable Scheduled Summary for the rest"
+          "text": "Keep firmware and battery drivers updated"
         },
         {
           "kind": "step",
-          "text": "One quiet morning of work and you'll feel it."
+          "text": "A battery at 80% capacity after 2 years is normal."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Get notifications under control on iPhone 🍎\n\n1. Settings > Notifications\n2. Turn off everything that isn't an actual person\n3. Leave badges only for mail and messages\n4. Enable Scheduled Summary for the rest\n5. One quiet morning of work and you'll feel it.\n\nSave this for the next ticket →\n\n#applenews #appleintelligence #apple #macbook #ios #appletips #itpro #macos #helpdesk #itsupportguru #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Set up proper battery care 💻\n\n1. Cap charge at 80% if your vendor offers it\n2. Avoid leaving it at 100% for weeks on end\n3. Occasional deep discharge is fine, not daily\n4. Keep firmware and battery drivers updated\n5. A battery at 80% capacity after 2 years is normal.\n\nSave this for the next ticket →\n\n#pcgaming #ram #cpu #pc #gpu #ssd #hardware #chipshortage #itsupportguru #helpdesk #itpro #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/01.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/02.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/03.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/04.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/05.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/06.png",
-        "out/instagram-ready/20260904-get-notifications-under-control-on-iphone/07.png"
-      ]
-    },
-    {
-      "id": "20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Pixel 12 Pro Fold could copy iPhone Ultra tech for an…",
-      "source": "Android Authority",
-      "link": "https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Pixel 12 Pro Fold could copy iPhone Ultra tech\nPixel 12 Pro Fold could copy iPhone Ultra tech for an almost crease-free display"
-        },
-        {
-          "kind": "brief",
-          "text": "A couple of other Android brands could copy Apple's solution too.\nAffiliate links on Android Authority may earn us a commission.\nThe Google Pixel 11 Pro Fold launched last month, and it has a reduced display crease compared to previous Pixel foldables.\nHowever, it sounds like the Pixel 12 Pro Fold could take a page from the iPhone Ultra‘s playbook in this regard."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nPixel 12 Pro Fold could copy iPhone Ultra tech for an…\n\n• A couple of other Android brands could copy Apple's solution too.\n• Affiliate links on Android Authority may earn us a commission.\n• The Google Pixel 11 Pro Fold launched last month, and it has a reduced display crease compared to previous Pixel foldables.\n• However, it sounds like the Pixel 12 Pro Fold could take a page from the iPhone Ultra‘s playbook in this regard.\n\nSource: Android Authority — https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#android #samsung #batterytips #gadgets #smartphonetips #tech #gadgetreviews #techgear #techdaily #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — the gadget worth your attention.\n\nShare this with the colleague who keeps asking.",
-      "status": "pending",
-      "media": [
-        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/01.png",
-        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/02.png",
-        "out/instagram-ready/20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al/03.png"
+        "out/instagram-ready/20260905-set-up-proper-battery-care/01.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/02.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/03.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/04.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/05.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/06.png",
+        "out/instagram-ready/20260905-set-up-proper-battery-care/07.png"
       ]
     }
   ]

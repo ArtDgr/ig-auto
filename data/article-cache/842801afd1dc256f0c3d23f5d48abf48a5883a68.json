@@ -1,0 +1,14 @@
+{
+  "url": "https://9to5mac.com/2026/09/04/apple-fixes-frustrating-testflight-app-regression-that-search-feature-update-added/",
+  "fetched": "2026-09-04T21:39:47.447Z",
+  "paragraphs": [
+    "Back in July, Apple updated its TestFlight app with a basic search feature. While you might think this simple update would be universally welcomed, the same TestFlight app introduced a pretty frustrating bug for a lot of users.",
+    "Personally, I wasn’t affected by the bug in a way that I noticed. For this reason, I thought the TestFlight update was a simple but significant step forward.",
+    "Sometimes a small change can make a big impact. That’s especially true for Apple’s latest TestFlight update for users with a lot of pre-release software.",
+    "Apple just updated TestFlight for iPhone, iPad, Mac, and more. The new version, 4.3, introduces “a search field to quickly find apps.”",
+    "In retrospect, I did notice something odd that I flagged at the end of the post (but got backwards in my assessment):",
+    "The update also surfaced more apps in the “previously tested” category, so maybe the usual bug fix and performance improvements may relate to that.",
+    "I missed that this was actually the bug, I think, because I left several years of app TestFlights to “merge” my separate iCloud and App Store Apple accounts last year. Inconvenient requirement, but worth it for me.",
+    "Anyway, the TestFlight app bug didn’t go unnoticed by John Vorhees at MacStories:"
+  ]
+}

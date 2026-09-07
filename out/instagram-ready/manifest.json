@@ -1,170 +1,170 @@
 {
-  "date": "2026-08-27",
-  "renderedAt": "2026-08-30T23:56:48.429Z",
+  "date": "2026-09-08",
+  "renderedAt": "2026-09-07T22:13:04.163Z",
   "posts": [
     {
-      "id": "20260827-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260908-dev-machines-run-24-7",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Dev machines run 24/7",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Dev machines run 24/7\nA dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — A dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Schedule them to shut down at 7pm and start at 7am."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #chipshortage #ssd #ram #gpu #laptop #hardware #benchmark #sysadmin #itsupportguru #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nDev machines run 24/7\n\nWhy it's a problem: A dev server left running bills all night for zero users.\nThe fix: Schedule them to shut down at 7pm and start at 7am.\n\nSave this before it becomes a repair bill →\n\n#kubernetes #cloudinfra #devopslife #cloudcomputing #azure #techops #sre #cloud #techsupport #techdaily #itpro #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\01.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\02.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\03.png",
-        "out\\instagram-ready\\20260827-you-bought-a-laptop-on-the-spec-sheet-alone\\04.png"
+        "out/instagram-ready/20260908-dev-machines-run-24-7/01.png",
+        "out/instagram-ready/20260908-dev-machines-run-24-7/02.png",
+        "out/instagram-ready/20260908-dev-machines-run-24-7/03.png",
+        "out/instagram-ready/20260908-dev-machines-run-24-7/04.png"
       ]
     },
     {
-      "id": "20260827-more-ram-always-makes-your-pc-faster",
+      "id": "20260908-more-vram-is-all-that-matters",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More RAM always makes your PC faster",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More RAM always makes your PC faster"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More RAM always makes your PC faster\nTruth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust.\n\nShare this with the person who still believes it →\n\n#helpdesk #windows #pc #fixyourpc #computertips #troubleshooting #windows11 #ithelp #techsupport #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #hardware #ram #gpu #laptop #pc #pcgaming #techreview #itpro #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\01.png",
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\02.png",
-        "out\\instagram-ready\\20260827-more-ram-always-makes-your-pc-faster\\03.png"
+        "out/instagram-ready/20260908-more-vram-is-all-that-matters/01.png",
+        "out/instagram-ready/20260908-more-vram-is-all-that-matters/02.png",
+        "out/instagram-ready/20260908-more-vram-is-all-that-matters/03.png"
       ]
     },
     {
-      "id": "20260827-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260908-prompt-tricks-it-pros-use-daily",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "Prompt tricks IT pros use daily",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#apple #applenews #iphone #ios #itpro #macbook #appletips #macrumors #techdaily #itsupportguru #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#aitips #chatgpt #futuretech #copilot #aitools #ai #machinelearning #aitech #itsupportguru #techsupport #techdaily #techtips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\01.png",
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\02.png",
-        "out\\instagram-ready\\20260827-the-fastest-way-to-find-anything-on-a-mac\\03.png"
+        "out/instagram-ready/20260908-prompt-tricks-it-pros-use-daily/01.png",
+        "out/instagram-ready/20260908-prompt-tricks-it-pros-use-daily/02.png",
+        "out/instagram-ready/20260908-prompt-tricks-it-pros-use-daily/03.png"
       ]
     },
     {
-      "id": "20260827-verify-ai-facts-before-sharing",
+      "id": "20260908-create-a-strong-memorable-passphrase",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Verify AI facts before sharing",
+      "title": "Create a strong, memorable passphrase",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Verify AI facts before sharing\nAsk the AI for a source for each claim"
+          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Ask the AI for a source for each claim"
+          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Independently check the top two sources"
+          "text": "Keep it long — 16+ characters"
         },
         {
           "kind": "step",
-          "text": "Watch for plausible but wrong dates and names"
+          "text": "Add symbols only if a site demands them"
         },
         {
           "kind": "step",
-          "text": "Use AI as a lead, not the verdict"
+          "text": "Never reuse it anywhere else"
         },
         {
           "kind": "step",
-          "text": "When in doubt, mark it unverified."
+          "text": "Let your password manager remember the rest."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Verify AI facts before sharing 🤖\n\n1. Ask the AI for a source for each claim\n2. Independently check the top two sources\n3. Watch for plausible but wrong dates and names\n4. Use AI as a lead, not the verdict\n5. When in doubt, mark it unverified.\n\nSave this for the next ticket →\n\n#genai #futuretech #aitools #chatgpt #ai #artificialintelligence #aitech #copilot #itpro #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Create a strong, memorable passphrase 🔐\n\n1. Pick four random words, e.g. Guitar-Maple-Frost-Cedar\n2. Keep it long\n     ✓ 16+ characters\n3. Add symbols only if a site demands them\n4. Never reuse it anywhere else\n5. Let your password manager remember the rest.\n\nSave this for the next ticket →\n\n#cyberdefense #security #cybersecurity #phishing #infosec #cybersectips #2fa #onlinesafety #techtips #techsupport #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\01.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\02.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\03.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\04.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\05.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\06.png",
-        "out\\instagram-ready\\20260827-verify-ai-facts-before-sharing\\07.png"
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/01.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/02.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/03.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/04.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/05.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/06.png",
+        "out/instagram-ready/20260908-create-a-strong-memorable-passphrase/07.png"
       ]
     }
   ]

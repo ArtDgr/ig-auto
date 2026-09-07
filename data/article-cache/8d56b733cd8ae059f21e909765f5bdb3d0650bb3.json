@@ -1,0 +1,14 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/gpus/dlss-5-mod-brings-next-gen-tech-to-old-ampere-gpus-but-frame-rates-are-horrible-most-games-tank-to-single-digits-high-end-gpus-can-hit-up-to-40-fps-in-some-cases",
+  "fetched": "2026-08-31T23:17:32.408Z",
+  "paragraphs": [
+    "Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.",
+    "When you purchase through links on our site, we may earn an affiliate commission. Here’s how it works.",
+    "Nvidia's upcoming DLSS 5 neural rendering tech leaked earlier this week through a pre-release version of the DLL inside NBA 2K27 (which is in early access). The community quickly got it working on RTX 50-series GPUs, some of the best graphics cards, but modders later patched the DLL to work on RTX 40-series GPUs, too. Now, thanks to rapid development in the RenoDX Discord server, the DLL has once again been patched to work on RTX 30-series GPUs.",
+    "Scouring through the server, the general sentiment is mixed. DLSS 5 works on Ampere cards, but performance tanks in almost every case. Any time a user shows decent framerates, it comes at the cost of base visual fidelity. To use DLSS 5 to make the game look more realistic, you need to turn the in-game settings all the way down. It's a balancing act to avoid the point of diminishing returns.",
+    "The net result is a more photorealistic image that looks noticeably different (better?) than native rendering. However, it introduces an insane latency penalty where most of the frame pacing is now formed exclusively by neural rendering. In worst-case scenarios, your frametimes can multiply by ten compared to before. If all of this still sounds enticing, then let's talk about the results.",
+    "One user got Grand Theft Auto V running at around 20-30 FPS on an RTX 3080 Ti at 1440p. Another user played Dying Light 2 at roughly 40 FPS on an RTX 3080 but noted that the image was very noisy. Hogwarts Legacy was running at 30 FPS on an RTX 3090; Mortal Shell 2 at 34 FPS on RTX 3080 Ti, but with shimmering; Ready or Not at 30 FPS on RTX 3080; Neverness to Everness at 29-30 FPS on RTX 3080; and even NBA 2K27 on a mobile RTX 3070 at 25 FPS with DLAA at 1080.",
+    "On the other hand, many users reported being stuck in single-digit FPS territory across a variety of games. You'd expect bad performance from RTX 3050 and RTX 3060 users, but the worst we saw was 2 FPS for Hogwarts Legacy on RTX 3070. One person on X enjoyed Deep Rock Galactic with DLSS 5 at 4 FPS on their RTX 3080, down from 130+ FPS without it. Back on Discord, one user ran Cyberpunk 2077 at 7 FPS on an RTX 3080 Ti.",
+    "I GOT DLSS 5 RUNNING ON MY RTX 3080!! pic.twitter.com/fiSnGKtwPWAugust 29, 2026"
+  ]
+}

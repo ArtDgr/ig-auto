@@ -1,26 +1,30 @@
 {
-  "date": "20260829",
+  "date": "20260908",
   "deck": {
-    "id": "iphone-ultra-what-to-expect-from-apple-s-first-foldable-ipho",
-    "niche": "apple",
-    "href": "https://appleinsider.com/articles/26/08/28/iphone-ultra-what-to-expect-from-apples-first-foldable-iphone-and-when?utm_source=rss",
-    "title": "iPhone Ultra: What to expect from Apple's first foldable iPhone, and…",
+    "id": "samsung-galaxy-a07s-debuts-with-a-6-7-inch-screen-5-000mah-b",
+    "niche": "gadgets",
+    "href": "https://www.gsmarena.com/samsung_galaxy_a07s_debuts_with_a_67inch_screen_5000mah_battery-news-74494.php",
+    "title": "Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "iPhone Ultra: What to expect from Apple's f…",
+        "text": "128",
         "kind": "hook"
       },
       {
-        "text": "Rumors of a folding iPhone go back more than a decade, and the device will fina…",
+        "text": "Samsung Galaxy A07s debuts with a 6.7-inch…",
         "kind": "body"
       },
       {
-        "text": "Here's what the rumor mill thinks is coming.",
+        "text": "Back in August, the Samsung Galaxy A07s appeared on the Google Play Console alo…",
         "kind": "body"
       },
       {
-        "text": "Apple's foldable iPhone might be right around the corner.",
+        "text": "Now, the budget smartphone seems to have been quietly launched in the Levant re…",
+        "kind": "body"
+      },
+      {
+        "text": "The Galaxy A07s comes equipped with an octa-core 6nm MediaTek G99+ chipset, whi…",
         "kind": "body"
       },
       {
@@ -29,5 +33,5 @@
       }
     ]
   },
-  "caption": "iPhone Ultra: What to expect from Apple's first foldable iPhone, and.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

@@ -61,6 +61,54 @@ async function resolveChannelId() {
   return picked.id;
 }
 
+const TIKTOK_CACHE = path.join("data", "buffer-tiktok.json");
+async function resolveTikTokChannelId() {
+  if (config.buffer && config.buffer.tiktokChannelId) return config.buffer.tiktokChannelId;
+  if (fs.existsSync(TIKTOK_CACHE)) {
+    try {
+      const c = JSON.parse(fs.readFileSync(TIKTOK_CACHE, "utf8"));
+      if (c && c.channelId) return c.channelId;
+    } catch {}
+  }
+  const orgs = await getOrganizations();
+  if (!orgs.length) throw new Error("No Buffer organizations found for this API key");
+  const org = orgs[0];
+  const channels = await getChannels(org.id);
+  const tk = channels.filter((c) => /tiktok/i.test(String(c.service || "")));
+  if (!tk.length) {
+    throw new Error("No TikTok channel in Buffer. Connect TikTok in Buffer first: " + JSON.stringify(channels.map((c) => ({ name: c.name, service: c.service })), null, 2));
+  }
+  const picked = tk[0];
+  fs.mkdirSync("data", { recursive: true });
+  fs.writeFileSync(TIKTOK_CACHE, JSON.stringify({ organizationId: org.id, channelId: picked.id, name: picked.displayName || picked.name }, null, 2));
+  console.log(`[buffer] resolved TikTok channel ${picked.displayName || picked.name} (${picked.service}) -> ${picked.id}`);
+  return picked.id;
+}
+
+const X_CACHE = path.join("data", "buffer-x.json");
+async function resolveXChannelId() {
+  if (config.buffer && config.buffer.xChannelId) return config.buffer.xChannelId;
+  if (fs.existsSync(X_CACHE)) {
+    try {
+      const c = JSON.parse(fs.readFileSync(X_CACHE, "utf8"));
+      if (c && c.channelId) return c.channelId;
+    } catch {}
+  }
+  const orgs = await getOrganizations();
+  if (!orgs.length) throw new Error("No Buffer organizations found for this API key");
+  const org = orgs[0];
+  const channels = await getChannels(org.id);
+  const x = channels.filter((c) => /twitter|x\b/i.test(String(c.service || "")));
+  if (!x.length) {
+    throw new Error("No X/Twitter channel in Buffer. Connect X in Buffer first: " + JSON.stringify(channels.map((c) => ({ name: c.name, service: c.service })), null, 2));
+  }
+  const picked = x[0];
+  fs.mkdirSync("data", { recursive: true });
+  fs.writeFileSync(X_CACHE, JSON.stringify({ organizationId: org.id, channelId: picked.id, name: picked.displayName || picked.name }, null, 2));
+  console.log(`[buffer] resolved X channel ${picked.displayName || picked.name} (${picked.service}) -> ${picked.id}`);
+  return picked.id;
+}
+
 function repoBase() {
   const rep = process.env.GITHUB_REPOSITORY || (config.buffer && config.buffer.repo);
   const ref = process.env.GITHUB_REF_NAME || (config.buffer && config.buffer.branch) || "main";
@@ -70,6 +118,9 @@ function repoBase() {
 
 function postMediaUrls(post) {
   return (post.media || []).map((m) => `${repoBase()}/out/instagram-ready/${post.id}/${path.basename(m)}`);
+}
+function xMediaUrls(post) {
+  return (post.media || []).slice(0,4).map((m) => `${repoBase()}/out/x-ready/${post.id}/${path.basename(m)}`);
 }
 
 function aestDate(d = new Date()) {
@@ -81,25 +132,29 @@ function toIso(dateStr, hm) {
   return new Date(`${y}-${m}-${dd}T${hm}:00+10:00`).toISOString();
 }
 
-function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postType = "post" }) {
+function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postType = "post", platform = "instagram" }) {
   const assets = [];
   for (const u of imageUrls || []) assets.push(`{ image: { url: ${JSON.stringify(u)} } }`);
   if (videoUrl) assets.push(`{ video: { url: ${JSON.stringify(videoUrl)} } }`);
-  const meta = `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
+  const isX = platform === "x" || platform === "twitter";
+  const meta = (platform === "tiktok" || isX) ? "" : `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
   const frags = `... on PostActionSuccess { post { id status } } ... on InvalidInputError { message } ... on RestProxyError { message } ... on LimitReachedError { message } ... on UnexpectedError { message } ... on UnauthorizedError { message } ... on NotFoundError { message }`;
-  return `mutation { createPost(input: { text: ${JSON.stringify(text)}, channelId: ${JSON.stringify(channelId)}, schedulingType: automatic, mode: ${dueAt ? "customScheduled" : "addToQueue"}${dueAt ? `, dueAt: ${JSON.stringify(dueAt)}` : ""}, needsApproval: false, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
+  const metaFrag = meta ? `, ${meta}` : "";
+  return `mutation { createPost(input: { text: ${JSON.stringify(text)}, channelId: ${JSON.stringify(channelId)}, schedulingType: automatic, mode: ${dueAt ? "customScheduled" : "addToQueue"}${dueAt ? `, dueAt: ${JSON.stringify(dueAt)}` : ""}, needsApproval: false${metaFrag}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
 }
 
 // editPost replaces a whole scheduled post (text + assets + metadata + dueAt).
 // The channel and approval state are untouched, so this is safe to run right up
 // to publish time for a content/design refresh.
-function editPostMutation({ id, text, dueAt, imageUrls, videoUrl, postType = "post" }) {
+function editPostMutation({ id, text, dueAt, imageUrls, videoUrl, postType = "post", platform = "instagram" }) {
   const assets = [];
   for (const u of imageUrls || []) assets.push(`{ image: { url: ${JSON.stringify(u)} } }`);
   if (videoUrl) assets.push(`{ video: { url: ${JSON.stringify(videoUrl)} } }`);
-  const meta = `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
+  const isX = platform === "x" || platform === "twitter";
+  const meta = (platform === "tiktok" || isX) ? "" : `metadata: { instagram: { type: ${postType}, shouldShareToFeed: true } }`;
   const frags = `... on PostActionSuccess { post { id status } } ... on InvalidInputError { message } ... on RestProxyError { message } ... on LimitReachedError { message } ... on UnexpectedError { message } ... on UnauthorizedError { message } ... on NotFoundError { message }`;
-  return `mutation { editPost(input: { id: ${JSON.stringify(id)}, text: ${JSON.stringify(text)}, schedulingType: automatic, mode: customScheduled, dueAt: ${JSON.stringify(dueAt)}, ${meta}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
+  const metaFrag = meta ? `, ${meta}` : "";
+  return `mutation { editPost(input: { id: ${JSON.stringify(id)}, text: ${JSON.stringify(text)}, schedulingType: automatic, mode: customScheduled, dueAt: ${JSON.stringify(dueAt)}${metaFrag}${assets.length ? `, assets: [${assets.join(",")}]` : ""} }) { ${frags} } }`;
 }
 
 function loadState() {
@@ -243,6 +298,177 @@ export async function scheduleReel(dateStr, { dry = false, state: priorState } =
   return { scheduled: [{ reel: file, bufferId: pid, due }] };
 }
 
+// ---- TikTok headless cloud publishing (Buffer is primary, same as IG) ----
+function tiktokVideoUrl(file) {
+  return `${repoBase()}/out/tiktok-ready/${file}`;
+}
+
+function hashTikTok(s) { let h=2166136261; for(let i=0;i<s.length;i++){h^=s.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0; }
+function rndTikTok(seed){ let t=seed>>>0; return function(){ t+=0x6d2b79f5; let r=Math.imul(t^(t>>>15),1|t); r^=r+Math.imul(r^(r>>>7),61|r); return ((r^(r>>>14))>>>0)/4294967296; } }
+function randomizedTikTokTimes(dateStr, count){
+  // Deterministic per date, 08:00-22:00, randomized minutes, min 75m gap — looks human, not bot-fixed.
+  const rnd = rndTikTok(hashTikTok(dateStr));
+  const mins=[];
+  for(let i=0;i<count;i++){
+    let t, attempts=0;
+    do{ t=480+Math.floor(rnd()*840); attempts++; if(attempts>80) break; } while(mins.some(m=>Math.abs(m-t)<75));
+    mins.push(t);
+  }
+  mins.sort((a,b)=>a-b);
+  return mins.map(m=>`${String(Math.floor(m/60)).padStart(2,"0")}:${String(m%60).padStart(2,"0")}`);
+}
+export async function scheduleTikTok(dateStr, { dry = false, state: priorState } = {}) {
+  const tiktokDir = (config.tiktok && config.tiktok.postDir) || (config.tiktokBot && config.tiktokBot.postDir) || "out/tiktok-ready";
+  const scriptsPath = path.join("data", "scripts.json");
+  if (!fs.existsSync(scriptsPath)) {
+    console.log("[buffer:tiktok] no scripts.json — run scheduler generate first, skipping TikTok");
+    return { scheduled: [] };
+  }
+  const decks = JSON.parse(fs.readFileSync(scriptsPath, "utf8"));
+  if (!Array.isArray(decks) || !decks.length) {
+    console.log("[buffer:tiktok] no decks, skipping");
+    return { scheduled: [] };
+  }
+  // Only schedule videos that actually exist on disk (render step may have failed for some)
+  let available = decks.filter((d) => fs.existsSync(path.join(tiktokDir, d.id + ".mp4")));
+  if (!available.length) {
+    // Fallback: scripts.json stale (e.g. after curate reset) — pick whatever mp4s exist
+    try {
+      const files = fs.readdirSync(tiktokDir).filter((f) => f.endsWith(".mp4"));
+      if (files.length) {
+        console.log(`[buffer:tiktok] scripts.json mismatch — falling back to ${files.length} existing mp4(s)`);
+        available = files.map((f) => {
+          const id = f.replace(/\.mp4$/, "");
+          const deck = decks.find((d) => d.id === id);
+          const capFile = path.join(tiktokDir, f.replace(/\.mp4$/, ".txt"));
+          const title = deck ? deck.title : id.replace(/-/g, " ");
+          const niche = deck ? deck.niche : "ai";
+          return { id, title, niche, _capFile: capFile };
+        });
+      }
+    } catch {}
+  }
+  if (!available.length) {
+    console.log(`[buffer:tiktok] no rendered mp4s in ${tiktokDir}, skipping`);
+    return { scheduled: [] };
+  }
+  const state = priorState || loadState();
+  const scheduled = [];
+  // Deterministic shuffle per date so same day always picks same 3 but varies across days
+  const shuffled = [...available].sort((a, b) => {
+    let ha = 23; for (const ch of (a.id + dateStr)) ha = (ha * 31 + ch.charCodeAt(0)) % 1000;
+    let hb = 23; for (const ch of (b.id + dateStr)) hb = (hb * 31 + ch.charCodeAt(0)) % 1000;
+    return ha - hb;
+  }).slice(0, Math.min((config.tiktok && config.tiktok.maxPerDay) || 3, available.length));
+
+  const times = randomizedTikTokTimes(dateStr, shuffled.length);
+  let idx = 0;
+  for (const deck of shuffled) {
+    const capFile = path.join(tiktokDir, deck.id + ".txt");
+    const text = fs.existsSync(capFile) ? fs.readFileSync(capFile, "utf8").trim() : `${deck.title}\n\n${(config.tiktok && config.tiktok.cta) || ""}`;
+    const due = toIso(dateStr, times[idx]);
+    const key = `tiktok${idx}`;
+    if (state[dateStr] && state[dateStr][key]) {
+      console.log(`[buffer:tiktok] already scheduled ${key} for ${dateStr} (buffer ${state[dateStr][key].bufferId})`);
+      idx++;
+      continue;
+    }
+    const videoUrl = tiktokVideoUrl(deck.id + ".mp4");
+    const channelId = dry ? (config.buffer && config.buffer.tiktokChannelId) || (config.buffer && config.buffer.channelId) || "CHANNEL_ID" : await resolveTikTokChannelId();
+    const mutation = createPostMutation({ text, channelId, dueAt: due, videoUrl, platform: "tiktok" });
+    if (dry) {
+      console.log(`[buffer:tiktok] (dry) ${deck.id} @ ${due} (video ${videoUrl})`);
+      scheduled.push({ tiktok: deck.id, due, videoUrl, text: text.slice(0, 80) + "…" });
+      idx++;
+      continue;
+    }
+    const data = await gql(mutation);
+    const res = data.createPost || {};
+    const pid = res.post && res.post.id;
+    if (!pid) throw new Error(`Buffer rejected TikTok ${deck.id}: ${res.message || "no post id"}`);
+    state[dateStr] = state[dateStr] || {};
+    state[dateStr][key] = { deckId: deck.id, bufferId: pid, dueAt: due, niche: deck.niche || "", title: deck.title };
+    console.log(`[buffer:tiktok] scheduled ${deck.id} -> ${pid} @ ${due}`);
+    scheduled.push({ tiktok: deck.id, bufferId: pid, due });
+    idx++;
+  }
+  if (!dry && priorState) { /* caller saves */ } else if (!dry) saveState(state);
+  return { scheduled, state };
+}
+
+export async function scheduleX(dateStr, { dry = false, state: priorState } = {}) {
+  const xDir = (config.x && config.x.postDir) || "out/x-ready";
+  const manifestPath = path.join(xDir, "manifest.json");
+  if (!fs.existsSync(manifestPath)) {
+    console.log("[buffer:x] no manifest at "+manifestPath+" — run x-render first, skipping X");
+    return { scheduled: [] };
+  }
+  const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  if (manifest.date !== dateStr) throw new Error(`X manifest date ${manifest.date} != ${dateStr}`);
+  // stealth gating — independent X hash so IG and X don't always skip same day
+  if (!dry) {
+    const n = parseInt(dateStr.replace(/-/g,""),10) ^ 0x9e3779b9;
+    let hash = (n * 2654435761) % 100;
+    if (hash < 0) hash += 100;
+    if (hash >= 30) {
+      console.log(`[buffer:x] Skipped - bi-weekly cycle (hash ${hash}/100, date ${dateStr})`);
+      return { date: dateStr, scheduled: [], skipped: true };
+    }
+  }
+  const times = (config.x && config.x.postingTimes) || ["06:00","12:00","17:00","20:00"];
+  const state = priorState || loadState();
+  const scheduled=[];
+  // Use same stealth "2-4 posts" logic but seeded for X (xor)
+  const n2 = parseInt(dateStr.replace(/-/g,""),10) ^ 0x85ebca6b;
+  let hash2 = (n2 * 1664525) % 3;
+  if (hash2<0) hash2+=3;
+  const targetCount = 2 + hash2;
+  const shuffled=[...manifest.posts].sort((a,b)=>{
+    let ha=31; for(const ch of (a.id+dateStr+"x")) ha=(ha*31+ch.charCodeAt(0))%1000;
+    let hb=31; for(const ch of (b.id+dateStr+"x")) hb=(hb*31+ch.charCodeAt(0))%1000;
+    return ha-hb;
+  }).slice(0, Math.min(targetCount, manifest.posts.length));
+  const shuffledTimes=[...times].sort((a,b)=>{
+    let ha=19; for(const ch of (a+dateStr+"x")) ha=(ha*37+ch.charCodeAt(0))%1000;
+    let hb=19; for(const ch of (b+dateStr+"x")) hb=(hb*37+ch.charCodeAt(0))%1000;
+    return ha-hb;
+  });
+  if(!dry) console.log(`[buffer:x] stealth: selected ${shuffled.length}/${manifest.posts.length} X posts for ${dateStr} times ${shuffledTimes.slice(0,shuffled.length).join(",")}`);
+  let timeIdx=0;
+  for(const post of shuffled){
+    const due=toIso(dateStr, shuffledTimes[timeIdx % shuffledTimes.length] || times[post.slot] || times[0]);
+    timeIdx++;
+    // X state key namespaced to avoid colliding with IG slot keys
+    const xKey=`x${post.slot}`;
+    if(state[dateStr] && state[dateStr][xKey]){
+      console.log(`[buffer:x] already scheduled ${xKey} for ${dateStr} (buffer ${state[dateStr][xKey].bufferId})`);
+      continue;
+    }
+    const urls=xMediaUrls(post);
+    // X captions already 280-char via x-generator; fallback to post.caption
+    let text=post.caption||"";
+    // Ensure link is present if available and caption didn't already contain it
+    if(post.link && !text.includes(post.link)) text = (text.trim()+" "+post.link).trim();
+    const channelId=dry ? (config.buffer&&config.buffer.xChannelId) || (config.buffer&&config.buffer.channelId) || "CHANNEL_ID" : await resolveXChannelId();
+    const mutation=createPostMutation({ text, channelId, dueAt: due, imageUrls: urls, platform:"x" });
+    if(dry){
+      scheduled.push({ slot: post.slot, title: post.title, due, urls, text: text.slice(0,80)+"…", chars: text.length });
+      console.log(`[buffer:x] (dry) slot ${post.slot} "${post.title}" @ ${due} (${text.length} chars, ${urls.length} imgs)`);
+      continue;
+    }
+    const data=await gql(mutation);
+    const res=data.createPost||{};
+    const pid=res.post&&res.post.id;
+    if(!pid) throw new Error(`Buffer rejected X slot ${post.slot} ("${post.title}"): ${res.message||"no post id"}`);
+    state[dateStr]=state[dateStr]||{};
+    state[dateStr][xKey]={ postId: post.id, bufferId: pid, dueAt: due, niche: post.niche||"", title: post.title, platform:"x" };
+    console.log(`[buffer:x] scheduled slot ${post.slot} "${post.title}" -> ${pid} @ ${due}`);
+    scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
+  }
+  if(!dry && !priorState) saveState(state);
+  return { date: dateStr, scheduled, state };
+}
+
 // Reel niche comes from the reel script's deck (data/reel.json) so the boost
 // agent can attribute reel performance to a niche for rotation weighting.
 function reelNiche(dateStr) {
@@ -332,10 +558,10 @@ export async function deletePost(postId, { dry = false } = {}) {
   return { id: res.id };
 }
 
-export default { scheduleDate, scheduleReel, updateSlots, cmdStatus, deletePost };
-export { gql, repoBase, resolveChannelId, createPostMutation, loadState, saveState, aestDate, toIso, deletePost as deletePostNamed };
+export default { scheduleDate, scheduleReel, scheduleTikTok, scheduleX, updateSlots, cmdStatus, deletePost };
+export { gql, repoBase, resolveChannelId, resolveTikTokChannelId, resolveXChannelId, createPostMutation, loadState, saveState, aestDate, toIso, deletePost as deletePostNamed, scheduleTikTok as scheduleTikTokNamed, scheduleX as scheduleXNamed };
 
-// Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel] | update [--date=YYYYMMDD] [--slots=1,2] [--dry]`
+// Direct run: `node src/buffer-publish.js status | channels | schedule [--date=YYYYMMDD] [--dry] [--reel] [--tiktok] [--x] | update [--date=YYYYMMDD] [--slots=1,2] [--dry] | tiktok [--date=YYYY-MM-DD] [--dry] | x [--date=YYYY-MM-DD] [--dry]`
 if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-publish.js")) {
   const args = process.argv.slice(2);
   const cmd = args[0] || "help";
@@ -356,7 +582,23 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
       }
     } else if (cmd === "schedule") {
       const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
-      await scheduleDate(date, { dry: has("dry"), reel: has("reel") });
+      const r = await scheduleDate(date, { dry: has("dry"), reel: has("reel") });
+      if (has("tiktok")) {
+        const state = loadState();
+        await scheduleTikTok(date, { dry: has("dry"), state });
+        if (!has("dry")) saveState(state);
+      }
+      if (has("x")) {
+        const state = loadState();
+        await scheduleX(date, { dry: has("dry"), state });
+        if (!has("dry")) saveState(state);
+      }
+    } else if (cmd === "tiktok") {
+      const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+      await scheduleTikTok(date, { dry: has("dry") });
+    } else if (cmd === "x") {
+      const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+      await scheduleX(date, { dry: has("dry") });
     } else if (cmd === "update") {
       const date = (flag("date") || aestDate()).replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
       const slots = (flag("slots") || "").split(",").map((s) => parseInt(s, 10)).filter((n) => !isNaN(n));
@@ -366,7 +608,7 @@ if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("src/buffer-
       if (!id) throw new Error("delete requires --id=<buffer post id>");
       await deletePost(id, { dry: has("dry") });
     } else {
-      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel] | update [--date=YYYY-MM-DD] [--slots=1,2] [--dry] | delete --id=<post id> [--dry]");
+      console.log("Usage: node src/buffer-publish.js status | channels | schedule [--date=YYYY-MM-DD] [--dry] [--reel] [--tiktok] [--x] | tiktok [--date=YYYY-MM-DD] [--dry] | x [--date=YYYY-MM-DD] [--dry] | update [--date=YYYY-MM-DD] [--slots=1,2] [--dry] | delete --id=<post id> [--dry]");
     }
   };
 

@@ -33,12 +33,15 @@ export async function launchPersistent(config, opts = {}) {
   }
 
   context.on("close", () => console.log("[stealth] browser context CLOSED"));
-  context.on("weberror", (e) => console.log("[stealth] weberror: " + (e && e.error && e.error.message || e)));
 
   await context.addInitScript(() => {
     Object.defineProperty(navigator, "webdriver", { get: () => undefined });
     Object.defineProperty(navigator, "languages", { get: () => ["en-US", "en"] });
     Object.defineProperty(navigator, "hardwareConcurrency", { get: () => 8 });
+    Object.defineProperty(navigator, "plugins", { get: () => [1,2,3,4,5] });
+    window.chrome = { runtime: {} };
+    // TikTok's secsdk checks for headless flags — spoof them
+    Object.defineProperty(navigator, "userAgent", { get: () => navigator.userAgent });
   });
 
   return context;

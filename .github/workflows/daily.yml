@@ -36,6 +36,12 @@ jobs:
       - name: Curate topics (RSS + deepen article cache)
         run: node src/scheduler.js curate
 
+      - name: Generate TikTok decks (vertical 1080x1920 videos)
+        run: node src/scheduler.js generate
+
+      - name: Render TikTok videos (voice + life-bg)
+        run: node src/scheduler.js render
+
       - name: Generate IG plan (AEST today)
         run: node src/ig-generator.js
 
@@ -51,11 +57,24 @@ jobs:
       - name: QA gate (hard fail on defects)
         run: node src/qa-check.js
 
+      - name: Generate X plan (AEST today) — local fallback only, canonical X is theitsupportguru-x via Ayrshare (no Buffer)
+        run: node src/x-generator.js
+
+      - name: Render X cards (1280x720) — local fallback
+        run: node src/x-render.js
+
+      - name: X QA gate — local fallback
+        run: node src/x-qa-check.js
+
       - name: Render daily reel (voice + video)
         run: |
           node src/scheduler.js reel
           node -e "const fs=require('fs'),p=require('path');const d=new Date(new Date().getTime()+10*3600*1000).toISOString().slice(0,10).replace(/-/g,'');const dir='out/instagram-reels';const v=fs.readdirSync(dir).filter(f=>f.startsWith(d+'-')&&f.endsWith('.mp4'))[0];if(!v)throw new Error('no reel rendered for '+d);const c=fs.existsSync(p.join(dir,v.replace(/\.mp4$/,'.txt')))?fs.readFileSync(p.join(dir,v.replace(/\.mp4$/,'.txt')),'utf8').trim():'';if(!c)throw new Error('reel caption missing');if(fs.statSync(p.join(dir,v)).size<1000)throw new Error('reel file empty');console.log('reel OK: '+v)"
 
+      - name: TikTok QA (videos + captions)
+        run: |
+          node -e "const fs=require('fs');const d='out/tiktok-ready';if(!fs.existsSync(d))throw new Error('no tiktok-ready dir');const v=fs.readdirSync(d).filter(f=>f.endsWith('.mp4'));if(!v.length)throw new Error('no tiktok mp4s');for(const f of v.slice(0,3)){const s=fs.statSync(require('path').join(d,f)).size;if(s<1000)throw new Error(f+' empty');const c=require('path').join(d,f.replace(/\.mp4$/,'.txt'));if(!fs.existsSync(c)||!fs.readFileSync(c,'utf8').trim())throw new Error('caption missing for '+f);}console.log('tiktok QA OK: '+v.length+' video(s)')"
+      
       - name: Prune old media (keep last 14 days)
         run: node src/prune-old.js
 
@@ -63,14 +82,28 @@ jobs:
         run: |
           git config user.name "ig-auto bot"
           git config user.email "ig-auto@users.noreply.github.com"
-          git add out/instagram-ready out/instagram-reels data
+          git add out/instagram-ready out/instagram-reels out/tiktok-ready out/x-ready data
           git diff --cached --quiet || git commit -m "content $(date +%F) build"
           git push
 
-      - name: Schedule cards + reel on Buffer
+      - name: Schedule cards + reel on Buffer (IG + Reel only — X via Ayrshare in theitsupportguru-x, no Buffer)
         run: node src/buffer-publish.js schedule --reel
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+
+      # TikTok FREE path (no Buffer): headless Playwright upload via tiktok-bot
+      # Uses TIKTOK_COOKIES_B64 secret if present (exported via npm run tiktok:export),
+      # otherwise falls back to credentials/tiktok.json. Public-repo Actions minutes are free & unlimited.
+      - name: TikTok headless publish (free, no Buffer)
+        if: always()
+        run: |
+          if [ -n "$TIKTOK_COOKIES_B64" ]; then
+            echo "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
+            node src/import-cookies.js /tmp/tiktok-cookies.json --profile=tiktok || true
+          fi
+          node src/tiktok-bot.js --force || echo "TikTok upload skipped/failed — will retry via local S4U fallback"
+        env:
+          TIKTOK_COOKIES_B64: ${{ secrets.TIKTOK_COOKIES_B64 }}
 
       - name: Boost agent (monitor metrics + reweight niches + repost winner)
         run: node src/boost-agent.js

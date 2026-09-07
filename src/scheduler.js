@@ -9,6 +9,9 @@ import { writeCaptions } from "./captions.js";
 import { generateIgPlan, loadPlan } from "./ig-generator.js";
 import { renderAll as renderIg } from "./ig-render.js";
 import { checkManifest } from "./qa-check.js";
+import { generateXPlan, loadPlan as loadXPlan } from "./x-generator.js";
+import { renderAll as renderX } from "./x-render.js";
+import { checkXManifest } from "./x-qa-check.js";
 
 const TOPICS = path.join("data", "topics.json");
 const SCRIPTS = path.join("data", "scripts.json");
@@ -81,6 +84,23 @@ async function igRenderStep() {
   }
 }
 
+function xPlanStep() {
+  const plan = generateXPlan();
+  console.log("[x-plan] built " + plan.posts.length + " posts for " + plan.date + " (X, "+plan.posts.map(p=>p.caption.length).join("/")+" chars)");
+  return plan;
+}
+async function xRenderStep() {
+  const plan = loadXPlan();
+  if (!plan) { console.warn("[x-render] no X plan, run xplan first"); return; }
+  await renderX(plan);
+  const qa = checkXManifest();
+  if (qa.ok) console.log("[x-render] X QA PASS — " + qa.posts + " post(s) clean for " + qa.date);
+  else {
+    console.warn("[x-render] X QA PROBLEMS (" + qa.errors.length + "):");
+    for (const e of qa.errors) console.warn("   • " + e);
+  }
+}
+
 async function reelStep() {
   const dir = path.join("out", "instagram-reels");
   fs.mkdirSync(dir, { recursive: true });
@@ -122,6 +142,23 @@ async function daily() {
     igPlanStep();
     await igRenderStep();
   }
+  if (config.x?.enabled !== false) {
+    xPlanStep();
+    await xRenderStep();
+  }
+  // TikTok headless: same curation, 9:16 vertical videos already rendered above.
+  if (config.tiktokBot?.enabled !== false || (config.distribution && config.distribution.tiktok > 0)) {
+    try {
+      const n = fs.readdirSync("out/tiktok-ready").filter((f) => f.endsWith(".mp4")).length;
+      console.log(`[daily] TikTok ready: ${n} video(s) in out/tiktok-ready`);
+    } catch {}
+  }
+  if (config.x?.enabled !== false) {
+    try {
+      const n = fs.readdirSync(path.join(config.x.postDir||"out/x-ready")).filter(f=>{try{return fs.statSync(path.join(config.x.postDir||"out/x-ready",f)).isDirectory();}catch{return false;}}).length;
+      console.log(`[daily] X ready: ${n} post(s) in ${config.x.postDir||"out/x-ready"}`);
+    } catch {}
+  }
   console.log("\nDaily run complete.");
 }
 
@@ -131,6 +168,8 @@ else if (cmd === "generate") generateStep();
 else if (cmd === "render") renderStep();
 else if (cmd === "igplan") igPlanStep();
 else if (cmd === "igrender") igRenderStep();
+else if (cmd === "xplan") xPlanStep();
+else if (cmd === "xrender") xRenderStep();
 else if (cmd === "reel") reelStep();
 else if (cmd === "captions") {
   if (!fs.existsSync(SCRIPTS)) { console.warn("[captions] no scripts.json, run generate first"); }
@@ -142,4 +181,4 @@ else if (cmd === "captions") {
 }
 else daily();
 
-export default { daily, curateStep, generateStep, renderStep, dailyCount };
+export default { daily, curateStep, generateStep, renderStep, xPlanStep, xRenderStep, dailyCount };

@@ -1,11 +1,13 @@
 import { spawn } from "node:child_process";
 import config from "../config.json" with { type: "json" };
 
-// Posts one daily slot: the matching Instagram post. The TikTok half is
-// OPT-IN only (handled in a separate chat): set POST_TIKTOK=1 to run it here.
+// Posts one daily slot: IG card + TikTok video (headless dual-channel).
+// TikTok uses the same curated pool but vertical 9:16 video with #fyp.
 // Usage:  node src/post-runner.js --slot 0|1|2 [--dry] [--force]
 // IG publishing: web-composer bot by default; set config.instagram.publishVia =
 // "api" to publish cards via the Meta Graph API (no browser/composer flakiness).
+// TikTok: when buffer.ownsPosting the cloud queue is primary; local tiktok-bot
+// is the headless fallback (enabled via tiktokBot.enabled).
 
 function runNode(script, extra) {
   return new Promise((resolve) => {
@@ -61,16 +63,44 @@ function main() {
       console.log("[post-runner] Instagram disabled (instagram.enabled=false), skipping.");
     }
     let tkCode = 0;
-    if (process.env.POST_TIKTOK === "1") {
+    const tiktokEnabled = config.tiktokBot?.enabled !== false && (config.distribution?.tiktok ?? 0) > 0;
+    const bufferOwnsTiktok = config.buffer?.ownsPosting === true;
+    if (bufferOwnsTiktok && tiktokEnabled) {
+      console.log("[post-runner] Buffer owns TikTok posting — skipping local tiktok-bot (cloud queue is truth).");
+    } else if (tiktokEnabled) {
       const tkArgs = [];
       if (dry) tkArgs.push("--dry");
       if (force) tkArgs.push("--force");
-      tkCode = await runNode("src/tiktok-bot.js", tkArgs);
+      if (process.env.POST_TIKTOK === "0") {
+        console.log("[post-runner] TikTok skipped (POST_TIKTOK=0)");
+      } else {
+        tkCode = await runNode("src/tiktok-bot.js", tkArgs);
+      }
     } else {
-      console.log("[post-runner] TikTok half skipped (managed in a separate chat; set POST_TIKTOK=1 to enable here).");
+      console.log("[post-runner] TikTok disabled (tiktokBot.enabled=false or distribution.tiktok=0), skipping.");
     }
-    console.log(`\nPosting run complete. IG=${igCode}, TikTok=${tkCode}`);
-    process.exit(Math.max(igCode, tkCode));
+    // X local fallback (Buffer is primary when x.ownsPosting / buffer.ownsPosting)
+    let xCode = 0;
+    const xQaCode = await runNode("src/x-qa-check.js", []);
+    if (xQaCode !== 0) {
+      console.log("[post-runner] X QA FAILED — X posts will be skipped until fixed.");
+    } else {
+      const xEnabled = config.x?.enabled !== false && (config.distribution?.x ?? 0) > 0;
+      const bufferOwnsX = config.x?.ownsPosting === true || config.buffer?.ownsPosting === true;
+      if (bufferOwnsX && xEnabled) {
+        console.log("[post-runner] Buffer owns X posting — skipping local x-bot (cloud queue is truth).");
+      } else if (xEnabled) {
+        const xArgs = [];
+        if (slot) xArgs.push(slot);
+        if (dry) xArgs.push("--dry");
+        if (force) xArgs.push("--force");
+        xCode = await runNode("src/x-bot.js", xArgs);
+      } else {
+        console.log("[post-runner] X disabled (x.enabled=false or distribution.x=0), skipping.");
+      }
+    }
+    console.log(`\nPosting run complete. IG=${igCode}, TikTok=${tkCode}, X=${xCode}`);
+    process.exit(Math.max(igCode, tkCode, xCode));
   })().catch((e) => {
     console.error("Posting run error: " + e.message);
     process.exit(1);

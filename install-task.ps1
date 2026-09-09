@@ -21,13 +21,16 @@ $Scheduler = Join-Path $Project "src\scheduler.js"
 $ReelApi = Join-Path $Project "src\reel-api.js"
 $PostRunner = Join-Path $Project "src\post-runner.js"
 $SessionCheck = Join-Path $Project "src\session-check.js"
+$TikTokSessionCheck = Join-Path $Project "src\tiktok-session-check.js"
+$XSessionCheck = Join-Path $Project "src\x-session-check.js"
+$XBot = Join-Path $Project "src\x-bot.js"
 $ReelCheck = Join-Path $Project "src\reel-check.js"
 $TikTokBot = Join-Path $Project "src\tiktok-bot.js"
 $WatchGH = Join-Path $Project "src\watch-gh-actions.js"
 $Days = @('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday')
 
 if (-not (Test-Path $NodeExe)) { Write-Host "Node.js not found at $NodeExe"; exit 1 }
-foreach ($f in $Scheduler, $ReelApi, $PostRunner, $SessionCheck, $ReelCheck, $TikTokBot, $WatchGH) {
+foreach ($f in $Scheduler, $ReelApi, $PostRunner, $SessionCheck, $TikTokSessionCheck, $XSessionCheck, $XBot, $ReelCheck, $TikTokBot, $WatchGH) {
   if (-not (Test-Path $f)) { Write-Host "Missing: $f"; exit 1 }
 }
 
@@ -52,13 +55,19 @@ function New-Task {
 
 New-Task "$TaskPrefix Daily" "`"$Scheduler`" daily" "05:30"
 New-Task "$TaskPrefix IG Session" "`"$SessionCheck`"" "05:10"
+New-Task "$TaskPrefix X Session" "`"$XSessionCheck`"" "05:11"
+New-Task "$TaskPrefix TikTok Session" "`"$TikTokSessionCheck`"" "05:12"
 New-Task "$TaskPrefix IG Reel" "`"$ReelApi`"" "12:00"
 New-Task "$TaskPrefix IG Slot 0" "`"$PostRunner`" --slot=0" "06:30"
 New-Task "$TaskPrefix IG Slot 1" "`"$PostRunner`" --slot=1" "10:00"
 New-Task "$TaskPrefix IG Slot 2" "`"$PostRunner`" --slot=2" "13:00"
-New-Task "$TaskPrefix TikTok Slot 0" "`"$TikTokBot`"" "06:30"
-New-Task "$TaskPrefix TikTok Slot 1" "`"$TikTokBot`"" "10:00"
-New-Task "$TaskPrefix TikTok Slot 2" "`"$TikTokBot`"" "13:00"
+New-Task "$TaskPrefix X Slot 0" "`"$XBot`" --slot=0" "06:00"
+New-Task "$TaskPrefix X Slot 1" "`"$XBot`" --slot=1" "12:00"
+New-Task "$TaskPrefix X Slot 2" "`"$XBot`" --slot=2" "17:00"
+New-Task "$TaskPrefix X Slot 3" "`"$XBot`" --slot=3" "20:00"
+New-Task "$TaskPrefix TikTok Slot 0" "`"$TikTokBot`"" "07:00"
+New-Task "$TaskPrefix TikTok Slot 1" "`"$TikTokBot`"" "12:00"
+New-Task "$TaskPrefix TikTok Slot 2" "`"$TikTokBot`"" "18:00"
 
 # GH Actions failure watchdog: every 15 minutes (Mon-Fri, 06:00-23:45) poll the
 # daily-ig-build workflow runs and raise a Windows toast if today's build failed
@@ -101,6 +110,6 @@ if (-not $DisableNoSleep) {
 }
 
 Write-Host ""
-Write-Host "Installed: Session 05:10, Daily 05:30, IG cards 06:30/10:00/13:00, IG Reel 12:00, TikTok 06:30/10:00/13:00 (Mon-Fri, AEST)."
+Write-Host "Installed: Session 05:10/05:11/05:12, Daily 05:30, IG cards 06:30/10:00/13:00, IG Reel 12:00, X 06:00/12:00/17:00/20:00, TikTok 07:00/12:00/18:00 (Mon-Fri, AEST)."
 Write-Host "All S4U = run headless while no one is logged in."
 Write-Host "Re-register silently:  schtasks /run /tn '$TaskPrefix Reinstall'"

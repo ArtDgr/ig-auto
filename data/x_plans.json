@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T01:32:21.334Z",
+  "posts": [
+    {
+      "id": "20260904-you-buy-phones-on-megapixel-counts",
+      "slot": 0,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "image",
+      "kind": "redflag",
+      "pillar": "DAILY RED FLAG",
+      "title": "You buy phones on megapixel counts",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
+        },
+        {
+          "kind": "body",
+          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
+        },
+        {
+          "kind": "body",
+          "text": "THE FIX — Read real photo tests, not the spec sheet."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this before it costs you a repair bill."
+        }
+      ],
+      "caption": "🚩 You buy phones on megapixel counts #smartphone #Android #itsupportguru Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-you-must-charge-your-iphone-to-100",
+      "slot": 1,
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
+      "format": "image",
+      "kind": "myth",
+      "pillar": "TECH MYTHBUSTER",
+      "title": "You must charge your iPhone to 100%",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "You must charge your iPhone to 100%"
+        },
+        {
+          "kind": "body",
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+        },
+        {
+          "kind": "cta",
+          "text": "Share this with the person who still believes it."
+        }
+      ],
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #macOS #Apple #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-prompt-tricks-it-pros-use-daily",
+      "slot": 2,
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
+      "format": "carousel",
+      "kind": "secrets",
+      "pillar": "IT GURU SECRETS",
+      "title": "Prompt tricks IT pros use daily",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+        },
+        {
+          "kind": "facts",
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this — insider knowledge only pays off when you use it."
+        }
+      ],
+      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #AI #ChatGPT #tech Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-monitor-your-laptop-s-real-temps",
+      "slot": 3,
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
+      "format": "carousel",
+      "kind": "howto",
+      "pillar": "MICRO GUIDE",
+      "title": "Monitor your laptop's real temps",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
+        },
+        {
+          "kind": "step",
+          "text": "Install a lightweight temp tool (open-source)"
+        },
+        {
+          "kind": "step",
+          "text": "Run a 15-minute stress load or a game"
+        },
+        {
+          "kind": "step",
+          "text": "Watch CPU/GPU temps while under load"
+        },
+        {
+          "kind": "step",
+          "text": "Below 90C sustained is fine; above, clean the vents"
+        },
+        {
+          "kind": "step",
+          "text": "Raise the laptop on a stand — bottom airflow helps."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this — you'll need it next time."
+        }
+      ],
+      "caption": "💻 Monitor your laptop's real temps #CPU #GPU #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Pixel 12 Pro Fold could copy iPhone Ultra tech for an…",
+      "source": "Android Authority",
+      "link": "https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Pixel 12 Pro Fold could copy iPhone Ultra tech\nPixel 12 Pro Fold could copy iPhone Ultra tech for an almost crease-free display"
+        },
+        {
+          "kind": "brief",
+          "text": "A couple of other Android brands could copy Apple's solution too."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 Pixel 12 Pro Fold could copy iPhone Ultra tech for an… (Android Authority) https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/ #smartphone #gadgets #tech Follow for daily tech intel.",
+      "status": "pending"
+    }
+  ],
+  "platform": "x"
+}

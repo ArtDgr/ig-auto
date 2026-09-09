@@ -39,21 +39,88 @@ async function autoLogin(page, context, creds) {
   await submit.click().catch(() => { throw new Error("Login submit button not found"); });
   log("login submitted");
 
-  // Wait for the session cookie to land (may hit captcha — tell them to run tiktok:login).
+  // Headless captcha auto-bypass: detect slider/verify wall and drag it human-like.
+  // This keeps the flow 100% headless — no manual window. If it still fails, the
+  // persistent profile (one headful solve) will make all future headless runs skip this.
+  async function tryAutoSolveCaptcha() {
+    const selectors = [
+      "#secsdk-captcha-drag-wrapper",
+      "div[class*='captcha'] div[class*='slider']",
+      "div[class*='verify'] div[style*='translate']",
+      "[data-e2e='captcha']",
+      "div.secsdk-captcha-drag-icon",
+    ];
+    for (const sel of selectors) {
+      const el = page.locator(sel).first();
+      if (await el.isVisible().catch(() => false)) {
+        log("captcha slider detected (" + sel + ") — auto-dragging headless");
+        const box = await el.boundingBox().catch(() => null);
+        if (!box) continue;
+        const startX = box.x + box.width / 2;
+        const startY = box.y + box.height / 2;
+        await page.mouse.move(startX, startY);
+        await sleep(rand(200, 400));
+        await page.mouse.down();
+        // human Bezier drag to ~85% of track
+        const trackW = 280 + rand(-20, 40);
+        const steps = rand(28, 42);
+        for (let i = 0; i <= steps; i++) {
+          const t = i / steps;
+          const x = startX + trackW * (t + Math.sin(t * Math.PI) * 0.02);
+          const y = startY + rand(-2, 2) + Math.sin(t * 6) * 1.5;
+          await page.mouse.move(x, y);
+          await sleep(rand(8, 22));
+        }
+        await sleep(rand(120, 280));
+        await page.mouse.up();
+        await sleep(rand(1200, 2000));
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Wait for the session cookie to land (headless). Poll + auto-solve slider if it appears.
   const rateLimited = page.getByText(/maximum number of attempts|too many attempts|try again later/i).first();
   if (await rateLimited.isVisible().catch(() => false)) {
     throw new Error("TikTok rate-limited the login ('Maximum number of attempts'). Wait a while (or complete a manual one-time login) before the next auto-login attempt.");
   }
-  for (let i = 0; i < 60; i++) {
+  for (let i = 0; i < 90; i++) {
     await sleep(1000);
+    if (i % 8 === 3) await tryAutoSolveCaptcha().catch(() => {});
     const cks = await context.cookies("https://www.tiktok.com").catch(() => []);
     if (cks.some((c) => ["sessionid", "sessionid_ss", "sid_tt"].includes(c.name) && (c.value || "").length > 4)) {
       log("SESSION CONFIRMED after credential login");
       return true;
     }
   }
-  throw new Error("No session cookie after credential login — TikTok likely wants a CAPTCHA/verification. Open npm run tiktok:login and complete it once manually, then the bot reuses the session.");
+  // Last chance: one more drag then check
+  await tryAutoSolveCaptcha().catch(() => {});
+  await sleep(2000);
+  {
+    const cks = await context.cookies("https://www.tiktok.com").catch(() => []);
+    if (cks.some((c) => ["sessionid", "sessionid_ss", "sid_tt"].includes(c.name) && (c.value || "").length > 4)) {
+      log("SESSION CONFIRMED after auto captcha solve");
+      return true;
+    }
+  }
+  throw new Error("No session cookie after credential login — TikTok likely wants a CAPTCHA/verification. Open npm run tiktok:login and complete it once manually, then the bot reuses the session. (Headless auto-drag attempted)");
 }
+
+function hashTikTok2(s) { let h=2166136261; for(let i=0;i<s.length;i++){h^=s.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0; }
+function rndTikTok2(seed){ let t=seed>>>0; return function(){ t+=0x6d2b79f5; let r=Math.imul(t^(t>>>15),1|t); r^=r+Math.imul(r^(r>>>7),61|r); return ((r^(r>>>14))>>>0)/4294967296; } }
+function randomizedDueTimes(dateStr, count){
+  const rnd=rndTikTok2(hashTikTok2(dateStr));
+  const mins=[];
+  for(let i=0;i<count;i++){
+    let t, a=0;
+    do{ t=480+Math.floor(rnd()*840); a++; if(a>80) break; } while(mins.some(m=>Math.abs(m-t)<75));
+    mins.push(t);
+  }
+  mins.sort((a,b)=>a-b);
+  return mins.map(m=>`${String(Math.floor(m/60)).padStart(2,"0")}:${String(m%60).padStart(2,"0")}`);
+}
+function todayAest(){ return new Date(Date.now()+10*3600000).toISOString().slice(0,10); }
 
 function daysSinceStart() {
   const start = new Date(config.startedAt || "2026-08-01").getTime();
@@ -235,14 +302,18 @@ export async function runBot({ dryRun = false, force = false } = {}) {
   const dir = bot.postDir;
   if (!fs.existsSync(dir)) { log("No post dir: " + dir); return { posted: 0 }; }
 
-  const videos = fs.readdirSync(dir)
+  // 7-day randomized queue — same frequency ramp as IG, but picks random niches + random clock times each day
+  let all = fs.readdirSync(dir)
     .filter((f) => f.endsWith(".mp4"))
-    // skip already-posted (a .done marker means it was handled)
-    .filter((f) => !fs.existsSync(path.join(dir, f.replace(/\.mp4$/, ".done"))))
-    .slice(0, bot.maxPerDay);
+    .filter((f) => !fs.existsSync(path.join(dir, f.replace(/\.mp4$/, ".done"))));
+  // Deterministic shuffle per AEST date so 7 consecutive days give 7 distinct random sets (mirrors IG's shuffled manifest)
+  const tDate = todayAest();
+  all = [...all].sort((a,b)=>{ let ha=23; for(const ch of (a+tDate)) ha=(ha*31+ch.charCodeAt(0))%1000; let hb=23; for(const ch of (b+tDate)) hb=(hb*31+ch.charCodeAt(0))%1000; return ha-hb; });
+  const videos = all.slice(0, bot.maxPerDay);
+  const dueTimes = randomizedDueTimes(tDate, videos.length);
 
   if (!videos.length) { log("Nothing new to post today."); return { posted: 0 }; }
-  log("Posting up to " + bot.maxPerDay + " from " + videos.length + " pending.");
+  log("Posting up to " + bot.maxPerDay + " from " + all.length + " pending. Due times (AEST, randomized, not fixed): " + dueTimes.join(", "));
 
   const context = await launchStealth(config);
   const page = await context.newPage();
@@ -262,26 +333,38 @@ export async function runBot({ dryRun = false, force = false } = {}) {
     log("Logged in. Starting humanized session.");
     await doOrganicActivity(page, pick([bot.scrollClicksDuringSession[0], bot.scrollClicksDuringSession[1]]));
 
-    for (const v of videos) {
+    for (let idx=0; idx<videos.length; idx++) {
+      const v = videos[idx];
       const id = v.replace(/\.mp4$/, "");
+      const due = dueTimes[idx] || "12:00";
       const capFile = path.join(dir, id + ".txt");
       const caption = fs.existsSync(capFile)
         ? fs.readFileSync(capFile, "utf8").trim()
         : "Daily tech intel. " + rotateHashtags(config, "tech");
       if (dryRun) {
-        log("[dry-run] would post: " + v + " | caption=" + JSON.stringify(caption.slice(0, 60) + "..."));
-        fs.writeFileSync(path.join(dir, id + ".done"), "dry");
+        log(`[dry-run] would post: ${v} @ ${due} AEST | caption=${JSON.stringify(caption.slice(0, 60) + "...")}`);
+        // don't write .done in dry-run for weekly spread testing — keep queue intact
         posted++;
         continue;
       }
-      const startedAt = Date.now();
+      // Respect randomized due clock: if due is still in the future, wait until then (headless respects 7-day spread)
+      try {
+        const [hh, mm] = due.split(":").map(Number);
+        const now = new Date(Date.now()+10*3600000);
+        const dueMs = new Date(now); dueMs.setHours(hh, mm, 0, 0);
+        const waitMs = dueMs.getTime() - now.getTime();
+        if (waitMs > 0 && waitMs < 12*3600*1000) {
+          log(`waiting until ${due} AEST (${Math.round(waitMs/60000)}m) for ${v}`);
+          await sleep(Math.min(waitMs, 30*60*1000)); // cap 30m per wake — task re-checks
+          if (waitMs > 30*60*1000) { log(`deferring ${v} to next slot (still ${Math.round((waitMs-30*60000)/60000)}m to ${due})`); continue; }
+        }
+      } catch {}
       await uploadOne(page, path.join(dir, v), caption);
-      fs.writeFileSync(path.join(dir, id + ".done"), new Date().toISOString());
+      fs.writeFileSync(path.join(dir, id + ".done"), new Date().toISOString() + " due:" + due);
       posted++;
-      // stagger between posts
-      const gap = rand(bot.staggerMinutes[0] * 1000, bot.staggerMinutes[1] * 1000);
-      if (videos.indexOf(v) < videos.length - 1) {
-        log("staggering " + Math.round(gap / 60000) + " min before next.");
+      if (idx < videos.length - 1) {
+        const gap = rand(bot.staggerMinutes[0] * 60000, bot.staggerMinutes[1] * 60000);
+        log("staggering " + Math.round(gap / 60000) + " min before next (" + dueTimes[idx+1] + ").");
         await sleep(gap);
       }
     }

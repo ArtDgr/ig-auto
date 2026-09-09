@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "date": "20260908",
   "deck": {
     "id": "samsung-galaxy-a07s-debuts-with-a-6-7-inch-screen-5-000mah-b",
@@ -25,6 +26,30 @@
       },
       {
         "text": "The Galaxy A07s comes equipped with an octa-core 6nm MediaTek G99+ chipset, whi…",
+=======
+  "date": "20260904",
+  "deck": {
+    "id": "m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair",
+    "niche": "apple",
+    "href": "https://appleinsider.com/articles/26/09/03/m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair?utm_source=rss",
+    "title": "M4 Macs can share local AI work with PCs using Nvidia PAIR",
+    "pillar": "DAILY IT FIX",
+    "slides": [
+      {
+        "text": "M4 Macs can share local AI work with PCs us…",
+        "kind": "hook"
+      },
+      {
+        "text": "Got an M4 Mac ?",
+        "kind": "body"
+      },
+      {
+        "text": "Nvidia's new free tool lets it offload local AI tasks to your PC, turning your…",
+        "kind": "body"
+      },
+      {
+        "text": "M5 MacBook Pro The Personal AI Router (PAIR) isn't hardware.",
+>>>>>>> Stashed changes
         "kind": "body"
       },
       {
@@ -33,5 +58,9 @@
       }
     ]
   },
+<<<<<<< Updated upstream
   "caption": "Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+=======
+  "caption": "M4 Macs can share local AI work with PCs using Nvidia PAIR.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
+>>>>>>> Stashed changes
 }

@@ -57,13 +57,13 @@ jobs:
       - name: QA gate (hard fail on defects)
         run: node src/qa-check.js
 
-      - name: Generate X plan (AEST today) — local fallback only, canonical X is theitsupportguru-x via Ayrshare (no Buffer)
+      - name: Generate X plan (AEST today)
         run: node src/x-generator.js
 
-      - name: Render X cards (1280x720) — local fallback
+      - name: Render X cards (1280x720)
         run: node src/x-render.js
 
-      - name: X QA gate — local fallback
+      - name: X QA gate
         run: node src/x-qa-check.js
 
       - name: Render daily reel (voice + video)
@@ -86,8 +86,8 @@ jobs:
           git diff --cached --quiet || git commit -m "content $(date +%F) build"
           git push
 
-      - name: Schedule cards + reel on Buffer (IG + Reel only — X via Ayrshare in theitsupportguru-x, no Buffer)
-        run: node src/buffer-publish.js schedule --reel
+      - name: Schedule cards + reel + X on Buffer (fully automated headless, no input)
+        run: node src/buffer-publish.js schedule --reel --x
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
 

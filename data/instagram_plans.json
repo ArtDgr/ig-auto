@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "date": "2026-09-08",
   "generatedAt": "2026-09-07T22:12:53.225Z",
   "posts": [
@@ -13,11 +14,28 @@
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
       "title": "Dev machines run 24/7",
+=======
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T00:39:10.629Z",
+  "posts": [
+    {
+      "id": "20260904-your-system-drive-is-under-15-free-space",
+      "slot": 0,
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
+      "format": "image",
+      "kind": "redflag",
+      "pillar": "DAILY RED FLAG",
+      "title": "Your system drive is under 15% free space",
+>>>>>>> Stashed changes
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
+<<<<<<< Updated upstream
           "text": "Dev machines run 24/7\nA dev server left running bills all night for zero users."
         },
         {
@@ -27,17 +45,36 @@
         {
           "kind": "body",
           "text": "THE FIX — Schedule them to shut down at 7pm and start at 7am."
+=======
+          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+        },
+        {
+          "kind": "body",
+          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+        },
+        {
+          "kind": "body",
+          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+>>>>>>> Stashed changes
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
+<<<<<<< Updated upstream
       "caption": "🚩 DAILY RED FLAG\n\nDev machines run 24/7\n\nWhy it's a problem: A dev server left running bills all night for zero users.\nThe fix: Schedule them to shut down at 7pm and start at 7am.\n\nSave this before it becomes a repair bill →\n\n#kubernetes #cloudinfra #devopslife #cloudcomputing #azure #techops #sre #cloud #techsupport #techdaily #itpro #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
       "id": "20260908-more-vram-is-all-that-matters",
+=======
+      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#fixyourpc #windows11 #troubleshooting #itsupport #windows #pc #ithelp #pchelp #techsupport #itpro #itsupportguru #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-more-vram-is-all-that-matters",
+>>>>>>> Stashed changes
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -63,11 +100,19 @@
           "text": "Share this with the person who still believes it."
         }
       ],
+<<<<<<< Updated upstream
       "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #hardware #ram #gpu #laptop #pc #pcgaming #techreview #itpro #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
       "id": "20260908-prompt-tricks-it-pros-use-daily",
+=======
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #pc #laptop #pcgaming #ram #hardware #cpu #techreview #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-prompt-tricks-it-pros-use-daily",
+>>>>>>> Stashed changes
       "slot": 2,
       "niche": "ai",
       "nicheLabel": "AI & Machine Learning",
@@ -93,6 +138,7 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
+<<<<<<< Updated upstream
       "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#aitips #chatgpt #futuretech #copilot #aitools #ai #machinelearning #aitech #itsupportguru #techsupport #techdaily #techtips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
@@ -107,11 +153,28 @@
       "kind": "howto",
       "pillar": "MICRO GUIDE",
       "title": "Create a strong, memorable passphrase",
+=======
+      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#ai #genai #aitips #copilot #aitools #machinelearning #artificialintelligence #chatgpt #techtips #sysadmin #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-get-notifications-under-control-on-iphone",
+      "slot": 3,
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
+      "format": "carousel",
+      "kind": "howto",
+      "pillar": "MICRO GUIDE",
+      "title": "Get notifications under control on iPhone",
+>>>>>>> Stashed changes
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
+<<<<<<< Updated upstream
           "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
@@ -133,13 +196,69 @@
         {
           "kind": "step",
           "text": "Let your password manager remember the rest."
+=======
+          "text": "Get notifications under control on iPhone\nSettings > Notifications"
+        },
+        {
+          "kind": "step",
+          "text": "Settings > Notifications"
+        },
+        {
+          "kind": "step",
+          "text": "Turn off everything that isn't an actual person"
+        },
+        {
+          "kind": "step",
+          "text": "Leave badges only for mail and messages"
+        },
+        {
+          "kind": "step",
+          "text": "Enable Scheduled Summary for the rest"
+        },
+        {
+          "kind": "step",
+          "text": "One quiet morning of work and you'll feel it."
+>>>>>>> Stashed changes
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
+<<<<<<< Updated upstream
       "caption": "Create a strong, memorable passphrase 🔐\n\n1. Pick four random words, e.g. Guitar-Maple-Frost-Cedar\n2. Keep it long\n     ✓ 16+ characters\n3. Add symbols only if a site demands them\n4. Never reuse it anywhere else\n5. Let your password manager remember the rest.\n\nSave this for the next ticket →\n\n#cyberdefense #security #cybersecurity #phishing #infosec #cybersectips #2fa #onlinesafety #techtips #techsupport #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+=======
+      "caption": "Get notifications under control on iPhone 🍎\n\n1. Settings > Notifications\n2. Turn off everything that isn't an actual person\n3. Leave badges only for mail and messages\n4. Enable Scheduled Summary for the rest\n5. One quiet morning of work and you'll feel it.\n\nSave this for the next ticket →\n\n#applenews #appleintelligence #apple #macbook #ios #appletips #itpro #macos #helpdesk #itsupportguru #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "status": "pending"
+    },
+    {
+      "id": "20260904-gadget-focus-google-s-hyper-personalized-dreambeans-feed-is-now-free-",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Google’s hyper-personalized ‘Dreambeans’ feed is now…",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/08/28/google-dreambeans-free/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Google’s hyper-personalized ‘Dreambeans’ feed\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now free to test"
+        },
+        {
+          "kind": "brief",
+          "text": "Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\nDreambeans is very much like a hyper-personalized Google Now or Discover feed.\nLike the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\nDuring setup, you can choose which apps Dreambeans can access."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now…\n\n• Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\n• Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\n• Like the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\n• During setup, you can choose which apps Dreambeans can access.\n\nSource: 9to5Google — https://9to5google.com/2026/08/28/google-dreambeans-free/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#android #samsung #batterytips #gadgets #smartphonetips #tech #gadgetreviews #techgear #techdaily #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — the gadget worth your attention.\n\nSave this for the next ticket.",
+>>>>>>> Stashed changes
       "status": "pending"
     }
   ]

@@ -171,10 +171,10 @@ function saveState(state) {
   fs.writeFileSync(SCHED_STATE, JSON.stringify(state, null, 2));
 }
 
-export async function scheduleDate(dateStr, { dry = false, reel = false } = {}) {
+export async function scheduleDate(dateStr, { dry = false, reel = false, force = false } = {}) {
   // Stealth sustainability: bi-weekly random gating (~30% execution = ~94% reduction)
   // Knuth hash gives pseudo-random 30% RUN distribution, not clustered
-  if (!dry) {
+  if (!dry && !force) {
     const n = parseInt(dateStr.replace(/-/g, ""), 10);
     let hash = (n * 2654435761) % 100;
     if (hash < 0) hash += 100;

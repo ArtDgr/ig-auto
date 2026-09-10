@@ -1,145 +1,174 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-09T23:59:54.619Z",
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-10T21:46:22.249Z",
   "posts": [
     {
-      "id": "20260910-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260911-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#hardware #chipshortage #techreview #ram #laptops #benchmark #pcgaming #gpu #helpdesk #itpro #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#macrumors #applenews #appletips #iphone #ios #macbook #appleintelligence #itpro #techtips #techdaily #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260910-closing-apps-saves-your-battery",
+      "id": "20260911-you-need-a-gaming-laptop-for-gaming",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Closing apps saves your battery",
+      "title": "You need a 'gaming' laptop for gaming",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Closing apps saves your battery"
+          "text": "You need a 'gaming' laptop for gaming"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
+          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#sysadmin #troubleshooting #windows #computertips #pc #ithelp #helpdesk #fixyourpc #itsupportguru #techsupport #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#gpu #cpu #techreview #ram #chipshortage #ssd #benchmark #laptops #itsupportguru #sysadmin #helpdesk #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260910-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20260911-how-to-actually-verify-ai-output",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "How to actually verify AI output",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "How to actually verify AI output\nAsk for a source for every key claim"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #smartphone #batterytips #tech #android #techgear #gadgets #gadgetreviews #sysadmin #itpro #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#genai #aitech #artificialintelligence #aitools #machinelearning #futuretech #copilot #chatgpt #helpdesk #techsupport #itsupportguru #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260910-find-your-macbook-battery-drainer",
+      "id": "20260911-monitor-a-server-with-a-dashboard",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Find your MacBook battery drainer",
+      "title": "Monitor a server with a dashboard",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Monitor a server with a dashboard\nInstall a lightweight metrics agent"
         },
         {
           "kind": "step",
-          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Install a lightweight metrics agent"
         },
         {
           "kind": "step",
-          "text": "Sort by CPU, then by Energy"
+          "text": "Point it at Grafana or your cloud metrics"
         },
         {
           "kind": "step",
-          "text": "Close the browser tab silently maxing cores"
+          "text": "Add CPU, memory, and disk widgets"
         },
         {
           "kind": "step",
-          "text": "Check background apps under the Energy tab"
+          "text": "Alert at 80% CPU for sustained load"
         },
         {
           "kind": "step",
-          "text": "Dim the screen — the display uses the most."
+          "text": "Now you see problems before your users do."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n4. Check background apps under the Energy tab\n5. Dim the screen\n     ✓ the display uses the most.\n\nSave this for the next ticket →\n\n#ios #iphone #itpro #macrumors #appleintelligence #apple #macos #macbook #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Monitor a server with a dashboard ☁️\n\n1. Install a lightweight metrics agent\n2. Point it at Grafana or your cloud metrics\n3. Add CPU, memory, and disk widgets\n4. Alert at 80% CPU for sustained load\n5. Now you see problems before your users do.\n\nSave this for the next ticket →\n\n#docker #devopslife #azure #devops #aws #sre #cloudinfra #techops #itsupportguru #techdaily #sysadmin #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "status": "pending"
+    },
+    {
+      "id": "20260911-gadget-focus-google-s-hyper-personalized-dreambeans-feed-is-now-free-",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Google’s hyper-personalized ‘Dreambeans’ feed is now…",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/09/10/google-dreambeans-free/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Google’s hyper-personalized ‘Dreambeans’ feed\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now free to test [U]"
+        },
+        {
+          "kind": "brief",
+          "text": "Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\nUpdate 9/10: Google officially announced the broader availability today.\nOriginal 8/28: Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\nLike the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now…\n\n• Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\n• Update 9/10: Google officially announced the broader availability today.\n• Original 8/28: Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\n• Like the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\n\nSource: 9to5Google — https://9to5google.com/2026/09/10/google-dreambeans-free/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#techgear #batterytips #iphone #tech #android #samsung #smartphonetips #gadgetreviews #helpdesk #itpro #techdaily #techsupport\n\n@theitsupportguru — the gadget worth your attention.\n\nSave this for the next ticket.",
       "status": "pending"
     }
   ]

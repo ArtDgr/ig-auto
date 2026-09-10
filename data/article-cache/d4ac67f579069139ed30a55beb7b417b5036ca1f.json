@@ -1,0 +1,14 @@
+{
+  "url": "https://9to5mac.com/2026/09/09/apple-announces-a20-pro-chip-with-2nm-design-and-major-performance-gains/",
+  "fetched": "2026-09-09T23:50:49.417Z",
+  "paragraphs": [
+    "Apple today unveiled the A20 Pro, its first chip built on 2nm technology at its “Surprise and Shine” event, bringing major CPU, GPU, and AI upgrades to the iPhone Duo, iPhone 18 Pro, and iPhone 18 Pro Max. Here are the details.",
+    "Apple today unveiled the A20 Pro chip, which will power the iPhone Duo, iPhone 18 Pro and iPhone 18 Pro Max.",
+    "The A20 Pro features a new architecture built on 2nm technology, with smaller and more densely packed transistors that Apple says enable upgrades across the entire chip.",
+    "The new A20 Pro chip packs six CPU cores, featuring two supercores that Apple says are 20% faster, alongside four efficiency cores. All are integrated with neural accelerators for low-latency AI workloads.",
+    "The A20 Pro’s GPU has a seven-core design, which Apple says enables up to a 40% performance increase. Apple also introduced a new version of its neural accelerators, with 2x faster 8-bit floating-point math, aimed at advanced AI workloads such as running third-party LLMs on-device.",
+    "The Neural Engine has also been upgraded with a second engine, bringing the total to 32 cores and delivering twice the compute performance.",
+    "Apple says these CPU, GPU, and Neural Engine improvements are supported by a 50% increase in memory bandwidth, enabled by what it calls the widest memory interface ever shipped in an iPhone.",
+    "The A20 Pro also introduces a new packaging design inspired by Apple’s M-series chips, placing the silicon die side by side with the memory. According to Apple, this removes the memory from the SoC’s thermal path and allows the silicon to connect directly to its next-generation vapor chamber, significantly improving thermal performance."
+  ]
+}

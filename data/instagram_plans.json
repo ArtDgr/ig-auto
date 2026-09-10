@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-14T22:39:08.713Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-09T23:50:54.315Z",
   "posts": [
     {
-      "id": "20260915-you-ve-never-run-a-battery-report",
+      "id": "20260910-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,134 +12,134 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never run a battery report",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never run a battery report\nLaptop batteries degrade silently."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#laptop #chipshortage #pcgaming #cpu #pc #hardware #laptops #benchmark #itpro #techdaily #helpdesk #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#hardware #chipshortage #techreview #ram #laptops #benchmark #pcgaming #gpu #helpdesk #itpro #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260915-ai-is-always-right",
+      "id": "20260910-closing-apps-saves-your-battery",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "AI is always right",
+      "title": "Closing apps saves your battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "AI is always right"
+          "text": "Closing apps saves your battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it."
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: AI is always right\nTruth: Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #copilot #aitips #machinelearning #ai #genai #chatgpt #aitools #sysadmin #helpdesk #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#sysadmin #troubleshooting #windows #computertips #pc #ithelp #helpdesk #fixyourpc #itsupportguru #techsupport #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260915-hidden-macos-tools-most-people-never-find",
+      "id": "20260910-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#itpro #applenews #iphone #appleintelligence #macos #appletips #macbook #apple #helpdesk #techtips #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #smartphone #batterytips #tech #android #techgear #gadgets #gadgetreviews #sysadmin #itpro #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260915-fix-a-frozen-app-without-losing-work",
+      "id": "20260910-find-your-macbook-battery-drainer",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a frozen app without losing work",
+      "title": "Find your MacBook battery drainer",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a frozen app without losing work\nPress Ctrl+Shift+Esc to open Task Manager"
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Press Ctrl+Shift+Esc to open Task Manager"
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Find the app under Processes, not Apps"
+          "text": "Sort by CPU, then by Energy"
         },
         {
           "kind": "step",
-          "text": "Right-click it and choose End task"
+          "text": "Close the browser tab silently maxing cores"
         },
         {
           "kind": "step",
-          "text": "Reopen it after 10 seconds — the cache has cleared"
+          "text": "Check background apps under the Energy tab"
         },
         {
           "kind": "step",
-          "text": "If it re-freezes, check for an update or reinstall it."
+          "text": "Dim the screen — the display uses the most."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Fix a frozen app without losing work 🛠️\n\n1. Press Ctrl+Shift+Esc to open Task Manager\n2. Find the app under Processes, not Apps\n3. Right-click it and choose End task\n4. Reopen it after 10 seconds\n     ✓ the cache has cleared\n5. If it re-freezes, check for an update or reinstall it.\n\nSave this for the next ticket →\n\n#computertips #techsupport #helpdesk #fixyourpc #windows #sysadmin #pchelp #ithelp #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n4. Check background apps under the Energy tab\n5. Dim the screen\n     ✓ the display uses the most.\n\nSave this for the next ticket →\n\n#ios #iphone #itpro #macrumors #appleintelligence #apple #macos #macbook #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     }
   ]

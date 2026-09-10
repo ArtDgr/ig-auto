@@ -1,55 +1,26 @@
 {
-<<<<<<< Updated upstream
-  "date": "20260908",
+  "date": "20260910",
   "deck": {
-    "id": "samsung-galaxy-a07s-debuts-with-a-6-7-inch-screen-5-000mah-b",
+    "id": "it-s-here-apple-iphone-duo-is-the-first-ios-powered-foldable",
     "niche": "gadgets",
-    "href": "https://www.gsmarena.com/samsung_galaxy_a07s_debuts_with_a_67inch_screen_5000mah_battery-news-74494.php",
-    "title": "Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery",
+    "href": "https://www.gsmarena.com/its_here__iphone_duo_gets_official_as_apples_first_foldable_smartphone-news-74545.php",
+    "title": "It's here: Apple iPhone Duo is the first iOS-powered foldable smartph…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "128",
+        "text": "It's here: Apple iPhone Duo is the first iO…",
         "kind": "hook"
       },
       {
-        "text": "Samsung Galaxy A07s debuts with a 6.7-inch…",
+        "text": "Apple has finally unveiled its first ever foldable smartphone, the iPhone Duo.",
         "kind": "body"
       },
       {
-        "text": "Back in August, the Samsung Galaxy A07s appeared on the Google Play Console alo…",
+        "text": "As usually happens these days, the rumors and leaks were all spot on (well, exc…",
         "kind": "body"
       },
       {
-        "text": "Now, the budget smartphone seems to have been quietly launched in the Levant re…",
-        "kind": "body"
-      },
-      {
-        "text": "The Galaxy A07s comes equipped with an octa-core 6nm MediaTek G99+ chipset, whi…",
-=======
-  "date": "20260904",
-  "deck": {
-    "id": "m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair",
-    "niche": "apple",
-    "href": "https://appleinsider.com/articles/26/09/03/m4-macs-can-share-local-ai-work-with-pcs-using-nvidia-pair?utm_source=rss",
-    "title": "M4 Macs can share local AI work with PCs using Nvidia PAIR",
-    "pillar": "DAILY IT FIX",
-    "slides": [
-      {
-        "text": "M4 Macs can share local AI work with PCs us…",
-        "kind": "hook"
-      },
-      {
-        "text": "Got an M4 Mac ?",
-        "kind": "body"
-      },
-      {
-        "text": "Nvidia's new free tool lets it offload local AI tasks to your PC, turning your…",
-        "kind": "body"
-      },
-      {
-        "text": "M5 MacBook Pro The Personal AI Router (PAIR) isn't hardware.",
->>>>>>> Stashed changes
+        "text": "The iPhone Duo's screens have the same aspect ratio, and the foldable screen ha…",
         "kind": "body"
       },
       {
@@ -58,9 +29,5 @@
       }
     ]
   },
-<<<<<<< Updated upstream
-  "caption": "Samsung Galaxy A07s debuts with a 6.7-inch screen, 5,000mAh battery.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
-=======
-  "caption": "M4 Macs can share local AI work with PCs using Nvidia PAIR.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
->>>>>>> Stashed changes
+  "caption": "It's here: Apple iPhone Duo is the first iOS-powered foldable smartph.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

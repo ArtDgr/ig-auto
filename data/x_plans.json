@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T01:32:21.334Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T00:00:04.483Z",
   "posts": [
     {
-      "id": "20260904-you-buy-phones-on-megapixel-counts",
+      "id": "20260910-you-click-links-in-unexpected-emails",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You buy phones on megapixel counts",
+      "title": "You click links in unexpected emails",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
+          "text": "You click links in unexpected emails\nDisplay names lie — the address and URL are what matter."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
+          "text": "WHY IT'S A PROBLEM — Display names lie — the address and URL are what matter."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read real photo tests, not the spec sheet."
+          "text": "THE FIX — Hover links, check the sender address, verify through the real site."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You buy phones on megapixel counts #smartphone #Android #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You click links in unexpected emails #2FA #infosec #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260904-you-must-charge-your-iphone-to-100",
+      "id": "20260910-force-quitting-apps-saves-battery",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -46,129 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #macOS #Apple #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #iOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260904-prompt-tricks-it-pros-use-daily",
+      "id": "20260910-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #AI #ChatGPT #tech Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — Sustained FPS at your resolution, not peak numbers #GPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260904-monitor-your-laptop-s-real-temps",
+      "id": "20260910-build-a-simple-auto-classifier",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor your laptop's real temps",
+      "title": "Build a simple auto-classifier",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
+          "text": "Build a simple auto-classifier\nCollect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight temp tool (open-source)"
+          "text": "Collect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Run a 15-minute stress load or a game"
+          "text": "Prompt: 'Classify each item into X, Y, or Z'"
         },
         {
           "kind": "step",
-          "text": "Watch CPU/GPU temps while under load"
+          "text": "Test on items you've never shown it"
         },
         {
           "kind": "step",
-          "text": "Below 90C sustained is fine; above, clean the vents"
+          "text": "Refine the examples if it's messy"
         },
         {
           "kind": "step",
-          "text": "Raise the laptop on a stand — bottom airflow helps."
+          "text": "Good enough to run — keep it monitored."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Monitor your laptop's real temps #CPU #GPU #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20260904-gadget-focus-pixel-12-pro-fold-could-copy-iphone-ultra-tech-for-an-al",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Pixel 12 Pro Fold could copy iPhone Ultra tech for an…",
-      "source": "Android Authority",
-      "link": "https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Pixel 12 Pro Fold could copy iPhone Ultra tech\nPixel 12 Pro Fold could copy iPhone Ultra tech for an almost crease-free display"
-        },
-        {
-          "kind": "brief",
-          "text": "A couple of other Android brands could copy Apple's solution too."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Pixel 12 Pro Fold could copy iPhone Ultra tech for an… (Android Authority) https://www.androidauthority.com/google-pixel-12-pro-fold-copy-iphone-ultra-crease-3706656/ #smartphone #gadgets #tech Follow for daily tech intel.",
+      "caption": "🤖 Build a simple auto-classifier #GenAI #MachineLearning #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

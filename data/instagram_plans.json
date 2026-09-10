@@ -1,164 +1,103 @@
 {
-<<<<<<< Updated upstream
-  "date": "2026-09-08",
-  "generatedAt": "2026-09-07T22:12:53.225Z",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-09T23:59:54.619Z",
   "posts": [
     {
-      "id": "20260908-dev-machines-run-24-7",
+      "id": "20260910-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Dev machines run 24/7",
-=======
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T00:39:10.629Z",
-  "posts": [
-    {
-      "id": "20260904-your-system-drive-is-under-15-free-space",
-      "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
-      "format": "image",
-      "kind": "redflag",
-      "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
->>>>>>> Stashed changes
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-<<<<<<< Updated upstream
-          "text": "Dev machines run 24/7\nA dev server left running bills all night for zero users."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A dev server left running bills all night for zero users."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Schedule them to shut down at 7pm and start at 7am."
-=======
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
-        },
-        {
-          "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
-        },
-        {
-          "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
->>>>>>> Stashed changes
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-<<<<<<< Updated upstream
-      "caption": "🚩 DAILY RED FLAG\n\nDev machines run 24/7\n\nWhy it's a problem: A dev server left running bills all night for zero users.\nThe fix: Schedule them to shut down at 7pm and start at 7am.\n\nSave this before it becomes a repair bill →\n\n#kubernetes #cloudinfra #devopslife #cloudcomputing #azure #techops #sre #cloud #techsupport #techdaily #itpro #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#hardware #chipshortage #techreview #ram #laptops #benchmark #pcgaming #gpu #helpdesk #itpro #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260908-more-vram-is-all-that-matters",
-=======
-      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#fixyourpc #windows11 #troubleshooting #itsupport #windows #pc #ithelp #pchelp #techsupport #itpro #itsupportguru #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
-      "status": "pending"
-    },
-    {
-      "id": "20260904-more-vram-is-all-that-matters",
->>>>>>> Stashed changes
+      "id": "20260910-closing-apps-saves-your-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "Closing apps saves your battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "Closing apps saves your battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-<<<<<<< Updated upstream
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #hardware #ram #gpu #laptop #pc #pcgaming #techreview #itpro #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#sysadmin #troubleshooting #windows #computertips #pc #ithelp #helpdesk #fixyourpc #itsupportguru #techsupport #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260908-prompt-tricks-it-pros-use-daily",
-=======
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#chipshortage #pc #laptop #pcgaming #ram #hardware #cpu #techreview #itsupportguru #techsupport #techtips #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
-      "status": "pending"
-    },
-    {
-      "id": "20260904-prompt-tricks-it-pros-use-daily",
->>>>>>> Stashed changes
+      "id": "20260910-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-<<<<<<< Updated upstream
-      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#aitips #chatgpt #futuretech #copilot #aitools #ai #machinelearning #aitech #itsupportguru #techsupport #techdaily #techtips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #smartphone #batterytips #tech #android #techgear #gadgets #gadgetreviews #sysadmin #itpro #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260908-create-a-strong-memorable-passphrase",
-      "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
-      "format": "carousel",
-      "kind": "howto",
-      "pillar": "MICRO GUIDE",
-      "title": "Create a strong, memorable passphrase",
-=======
-      "caption": "Prompt tricks IT pros use daily 🔓\n\nInsider knowledge, free.\n\n• Give the model a role: 'You are a senior sysadmin'\n• State the goal and constraints, not just the question\n• Ask for options, then a recommendation\n• Verify code before running — AI writes plausible bugs too\n\nSave this — it'll be your shortcut later →\n\n#ai #genai #aitips #copilot #aitools #machinelearning #artificialintelligence #chatgpt #techtips #sysadmin #techsupport #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
-      "status": "pending"
-    },
-    {
-      "id": "20260904-get-notifications-under-control-on-iphone",
+      "id": "20260910-find-your-macbook-battery-drainer",
       "slot": 3,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -167,98 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Get notifications under control on iPhone",
->>>>>>> Stashed changes
+      "title": "Find your MacBook battery drainer",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-<<<<<<< Updated upstream
-          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Keep it long — 16+ characters"
+          "text": "Sort by CPU, then by Energy"
         },
         {
           "kind": "step",
-          "text": "Add symbols only if a site demands them"
+          "text": "Close the browser tab silently maxing cores"
         },
         {
           "kind": "step",
-          "text": "Never reuse it anywhere else"
+          "text": "Check background apps under the Energy tab"
         },
         {
           "kind": "step",
-          "text": "Let your password manager remember the rest."
-=======
-          "text": "Get notifications under control on iPhone\nSettings > Notifications"
-        },
-        {
-          "kind": "step",
-          "text": "Settings > Notifications"
-        },
-        {
-          "kind": "step",
-          "text": "Turn off everything that isn't an actual person"
-        },
-        {
-          "kind": "step",
-          "text": "Leave badges only for mail and messages"
-        },
-        {
-          "kind": "step",
-          "text": "Enable Scheduled Summary for the rest"
-        },
-        {
-          "kind": "step",
-          "text": "One quiet morning of work and you'll feel it."
->>>>>>> Stashed changes
+          "text": "Dim the screen — the display uses the most."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-<<<<<<< Updated upstream
-      "caption": "Create a strong, memorable passphrase 🔐\n\n1. Pick four random words, e.g. Guitar-Maple-Frost-Cedar\n2. Keep it long\n     ✓ 16+ characters\n3. Add symbols only if a site demands them\n4. Never reuse it anywhere else\n5. Let your password manager remember the rest.\n\nSave this for the next ticket →\n\n#cyberdefense #security #cybersecurity #phishing #infosec #cybersectips #2fa #onlinesafety #techtips #techsupport #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
-=======
-      "caption": "Get notifications under control on iPhone 🍎\n\n1. Settings > Notifications\n2. Turn off everything that isn't an actual person\n3. Leave badges only for mail and messages\n4. Enable Scheduled Summary for the rest\n5. One quiet morning of work and you'll feel it.\n\nSave this for the next ticket →\n\n#applenews #appleintelligence #apple #macbook #ios #appletips #itpro #macos #helpdesk #itsupportguru #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
-      "status": "pending"
-    },
-    {
-      "id": "20260904-gadget-focus-google-s-hyper-personalized-dreambeans-feed-is-now-free-",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Google’s hyper-personalized ‘Dreambeans’ feed is now…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/08/28/google-dreambeans-free/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Google’s hyper-personalized ‘Dreambeans’ feed\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now free to test"
-        },
-        {
-          "kind": "brief",
-          "text": "Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\nDreambeans is very much like a hyper-personalized Google Now or Discover feed.\nLike the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\nDuring setup, you can choose which apps Dreambeans can access."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now…\n\n• Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\n• Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\n• Like the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\n• During setup, you can choose which apps Dreambeans can access.\n\nSource: 9to5Google — https://9to5google.com/2026/08/28/google-dreambeans-free/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#android #samsung #batterytips #gadgets #smartphonetips #tech #gadgetreviews #techgear #techdaily #itsupportguru #techtips #helpdesk\n\n@theitsupportguru — the gadget worth your attention.\n\nSave this for the next ticket.",
->>>>>>> Stashed changes
+      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n4. Check background apps under the Energy tab\n5. Dim the screen\n     ✓ the display uses the most.\n\nSave this for the next ticket →\n\n#ios #iphone #itpro #macrumors #appleintelligence #apple #macos #macbook #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     }
   ]

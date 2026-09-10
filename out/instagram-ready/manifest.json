@@ -1,46 +1,170 @@
 {
-  "date": "2026-09-09",
-  "renderedAt": "2026-09-09T23:51:50.882Z",
+  "date": "2026-09-10",
+  "renderedAt": "2026-09-10T00:00:04.475Z",
   "posts": [
     {
-      "id": "20260909-apple-iphone-18-pro-duo-surprise-and-shine",
-      "date": "2026-09-09",
-      "slot": 99,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "pillar": "APPLE DROP",
-      "kind": "title",
-      "title": "Apple Unveils iPhone 18 Pro & First Foldable iPhone Duo",
-      "subtitle": "Surprise and Shine event — live from Cupertino",
-      "format": "carousel",
+      "id": "20260910-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "slot": 0,
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
+      "format": "image",
+      "kind": "redflag",
+      "pillar": "DAILY RED FLAG",
+      "title": "You bought a laptop on the spec sheet alone",
+      "source": null,
+      "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "SURPRISE AND SHINE\nApple unveils iPhone 18 Pro & iPhone Duo"
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
-          "kind": "title",
-          "text": "Meet iPhone 18 Pro, Pro Max & the first foldable iPhone Duo"
+          "kind": "body",
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
-          "kind": "brief",
-          "text": "iPhone 18 Pro from $1,199 — Pro Max $1,299 — Duo $1,999\nDeep black • Refined silver • Glacier blue • Burgundy\nPro preorders Sep 12 → available Sep 18\nDuo preorders Oct 16 → available Oct 23\nA20 2nm • 12GB RAM • 48MP triple camera"
-        },
-        {
-          "kind": "facts",
-          "text": "iPhone Duo is book-style foldable — first ever iPhone folding\nApple's first event under CEO John Ternus\nAirPods 5 $129 / $149 wireless • Watch Series 12 & Ultra 4 also unveiled\nAll available Sep 18 (Duo Oct 23)"
+          "kind": "body",
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
-          "text": "Save this drop. Share it. Follow @theitsupportguru — daily Apple intel for pros."
+          "text": "Save this before it costs you a repair bill."
         }
       ],
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#hardware #chipshortage #techreview #ram #laptops #benchmark #pcgaming #gpu #helpdesk #itpro #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260909-apple-iphone-18-pro-duo-surprise-and-shine\\01.png",
-        "out\\instagram-ready\\20260909-apple-iphone-18-pro-duo-surprise-and-shine\\02.png",
-        "out\\instagram-ready\\20260909-apple-iphone-18-pro-duo-surprise-and-shine\\03.png",
-        "out\\instagram-ready\\20260909-apple-iphone-18-pro-duo-surprise-and-shine\\04.png",
-        "out\\instagram-ready\\20260909-apple-iphone-18-pro-duo-surprise-and-shine\\05.png"
+        "out/instagram-ready/20260910-you-bought-a-laptop-on-the-spec-sheet-alone/01.png",
+        "out/instagram-ready/20260910-you-bought-a-laptop-on-the-spec-sheet-alone/02.png",
+        "out/instagram-ready/20260910-you-bought-a-laptop-on-the-spec-sheet-alone/03.png",
+        "out/instagram-ready/20260910-you-bought-a-laptop-on-the-spec-sheet-alone/04.png"
+      ]
+    },
+    {
+      "id": "20260910-closing-apps-saves-your-battery",
+      "slot": 1,
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
+      "format": "image",
+      "kind": "myth",
+      "pillar": "TECH MYTHBUSTER",
+      "title": "Closing apps saves your battery",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Closing apps saves your battery"
+        },
+        {
+          "kind": "body",
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
+        },
+        {
+          "kind": "cta",
+          "text": "Share this with the person who still believes it."
+        }
+      ],
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#sysadmin #troubleshooting #windows #computertips #pc #ithelp #helpdesk #fixyourpc #itsupportguru #techsupport #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260910-closing-apps-saves-your-battery/01.png",
+        "out/instagram-ready/20260910-closing-apps-saves-your-battery/02.png",
+        "out/instagram-ready/20260910-closing-apps-saves-your-battery/03.png"
+      ]
+    },
+    {
+      "id": "20260910-how-to-tell-if-your-battery-is-really-dying",
+      "slot": 2,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "secrets",
+      "pillar": "IT GURU SECRETS",
+      "title": "How to tell if your battery is really dying",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+        },
+        {
+          "kind": "facts",
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this — insider knowledge only pays off when you use it."
+        }
+      ],
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #smartphone #batterytips #tech #android #techgear #gadgets #gadgetreviews #sysadmin #itpro #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260910-how-to-tell-if-your-battery-is-really-dying/01.png",
+        "out/instagram-ready/20260910-how-to-tell-if-your-battery-is-really-dying/02.png",
+        "out/instagram-ready/20260910-how-to-tell-if-your-battery-is-really-dying/03.png"
+      ]
+    },
+    {
+      "id": "20260910-find-your-macbook-battery-drainer",
+      "slot": 3,
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
+      "format": "carousel",
+      "kind": "howto",
+      "pillar": "MICRO GUIDE",
+      "title": "Find your MacBook battery drainer",
+      "source": null,
+      "link": null,
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
+        },
+        {
+          "kind": "step",
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
+        },
+        {
+          "kind": "step",
+          "text": "Sort by CPU, then by Energy"
+        },
+        {
+          "kind": "step",
+          "text": "Close the browser tab silently maxing cores"
+        },
+        {
+          "kind": "step",
+          "text": "Check background apps under the Energy tab"
+        },
+        {
+          "kind": "step",
+          "text": "Dim the screen — the display uses the most."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this — you'll need it next time."
+        }
+      ],
+      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n4. Check background apps under the Energy tab\n5. Dim the screen\n     ✓ the display uses the most.\n\nSave this for the next ticket →\n\n#ios #iphone #itpro #macrumors #appleintelligence #apple #macos #macbook #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/01.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/02.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/03.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/04.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/05.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/06.png",
+        "out/instagram-ready/20260910-find-your-macbook-battery-drainer/07.png"
       ]
     }
   ]

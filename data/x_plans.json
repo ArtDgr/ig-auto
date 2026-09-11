@@ -1,174 +1,145 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-10T21:46:36.656Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-11T21:51:13.680Z",
   "posts": [
     {
-      "id": "20260911-your-system-drive-is-under-15-free-space",
+      "id": "20260912-you-click-click-click-in-the-console-instead-of-iac",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
+      "title": "You click-click-click in the console instead of IaC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+          "text": "You click-click-click in the console\nManual clicks are invisible, unreviewable and can't be rolled back."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+          "text": "WHY IT'S A PROBLEM — Manual clicks are invisible, unreviewable and can't be rolled back."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+          "text": "THE FIX — Write Terraform or CloudFormation — infra as code."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your system drive is under 15% free space #itsupport #techsupport #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You click-click-click in the console instead of IaC #DevOps #Kubernetes #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260911-a-strong-password-is-enough",
+      "id": "20260912-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A strong password is enough",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A strong password is enough"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Even great passwords get stolen in breaches. 2FA is what actually stops the attacker from using them."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A strong password is enough Truth: Even great passwords get stolen in breaches. 2FA is what actually stops the attacker… #infosec #2FA #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #CPU #PC #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260911-prompt-tricks-it-pros-use-daily",
+      "id": "20260912-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #AI #MachineLearning #techtips Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #Apple #iOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260911-set-up-proper-battery-care",
+      "id": "20260912-fix-a-pc-that-won-t-boot-to-windows",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up proper battery care",
+      "title": "Fix a PC that won't boot to Windows",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
+          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Cap charge at 80% if your vendor offers it"
+          "text": "Unplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Avoid leaving it at 100% for weeks on end"
+          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
         },
         {
           "kind": "step",
-          "text": "Occasional deep discharge is fine, not daily"
+          "text": "Troubleshoot > Advanced options > Startup Repair"
         },
         {
           "kind": "step",
-          "text": "Keep firmware and battery drivers updated"
+          "text": "Run it twice — most boot loops die on the second pass"
         },
         {
           "kind": "step",
-          "text": "A battery at 80% capacity after 2 years is normal."
+          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Set up proper battery care #GPU #hardware #itsupportguru Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20260911-gadget-focus-google-s-hyper-personalized-dreambeans-feed-is-now-free-",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Google’s hyper-personalized ‘Dreambeans’ feed is now…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/09/10/google-dreambeans-free/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Google’s hyper-personalized ‘Dreambeans’ feed\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now free to test [U]"
-        },
-        {
-          "kind": "brief",
-          "text": "Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\nUpdate 9/10: Google officially announced the broader availability today.\nOriginal 8/28: Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\nLike the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Google’s hyper-personalized ‘Dreambeans’ feed is now… (9to5Google) https://9to5google.com/2026/09/10/google-dreambeans-free/ #gadgets #tech #itsupportguru Follow for daily tech intel.",
+      "caption": "🛠️ Fix a PC that won't boot to Windows #sysadmin #itsupport #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

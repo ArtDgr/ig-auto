@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-11",
-  "generatedAt": "2026-09-10T21:46:22.249Z",
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-11T21:51:02.981Z",
   "posts": [
     {
-      "id": "20260911-you-keep-every-screenshot-you-ever-took",
+      "id": "20260912-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -12,62 +12,62 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#macrumors #applenews #appletips #iphone #ios #macbook #appleintelligence #itpro #techtips #techdaily #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#iphone #applenews #itpro #macos #apple #ios #macbook #macrumors #techsupport #techdaily #sysadmin #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260911-you-need-a-gaming-laptop-for-gaming",
+      "id": "20260912-off-brand-cables-are-fine",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "Off-brand cables are fine",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "Off-brand cables are fine"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#gpu #cpu #techreview #ram #chipshortage #ssd #benchmark #laptops #itsupportguru #sysadmin #helpdesk #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Off-brand cables are fine\nTruth: Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried.\n\nShare this with the person who still believes it →\n\n#android #smartphonetips #samsung #smartphone #gadgets #techgear #iphone #gadgetreviews #itsupportguru #itpro #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260911-how-to-actually-verify-ai-output",
+      "id": "20260912-how-to-actually-verify-ai-output",
       "slot": 2,
       "niche": "ai",
       "nicheLabel": "AI & Machine Learning",
@@ -93,82 +93,53 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#genai #aitech #artificialintelligence #aitools #machinelearning #futuretech #copilot #chatgpt #helpdesk #techsupport #itsupportguru #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#chatgpt #aitips #machinelearning #futuretech #genai #copilot #aitools #ai #itpro #helpdesk #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260911-monitor-a-server-with-a-dashboard",
+      "id": "20260912-clean-a-laptop-without-breaking-it",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor a server with a dashboard",
+      "title": "Clean a laptop without breaking it",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor a server with a dashboard\nInstall a lightweight metrics agent"
+          "text": "Clean a laptop without breaking it\nPower down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight metrics agent"
+          "text": "Power down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Point it at Grafana or your cloud metrics"
+          "text": "Use compressed air in short bursts on vents"
         },
         {
           "kind": "step",
-          "text": "Add CPU, memory, and disk widgets"
+          "text": "Wipe the lid with microfiber and isopropyl"
         },
         {
           "kind": "step",
-          "text": "Alert at 80% CPU for sustained load"
+          "text": "Never spray liquid directly at ports or fans"
         },
         {
           "kind": "step",
-          "text": "Now you see problems before your users do."
+          "text": "Do it quarterly — dust is the silent throttler."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Monitor a server with a dashboard ☁️\n\n1. Install a lightweight metrics agent\n2. Point it at Grafana or your cloud metrics\n3. Add CPU, memory, and disk widgets\n4. Alert at 80% CPU for sustained load\n5. Now you see problems before your users do.\n\nSave this for the next ticket →\n\n#docker #devopslife #azure #devops #aws #sre #cloudinfra #techops #itsupportguru #techdaily #sysadmin #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
-      "status": "pending"
-    },
-    {
-      "id": "20260911-gadget-focus-google-s-hyper-personalized-dreambeans-feed-is-now-free-",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Google’s hyper-personalized ‘Dreambeans’ feed is now…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/09/10/google-dreambeans-free/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Google’s hyper-personalized ‘Dreambeans’ feed\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now free to test [U]"
-        },
-        {
-          "kind": "brief",
-          "text": "Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\nUpdate 9/10: Google officially announced the broader availability today.\nOriginal 8/28: Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\nLike the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nGoogle’s hyper-personalized ‘Dreambeans’ feed is now…\n\n• Dreambeans is an experimental app from Google Labs that will “proactively dream up personalized daily stories.” After previously…\n• Update 9/10: Google officially announced the broader availability today.\n• Original 8/28: Dreambeans is very much like a hyper-personalized Google Now or Discover feed.\n• Like the Gemini app and AI Mode, it uses Google’s Personal Intelligence system to learn your interests by looking at your Gmail,…\n\nSource: 9to5Google — https://9to5google.com/2026/09/10/google-dreambeans-free/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#techgear #batterytips #iphone #tech #android #samsung #smartphonetips #gadgetreviews #helpdesk #itpro #techdaily #techsupport\n\n@theitsupportguru — the gadget worth your attention.\n\nSave this for the next ticket.",
+      "caption": "Clean a laptop without breaking it 💻\n\n1. Power down and unplug first\n2. Use compressed air in short bursts on vents\n3. Wipe the lid with microfiber and isopropyl\n4. Never spray liquid directly at ports or fans\n5. Do it quarterly\n     ✓ dust is the silent throttler.\n\nSave this for the next ticket →\n\n#chipshortage #gpu #hardware #cpu #pc #laptops #pcgaming #benchmark #techdaily #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

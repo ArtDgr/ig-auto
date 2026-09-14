@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-11T21:51:13.680Z",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-14T22:39:19.940Z",
   "posts": [
     {
-      "id": "20260912-you-click-click-click-in-the-console-instead-of-iac",
+      "id": "20260915-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You click-click-click in the console instead of IaC",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You click-click-click in the console\nManual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Manual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Write Terraform or CloudFormation — infra as code."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You click-click-click in the console instead of IaC #DevOps #Kubernetes #tech Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260912-a-bigger-cpu-number-is-always-faster",
+      "id": "20260915-antivirus-means-you-can-t-get-hacked",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "Antivirus means you can't get hacked",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "Antivirus means you can't get hacked"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #CPU #PC #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Antivirus means you can't get hacked Truth: AV catches known malware, not the social engineering that steals most accounts and… #2FA #cybersecurity #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260912-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260915-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #Apple #iOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #itsupport #sysadmin #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260912-fix-a-pc-that-won-t-boot-to-windows",
+      "id": "20260915-deploy-your-first-docker-container",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a PC that won't boot to Windows",
+      "title": "Deploy your first Docker container",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
+          "text": "Deploy your first Docker container\nInstall Docker Desktop or spin up a cloud VM"
         },
         {
           "kind": "step",
-          "text": "Unplug every USB device except keyboard and mouse"
+          "text": "Install Docker Desktop or spin up a cloud VM"
         },
         {
           "kind": "step",
-          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
+          "text": "Run: docker run -d -p 8080:80 nginx"
         },
         {
           "kind": "step",
-          "text": "Troubleshoot > Advanced options > Startup Repair"
+          "text": "Open localhost:8080 — you're live"
         },
         {
           "kind": "step",
-          "text": "Run it twice — most boot loops die on the second pass"
+          "text": "See what happened: docker logs <container-id>"
         },
         {
           "kind": "step",
-          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
+          "text": "Stop it with docker stop <id> — that's containers in 5 minutes."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Fix a PC that won't boot to Windows #sysadmin #itsupport #itsupportguru Follow for daily tech intel.",
+      "caption": "☁️ Deploy your first Docker container #cloud #DevOps #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

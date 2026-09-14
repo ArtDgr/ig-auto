@@ -1,170 +1,170 @@
 {
-  "date": "2026-09-12",
-  "renderedAt": "2026-09-11T21:51:13.666Z",
+  "date": "2026-09-15",
+  "renderedAt": "2026-09-14T22:39:19.932Z",
   "posts": [
     {
-      "id": "20260912-you-ve-never-checked-iphone-battery-health",
+      "id": "20260915-you-ve-never-run-a-battery-report",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#iphone #applenews #itpro #macos #apple #ios #macbook #macrumors #techsupport #techdaily #sysadmin #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#laptop #chipshortage #pcgaming #cpu #pc #hardware #laptops #benchmark #itpro #techdaily #helpdesk #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260912-you-ve-never-checked-iphone-battery-health/01.png",
-        "out/instagram-ready/20260912-you-ve-never-checked-iphone-battery-health/02.png",
-        "out/instagram-ready/20260912-you-ve-never-checked-iphone-battery-health/03.png",
-        "out/instagram-ready/20260912-you-ve-never-checked-iphone-battery-health/04.png"
+        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/01.png",
+        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/02.png",
+        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/03.png",
+        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/04.png"
       ]
     },
     {
-      "id": "20260912-off-brand-cables-are-fine",
+      "id": "20260915-ai-is-always-right",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Off-brand cables are fine",
+      "title": "AI is always right",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Off-brand cables are fine"
+          "text": "AI is always right"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried."
+          "text": "THE TRUTH — Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Off-brand cables are fine\nTruth: Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried.\n\nShare this with the person who still believes it →\n\n#android #smartphonetips #samsung #smartphone #gadgets #techgear #iphone #gadgetreviews #itsupportguru #itpro #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: AI is always right\nTruth: Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #copilot #aitips #machinelearning #ai #genai #chatgpt #aitools #sysadmin #helpdesk #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260912-off-brand-cables-are-fine/01.png",
-        "out/instagram-ready/20260912-off-brand-cables-are-fine/02.png",
-        "out/instagram-ready/20260912-off-brand-cables-are-fine/03.png"
+        "out/instagram-ready/20260915-ai-is-always-right/01.png",
+        "out/instagram-ready/20260915-ai-is-always-right/02.png",
+        "out/instagram-ready/20260915-ai-is-always-right/03.png"
       ]
     },
     {
-      "id": "20260912-how-to-actually-verify-ai-output",
+      "id": "20260915-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to actually verify AI output",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to actually verify AI output\nAsk for a source for every key claim"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#chatgpt #aitips #machinelearning #futuretech #genai #copilot #aitools #ai #itpro #helpdesk #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#itpro #applenews #iphone #appleintelligence #macos #appletips #macbook #apple #helpdesk #techtips #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260912-how-to-actually-verify-ai-output/01.png",
-        "out/instagram-ready/20260912-how-to-actually-verify-ai-output/02.png",
-        "out/instagram-ready/20260912-how-to-actually-verify-ai-output/03.png"
+        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/01.png",
+        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/02.png",
+        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/03.png"
       ]
     },
     {
-      "id": "20260912-clean-a-laptop-without-breaking-it",
+      "id": "20260915-fix-a-frozen-app-without-losing-work",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean a laptop without breaking it",
+      "title": "Fix a frozen app without losing work",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean a laptop without breaking it\nPower down and unplug first"
+          "text": "Fix a frozen app without losing work\nPress Ctrl+Shift+Esc to open Task Manager"
         },
         {
           "kind": "step",
-          "text": "Power down and unplug first"
+          "text": "Press Ctrl+Shift+Esc to open Task Manager"
         },
         {
           "kind": "step",
-          "text": "Use compressed air in short bursts on vents"
+          "text": "Find the app under Processes, not Apps"
         },
         {
           "kind": "step",
-          "text": "Wipe the lid with microfiber and isopropyl"
+          "text": "Right-click it and choose End task"
         },
         {
           "kind": "step",
-          "text": "Never spray liquid directly at ports or fans"
+          "text": "Reopen it after 10 seconds — the cache has cleared"
         },
         {
           "kind": "step",
-          "text": "Do it quarterly — dust is the silent throttler."
+          "text": "If it re-freezes, check for an update or reinstall it."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Clean a laptop without breaking it 💻\n\n1. Power down and unplug first\n2. Use compressed air in short bursts on vents\n3. Wipe the lid with microfiber and isopropyl\n4. Never spray liquid directly at ports or fans\n5. Do it quarterly\n     ✓ dust is the silent throttler.\n\nSave this for the next ticket →\n\n#chipshortage #gpu #hardware #cpu #pc #laptops #pcgaming #benchmark #techdaily #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Fix a frozen app without losing work 🛠️\n\n1. Press Ctrl+Shift+Esc to open Task Manager\n2. Find the app under Processes, not Apps\n3. Right-click it and choose End task\n4. Reopen it after 10 seconds\n     ✓ the cache has cleared\n5. If it re-freezes, check for an update or reinstall it.\n\nSave this for the next ticket →\n\n#computertips #techsupport #helpdesk #fixyourpc #windows #sysadmin #pchelp #ithelp #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/01.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/02.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/03.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/04.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/05.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/06.png",
-        "out/instagram-ready/20260912-clean-a-laptop-without-breaking-it/07.png"
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/01.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/02.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/03.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/04.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/05.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/06.png",
+        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/07.png"
       ]
     }
   ]

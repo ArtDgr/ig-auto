@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-15",
-  "renderedAt": "2026-09-14T22:39:19.932Z",
+  "date": "2026-09-16",
+  "renderedAt": "2026-09-15T22:25:43.109Z",
   "posts": [
     {
-      "id": "20260915-you-ve-never-run-a-battery-report",
+      "id": "20260916-your-laptop-is-always-hot",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,108 +12,108 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never run a battery report",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never run a battery report\nLaptop batteries degrade silently."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#laptop #chipshortage #pcgaming #cpu #pc #hardware #laptops #benchmark #itpro #techdaily #helpdesk #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#benchmark #cpu #laptop #pcgaming #gpu #ssd #laptops #hardware #techsupport #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/01.png",
-        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/02.png",
-        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/03.png",
-        "out/instagram-ready/20260915-you-ve-never-run-a-battery-report/04.png"
+        "out/instagram-ready/20260916-your-laptop-is-always-hot/01.png",
+        "out/instagram-ready/20260916-your-laptop-is-always-hot/02.png",
+        "out/instagram-ready/20260916-your-laptop-is-always-hot/03.png",
+        "out/instagram-ready/20260916-your-laptop-is-always-hot/04.png"
       ]
     },
     {
-      "id": "20260915-ai-is-always-right",
+      "id": "20260916-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "AI is always right",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "AI is always right"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: AI is always right\nTruth: Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #copilot #aitips #machinelearning #ai #genai #chatgpt #aitools #sysadmin #helpdesk #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#appleintelligence #apple #appletips #macos #macbook #iphone #itpro #macrumors #techdaily #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260915-ai-is-always-right/01.png",
-        "out/instagram-ready/20260915-ai-is-always-right/02.png",
-        "out/instagram-ready/20260915-ai-is-always-right/03.png"
+        "out/instagram-ready/20260916-you-must-charge-your-iphone-to-100/01.png",
+        "out/instagram-ready/20260916-you-must-charge-your-iphone-to-100/02.png",
+        "out/instagram-ready/20260916-you-must-charge-your-iphone-to-100/03.png"
       ]
     },
     {
-      "id": "20260915-hidden-macos-tools-most-people-never-find",
+      "id": "20260916-what-happens-in-the-first-hour-of-a-breach",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What happens in the first hour of a breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#itpro #applenews #iphone #appleintelligence #macos #appletips #macbook #apple #helpdesk #techtips #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#secops #phishing #datasecurity #cyberdefense #onlinesafety #cybersectips #2fa #security #techtips #techdaily #itpro #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/01.png",
-        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/02.png",
-        "out/instagram-ready/20260915-hidden-macos-tools-most-people-never-find/03.png"
+        "out/instagram-ready/20260916-what-happens-in-the-first-hour-of-a-breach/01.png",
+        "out/instagram-ready/20260916-what-happens-in-the-first-hour-of-a-breach/02.png",
+        "out/instagram-ready/20260916-what-happens-in-the-first-hour-of-a-breach/03.png"
       ]
     },
     {
-      "id": "20260915-fix-a-frozen-app-without-losing-work",
+      "id": "20260916-remove-junk-and-bloatware-safely",
       "slot": 3,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -122,49 +122,49 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a frozen app without losing work",
+      "title": "Remove junk and bloatware safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a frozen app without losing work\nPress Ctrl+Shift+Esc to open Task Manager"
+          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Press Ctrl+Shift+Esc to open Task Manager"
+          "text": "Settings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Find the app under Processes, not Apps"
+          "text": "Uninstall trialware and toolbars you never open"
         },
         {
           "kind": "step",
-          "text": "Right-click it and choose End task"
+          "text": "Run Disk Cleanup afterwards to free the space"
         },
         {
           "kind": "step",
-          "text": "Reopen it after 10 seconds — the cache has cleared"
+          "text": "For stubborn apps, use their own uninstaller first"
         },
         {
           "kind": "step",
-          "text": "If it re-freezes, check for an update or reinstall it."
+          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Fix a frozen app without losing work 🛠️\n\n1. Press Ctrl+Shift+Esc to open Task Manager\n2. Find the app under Processes, not Apps\n3. Right-click it and choose End task\n4. Reopen it after 10 seconds\n     ✓ the cache has cleared\n5. If it re-freezes, check for an update or reinstall it.\n\nSave this for the next ticket →\n\n#computertips #techsupport #helpdesk #fixyourpc #windows #sysadmin #pchelp #ithelp #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Remove junk and bloatware safely 🛠️\n\n1. Settings > Apps > Installed apps\n2. Uninstall trialware and toolbars you never open\n3. Run Disk Cleanup afterwards to free the space\n4. For stubborn apps, use their own uninstaller first\n5. Never download 'PC cleaner' tools\n     ✓ they cause more harm than good.\n\nSave this for the next ticket →\n\n#itsupport #helpdesk #troubleshooting #windows11 #computertips #pc #ithelp #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/01.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/02.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/03.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/04.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/05.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/06.png",
-        "out/instagram-ready/20260915-fix-a-frozen-app-without-losing-work/07.png"
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/01.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/02.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/03.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/04.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/05.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/06.png",
+        "out/instagram-ready/20260916-remove-junk-and-bloatware-safely/07.png"
       ]
     }
   ]

@@ -1,103 +1,103 @@
 {
-  "date": "2026-09-15",
-  "generatedAt": "2026-09-14T22:39:19.940Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-15T22:25:43.120Z",
   "posts": [
     {
-      "id": "20260915-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260916-your-screen-is-unlocked-when-you-step-away",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your screen is unlocked when you step away",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your screen is unlocked when you step\nAn unlocked device is the most common data loss on the planet."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — An unlocked device is the most common data loss on the planet."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Windows key + L every single time. One second, no exceptions."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #tech Follow for daily tech intel.",
+      "caption": "🚩 Your screen is unlocked when you step away #privacy #infosec #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260915-antivirus-means-you-can-t-get-hacked",
+      "id": "20260916-restarting-your-pc-wipes-your-data",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus means you can't get hacked",
+      "title": "Restarting your PC wipes your data",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus means you can't get hacked"
+          "text": "Restarting your PC wipes your data"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human."
+          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Antivirus means you can't get hacked Truth: AV catches known malware, not the social engineering that steals most accounts and… #2FA #cybersecurity #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #techsupport #sysadmin #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260915-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20260916-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 Windows tools IT pros use that you don't",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #itsupport #sysadmin #techtips Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iPhone #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260915-deploy-your-first-docker-container",
+      "id": "20260916-put-a-website-behind-https",
       "slot": 3,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Deploy your first Docker container",
+      "title": "Put a website behind HTTPS",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Deploy your first Docker container\nInstall Docker Desktop or spin up a cloud VM"
+          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Install Docker Desktop or spin up a cloud VM"
+          "text": "Point your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Run: docker run -d -p 8080:80 nginx"
+          "text": "Install nginx or any web server"
         },
         {
           "kind": "step",
-          "text": "Open localhost:8080 — you're live"
+          "text": "Run certbot for a free Let's Encrypt cert"
         },
         {
           "kind": "step",
-          "text": "See what happened: docker logs <container-id>"
+          "text": "Let certbot schedule auto-renewal"
         },
         {
           "kind": "step",
-          "text": "Stop it with docker stop <id> — that's containers in 5 minutes."
+          "text": "Test https:// — a green padlock, no cost."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Deploy your first Docker container #cloud #DevOps #techtips Follow for daily tech intel.",
+      "caption": "☁️ Put a website behind HTTPS #cloud #AWS #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-10",
-  "generatedAt": "2026-09-09T23:50:54.315Z",
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-15T22:25:32.214Z",
   "posts": [
     {
-      "id": "20260910-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260916-your-laptop-is-always-hot",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,134 +12,134 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#hardware #chipshortage #techreview #ram #laptops #benchmark #pcgaming #gpu #helpdesk #itpro #sysadmin #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#benchmark #cpu #laptop #pcgaming #gpu #ssd #laptops #hardware #techsupport #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260910-closing-apps-saves-your-battery",
+      "id": "20260916-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Closing apps saves your battery",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Closing apps saves your battery"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#sysadmin #troubleshooting #windows #computertips #pc #ithelp #helpdesk #fixyourpc #itsupportguru #techsupport #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#appleintelligence #apple #appletips #macos #macbook #iphone #itpro #macrumors #techdaily #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260910-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20260916-what-happens-in-the-first-hour-of-a-breach",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "What happens in the first hour of a breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #smartphone #batterytips #tech #android #techgear #gadgets #gadgetreviews #sysadmin #itpro #itsupportguru #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#secops #phishing #datasecurity #cyberdefense #onlinesafety #cybersectips #2fa #security #techtips #techdaily #itpro #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260910-find-your-macbook-battery-drainer",
+      "id": "20260916-remove-junk-and-bloatware-safely",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Find your MacBook battery drainer",
+      "title": "Remove junk and bloatware safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Settings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Sort by CPU, then by Energy"
+          "text": "Uninstall trialware and toolbars you never open"
         },
         {
           "kind": "step",
-          "text": "Close the browser tab silently maxing cores"
+          "text": "Run Disk Cleanup afterwards to free the space"
         },
         {
           "kind": "step",
-          "text": "Check background apps under the Energy tab"
+          "text": "For stubborn apps, use their own uninstaller first"
         },
         {
           "kind": "step",
-          "text": "Dim the screen — the display uses the most."
+          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n4. Check background apps under the Energy tab\n5. Dim the screen\n     ✓ the display uses the most.\n\nSave this for the next ticket →\n\n#ios #iphone #itpro #macrumors #appleintelligence #apple #macos #macbook #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Remove junk and bloatware safely 🛠️\n\n1. Settings > Apps > Installed apps\n2. Uninstall trialware and toolbars you never open\n3. Run Disk Cleanup afterwards to free the space\n4. For stubborn apps, use their own uninstaller first\n5. Never download 'PC cleaner' tools\n     ✓ they cause more harm than good.\n\nSave this for the next ticket →\n\n#itsupport #helpdesk #troubleshooting #windows11 #computertips #pc #ithelp #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

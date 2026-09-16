@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-16",
-  "generatedAt": "2026-09-15T22:25:43.120Z",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-16T22:17:05.436Z",
   "posts": [
     {
-      "id": "20260916-your-screen-is-unlocked-when-you-step-away",
+      "id": "20260917-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your screen is unlocked when you step away",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your screen is unlocked when you step\nAn unlocked device is the most common data loss on the planet."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — An unlocked device is the most common data loss on the planet."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Windows key + L every single time. One second, no exceptions."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your screen is unlocked when you step away #privacy #infosec #techtips Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260916-restarting-your-pc-wipes-your-data",
+      "id": "20260917-antivirus-alone-keeps-you-safe",
       "slot": 1,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -46,58 +46,58 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #techsupport #sysadmin #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Antivirus alone keeps you safe Truth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak… #techsupport #sysadmin #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260916-hidden-macos-tools-most-people-never-find",
+      "id": "20260917-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iPhone #macOS #tech Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — Sustained FPS at your resolution, not peak numbers #CPU #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260916-put-a-website-behind-https",
+      "id": "20260917-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Put a website behind HTTPS",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Point your domain at your server's IP"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Install nginx or any web server"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Run certbot for a free Let's Encrypt cert"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "step",
-          "text": "Let certbot schedule auto-renewal"
+          "text": "Send them to email or Slack"
         },
         {
           "kind": "step",
-          "text": "Test https:// — a green padlock, no cost."
+          "text": "Sleep soundly — the alert does the watching."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Put a website behind HTTPS #cloud #AWS #tech Follow for daily tech intel.",
+      "caption": "☁️ Add a budget alert so you never overspend #AWS #DevOps #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

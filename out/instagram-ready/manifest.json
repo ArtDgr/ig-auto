@@ -1,49 +1,49 @@
 {
-  "date": "2026-09-16",
-  "renderedAt": "2026-09-17T02:58:38.466Z",
+  "date": "2026-09-18",
+  "renderedAt": "2026-09-17T22:21:02.438Z",
   "posts": [
     {
-      "id": "20260916-your-laptop-is-always-hot",
+      "id": "20260918-dev-machines-run-24-7",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "Dev machines run 24/7",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "Dev machines run 24/7\nA dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — A dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Schedule them to shut down at 7pm and start at 7am."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#benchmark #cpu #laptop #pcgaming #gpu #ssd #laptops #hardware #techsupport #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nDev machines run 24/7\n\nWhy it's a problem: A dev server left running bills all night for zero users.\nThe fix: Schedule them to shut down at 7pm and start at 7am.\n\nSave this before it becomes a repair bill →\n\n#cloudinfra #azure #cloud #kubernetes #sre #docker #aws #cloudcomputing #helpdesk #techdaily #techsupport #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\01.png",
-        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\02.png",
-        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\03.png",
-        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\04.png"
+        "out/instagram-ready/20260918-dev-machines-run-24-7/01.png",
+        "out/instagram-ready/20260918-dev-machines-run-24-7/02.png",
+        "out/instagram-ready/20260918-dev-machines-run-24-7/03.png",
+        "out/instagram-ready/20260918-dev-machines-run-24-7/04.png"
       ]
     },
     {
-      "id": "20260916-you-must-charge-your-iphone-to-100",
+      "id": "20260918-force-quitting-apps-saves-battery",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -52,119 +52,153 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#appleintelligence #apple #appletips #macos #macbook #iphone #itpro #macrumors #techdaily #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#appleintelligence #itpro #applenews #appletips #macos #apple #macbook #macrumors #techtips #helpdesk #techsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\01.png",
-        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\02.png",
-        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\03.png"
+        "out/instagram-ready/20260918-force-quitting-apps-saves-battery/01.png",
+        "out/instagram-ready/20260918-force-quitting-apps-saves-battery/02.png",
+        "out/instagram-ready/20260918-force-quitting-apps-saves-battery/03.png"
       ]
     },
     {
-      "id": "20260916-what-happens-in-the-first-hour-of-a-breach",
+      "id": "20260918-the-hidden-windows-tools-nobody-uses",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What happens in the first hour of a breach",
+      "title": "The hidden Windows tools nobody uses",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
+          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
         },
         {
           "kind": "facts",
-          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
+          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#secops #phishing #datasecurity #cyberdefense #onlinesafety #cybersectips #2fa #security #techtips #techdaily #itpro #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "The hidden Windows tools nobody uses 🔓\n\nInsider knowledge, free.\n\n• `sfc /scannow` repairs corrupted system files\n• `DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n• `msinfo32` exports a full hardware report\n• `resmon` shows what's actually maxing your disk\n\nSave this — it'll be your shortcut later →\n\n#pc #sysadmin #windows #troubleshooting #pchelp #computertips #fixyourpc #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\01.png",
-        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\02.png",
-        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\03.png"
+        "out/instagram-ready/20260918-the-hidden-windows-tools-nobody-uses/01.png",
+        "out/instagram-ready/20260918-the-hidden-windows-tools-nobody-uses/02.png",
+        "out/instagram-ready/20260918-the-hidden-windows-tools-nobody-uses/03.png"
       ]
     },
     {
-      "id": "20260916-remove-junk-and-bloatware-safely",
+      "id": "20260918-buy-a-laptop-that-fits-your-work",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Remove junk and bloatware safely",
+      "title": "Buy a laptop that fits your work",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
+          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Settings > Apps > Installed apps"
+          "text": "List the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Uninstall trialware and toolbars you never open"
+          "text": "Match CPU tier and RAM to that list"
         },
         {
           "kind": "step",
-          "text": "Run Disk Cleanup afterwards to free the space"
+          "text": "Confirm the port needs — USB-C, HDMI, storage"
         },
         {
           "kind": "step",
-          "text": "For stubborn apps, use their own uninstaller first"
+          "text": "Get 16GB+ RAM and an SSD minimum"
         },
         {
           "kind": "step",
-          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
+          "text": "Buy from a brand with known reliability and warranty."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Remove junk and bloatware safely 🛠️\n\n1. Settings > Apps > Installed apps\n2. Uninstall trialware and toolbars you never open\n3. Run Disk Cleanup afterwards to free the space\n4. For stubborn apps, use their own uninstaller first\n5. Never download 'PC cleaner' tools\n     ✓ they cause more harm than good.\n\nSave this for the next ticket →\n\n#itsupport #helpdesk #troubleshooting #windows11 #computertips #pc #ithelp #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n4. Get 16GB+ RAM and an SSD minimum\n5. Buy from a brand with known reliability and warranty.\n\nSave this for the next ticket →\n\n#cpu #laptop #pc #ssd #laptops #gpu #chipshortage #benchmark #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\01.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\02.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\03.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\04.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\05.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\06.png",
-        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\07.png"
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/01.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/02.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/03.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/04.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/05.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/06.png",
+        "out/instagram-ready/20260918-buy-a-laptop-that-fits-your-work/07.png"
+      ]
+    },
+    {
+      "id": "20260918-gadget-focus-samsung-to-outsource-all-of-its-dram-manufacturing-and-f",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Samsung to outsource all of its DRAM manufacturing and…",
+      "source": "GSMArena",
+      "link": "https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Samsung to outsource all of its DRAM\nSamsung to outsource all of its DRAM manufacturing and focus on HBM production"
+        },
+        {
+          "kind": "brief",
+          "text": "The AI race is heating up, and so is the demand for hardware required to support it.\nThat's why companies that produce HBM memory chips like Samsung have benefited immensely in the last few years.\nSo it's only logical for Samsung to shift its focus to HBM memory production, as this is the company's best-performing business…\nAccording to inside sources, Samsung is already in talks with its partners, urging them to finish their DDR5 production lines…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nSamsung to outsource all of its DRAM manufacturing and…\n\n• The AI race is heating up, and so is the demand for hardware required to support it.\n• That's why companies that produce HBM memory chips like Samsung have benefited immensely in the last few years.\n• So it's only logical for Samsung to shift its focus to HBM memory production, as this is the company's best-performing business…\n• According to inside sources, Samsung is already in talks with its partners, urging them to finish their DDR5 production lines…\n\nSource: GSMArena — https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#gadgetreviews #smartphone #android #techgear #batterytips #tech #samsung #iphone #itpro #sysadmin #techsupport #helpdesk\n\n@theitsupportguru — the gadget worth your attention.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "status": "pending",
+      "media": [
+        "out/instagram-ready/20260918-gadget-focus-samsung-to-outsource-all-of-its-dram-manufacturing-and-f/01.png",
+        "out/instagram-ready/20260918-gadget-focus-samsung-to-outsource-all-of-its-dram-manufacturing-and-f/02.png",
+        "out/instagram-ready/20260918-gadget-focus-samsung-to-outsource-all-of-its-dram-manufacturing-and-f/03.png"
       ]
     }
   ]

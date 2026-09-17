@@ -1,170 +1,170 @@
 {
-  "date": "2026-09-17",
-  "renderedAt": "2026-09-16T22:17:05.420Z",
+  "date": "2026-09-16",
+  "renderedAt": "2026-09-17T02:58:38.466Z",
   "posts": [
     {
-      "id": "20260917-you-ve-never-checked-your-battery-health",
+      "id": "20260916-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked your battery health",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked your battery health\nWorn batteries fail at the worst moment."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Worn batteries fail at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One tap: Settings > Battery > Battery Health."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked your battery health\n\nWhy it's a problem: Worn batteries fail at the worst moment.\nThe fix: One tap: Settings > Battery > Battery Health.\n\nSave this before it becomes a repair bill →\n\n#smartphone #samsung #gadgetreviews #tech #iphone #batterytips #smartphonetips #techgear #helpdesk #sysadmin #itpro #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#benchmark #cpu #laptop #pcgaming #gpu #ssd #laptops #hardware #techsupport #sysadmin #techtips #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260917-you-ve-never-checked-your-battery-health/01.png",
-        "out/instagram-ready/20260917-you-ve-never-checked-your-battery-health/02.png",
-        "out/instagram-ready/20260917-you-ve-never-checked-your-battery-health/03.png",
-        "out/instagram-ready/20260917-you-ve-never-checked-your-battery-health/04.png"
+        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\01.png",
+        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\02.png",
+        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\03.png",
+        "out\\instagram-ready\\20260916-your-laptop-is-always-hot\\04.png"
       ]
     },
     {
-      "id": "20260917-you-need-a-gaming-laptop-for-gaming",
+      "id": "20260916-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#laptops #benchmark #pc #ram #gpu #hardware #pcgaming #ssd #techdaily #itsupportguru #techtips #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#appleintelligence #apple #appletips #macos #macbook #iphone #itpro #macrumors #techdaily #sysadmin #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260917-you-need-a-gaming-laptop-for-gaming/01.png",
-        "out/instagram-ready/20260917-you-need-a-gaming-laptop-for-gaming/02.png",
-        "out/instagram-ready/20260917-you-need-a-gaming-laptop-for-gaming/03.png"
+        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\01.png",
+        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\02.png",
+        "out\\instagram-ready\\20260916-you-must-charge-your-iphone-to-100\\03.png"
       ]
     },
     {
-      "id": "20260917-hidden-macos-tools-most-people-never-find",
+      "id": "20260916-what-happens-in-the-first-hour-of-a-breach",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What happens in the first hour of a breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#appleintelligence #macbook #macrumors #macos #appletips #ios #applenews #itpro #techdaily #techtips #itsupportguru #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#secops #phishing #datasecurity #cyberdefense #onlinesafety #cybersectips #2fa #security #techtips #techdaily #itpro #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260917-hidden-macos-tools-most-people-never-find/01.png",
-        "out/instagram-ready/20260917-hidden-macos-tools-most-people-never-find/02.png",
-        "out/instagram-ready/20260917-hidden-macos-tools-most-people-never-find/03.png"
+        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\01.png",
+        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\02.png",
+        "out\\instagram-ready\\20260916-what-happens-in-the-first-hour-of-a-breach\\03.png"
       ]
     },
     {
-      "id": "20260917-set-up-a-github-actions-pipeline",
+      "id": "20260916-remove-junk-and-bloatware-safely",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a GitHub Actions pipeline",
+      "title": "Remove junk and bloatware safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
+          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Add a workflow file in .github/workflows/"
+          "text": "Settings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Use a simple job: checkout + run tests"
+          "text": "Uninstall trialware and toolbars you never open"
         },
         {
           "kind": "step",
-          "text": "Push — the pipeline runs automatically"
+          "text": "Run Disk Cleanup afterwards to free the space"
         },
         {
           "kind": "step",
-          "text": "Add a deploy job that SSHes to your VM"
+          "text": "For stubborn apps, use their own uninstaller first"
         },
         {
           "kind": "step",
-          "text": "Now every commit tests and ships, hands-free."
+          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up a GitHub Actions pipeline ☁️\n\n1. Add a workflow file in .github/workflows/\n2. Use a simple job: checkout + run tests\n3. Push\n     ✓ the pipeline runs automatically\n4. Add a deploy job that SSHes to your VM\n5. Now every commit tests and ships, hands-free.\n\nSave this for the next ticket →\n\n#docker #kubernetes #cloudinfra #devops #cloud #sre #aws #techops #techsupport #sysadmin #itpro #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Remove junk and bloatware safely 🛠️\n\n1. Settings > Apps > Installed apps\n2. Uninstall trialware and toolbars you never open\n3. Run Disk Cleanup afterwards to free the space\n4. For stubborn apps, use their own uninstaller first\n5. Never download 'PC cleaner' tools\n     ✓ they cause more harm than good.\n\nSave this for the next ticket →\n\n#itsupport #helpdesk #troubleshooting #windows11 #computertips #pc #ithelp #techsupport #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/01.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/02.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/03.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/04.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/05.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/06.png",
-        "out/instagram-ready/20260917-set-up-a-github-actions-pipeline/07.png"
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\01.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\02.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\03.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\04.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\05.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\06.png",
+        "out\\instagram-ready\\20260916-remove-junk-and-bloatware-safely\\07.png"
       ]
     }
   ]

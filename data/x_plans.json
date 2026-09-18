@@ -1,174 +1,145 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-17T22:21:02.455Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-18T21:47:51.159Z",
   "posts": [
     {
-      "id": "20260918-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260919-your-icloud-is-95-full",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your iCloud is 95% full",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 Your iCloud is 95% full #iOS #macOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260918-chatgpt-remembers-everything",
+      "id": "20260919-antivirus-alone-keeps-you-safe",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "ChatGPT remembers everything",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "ChatGPT remembers everything"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: ChatGPT remembers everything Truth: Sessions are ephemeral unless you save them. Context resets far more often than people… #AI #ChatGPT #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Antivirus alone keeps you safe Truth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak… #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260918-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20260919-phishing-tells-that-fool-most-people",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 Windows tools IT pros use that you don't",
+      "title": "Phishing tells that fool most people",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
+          "text": "Phishing tells that fool most people\nDisplay name lies — check the sender address"
         },
         {
           "kind": "facts",
-          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
+          "text": "Display name lies — check the sender address\nHover links to see the real URL\nUrgency and threats are pressure, not proof\nOdd grammar is a smell, not a guarantee\nWhen in doubt, call the number on the card"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #itsupport #Windows11 #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 Phishing tells that fool most people — Display name lies — check the sender address #2FA #infosec #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260918-monitor-a-server-with-a-dashboard",
+      "id": "20260919-clean-a-laptop-without-breaking-it",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor a server with a dashboard",
+      "title": "Clean a laptop without breaking it",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor a server with a dashboard\nInstall a lightweight metrics agent"
+          "text": "Clean a laptop without breaking it\nPower down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight metrics agent"
+          "text": "Power down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Point it at Grafana or your cloud metrics"
+          "text": "Use compressed air in short bursts on vents"
         },
         {
           "kind": "step",
-          "text": "Add CPU, memory, and disk widgets"
+          "text": "Wipe the lid with microfiber and isopropyl"
         },
         {
           "kind": "step",
-          "text": "Alert at 80% CPU for sustained load"
+          "text": "Never spray liquid directly at ports or fans"
         },
         {
           "kind": "step",
-          "text": "Now you see problems before your users do."
+          "text": "Do it quarterly — dust is the silent throttler."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Monitor a server with a dashboard #AWS #cloud #tech Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20260918-gadget-focus-samsung-to-outsource-all-of-its-dram-manufacturing-and-f",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Samsung to outsource all of its DRAM manufacturing and…",
-      "source": "GSMArena",
-      "link": "https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Samsung to outsource all of its DRAM\nSamsung to outsource all of its DRAM manufacturing and focus on HBM production"
-        },
-        {
-          "kind": "brief",
-          "text": "The AI race is heating up, and so is the demand for hardware required to support it.\nThat's why companies that produce HBM memory chips like Samsung have benefited immensely in the last few years.\nSo it's only logical for Samsung to shift its focus to HBM memory production, as this is the company's best-performing business…\nAccording to inside sources, Samsung is already in talks with its partners, urging them to finish their DDR5 production lines…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Samsung to outsource all of its DRAM manufacturing and… (GSMArena) https://www.gsmarena.com/samsung_to_outsource_all_of_its_dram_manufacturing_and_focus_on_hbm_production-news-74665.php #tech #Android Follow for daily tech intel.",
+      "caption": "💻 Clean a laptop without breaking it #CPU #hardware #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

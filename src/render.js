@@ -47,26 +47,6 @@ function themeForDeck(deck) {
   return { accent: accentFor(deck.niche), life: null, topic: false };
 }
 
-// Realistic topic-matched photos — mirrors ig-render.js TOPIC_PHOTOS, same logic IG uses.
-// Each deck gets a photo that matches its headline/niche (phone, chip, shield, cloud, etc.)
-const TOPIC_PHOTOS = [
-  { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, url: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, url: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, url: "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, url: "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(android|samsung|galaxy|pixel|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, url: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(wifi|router|signal|mesh|network)/i, url: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(camera|photo|lens|sensor|image)/i, url: "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, url: "https://images.unsplash.com/photo-1451187580459-43490279c429?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(windows|microsoft|office|365|outlook|teams|powershell|fix|troubleshoot|how.to|guide)/i, url: "https://images.unsplash.com/photo-1593642532400-2682810df593?w=1080&q=80&auto=format&fit=crop" },
-  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, url: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1080&q=80&auto=format&fit=crop" },
-];
-function photoForDeck(deck) {
-  const hayTitle = `${deck.title || ""} ${deck.slides?.map(s=>s.text).join(" ") || ""}`;
-  const hayNiche = deck.niche || "";
-  const m = TOPIC_PHOTOS.find(p=> p.re.test(hayTitle)) || TOPIC_PHOTOS.find(p=> p.re.test(hayNiche));
-  return m ? m.url : null;
-}
 async function fetchPhoto(url, dest) {
   try {
     const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
@@ -231,26 +211,9 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
 
   const speed = opts.lifeOpts?.speed ?? (isHook ? 0.15 : isCta ? 0.2 : 0.1);
   const seed = opts.seed || 11;
-  // Realistic photo background (same matching logic as IG): photo darkened + life blended + gradient tint
-  let photoInput = [];
-  let photoFilter = "";
-  let bg;
-  if (opts.photoPath && fs.existsSync(opts.photoPath)) {
-    const escPhoto = opts.photoPath.replace(/\\/g, "/").replace(/:/g, "\\:");
-    // photo scaled+cropped to 1080x1920, darkened, then life blended at 0.55
-    photoInput = ["-loop", "1", "-i", opts.photoPath];
-    bg = `[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,eq=brightness=-0.35:contrast=1.08,format=rgb24[photo];` +
-          `[photo][1:v]scale=1080:1920:flags=neighbor,format=rgb24[life];` +
-          `[photo][life]blend=all_mode=screen:all_opacity=0.45[blend];` +
-          `[blend]drawbox=x='(w+3000)*mod(t,${dur.toFixed(2)})/${dur.toFixed(2)}-3000':y=0:w=300:h=1920:color=0xFFFFFF@0.05:t=fill,drawgrid=width=1080:height=6:thickness=2:color=0xFFFFFF@0.02[bg]`;
-  } else {
-    bg = techBgExpr(accent, dur, seed);
-  }
-  const inputs = photoInput.length
-    ? ["-f","lavfi","-i",gradientSource(accent,dur,speed),"-f","lavfi","-i",lifeSource(accent,dur,seed,opts.lifeOpts||{}),...photoInput]
-    : ["-f","lavfi","-i",gradientSource(accent,dur,speed),"-f","lavfi","-i",lifeSource(accent,dur,seed,opts.lifeOpts||{})];
+  const bg = techBgExpr(accent, dur, seed);
   await ff([
-    ...inputs,
+    "-f","lavfi","-i",gradientSource(accent,dur,speed),"-f","lavfi","-i",lifeSource(accent,dur,seed,opts.lifeOpts||{}),
     "-filter_complex", `${bg};[bg]${chain}[v]`,
     "-map", "[v]",
     "-t", String(dur),
@@ -279,17 +242,11 @@ export async function renderDeck(deck, outPath) {
   const accent = theme.accent;
   const lifeOpts = theme.life || {};
   const seed = seedFromId(deck.id);
-  const photoUrl = photoForDeck(deck);
-  let photoPath = null;
-  if (photoUrl) {
-    const p = path.join(base, "photo.jpg");
-    photoPath = await fetchPhoto(photoUrl, p) || null;
-  }
-  console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent} photo=${photoPath ? path.basename(photoPath) : "none"}`);
+  console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent}`);
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photoPath });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts });
     clips.push(clip);
   }
 

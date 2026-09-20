@@ -1,170 +1,170 @@
 {
-  "date": "2026-09-19",
-  "renderedAt": "2026-09-18T21:47:51.147Z",
+  "date": "2026-09-21",
+  "renderedAt": "2026-09-20T21:21:52.484Z",
   "posts": [
     {
-      "id": "20260919-your-icloud-is-95-full",
+      "id": "20260921-you-ve-never-run-a-battery-report",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your iCloud is 95% full",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour iCloud is 95% full\n\nWhy it's a problem: Full storage silently breaks backups and updates.\nThe fix: Offload apps, clear the Screenshots album, upgrade only if needed.\n\nSave this before it becomes a repair bill →\n\n#iphone #appleintelligence #applenews #appletips #itpro #apple #ios #macrumors #itsupportguru #helpdesk #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#ssd #techreview #ram #laptop #gpu #cpu #pcgaming #laptops #itpro #techtips #sysadmin #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260919-your-icloud-is-95-full/01.png",
-        "out/instagram-ready/20260919-your-icloud-is-95-full/02.png",
-        "out/instagram-ready/20260919-your-icloud-is-95-full/03.png",
-        "out/instagram-ready/20260919-your-icloud-is-95-full/04.png"
+        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/01.png",
+        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/02.png",
+        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/03.png",
+        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/04.png"
       ]
     },
     {
-      "id": "20260919-you-need-a-gaming-laptop-for-gaming",
+      "id": "20260921-off-brand-cables-are-fine",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "Off-brand cables are fine",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "Off-brand cables are fine"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#ram #cpu #chipshortage #laptops #techreview #hardware #gpu #pcgaming #techtips #techdaily #techsupport #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Off-brand cables are fine\nTruth: Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried.\n\nShare this with the person who still believes it →\n\n#tech #gadgetreviews #smartphone #smartphonetips #iphone #batterytips #techgear #android #sysadmin #techdaily #itpro #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260919-you-need-a-gaming-laptop-for-gaming/01.png",
-        "out/instagram-ready/20260919-you-need-a-gaming-laptop-for-gaming/02.png",
-        "out/instagram-ready/20260919-you-need-a-gaming-laptop-for-gaming/03.png"
+        "out/instagram-ready/20260921-off-brand-cables-are-fine/01.png",
+        "out/instagram-ready/20260921-off-brand-cables-are-fine/02.png",
+        "out/instagram-ready/20260921-off-brand-cables-are-fine/03.png"
       ]
     },
     {
-      "id": "20260919-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20260921-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#techsupport #itsupport #pchelp #pc #troubleshooting #windows #helpdesk #ithelp #techtips #itsupportguru #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#iphone #ios #applenews #macos #apple #appleintelligence #appletips #macbook #techsupport #itpro #techtips #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260919-what-it-does-before-calling-it-a-hardware-problem/01.png",
-        "out/instagram-ready/20260919-what-it-does-before-calling-it-a-hardware-problem/02.png",
-        "out/instagram-ready/20260919-what-it-does-before-calling-it-a-hardware-problem/03.png"
+        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/01.png",
+        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/02.png",
+        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/03.png"
       ]
     },
     {
-      "id": "20260919-monitor-a-server-with-a-dashboard",
+      "id": "20260921-fix-a-pc-that-won-t-boot-to-windows",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor a server with a dashboard",
+      "title": "Fix a PC that won't boot to Windows",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor a server with a dashboard\nInstall a lightweight metrics agent"
+          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight metrics agent"
+          "text": "Unplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Point it at Grafana or your cloud metrics"
+          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
         },
         {
           "kind": "step",
-          "text": "Add CPU, memory, and disk widgets"
+          "text": "Troubleshoot > Advanced options > Startup Repair"
         },
         {
           "kind": "step",
-          "text": "Alert at 80% CPU for sustained load"
+          "text": "Run it twice — most boot loops die on the second pass"
         },
         {
           "kind": "step",
-          "text": "Now you see problems before your users do."
+          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Monitor a server with a dashboard ☁️\n\n1. Install a lightweight metrics agent\n2. Point it at Grafana or your cloud metrics\n3. Add CPU, memory, and disk widgets\n4. Alert at 80% CPU for sustained load\n5. Now you see problems before your users do.\n\nSave this for the next ticket →\n\n#kubernetes #sre #aws #cloud #azure #cloudinfra #docker #techops #itpro #helpdesk #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "caption": "Fix a PC that won't boot to Windows 🛠️\n\n1. Unplug every USB device except keyboard and mouse\n2. Power on and tap F8, or Shift+Restart to reach recovery\n3. Troubleshoot > Advanced options > Startup Repair\n4. Run it twice\n     ✓ most boot loops die on the second pass\n5. Still stuck? Boot to Safe Mode and uninstall recent drivers or updates.\n\nSave this for the next ticket →\n\n#helpdesk #itsupport #pc #windows11 #pchelp #sysadmin #windows #fixyourpc #itpro #itsupportguru #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/01.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/02.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/03.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/04.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/05.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/06.png",
-        "out/instagram-ready/20260919-monitor-a-server-with-a-dashboard/07.png"
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/01.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/02.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/03.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/04.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/05.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/06.png",
+        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/07.png"
       ]
     }
   ]

@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-18T21:47:51.159Z",
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-20T21:21:52.494Z",
   "posts": [
     {
-      "id": "20260919-your-icloud-is-95-full",
+      "id": "20260921-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your iCloud is 95% full",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your iCloud is 95% full #iOS #macOS #techtips Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #CPU #hardware #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260919-antivirus-alone-keeps-you-safe",
+      "id": "20260921-macs-can-t-get-viruses",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus alone keeps you safe",
+      "title": "Macs can't get viruses",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus alone keeps you safe"
+          "text": "Macs can't get viruses"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
+          "text": "THE TRUTH — macOS has malware too — it's just less common. Phishing and social engineering hit Mac users just as hard; good habits matter on every OS."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Antivirus alone keeps you safe Truth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak… #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Macs can't get viruses Truth: macOS has malware too — it's just less common. Phishing and social engineering hit Mac… #iPhone #iOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260919-phishing-tells-that-fool-most-people",
+      "id": "20260921-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Phishing tells that fool most people",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Phishing tells that fool most people\nDisplay name lies — check the sender address"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Display name lies — check the sender address\nHover links to see the real URL\nUrgency and threats are pressure, not proof\nOdd grammar is a smell, not a guarantee\nWhen in doubt, call the number on the card"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Phishing tells that fool most people — Display name lies — check the sender address #2FA #infosec #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #Android #smartphone #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260919-clean-a-laptop-without-breaking-it",
+      "id": "20260921-connect-your-wifi-step-by-step",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean a laptop without breaking it",
+      "title": "Connect your WiFi step by step",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean a laptop without breaking it\nPower down and unplug first"
+          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Power down and unplug first"
+          "text": "Click the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Use compressed air in short bursts on vents"
+          "text": "Pick your network name and enter the password exactly"
         },
         {
           "kind": "step",
-          "text": "Wipe the lid with microfiber and isopropyl"
+          "text": "Watch for auto-correct — passwords get mangled silently"
         },
         {
           "kind": "step",
-          "text": "Never spray liquid directly at ports or fans"
+          "text": "Forget and rejoin the network if it keeps asking for the key"
         },
         {
           "kind": "step",
-          "text": "Do it quarterly — dust is the silent throttler."
+          "text": "Still no internet? Unplug the router for 60 seconds and retry."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Clean a laptop without breaking it #CPU #hardware #itsupportguru Follow for daily tech intel.",
+      "caption": "🛠️ Connect your WiFi step by step #itsupport #sysadmin #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

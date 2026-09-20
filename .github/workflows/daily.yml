@@ -82,8 +82,9 @@ jobs:
         run: |
           git config user.name "ig-auto bot"
           git config user.email "ig-auto@users.noreply.github.com"
-          git add out/instagram-ready out/instagram-reels out/tiktok-ready out/x-ready data
+          git add out/instagram-ready out/instagram-reels data
           git diff --cached --quiet || git commit -m "content $(date +%F) build"
+          git pull --rebase --autostash || true
           git push
 
       - name: Schedule cards + reel + X on Buffer (fully automated headless, no input)
@@ -117,4 +118,5 @@ jobs:
           git add data 2>/dev/null || true
           git status --porcelain
           git diff --cached --quiet || git commit -m "buffer schedule state $(date +%F)"
+          git pull --rebase --autostash || true
           git push

@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-21",
-  "generatedAt": "2026-09-20T21:21:52.494Z",
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-21T22:46:37.721Z",
   "posts": [
     {
-      "id": "20260921-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20260922-you-paste-client-data-into-public-ai-chats",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You paste client data into public AI chats",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You paste client data into public AI\nPrompts can be logged, stored, or used for training."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Prompts can be logged, stored, or used for training."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Use enterprise or local instances for anything sensitive."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #CPU #hardware #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You paste client data into public AI chats #GenAI #ChatGPT #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260921-macs-can-t-get-viruses",
+      "id": "20260922-you-need-a-gaming-laptop-for-gaming",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Macs can't get viruses",
+      "title": "You need a 'gaming' laptop for gaming",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Macs can't get viruses"
+          "text": "You need a 'gaming' laptop for gaming"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — macOS has malware too — it's just less common. Phishing and social engineering hit Mac users just as hard; good habits matter on every OS."
+          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Macs can't get viruses Truth: macOS has malware too — it's just less common. Phishing and social engineering hit Mac… #iPhone #iOS #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: You need a 'gaming' laptop for gaming Truth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP… #GPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260921-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20260922-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #Android #smartphone #techtips Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iPhone #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260921-connect-your-wifi-step-by-step",
+      "id": "20260922-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "step",
-          "text": "Forget and rejoin the network if it keeps asking for the key"
+          "text": "Send them to email or Slack"
         },
         {
           "kind": "step",
-          "text": "Still no internet? Unplug the router for 60 seconds and retry."
+          "text": "Sleep soundly — the alert does the watching."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Connect your WiFi step by step #itsupport #sysadmin #tech Follow for daily tech intel.",
+      "caption": "☁️ Add a budget alert so you never overspend #AWS #cloud #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,170 +1,160 @@
 {
-  "date": "2026-09-21",
-  "renderedAt": "2026-09-20T21:21:52.484Z",
+  "date": "2026-09-22",
+  "renderedAt": "2026-09-21T22:46:37.709Z",
   "posts": [
     {
-      "id": "20260921-you-ve-never-run-a-battery-report",
+      "id": "20260922-your-system-drive-is-under-15-free-space",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never run a battery report",
+      "title": "Your system drive is under 15% free space",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never run a battery report\nLaptop batteries degrade silently."
+          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
+          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
+          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#ssd #techreview #ram #laptop #gpu #cpu #pcgaming #laptops #itpro #techtips #sysadmin #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#pc #itsupport #windows #helpdesk #fixyourpc #ithelp #pchelp #computertips #itpro #techdaily #itsupportguru #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/01.png",
-        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/02.png",
-        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/03.png",
-        "out/instagram-ready/20260921-you-ve-never-run-a-battery-report/04.png"
+        "out/instagram-ready/20260922-your-system-drive-is-under-15-free-space/01.png",
+        "out/instagram-ready/20260922-your-system-drive-is-under-15-free-space/02.png",
+        "out/instagram-ready/20260922-your-system-drive-is-under-15-free-space/03.png",
+        "out/instagram-ready/20260922-your-system-drive-is-under-15-free-space/04.png"
       ]
     },
     {
-      "id": "20260921-off-brand-cables-are-fine",
+      "id": "20260922-more-vram-is-all-that-matters",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Off-brand cables are fine",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Off-brand cables are fine"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Off-brand cables are fine\nTruth: Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried.\n\nShare this with the person who still believes it →\n\n#tech #gadgetreviews #smartphone #smartphonetips #iphone #batterytips #techgear #android #sysadmin #techdaily #itpro #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#ssd #laptop #pc #ram #techreview #laptops #gpu #chipshortage #itpro #techtips #sysadmin #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260921-off-brand-cables-are-fine/01.png",
-        "out/instagram-ready/20260921-off-brand-cables-are-fine/02.png",
-        "out/instagram-ready/20260921-off-brand-cables-are-fine/03.png"
+        "out/instagram-ready/20260922-more-vram-is-all-that-matters/01.png",
+        "out/instagram-ready/20260922-more-vram-is-all-that-matters/02.png",
+        "out/instagram-ready/20260922-more-vram-is-all-that-matters/03.png"
       ]
     },
     {
-      "id": "20260921-hidden-macos-tools-most-people-never-find",
+      "id": "20260922-what-happens-in-the-first-hour-of-a-breach",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What happens in the first hour of a breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What happens in the first hour of a breach\nIsolate the machine from the network"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Isolate the machine from the network\nRevoke sessions and reset credentials\nCheck for persistence — mailbox rules, new MFA\nPull logs to see what was actually accessed\nPatch the gap before reconnecting"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#iphone #ios #applenews #macos #apple #appleintelligence #appletips #macbook #techsupport #itpro #techtips #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "What happens in the first hour of a breach 🔓\n\nInsider knowledge, free.\n\n• Isolate the machine from the network\n• Revoke sessions and reset credentials\n• Check for persistence — mailbox rules, new MFA\n• Pull logs to see what was actually accessed\n\nSave this — it'll be your shortcut later →\n\n#cyberdefense #password #secops #security #2fa #phishing #privacy #infosec #techtips #sysadmin #techsupport #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/01.png",
-        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/02.png",
-        "out/instagram-ready/20260921-hidden-macos-tools-most-people-never-find/03.png"
+        "out/instagram-ready/20260922-what-happens-in-the-first-hour-of-a-breach/01.png",
+        "out/instagram-ready/20260922-what-happens-in-the-first-hour-of-a-breach/02.png",
+        "out/instagram-ready/20260922-what-happens-in-the-first-hour-of-a-breach/03.png"
       ]
     },
     {
-      "id": "20260921-fix-a-pc-that-won-t-boot-to-windows",
+      "id": "20260922-airdrop-files-the-right-way",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a PC that won't boot to Windows",
+      "title": "AirDrop files the right way",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
+          "text": "AirDrop files the right way\nTurn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Unplug every USB device except keyboard and mouse"
+          "text": "Turn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
+          "text": "Set Contacts Only so strangers can't send"
         },
         {
           "kind": "step",
-          "text": "Troubleshoot > Advanced options > Startup Repair"
-        },
-        {
-          "kind": "step",
-          "text": "Run it twice — most boot loops die on the second pass"
-        },
-        {
-          "kind": "step",
-          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
+          "text": "Select the file, Share > AirDrop, pick the person"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Fix a PC that won't boot to Windows 🛠️\n\n1. Unplug every USB device except keyboard and mouse\n2. Power on and tap F8, or Shift+Restart to reach recovery\n3. Troubleshoot > Advanced options > Startup Repair\n4. Run it twice\n     ✓ most boot loops die on the second pass\n5. Still stuck? Boot to Safe Mode and uninstall recent drivers or updates.\n\nSave this for the next ticket →\n\n#helpdesk #itsupport #pc #windows11 #pchelp #sysadmin #windows #fixyourpc #itpro #itsupportguru #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "AirDrop files the right way 🍎\n\n1. Turn on AirDrop on both devices (Control Center)\n2. Set Contacts Only so strangers can't send\n3. Select the file, Share > AirDrop, pick the person\n\nSave this for the next ticket →\n\n#macbook #apple #appletips #macrumors #itpro #macos #ios #appleintelligence #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/01.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/02.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/03.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/04.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/05.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/06.png",
-        "out/instagram-ready/20260921-fix-a-pc-that-won-t-boot-to-windows/07.png"
+        "out/instagram-ready/20260922-airdrop-files-the-right-way/01.png",
+        "out/instagram-ready/20260922-airdrop-files-the-right-way/02.png",
+        "out/instagram-ready/20260922-airdrop-files-the-right-way/03.png",
+        "out/instagram-ready/20260922-airdrop-files-the-right-way/04.png",
+        "out/instagram-ready/20260922-airdrop-files-the-right-way/05.png"
       ]
     }
   ]

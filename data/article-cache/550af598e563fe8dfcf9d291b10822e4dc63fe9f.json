@@ -1,0 +1,14 @@
+{
+  "url": "https://www.cultofmac.com/news/iphone-18-pros-clever-new-camera-big-repair-catch",
+  "fetched": "2026-09-21T22:43:34.394Z",
+  "paragraphs": [
+    "With the iPhone 18 Pro and iPhone 18 Pro Max now on store shelves, iFixit put Apple’s latest flagship phones under the knife. The teardown gives us an up-close look at the devices’ new variable-aperture camera, larger cooling systems and a possible repair challenge.",
+    "It also reveals how Apple shrunk the Dynamic Island on the iPhone 18 Pro without affecting Face ID’s functionality.",
+    "Variable apertures are a complex technology, typically used in DSLRs and high-end professional cameras or lenses. Adding it inside a smartphone camera is challenging, though Nokia, Samsung and Xiaomi have done this in the past.",
+    "Such systems prove almost impossible to repair, and doing so requires specialized tools. As iFixit found in its iPhone 18 Pro teardown, Apple’s implementation is smart and sophisticated. But it suffers from the same problem that rival products do.",
+    "“Very few repair enthusiasts on this planet will have the tools, techniques, or knowledge to get this variable aperture mechanism apart in a way that allows it to go back together,” iFixit wrote Sunday. “The tolerances are tight, the glues are gummy. We’re reluctant to call a repair ‘impossible,’ but this is about as close as it gets.”",
+    "On the bright side, the camera module itself proved easily replaceable. So, if the variable-aperture mechanism fails, you can swap it out with a new sensor altogether.",
+    "The battery replacement process on the iPhone 18 Pro and 18 Pro Max remains the same as the iPhone 17 Pro. Only a front-entry approach is possible, which requires opening the glued-down screen.",
+    "The problem is that the white plastic frame around the display panel broke in three of the four iPhone 18 Pro teardowns the iFixit team conducted. This could be an isolated issue or a result of a design change Apple made."
+  ]
+}

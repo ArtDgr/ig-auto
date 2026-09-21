@@ -337,26 +337,34 @@ function newsCarouselSlides(topic, niche, rnd) {
     null;
 
   const hk = makeNewsHook(topic, rnd);
+  // 5-slide richer carousel: hook + facts + takeaway + watch + cta = 5
   const slides = [
     { kind: "hook", text: `${hk.big}\n${hk.line}` },
     { kind: "facts", text: shown.join("\n") }
   ];
+  // Ensure takeaway slot — fallback to extra fact if no distinct takeaway
   if (takeaway) slides.push({ kind: "body", text: shorten("THE TAKEAWAY — " + takeaway, 190) });
+  else if (all[4]) slides.push({ kind: "body", text: shorten("THE TAKEAWAY — " + all[4], 190) });
+  else slides.push({ kind: "body", text: shorten("THE TAKEAWAY — " + (shown[shown.length-1] || ""), 190) });
   if (watch && watch !== takeaway && !shown.includes(watch)) slides.push({ kind: "body", text: shorten("WHAT TO WATCH — " + watch, 170) });
+  else if (all[5]) slides.push({ kind: "body", text: shorten("WHAT TO WATCH — " + all[5], 170) });
+  else slides.push({ kind: "body", text: shorten("WHAT TO WATCH — Follow @theitsupportguru for the next update", 170) });
   slides.push({ kind: "cta", text: SAVE_SHARE.news });
-  return slides;
+  return slides.slice(0,5);
 }
 
-// Carousel built from the evergreen how-to library.
+// Carousel built from the evergreen how-to library. — now 5 slides rich (hook + 3 steps + cta)
 function howtoSlides(howto, niche) {
   const line = shorten(String(howto.steps && howto.steps[0] || "A fix you can do in minutes."), 90);
   const slides = [{ kind: "hook", text: `${howto.title}\n${line}` }];
-  howto.steps.forEach((s, i) => {
+  howto.steps.slice(0,3).forEach((s, i) => {
     const d = (howto.details && howto.details[i]) || "";
     slides.push({ kind: "step", text: d ? `${s} — ${d}` : s });
   });
+  // pad to 3 steps if needed
+  while(slides.length < 4) slides.push({ kind: "step", text: "Bonus tip: check the comments for the community fix" });
   slides.push({ kind: "cta", text: SAVE_SHARE.howto });
-  return slides;
+  return slides.slice(0,5);
 }
 
 // Single image card from the tip library. Punchy hook slide, then the expert

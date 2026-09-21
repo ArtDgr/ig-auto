@@ -30,9 +30,9 @@ warn("postingTimes in 06-20", times.every(t=>{ const h=parseInt(t.split(":")[0],
 // 4. Hashtag limit safe (IG penalizes >30, we use 15)
 check("hashtagLimit <=20", (config.instagram?.hashtagLimit||0) <=20, `hashtagLimit ${config.instagram?.hashtagLimit} should be <=20`);
 
-// 5. Buffer bi-weekly gating must exist and be 30% RUN (Knuth hash)
+// 5. Buffer every-2-days gating must exist and be 50% RUN (Knuth hash)
 const buf = fs.readFileSync("src/buffer-publish.js","utf8");
-check("buffer gating hash 2654435761", buf.includes("2654435761") && buf.includes("hash >= 30"), "buffer-publish.js must have Knuth 30% gating");
+check("buffer gating hash 2654435761", buf.includes("2654435761") && buf.includes("hash >= 50"), "buffer-publish.js must have Knuth 50% gating (every 2 days)");
 check("buffer 2-4 random", buf.includes("2 +") && buf.includes("% 3"), "buffer must randomize 2-4 posts per RUN");
 
 // 6. reelStep non-blocking
@@ -47,7 +47,7 @@ check("daily cron weekdays", fs.readFileSync(".github/workflows/daily.yml","utf8
 const cfgRaw = fs.readFileSync("config.json","utf8");
 check("no hardcoded buffer.apiKey", !cfgRaw.match(/"apiKey"\s*:\s*".+"/) || cfgRaw.includes('"apiKey": ""'), "config.json buffer.apiKey must be empty (use secret)");
 
-// 9. Simulate next 60 days distribution
+// 9. Simulate next 60 days distribution (50% = every 2 days random)
 let runs=0, posts=0;
 for(let i=0;i<60;i++){
   const d=new Date(Date.now()+i*86400000);
@@ -55,10 +55,10 @@ for(let i=0;i<60;i++){
   const ds=d.toISOString().slice(0,10);
   const n=parseInt(ds.replace(/-/g,""),10);
   let h=(n*2654435761)%100; if(h<0)h+=100;
-  if(h<30){ runs++; let h2=(n*1664525)%3; if(h2<0)h2+=3; posts+=2+h2; }
+  if(h<50){ runs++; let h2=(n*1664525)%3; if(h2<0)h2+=3; posts+=2+h2; }
 }
-check("60d stealth dist 12-25 runs", runs>=12 && runs<=25, `60d Buffer runs ${runs} should be 12-25 (~30%)`);
-check("60d posts 35-75", posts>=35 && posts<=75, `60d posts ${posts} should be 35-75`);
+check("60d stealth dist 18-30 runs", runs>=18 && runs<=30, `60d Buffer runs ${runs} should be 18-30 (~50% every 2 days)`);
+check("60d posts 50-90", posts>=50 && posts<=90, `60d posts ${posts} should be 50-90`);
 
 // 10. Secrets not committed
 check("no data/buffer-scheduled committed with real ids", !fs.existsSync("data/buffer-scheduled.json") || !JSON.stringify(JSON.parse(fs.readFileSync("data/buffer-scheduled.json","utf8"))).includes("bufferId") || true, "manual check: ensure real Buffer ids not leaked");
@@ -70,5 +70,5 @@ if (fails.length) {
   fails.forEach(f=>console.log("  "+f));
   process.exit(1);
 } else {
-  console.log(`\nSTEALTH AUDIT PASS — 94% reduction, Buffer-only, 2-4 posts, Mon-Fri, non-blocking reel, hash-gated. (${runs} runs / ${posts} posts per 60d)`);
+  console.log(`\nSTEALTH AUDIT PASS — 50% every-2-days, Buffer-only, 2-4 posts, 5-slide carousels, Mon-Fri, hash-gated. (${runs} runs / ${posts} posts per 60d)`);
 }

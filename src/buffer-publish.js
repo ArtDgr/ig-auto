@@ -172,14 +172,14 @@ function saveState(state) {
 }
 
 export async function scheduleDate(dateStr, { dry = false, reel = false, force = false } = {}) {
-  // Stealth sustainability: bi-weekly random gating (~30% execution = ~94% reduction)
-  // Knuth hash gives pseudo-random 30% RUN distribution, not clustered
+  // Stealth sustainability: every 2 days random (~50% execution = ~50% reduction from daily)
+  // Knuth hash gives pseudo-random 50% RUN distribution, not clustered
   if (!dry && !force) {
     const n = parseInt(dateStr.replace(/-/g, ""), 10);
     let hash = (n * 2654435761) % 100;
     if (hash < 0) hash += 100;
-    if (hash >= 30) {
-      console.log(`[buffer] Skipped - bi-weekly random cycle (hash ${hash}/100, date ${dateStr})`);
+    if (hash >= 50) {
+      console.log(`[buffer] Skipped - every-2-days random cycle (hash ${hash}/100, date ${dateStr})`);
       return { date: dateStr, scheduled: [], skipped: true };
     }
   }
@@ -405,13 +405,13 @@ export async function scheduleX(dateStr, { dry = false, state: priorState } = {}
   }
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   if (manifest.date !== dateStr) throw new Error(`X manifest date ${manifest.date} != ${dateStr}`);
-  // stealth gating — independent X hash so IG and X don't always skip same day
+  // stealth gating — independent X hash so IG and X don't always skip same day — 50% every 2 days
   if (!dry) {
     const n = parseInt(dateStr.replace(/-/g,""),10) ^ 0x9e3779b9;
     let hash = (n * 2654435761) % 100;
     if (hash < 0) hash += 100;
-    if (hash >= 30) {
-      console.log(`[buffer:x] Skipped - bi-weekly cycle (hash ${hash}/100, date ${dateStr})`);
+    if (hash >= 50) {
+      console.log(`[buffer:x] Skipped - every-2-days cycle (hash ${hash}/100, date ${dateStr})`);
       return { date: dateStr, scheduled: [], skipped: true };
     }
   }

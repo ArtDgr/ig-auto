@@ -1,0 +1,14 @@
+{
+  "url": "https://9to5mac.com/2026/09/21/watchos-27-2-beta-2-brings-the-app-switcher-back-with-a-new-gesture/",
+  "fetched": "2026-09-22T22:23:10.257Z",
+  "paragraphs": [
+    "If you’ve been missing the double-click of the Digital Crown that used to bring up the App Switcher on the Apple Watch before watchOS 27, it looks like the feature is making a comeback as of watchOS 27.2 beta 2. Here are the details.",
+    "Earlier today, Apple rolled out watchOS 27.2 beta 2 for developers, less than a week after releasing beta 1.",
+    "Included in today’s beta is a tidbit that will likely please longtime Apple Watch users, including my colleague Zac Hall. Earlier this month, he wrote about how watchOS 27 had removed the ability to quickly switch between recently used apps by double-clicking the Digital Crown.",
+    "In his piece, he noted that there was no longer any way to quickly jump between recent apps, and wished Apple would restore the gesture before releasing watchOS 27, or in a future update.",
+    "While Apple didn’t bring back the App Switcher’s Digital Crown shortcut in today’s watchOS 27.2 beta 2, it did restore the App Switcher itself with a new gesture.",
+    "As spotted by the Apple Den Discord server and shared by user Bones on X, watchOS 27.2 beta 2 lets users press and hold the bottom of the screen while inside an app to bring up the App Switcher.",
+    "Apple has brought back the App Switcher! On watchOS 26 and earlier, you could access the App Switcher by double-clicking the Digital Crown, then turning the Digital Crown to navigate through your recently used apps. You could also swipe left on an app and tap the \"X\" button to… pic.twitter.com/G5fa0TeTR9",
+    "As Bones noted in their tweet, the App Switcher otherwise works much like it did before: after activating the App Switcher with a long press on the bottom of the screen, users can turn the Digital Crown to scroll through recently used apps, or swipe left on an app and tap the “X” button to remove it from the switcher."
+  ]
+}

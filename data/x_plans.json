@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-22",
-  "generatedAt": "2026-09-21T22:46:37.721Z",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-22T22:26:42.477Z",
   "posts": [
     {
-      "id": "20260922-you-paste-client-data-into-public-ai-chats",
+      "id": "20260923-you-ve-never-run-a-battery-report",
       "slot": 0,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You paste client data into public AI chats",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You paste client data into public AI\nPrompts can be logged, stored, or used for training."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Prompts can be logged, stored, or used for training."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Use enterprise or local instances for anything sensitive."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You paste client data into public AI chats #GenAI #ChatGPT #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You've never run a battery report #hardware #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260922-you-need-a-gaming-laptop-for-gaming",
+      "id": "20260923-5g-is-always-faster-than-wifi",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "5G is always faster than WiFi",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "5G is always faster than WiFi"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You need a 'gaming' laptop for gaming Truth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP… #GPU #PC #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: 5G is always faster than WiFi Truth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not… #gadgets #Android #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260922-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260923-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -93,11 +93,11 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iPhone #macOS #tech Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260922-add-a-budget-alert-so-you-never-overspend",
+      "id": "20260923-put-a-website-behind-https",
       "slot": 3,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Add a budget alert so you never overspend",
+      "title": "Put a website behind HTTPS",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
+          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Open Billing > Budgets in your console"
+          "text": "Point your domain at your server's IP"
         },
         {
           "kind": "step",
-          "text": "Create a budget for your monthly target"
+          "text": "Install nginx or any web server"
         },
         {
           "kind": "step",
-          "text": "Add alerts at 50%, 80%, and 100%"
+          "text": "Run certbot for a free Let's Encrypt cert"
         },
         {
           "kind": "step",
-          "text": "Send them to email or Slack"
+          "text": "Let certbot schedule auto-renewal"
         },
         {
           "kind": "step",
-          "text": "Sleep soundly — the alert does the watching."
+          "text": "Test https:// — a green padlock, no cost."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Add a budget alert so you never overspend #AWS #cloud #tech Follow for daily tech intel.",
+      "caption": "☁️ Put a website behind HTTPS #Kubernetes #DevOps #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

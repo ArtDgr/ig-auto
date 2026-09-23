@@ -1,137 +1,137 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-22T22:26:31.095Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-23T22:30:16.636Z",
   "posts": [
     {
-      "id": "20260923-your-router-hasn-t-been-updated-in-years",
+      "id": "20260924-you-clean-your-pc-with-booster-apps",
       "slot": 0,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your router hasn't been updated in years",
+      "title": "You 'clean' your PC with booster apps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your router hasn't been updated in years\nUnpatched router firmware is a silent back door."
+          "text": "You 'clean' your PC with booster apps\nThey delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Unpatched router firmware is a silent back door."
+          "text": "WHY IT'S A PROBLEM — They delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Check firmware once a quarter — security patches hide there."
+          "text": "THE FIX — Use Settings > Storage and Disk Cleanup — nothing more."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour router hasn't been updated in years\n\nWhy it's a problem: Unpatched router firmware is a silent back door.\nThe fix: Check firmware once a quarter — security patches hide there.\n\nSave this before it becomes a repair bill →\n\n#cybersecurity #cyberdefense #cybersectips #security #password #infosec #phishing #datasecurity #techdaily #techtips #techsupport #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou 'clean' your PC with booster apps\n\nWhy it's a problem: They delete the wrong things and claim to fix problems you don't have.\nThe fix: Use Settings > Storage and Disk Cleanup — nothing more.\n\nSave this before it becomes a repair bill →\n\n#troubleshooting #helpdesk #techsupport #pchelp #itsupport #windows11 #sysadmin #pc #itpro #techdaily #techtips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20260923-you-need-the-most-expensive-model",
+      "id": "20260924-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need the most expensive model",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need the most expensive model"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need the most expensive model\nTruth: Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning.\n\nShare this with the person who still believes it →\n\n#ai #artificialintelligence #futuretech #chatgpt #machinelearning #copilot #aitools #aitips #techsupport #techtips #techdaily #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#applenews #macos #macbook #iphone #apple #appletips #macrumors #itpro #techsupport #techtips #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260923-hidden-macos-tools-most-people-never-find",
+      "id": "20260924-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#macos #appleintelligence #macbook #itpro #apple #ios #macrumors #appletips #sysadmin #techdaily #techtips #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#cpu #hardware #gpu #benchmark #chipshortage #techreview #ssd #laptop #techdaily #techsupport #sysadmin #techtips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20260923-add-a-budget-alert-so-you-never-overspend",
+      "id": "20260924-stop-apps-tracking-your-every-move",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Add a budget alert so you never overspend",
+      "title": "Stop apps tracking your every move",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
+          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Open Billing > Budgets in your console"
+          "text": "Settings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Create a budget for your monthly target"
+          "text": "Deny location for apps that don't need it"
         },
         {
           "kind": "step",
-          "text": "Add alerts at 50%, 80%, and 100%"
+          "text": "Revoke camera and mic access you don't use"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Add a budget alert so you never overspend ☁️\n\n1. Open Billing > Budgets in your console\n2. Create a budget for your monthly target\n3. Add alerts at 50%, 80%, and 100%\n\nSave this for the next ticket →\n\n#sre #techops #cloudinfra #devopslife #cloud #cloudcomputing #kubernetes #docker #techsupport #techtips #sysadmin #helpdesk\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Stop apps tracking your every move 📱\n\n1. Settings > Privacy > Location services\n2. Deny location for apps that don't need it\n3. Revoke camera and mic access you don't use\n\nSave this for the next ticket →\n\n#android #smartphone #gadgets #iphone #smartphonetips #samsung #gadgetreviews #batterytips #helpdesk #itsupportguru #techtips #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     }
   ]

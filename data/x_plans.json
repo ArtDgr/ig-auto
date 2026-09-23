@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-23",
-  "generatedAt": "2026-09-22T22:26:42.477Z",
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-23T22:30:27.448Z",
   "posts": [
     {
-      "id": "20260923-you-ve-never-run-a-battery-report",
+      "id": "20260924-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never run a battery report",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never run a battery report\nLaptop batteries degrade silently."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You've never run a battery report #hardware #GPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #iOS #Apple #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260923-5g-is-always-faster-than-wifi",
+      "id": "20260924-more-megapixels-means-better-photos",
       "slot": 1,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -46,100 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "5G is always faster than WiFi",
+      "title": "More megapixels means better photos",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5G is always faster than WiFi"
+          "text": "More megapixels means better photos"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
+          "text": "THE TRUTH — Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: 5G is always faster than WiFi Truth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not… #gadgets #Android #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: More megapixels means better photos Truth: Sensor size and software processing matter far more than raw megapixels. A great 12MP… #gadgets #smartphone #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260923-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20260924-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260923-put-a-website-behind-https",
+      "id": "20260924-set-up-proper-battery-care",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Put a website behind HTTPS",
+      "title": "Set up proper battery care",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Put a website behind HTTPS\nPoint your domain at your server's IP"
+          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Point your domain at your server's IP"
+          "text": "Cap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Install nginx or any web server"
+          "text": "Avoid leaving it at 100% for weeks on end"
         },
         {
           "kind": "step",
-          "text": "Run certbot for a free Let's Encrypt cert"
+          "text": "Occasional deep discharge is fine, not daily"
         },
         {
           "kind": "step",
-          "text": "Let certbot schedule auto-renewal"
+          "text": "Keep firmware and battery drivers updated"
         },
         {
           "kind": "step",
-          "text": "Test https:// — a green padlock, no cost."
+          "text": "A battery at 80% capacity after 2 years is normal."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Put a website behind HTTPS #Kubernetes #DevOps #techtips Follow for daily tech intel.",
+      "caption": "💻 Set up proper battery care #hardware #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

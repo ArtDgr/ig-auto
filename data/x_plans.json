@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-24",
-  "generatedAt": "2026-09-23T22:30:27.448Z",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-24T22:40:32.215Z",
   "posts": [
     {
-      "id": "20260924-you-keep-every-screenshot-you-ever-took",
+      "id": "20260925-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -37,67 +37,67 @@
       "status": "pending"
     },
     {
-      "id": "20260924-more-megapixels-means-better-photos",
+      "id": "20260925-antivirus-alone-keeps-you-safe",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More megapixels means better photos",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More megapixels means better photos"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Sensor size and software processing matter far more than raw megapixels. A great 12MP sensor beats a mediocre 108MP one in real light."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More megapixels means better photos Truth: Sensor size and software processing matter far more than raw megapixels. A great 12MP… #gadgets #smartphone #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Antivirus alone keeps you safe Truth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak… #sysadmin #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260924-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20260925-5-security-habits-it-pros-actually-run",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 Windows tools IT pros use that you don't",
+      "title": "5 security habits IT pros actually run",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
+          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
         },
         {
           "kind": "facts",
-          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
+          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #cybersecurity #privacy #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260924-set-up-proper-battery-care",
+      "id": "20260925-buy-a-laptop-that-fits-your-work",
       "slot": 3,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -106,40 +106,69 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up proper battery care",
+      "title": "Buy a laptop that fits your work",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
+          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Cap charge at 80% if your vendor offers it"
+          "text": "List the three apps that slow your current PC"
         },
         {
           "kind": "step",
-          "text": "Avoid leaving it at 100% for weeks on end"
+          "text": "Match CPU tier and RAM to that list"
         },
         {
           "kind": "step",
-          "text": "Occasional deep discharge is fine, not daily"
+          "text": "Confirm the port needs — USB-C, HDMI, storage"
         },
         {
           "kind": "step",
-          "text": "Keep firmware and battery drivers updated"
+          "text": "Get 16GB+ RAM and an SSD minimum"
         },
         {
           "kind": "step",
-          "text": "A battery at 80% capacity after 2 years is normal."
+          "text": "Buy from a brand with known reliability and warranty."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Set up proper battery care #hardware #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "💻 Buy a laptop that fits your work #hardware #GPU #itsupportguru Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Meta announces new VR Glasses and camera-free Ray-Ban…",
+      "source": "GSMArena",
+      "link": "https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "2026\nMeta announces new VR Glasses and camera-free Ray-Ban Meta Audio"
+        },
+        {
+          "kind": "brief",
+          "text": "Meta has announced two new pairs of smart glasses at Meta Connect 2026.\nThe company unveiled its first camera-free, audio-only Ray Ban Meta Audio, along with a new pair of virtual reality glasses simply…\nThe Meta VR Glasses use a two-part system, with the glasses housing the display and sensors, while a connected puck handles the…\nThe glasses connect to the puck via an optical cable."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 Meta announces new VR Glasses and camera-free Ray-Ban… (GSMArena) https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php #tech #gadgets #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

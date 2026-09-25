@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-25",
-  "generatedAt": "2026-09-24T22:40:32.215Z",
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-25T22:40:27.178Z",
   "posts": [
     {
-      "id": "20260925-you-keep-every-screenshot-you-ever-took",
+      "id": "20260926-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #iOS #Apple #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #PC #hardware #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260925-antivirus-alone-keeps-you-safe",
+      "id": "20260926-more-ram-always-makes-your-pc-faster",
       "slot": 1,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -46,129 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus alone keeps you safe",
+      "title": "More RAM always makes your PC faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus alone keeps you safe"
+          "text": "More RAM always makes your PC faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
+          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Antivirus alone keeps you safe Truth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak… #sysadmin #itsupport #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: More RAM always makes your PC faster Truth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty… #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260925-5-security-habits-it-pros-actually-run",
+      "id": "20260926-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 security habits IT pros actually run",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #cybersecurity #privacy #tech Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #Apple #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260925-buy-a-laptop-that-fits-your-work",
+      "id": "20260926-free-up-storage-in-10-minutes",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Buy a laptop that fits your work",
+      "title": "Free up storage in 10 minutes",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
+          "text": "Free up storage in 10 minutes\nOpen Settings > Storage"
         },
         {
           "kind": "step",
-          "text": "List the three apps that slow your current PC"
+          "text": "Open Settings > Storage"
         },
         {
           "kind": "step",
-          "text": "Match CPU tier and RAM to that list"
+          "text": "Delete duplicate screenshots and videos first"
         },
         {
           "kind": "step",
-          "text": "Confirm the port needs — USB-C, HDMI, storage"
+          "text": "Offload apps you haven't opened in months"
         },
         {
           "kind": "step",
-          "text": "Get 16GB+ RAM and an SSD minimum"
+          "text": "Archive large files and old documents"
         },
         {
           "kind": "step",
-          "text": "Buy from a brand with known reliability and warranty."
+          "text": "Check the photo library — it's usually the real hog."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Buy a laptop that fits your work #hardware #GPU #itsupportguru Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Meta announces new VR Glasses and camera-free Ray-Ban…",
-      "source": "GSMArena",
-      "link": "https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "2026\nMeta announces new VR Glasses and camera-free Ray-Ban Meta Audio"
-        },
-        {
-          "kind": "brief",
-          "text": "Meta has announced two new pairs of smart glasses at Meta Connect 2026.\nThe company unveiled its first camera-free, audio-only Ray Ban Meta Audio, along with a new pair of virtual reality glasses simply…\nThe Meta VR Glasses use a two-part system, with the glasses housing the display and sensors, while a connected puck handles the…\nThe glasses connect to the puck via an optical cable."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Meta announces new VR Glasses and camera-free Ray-Ban… (GSMArena) https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php #tech #gadgets #itsupportguru Follow for daily tech intel.",
+      "caption": "📱 Free up storage in 10 minutes #smartphone #Android #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

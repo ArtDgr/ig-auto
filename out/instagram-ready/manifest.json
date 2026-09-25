@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-25",
-  "renderedAt": "2026-09-24T22:40:32.077Z",
+  "date": "2026-09-26",
+  "renderedAt": "2026-09-25T22:40:27.167Z",
   "posts": [
     {
-      "id": "20260925-you-keep-every-screenshot-you-ever-took",
+      "id": "20260926-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -33,162 +33,128 @@
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#macbook #iphone #macos #applenews #ios #itpro #apple #macrumors #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#itpro #appletips #macrumors #ios #appleintelligence #macbook #macos #iphone #helpdesk #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260925-you-keep-every-screenshot-you-ever-took/01.png",
-        "out/instagram-ready/20260925-you-keep-every-screenshot-you-ever-took/02.png",
-        "out/instagram-ready/20260925-you-keep-every-screenshot-you-ever-took/03.png",
-        "out/instagram-ready/20260925-you-keep-every-screenshot-you-ever-took/04.png"
+        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/01.png",
+        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/02.png",
+        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/03.png",
+        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/04.png"
       ]
     },
     {
-      "id": "20260925-a-strong-password-is-enough",
+      "id": "20260926-more-vram-is-all-that-matters",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A strong password is enough",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A strong password is enough"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Even great passwords get stolen in breaches. 2FA is what actually stops the attacker from using them."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A strong password is enough\nTruth: Even great passwords get stolen in breaches. 2FA is what actually stops the attacker from using them.\n\nShare this with the person who still believes it →\n\n#2fa #password #cyberdefense #security #cybersectips #datasecurity #secops #phishing #sysadmin #techsupport #itpro #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#hardware #techreview #benchmark #gpu #laptops #ram #ssd #pc #techtips #sysadmin #itsupportguru #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260925-a-strong-password-is-enough/01.png",
-        "out/instagram-ready/20260925-a-strong-password-is-enough/02.png",
-        "out/instagram-ready/20260925-a-strong-password-is-enough/03.png"
+        "out/instagram-ready/20260926-more-vram-is-all-that-matters/01.png",
+        "out/instagram-ready/20260926-more-vram-is-all-that-matters/02.png",
+        "out/instagram-ready/20260926-more-vram-is-all-that-matters/03.png"
       ]
     },
     {
-      "id": "20260925-what-reviewers-check-that-you-don-t",
+      "id": "20260926-what-it-does-before-calling-it-a-hardware-problem",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "What IT does before calling it a hardware problem",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• TGP — how many watts the GPU actually draws\n• Sustained performance, not peak benchmark numbers\n• Thermal throttling after 20 minutes of load\n• Screen brightness in nits, not just resolution\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #iphone #batterytips #smartphone #gadgets #techgear #tech #android #techdaily #techsupport #itsupportguru #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#fixyourpc #helpdesk #itsupport #windows11 #troubleshooting #ithelp #pchelp #pc #itpro #techtips #techsupport #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260925-what-reviewers-check-that-you-don-t/01.png",
-        "out/instagram-ready/20260925-what-reviewers-check-that-you-don-t/02.png",
-        "out/instagram-ready/20260925-what-reviewers-check-that-you-don-t/03.png"
+        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/01.png",
+        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/02.png",
+        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/03.png"
       ]
     },
     {
-      "id": "20260925-buy-a-laptop-that-fits-your-work",
+      "id": "20260926-set-up-a-github-actions-pipeline",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Buy a laptop that fits your work",
+      "title": "Set up a GitHub Actions pipeline",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
+          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "List the three apps that slow your current PC"
+          "text": "Add a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "Match CPU tier and RAM to that list"
+          "text": "Use a simple job: checkout + run tests"
         },
         {
           "kind": "step",
-          "text": "Confirm the port needs — USB-C, HDMI, storage"
+          "text": "Push — the pipeline runs automatically"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n\nSave this for the next ticket →\n\n#ram #laptop #pc #laptops #ssd #pcgaming #cpu #gpu #techtips #techsupport #helpdesk #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Set up a GitHub Actions pipeline ☁️\n\n1. Add a workflow file in .github/workflows/\n2. Use a simple job: checkout + run tests\n3. Push\n     ✓ the pipeline runs automatically\n\nSave this for the next ticket →\n\n#kubernetes #devops #aws #devopslife #docker #cloud #cloudinfra #techops #itsupportguru #techtips #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260925-buy-a-laptop-that-fits-your-work/01.png",
-        "out/instagram-ready/20260925-buy-a-laptop-that-fits-your-work/02.png",
-        "out/instagram-ready/20260925-buy-a-laptop-that-fits-your-work/03.png",
-        "out/instagram-ready/20260925-buy-a-laptop-that-fits-your-work/04.png",
-        "out/instagram-ready/20260925-buy-a-laptop-that-fits-your-work/05.png"
-      ]
-    },
-    {
-      "id": "20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Meta announces new VR Glasses and camera-free Ray-Ban…",
-      "source": "GSMArena",
-      "link": "https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Meta announces new VR Glasses and camera-free\nMeta announces new VR Glasses and camera-free Ray-Ban Meta Audio"
-        },
-        {
-          "kind": "brief",
-          "text": "Meta has announced two new pairs of smart glasses at Meta Connect 2026.\nThe company unveiled its first camera-free, audio-only Ray Ban Meta Audio, along with a new pair of virtual reality glasses simply…\nThe Meta VR Glasses use a two-part system, with the glasses housing the display and sensors, while a connected puck handles the…\nThe glasses connect to the puck via an optical cable."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nMeta announces new VR Glasses and camera-free Ray-Ban…\n\n• Meta has announced two new pairs of smart glasses at Meta Connect 2026.\n• The company unveiled its first camera-free, audio-only Ray Ban Meta Audio, along with a new pair of virtual reality glasses simply…\n• The Meta VR Glasses use a two-part system, with the glasses housing the display and sensors, while a connected puck handles the…\n• The glasses connect to the puck via an optical cable.\n\nSource: GSMArena — https://www.gsmarena.com/meta_announces_new_vr_glasses_and_camerafree_rayban_meta_audio_-news-74741.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#smartphonetips #android #techgear #smartphone #batterytips #gadgets #iphone #tech #sysadmin #techdaily #itsupportguru #techsupport\n\n@theitsupportguru — the gadget worth your attention.\n\nWhat's your fix for this one? Drop it in the comments.",
-      "status": "pending",
-      "media": [
-        "out/instagram-ready/20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me/01.png",
-        "out/instagram-ready/20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me/02.png",
-        "out/instagram-ready/20260925-gadget-focus-meta-announces-new-vr-glasses-and-camera-free-ray-ban-me/03.png"
+        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/01.png",
+        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/02.png",
+        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/03.png",
+        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/04.png",
+        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/05.png"
       ]
     }
   ]

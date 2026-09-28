@@ -1,49 +1,49 @@
 {
-  "date": "2026-09-26",
-  "renderedAt": "2026-09-25T22:40:27.167Z",
+  "date": "2026-09-29",
+  "renderedAt": "2026-09-28T23:56:41.470Z",
   "posts": [
     {
-      "id": "20260926-you-keep-every-screenshot-you-ever-took",
+      "id": "20260929-your-phone-hits-0-by-3pm",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "Your phone hits 0% by 3pm",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "Your phone hits 0% by 3pm\nThat's a worn battery or a background app hogging power."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — That's a worn battery or a background app hogging power."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Check battery health and Settings > Battery for the biggest drainer."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#itpro #appletips #macrumors #ios #appleintelligence #macbook #macos #iphone #helpdesk #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour phone hits 0% by 3pm\n\nWhy it's a problem: That's a worn battery or a background app hogging power.\nThe fix: Check battery health and Settings > Battery for the biggest drainer.\n\nSave this before it becomes a repair bill →\n\n#tech #android #smartphonetips #gadgets #samsung #techgear #iphone #smartphone #itpro #techtips #techdaily #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/01.png",
-        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/02.png",
-        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/03.png",
-        "out/instagram-ready/20260926-you-keep-every-screenshot-you-ever-took/04.png"
+        "out/instagram-ready/20260929-your-phone-hits-0-by-3pm/01.png",
+        "out/instagram-ready/20260929-your-phone-hits-0-by-3pm/02.png",
+        "out/instagram-ready/20260929-your-phone-hits-0-by-3pm/03.png",
+        "out/instagram-ready/20260929-your-phone-hits-0-by-3pm/04.png"
       ]
     },
     {
-      "id": "20260926-more-vram-is-all-that-matters",
+      "id": "20260929-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -52,33 +52,33 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#hardware #techreview #benchmark #gpu #laptops #ram #ssd #pc #techtips #sysadmin #itsupportguru #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#laptop #ram #hardware #gpu #pcgaming #cpu #benchmark #ssd #itpro #helpdesk #techsupport #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260926-more-vram-is-all-that-matters/01.png",
-        "out/instagram-ready/20260926-more-vram-is-all-that-matters/02.png",
-        "out/instagram-ready/20260926-more-vram-is-all-that-matters/03.png"
+        "out/instagram-ready/20260929-a-bigger-cpu-number-is-always-faster/01.png",
+        "out/instagram-ready/20260929-a-bigger-cpu-number-is-always-faster/02.png",
+        "out/instagram-ready/20260929-a-bigger-cpu-number-is-always-faster/03.png"
       ]
     },
     {
-      "id": "20260926-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20260929-what-it-does-before-calling-it-a-hardware-problem",
       "slot": 2,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -104,57 +104,57 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#fixyourpc #helpdesk #itsupport #windows11 #troubleshooting #ithelp #pchelp #pc #itpro #techtips #techsupport #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#techsupport #troubleshooting #itsupport #helpdesk #sysadmin #computertips #pchelp #windows #techtips #techdaily #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/01.png",
-        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/02.png",
-        "out/instagram-ready/20260926-what-it-does-before-calling-it-a-hardware-problem/03.png"
+        "out/instagram-ready/20260929-what-it-does-before-calling-it-a-hardware-problem/01.png",
+        "out/instagram-ready/20260929-what-it-does-before-calling-it-a-hardware-problem/02.png",
+        "out/instagram-ready/20260929-what-it-does-before-calling-it-a-hardware-problem/03.png"
       ]
     },
     {
-      "id": "20260926-set-up-a-github-actions-pipeline",
+      "id": "20260929-summarize-a-long-article-in-2-minutes",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a GitHub Actions pipeline",
+      "title": "Summarize a long article in 2 minutes",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
+          "text": "Summarize a long article in 2 minutes\nCopy the article or paste the text"
         },
         {
           "kind": "step",
-          "text": "Add a workflow file in .github/workflows/"
+          "text": "Copy the article or paste the text"
         },
         {
           "kind": "step",
-          "text": "Use a simple job: checkout + run tests"
+          "text": "Prompt: 'Summarize in 5 bullets under 15 words each'"
         },
         {
           "kind": "step",
-          "text": "Push — the pipeline runs automatically"
+          "text": "Ask for the three biggest risks or takeaways"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up a GitHub Actions pipeline ☁️\n\n1. Add a workflow file in .github/workflows/\n2. Use a simple job: checkout + run tests\n3. Push\n     ✓ the pipeline runs automatically\n\nSave this for the next ticket →\n\n#kubernetes #devops #aws #devopslife #docker #cloud #cloudinfra #techops #itsupportguru #techtips #sysadmin #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Summarize a long article in 2 minutes 🤖\n\n1. Copy the article or paste the text\n2. Prompt: 'Summarize in 5 bullets under 15 words each'\n3. Ask for the three biggest risks or takeaways\n\nSave this for the next ticket →\n\n#copilot #aitech #genai #artificialintelligence #aitips #machinelearning #chatgpt #ai #techdaily #sysadmin #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/01.png",
-        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/02.png",
-        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/03.png",
-        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/04.png",
-        "out/instagram-ready/20260926-set-up-a-github-actions-pipeline/05.png"
+        "out/instagram-ready/20260929-summarize-a-long-article-in-2-minutes/01.png",
+        "out/instagram-ready/20260929-summarize-a-long-article-in-2-minutes/02.png",
+        "out/instagram-ready/20260929-summarize-a-long-article-in-2-minutes/03.png",
+        "out/instagram-ready/20260929-summarize-a-long-article-in-2-minutes/04.png",
+        "out/instagram-ready/20260929-summarize-a-long-article-in-2-minutes/05.png"
       ]
     }
   ]

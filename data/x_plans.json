@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-25T22:40:27.178Z",
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-28T23:56:41.609Z",
   "posts": [
     {
-      "id": "20260926-your-laptop-is-always-hot",
+      "id": "20260929-you-never-restart-your-pc",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You never restart your PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — One restart a week clears state and flushes memory."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your laptop is always hot #PC #hardware #tech Follow for daily tech intel.",
+      "caption": "🚩 You never restart your PC #sysadmin #Windows11 #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260926-more-ram-always-makes-your-pc-faster",
+      "id": "20260929-incognito-mode-makes-you-anonymous",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More RAM always makes your PC faster",
+      "title": "Incognito mode makes you anonymous",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More RAM always makes your PC faster"
+          "text": "Incognito mode makes you anonymous"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
+          "text": "THE TRUTH — Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More RAM always makes your PC faster Truth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty… #Windows11 #sysadmin #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Incognito mode makes you anonymous Truth: Incognito only stops local history. Your ISP, employer and the sites you visit still see… #privacy #cybersecurity #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260926-hidden-macos-tools-most-people-never-find",
+      "id": "20260929-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #Apple #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #PC #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260926-free-up-storage-in-10-minutes",
+      "id": "20260929-find-your-macbook-battery-drainer",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Free up storage in 10 minutes",
+      "title": "Find your MacBook battery drainer",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Free up storage in 10 minutes\nOpen Settings > Storage"
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Open Settings > Storage"
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Delete duplicate screenshots and videos first"
+          "text": "Sort by CPU, then by Energy"
         },
         {
           "kind": "step",
-          "text": "Offload apps you haven't opened in months"
+          "text": "Close the browser tab silently maxing cores"
         },
         {
           "kind": "step",
-          "text": "Archive large files and old documents"
+          "text": "Check background apps under the Energy tab"
         },
         {
           "kind": "step",
-          "text": "Check the photo library — it's usually the real hog."
+          "text": "Dim the screen — the display uses the most."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Free up storage in 10 minutes #smartphone #Android #tech Follow for daily tech intel.",
+      "caption": "🍎 Find your MacBook battery drainer #macOS #iPhone #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

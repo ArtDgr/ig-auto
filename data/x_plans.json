@@ -1,145 +1,145 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-28T23:56:41.609Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-29T23:09:18.623Z",
   "posts": [
     {
-      "id": "20260929-you-never-restart-your-pc",
+      "id": "20260930-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You never restart your PC #sysadmin #Windows11 #techtips Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260929-incognito-mode-makes-you-anonymous",
+      "id": "20260930-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Incognito mode makes you anonymous",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Incognito mode makes you anonymous"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Incognito mode makes you anonymous Truth: Incognito only stops local history. Your ISP, employer and the sites you visit still see… #privacy #cybersecurity #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #PC #CPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260929-the-upgrade-that-changes-everything",
+      "id": "20260930-how-to-actually-verify-ai-output",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "How to actually verify AI output",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "How to actually verify AI output\nAsk for a source for every key claim"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #PC #GPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 How to actually verify AI output — Ask for a source for every key claim #GenAI #AI #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260929-find-your-macbook-battery-drainer",
+      "id": "20260930-connect-your-wifi-step-by-step",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Find your MacBook battery drainer",
+      "title": "Connect your WiFi step by step",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Click the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Sort by CPU, then by Energy"
+          "text": "Pick your network name and enter the password exactly"
         },
         {
           "kind": "step",
-          "text": "Close the browser tab silently maxing cores"
+          "text": "Watch for auto-correct — passwords get mangled silently"
         },
         {
           "kind": "step",
-          "text": "Check background apps under the Energy tab"
+          "text": "Forget and rejoin the network if it keeps asking for the key"
         },
         {
           "kind": "step",
-          "text": "Dim the screen — the display uses the most."
+          "text": "Still no internet? Unplug the router for 60 seconds and retry."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🍎 Find your MacBook battery drainer #macOS #iPhone #tech Follow for daily tech intel.",
+      "caption": "🛠️ Connect your WiFi step by step #sysadmin #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

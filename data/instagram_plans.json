@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-28T23:56:29.993Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-29T23:09:07.827Z",
   "posts": [
     {
-      "id": "20260929-your-phone-hits-0-by-3pm",
+      "id": "20260930-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your phone hits 0% by 3pm",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your phone hits 0% by 3pm\nThat's a worn battery or a background app hogging power."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — That's a worn battery or a background app hogging power."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Check battery health and Settings > Battery for the biggest drainer."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour phone hits 0% by 3pm\n\nWhy it's a problem: That's a worn battery or a background app hogging power.\nThe fix: Check battery health and Settings > Battery for the biggest drainer.\n\nSave this before it becomes a repair bill →\n\n#tech #android #smartphonetips #gadgets #samsung #techgear #iphone #smartphone #itpro #techtips #techdaily #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appletips #macbook #apple #itpro #ios #applenews #macrumors #iphone #techdaily #itsupportguru #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20260929-a-bigger-cpu-number-is-always-faster",
+      "id": "20260930-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -63,11 +63,11 @@
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#laptop #ram #hardware #gpu #pcgaming #cpu #benchmark #ssd #itpro #helpdesk #techsupport #itsupportguru\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#techreview #ram #hardware #benchmark #laptops #pcgaming #gpu #laptop #techdaily #itsupportguru #techsupport #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20260929-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20260930-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -76,62 +76,62 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#techsupport #troubleshooting #itsupport #helpdesk #sysadmin #computertips #pchelp #windows #techtips #techdaily #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "5 Windows tools IT pros use that you don't 🔓\n\nInsider knowledge, free.\n\n• Event Viewer shows the real error behind every crash\n• `powercfg /batteryreport` reveals true battery health\n• MSConfig safe boot isolates driver problems\n• Reliability Monitor charts every blue screen in history\n\nSave this — it'll be your shortcut later →\n\n#fixyourpc #windows #troubleshooting #pchelp #helpdesk #techsupport #windows11 #computertips #techtips #techdaily #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20260929-summarize-a-long-article-in-2-minutes",
+      "id": "20260930-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Summarize a long article in 2 minutes",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Summarize a long article in 2 minutes\nCopy the article or paste the text"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Copy the article or paste the text"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Prompt: 'Summarize in 5 bullets under 15 words each'"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Ask for the three biggest risks or takeaways"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Summarize a long article in 2 minutes 🤖\n\n1. Copy the article or paste the text\n2. Prompt: 'Summarize in 5 bullets under 15 words each'\n3. Ask for the three biggest risks or takeaways\n\nSave this for the next ticket →\n\n#copilot #aitech #genai #artificialintelligence #aitips #machinelearning #chatgpt #ai #techdaily #sysadmin #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Add a budget alert so you never overspend ☁️\n\n1. Open Billing > Budgets in your console\n2. Create a budget for your monthly target\n3. Add alerts at 50%, 80%, and 100%\n\nSave this for the next ticket →\n\n#docker #azure #aws #sre #techops #cloudinfra #devopslife #cloud #techdaily #itsupportguru #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

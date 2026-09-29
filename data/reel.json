@@ -1,30 +1,26 @@
 {
-  "date": "20260929",
+  "date": "20260930",
   "deck": {
-    "id": "deals-google-s-pixel-11-series-gets-price-cuts-samsung-galax",
-    "niche": "gadgets",
-    "href": "https://www.gsmarena.com/deals_googles_pixel_11_series_gets_price_cuts_samsung_galaxy_z8_foldables_discounted-news-74778.php",
-    "title": "Deals: Google’s Pixel 11 series gets price cuts, Samsung Galaxy Z8 fo…",
+    "id": "openai-launches-gpt-6-1-sol-with-near-astra-performance-at-a",
+    "niche": "it-support",
+    "href": "https://4sysops.com/archives/openai-launches-gpt-6-1-sol-with-near-astra-performance-at-a-fraction-of-the-price/",
+    "title": "OpenAI launches GPT-6.1 Sol with near-Astra performance at a fraction…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "11,",
+        "text": "OpenAI launches GPT-6.1 Sol with near-Astra…",
         "kind": "hook"
       },
       {
-        "text": "Deals: Google’s Pixel 11 series gets price…",
+        "text": "OpenAI has introduced GPT-6.1 Sol, an upgrade to GPT-6 Sol that it says comes c…",
         "kind": "body"
       },
       {
-        "text": "The Google Pixel 11 series is currently available at a discount, along with las…",
+        "text": "The model is rolling out now to ChatGPT Work and Codex for eligible paid and en…",
         "kind": "body"
       },
       {
-        "text": "Samsung’s latest Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 are a…",
-        "kind": "body"
-      },
-      {
-        "text": "Meanwhile, Xiaomi’s 17 series and 17T lineup are available at discounted prices…",
+        "text": "Source",
         "kind": "body"
       },
       {
@@ -33,5 +29,5 @@
       }
     ]
   },
-  "caption": "Deals: Google’s Pixel 11 series gets price cuts, Samsung Galaxy Z8 fo.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "OpenAI launches GPT-6.1 Sol with near-Astra performance at a fraction.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #itsupport #pchelp #windows11 #windows #pc #computertips #fixyourpc #troubleshooting\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

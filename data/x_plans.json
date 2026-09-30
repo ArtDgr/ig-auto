@@ -1,43 +1,43 @@
 {
-  "date": "2026-09-30",
-  "generatedAt": "2026-09-29T23:09:18.623Z",
+  "date": "2026-10-01",
+  "generatedAt": "2026-09-30T23:12:37.366Z",
   "posts": [
     {
-      "id": "20260930-you-keep-every-screenshot-you-ever-took",
+      "id": "20261001-your-system-drive-is-under-15-free-space",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "Your system drive is under 15% free space",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🚩 Your system drive is under 15% free space #techsupport #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260930-a-bigger-cpu-number-is-always-faster",
+      "id": "20261001-more-vram-is-all-that-matters",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -46,100 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #PC #CPU #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #PC #GPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260930-how-to-actually-verify-ai-output",
+      "id": "20261001-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to actually verify AI output",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to actually verify AI output\nAsk for a source for every key claim"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 How to actually verify AI output — Ask for a source for every key claim #GenAI #AI #tech Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #Apple #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20260930-connect-your-wifi-step-by-step",
+      "id": "20261001-set-up-a-github-actions-pipeline",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Set up a GitHub Actions pipeline",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Add a workflow file in .github/workflows/"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Use a simple job: checkout + run tests"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Push — the pipeline runs automatically"
         },
         {
           "kind": "step",
-          "text": "Forget and rejoin the network if it keeps asking for the key"
+          "text": "Add a deploy job that SSHes to your VM"
         },
         {
           "kind": "step",
-          "text": "Still no internet? Unplug the router for 60 seconds and retry."
+          "text": "Now every commit tests and ships, hands-free."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Connect your WiFi step by step #sysadmin #itsupport #techtips Follow for daily tech intel.",
+      "caption": "☁️ Set up a GitHub Actions pipeline #DevOps #AWS #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,26 +1,30 @@
 {
-  "date": "20260930",
+  "date": "20261001",
   "deck": {
-    "id": "openai-launches-gpt-6-1-sol-with-near-astra-performance-at-a",
-    "niche": "it-support",
-    "href": "https://4sysops.com/archives/openai-launches-gpt-6-1-sol-with-near-astra-performance-at-a-fraction-of-the-price/",
-    "title": "OpenAI launches GPT-6.1 Sol with near-Astra performance at a fraction…",
+    "id": "samsung-galaxy-tab-s12-ultra-and-galaxy-tab-s12-debut",
+    "niche": "gadgets",
+    "href": "https://www.gsmarena.com/samsung_galaxy_tab_s12_ultra_and_galaxy_tab_s12_debut-news-74834.php",
+    "title": "Samsung Galaxy Tab S12 Ultra and Galaxy Tab S12+ debut",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "OpenAI launches GPT-6.1 Sol with near-Astra…",
+        "text": "9500",
         "kind": "hook"
       },
       {
-        "text": "OpenAI has introduced GPT-6.1 Sol, an upgrade to GPT-6 Sol that it says comes c…",
+        "text": "Samsung Galaxy Tab S12 Ultra and Galaxy Tab…",
         "kind": "body"
       },
       {
-        "text": "The model is rolling out now to ChatGPT Work and Codex for eligible paid and en…",
+        "text": "Samsung has unveiled its latest flagship Android tablets, the Galaxy Tab S12 Ul…",
         "kind": "body"
       },
       {
-        "text": "Source",
+        "text": "The tablets will go on sale in select markets starting October 7.",
+        "kind": "body"
+      },
+      {
+        "text": "The new Galaxy Tab S12 series tablets share several specifications, although th…",
         "kind": "body"
       },
       {
@@ -29,5 +33,5 @@
       }
     ]
   },
-  "caption": "OpenAI launches GPT-6.1 Sol with near-Astra performance at a fraction.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #itsupport #pchelp #windows11 #windows #pc #computertips #fixyourpc #troubleshooting\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Samsung Galaxy Tab S12 Ultra and Galaxy Tab S12+ debut.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

@@ -1,145 +1,174 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-09-30T23:12:37.366Z",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-01T23:23:44.810Z",
   "posts": [
     {
-      "id": "20261001-your-system-drive-is-under-15-free-space",
+      "id": "20261002-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your system drive is under 15% free space #techsupport #itsupport #techtips Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #iOS #macOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261001-more-vram-is-all-that-matters",
+      "id": "20261002-ai-replaces-it-pros",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "AI replaces IT pros",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "AI replaces IT pros"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Used right, AI automates the grunt work — log triage, script writing, ticket drafting. The pro who verifies and ships the result is still the one who matters."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #PC #GPU #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: AI replaces IT pros Truth: Used right, AI automates the grunt work — log triage, script writing, ticket drafting.… #GenAI #MachineLearning #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261001-hidden-macos-tools-most-people-never-find",
+      "id": "20261002-ops-rules-that-prevent-the-worst-outages",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "Ops rules that prevent the worst outages",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #Apple #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #cloud #DevOps #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261001-set-up-a-github-actions-pipeline",
+      "id": "20261002-speed-up-a-slow-windows-pc",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a GitHub Actions pipeline",
+      "title": "Speed up a slow Windows PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a GitHub Actions pipeline\nAdd a workflow file in .github/workflows/"
+          "text": "Speed up a slow Windows PC\nOpen Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
         },
         {
           "kind": "step",
-          "text": "Add a workflow file in .github/workflows/"
+          "text": "Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
         },
         {
           "kind": "step",
-          "text": "Use a simple job: checkout + run tests"
+          "text": "Disable the worst startup apps on the Startup tab"
         },
         {
           "kind": "step",
-          "text": "Push — the pipeline runs automatically"
+          "text": "Free disk space: Settings > System > Storage > Temporary files"
         },
         {
           "kind": "step",
-          "text": "Add a deploy job that SSHes to your VM"
+          "text": "Update drivers in Device Manager — look for yellow flags"
         },
         {
           "kind": "step",
-          "text": "Now every commit tests and ships, hands-free."
+          "text": "If RAM is maxed, close background browsers before buying anything."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Set up a GitHub Actions pipeline #DevOps #AWS #tech Follow for daily tech intel.",
+      "caption": "🛠️ Speed up a slow Windows PC #sysadmin #Windows11 #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261002-gadget-focus-the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressu",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "The XP-Pen Artist Pro 16 with a game-changing 16K…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "$230\nThe XP-Pen Artist Pro 16 with a game-changing 16K pressure stylus is one of the best drawing…"
+        },
+        {
+          "kind": "brief",
+          "text": "We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\nNow, creatives can save $230 in Newegg's tech sale and get a free $20 gift card."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 The XP-Pen Artist Pro 16 with a game-changing 16K… (TechRadar) https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg #gadgets #smartphone #itsupportguru",
       "status": "pending"
     }
   ],

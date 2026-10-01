@@ -1,137 +1,166 @@
 {
-  "date": "2026-10-01",
-  "generatedAt": "2026-09-30T23:12:26.603Z",
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-01T23:23:31.650Z",
   "posts": [
     {
-      "id": "20261001-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261002-your-icloud-is-95-full",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your iCloud is 95% full",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#pc #ram #hardware #chipshortage #laptops #pcgaming #ssd #laptop #sysadmin #itsupportguru #itpro #helpdesk\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour iCloud is 95% full\n\nWhy it's a problem: Full storage silently breaks backups and updates.\nThe fix: Offload apps, clear the Screenshots album, upgrade only if needed.\n\nSave this before it becomes a repair bill →\n\n#ios #apple #applenews #macbook #iphone #itpro #appletips #appleintelligence #sysadmin #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261001-chatgpt-remembers-everything",
+      "id": "20261002-a-backup-that-says-success-is-safe",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "ChatGPT remembers everything",
+      "title": "A backup that says 'success' is safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "ChatGPT remembers everything"
+          "text": "A backup that says 'success' is safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap."
+          "text": "THE TRUTH — Your backup is only as good as a restore you've actually tested. Corruption, missing buckets and wrong regions hide until you need it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: ChatGPT remembers everything\nTruth: Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap.\n\nShare this with the person who still believes it →\n\n#futuretech #artificialintelligence #genai #machinelearning #ai #aitips #aitools #aitech #sysadmin #techdaily #itsupportguru #techtips\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A backup that says 'success' is safe\nTruth: Your backup is only as good as a restore you've actually tested. Corruption, missing buckets and wrong regions hide until you need it.\n\nShare this with the person who still believes it →\n\n#cloudinfra #devopslife #sre #cloud #devops #docker #techops #aws #techsupport #techtips #sysadmin #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261001-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20261002-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#pc #techsupport #ithelp #windows11 #fixyourpc #pchelp #computertips #troubleshooting #itpro #techtips #helpdesk #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #ram #benchmark #ssd #chipshortage #techreview #laptops #pc #techdaily #sysadmin #techtips #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261001-spot-a-phishing-email-in-30-seconds",
+      "id": "20261002-transfer-everything-to-a-new-phone",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Spot a phishing email in 30 seconds",
+      "title": "Transfer everything to a new phone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Spot a phishing email in 30 seconds\nCheck the sender address, not just the display name"
+          "text": "Transfer everything to a new phone\nBack up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Check the sender address, not just the display name"
+          "text": "Back up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Hover links to see the real URL"
+          "text": "Choose 'transfer from old device' during setup"
         },
         {
           "kind": "step",
-          "text": "Watch for urgency and threats — 'act now' is a red flag"
+          "text": "Scan the QR or pair the two phones"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Spot a phishing email in 30 seconds 🔐\n\n1. Check the sender address, not just the display name\n2. Hover links to see the real URL\n3. Watch for urgency and threats\n     ✓ 'act now' is a red flag\n\nSave this for the next ticket →\n\n#phishing #onlinesafety #password #cybersecurity #2fa #datasecurity #security #infosec #itpro #helpdesk #sysadmin #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Transfer everything to a new phone 📱\n\n1. Back up the old phone first\n2. Choose 'transfer from old device' during setup\n3. Scan the QR or pair the two phones\n\nSave this for the next ticket →\n\n#techgear #smartphone #gadgetreviews #gadgets #tech #samsung #batterytips #android #techdaily #sysadmin #helpdesk #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "status": "pending"
+    },
+    {
+      "id": "20261002-gadget-focus-the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressu",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "The XP-Pen Artist Pro 16 with a game-changing 16K…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "The XP-Pen Artist Pro 16 with a game-changing\nThe XP-Pen Artist Pro 16 with a game-changing 16K pressure stylus is one of the best drawing…"
+        },
+        {
+          "kind": "brief",
+          "text": "We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\nNow, creatives can save $230 in Newegg's tech sale and get a free $20 gift card."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe XP-Pen Artist Pro 16 with a game-changing 16K…\n\n• We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\n• Now, creatives can save $230 in Newegg's tech sale and get a free $20 gift card.\n\nSource: TechRadar — https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg\n\nWhich one's on your wishlist? Drop it below 👇\n\n#batterytips #gadgetreviews #smartphone #android #techgear #smartphonetips #iphone #tech #techsupport #sysadmin #techtips #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

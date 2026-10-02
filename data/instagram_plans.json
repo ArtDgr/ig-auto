@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-01T23:23:31.650Z",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-02T23:11:16.426Z",
   "posts": [
     {
-      "id": "20261002-your-icloud-is-95-full",
+      "id": "20261003-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -12,155 +12,126 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your iCloud is 95% full",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour iCloud is 95% full\n\nWhy it's a problem: Full storage silently breaks backups and updates.\nThe fix: Offload apps, clear the Screenshots album, upgrade only if needed.\n\nSave this before it becomes a repair bill →\n\n#ios #apple #applenews #macbook #iphone #itpro #appletips #appleintelligence #sysadmin #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#apple #appleintelligence #macbook #macrumors #appletips #macos #ios #itpro #techsupport #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261002-a-backup-that-says-success-is-safe",
+      "id": "20261003-only-important-people-get-targeted",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A backup that says 'success' is safe",
+      "title": "Only important people get targeted",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A backup that says 'success' is safe"
+          "text": "Only important people get targeted"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Your backup is only as good as a restore you've actually tested. Corruption, missing buckets and wrong regions hide until you need it."
+          "text": "THE TRUTH — Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A backup that says 'success' is safe\nTruth: Your backup is only as good as a restore you've actually tested. Corruption, missing buckets and wrong regions hide until you need it.\n\nShare this with the person who still believes it →\n\n#cloudinfra #devopslife #sre #cloud #devops #docker #techops #aws #techsupport #techtips #sysadmin #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Only important people get targeted\nTruth: Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense.\n\nShare this with the person who still believes it →\n\n#cybersecurity #cyberdefense #infosec #security #2fa #cybersectips #secops #phishing #itsupportguru #techsupport #sysadmin #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261002-what-reviewers-check-that-you-don-t",
+      "id": "20261003-why-works-on-my-machine-finally-died",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "Why 'works on my machine' finally died",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
+          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
         },
         {
           "kind": "facts",
-          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
+          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #ram #benchmark #ssd #chipshortage #techreview #laptops #pc #techdaily #sysadmin #techtips #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Why 'works on my machine' finally died 🔓\n\nInsider knowledge, free.\n\n• Docker packages the app with its runtime\n• Dev and prod now run identical containers\n• Config drift is the real enemy, not the code\n• IaC makes every change reviewable in PRs\n\nSave this — it'll be your shortcut later →\n\n#docker #aws #sre #cloud #devopslife #cloudinfra #devops #azure #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261002-transfer-everything-to-a-new-phone",
+      "id": "20261003-clean-a-laptop-without-breaking-it",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Transfer everything to a new phone",
+      "title": "Clean a laptop without breaking it",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Transfer everything to a new phone\nBack up the old phone first"
+          "text": "Clean a laptop without breaking it\nPower down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Back up the old phone first"
+          "text": "Power down and unplug first"
         },
         {
           "kind": "step",
-          "text": "Choose 'transfer from old device' during setup"
+          "text": "Use compressed air in short bursts on vents"
         },
         {
           "kind": "step",
-          "text": "Scan the QR or pair the two phones"
+          "text": "Wipe the lid with microfiber and isopropyl"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Transfer everything to a new phone 📱\n\n1. Back up the old phone first\n2. Choose 'transfer from old device' during setup\n3. Scan the QR or pair the two phones\n\nSave this for the next ticket →\n\n#techgear #smartphone #gadgetreviews #gadgets #tech #samsung #batterytips #android #techdaily #sysadmin #helpdesk #techsupport\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
-      "status": "pending"
-    },
-    {
-      "id": "20261002-gadget-focus-the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressu",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "The XP-Pen Artist Pro 16 with a game-changing 16K…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "The XP-Pen Artist Pro 16 with a game-changing\nThe XP-Pen Artist Pro 16 with a game-changing 16K pressure stylus is one of the best drawing…"
-        },
-        {
-          "kind": "brief",
-          "text": "We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\nNow, creatives can save $230 in Newegg's tech sale and get a free $20 gift card."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe XP-Pen Artist Pro 16 with a game-changing 16K…\n\n• We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\n• Now, creatives can save $230 in Newegg's tech sale and get a free $20 gift card.\n\nSource: TechRadar — https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg\n\nWhich one's on your wishlist? Drop it below 👇\n\n#batterytips #gadgetreviews #smartphone #android #techgear #smartphonetips #iphone #tech #techsupport #sysadmin #techtips #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Clean a laptop without breaking it 💻\n\n1. Power down and unplug first\n2. Use compressed air in short bursts on vents\n3. Wipe the lid with microfiber and isopropyl\n\nSave this for the next ticket →\n\n#pcgaming #ram #gpu #chipshortage #hardware #pc #benchmark #laptop #helpdesk #techsupport #itsupportguru #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

@@ -1,174 +1,145 @@
 {
-  "date": "2026-10-02",
-  "generatedAt": "2026-10-01T23:23:44.810Z",
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-02T23:11:24.321Z",
   "posts": [
     {
-      "id": "20261002-you-keep-every-screenshot-you-ever-took",
+      "id": "20261003-you-charge-overnight-to-100-every-night",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You charge overnight to 100% every night",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You charge overnight to 100% every night\nLithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — Lithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Charge to 80% for daily use and keep the phone off 100% at night."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #iOS #macOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You charge overnight to 100% every night #Android #smartphone #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261002-ai-replaces-it-pros",
+      "id": "20261003-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "AI replaces IT pros",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "AI replaces IT pros"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Used right, AI automates the grunt work — log triage, script writing, ticket drafting. The pro who verifies and ships the result is still the one who matters."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: AI replaces IT pros Truth: Used right, AI automates the grunt work — log triage, script writing, ticket drafting.… #GenAI #MachineLearning #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #macOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261002-ops-rules-that-prevent-the-worst-outages",
+      "id": "20261003-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Ops rules that prevent the worst outages",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #cloud #DevOps #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #CPU #GPU #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261002-speed-up-a-slow-windows-pc",
+      "id": "20261003-clean-up-data-brokers",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Speed up a slow Windows PC",
+      "title": "Clean up data brokers",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Speed up a slow Windows PC\nOpen Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "Clean up data brokers\nSearch yourself on people-search sites"
         },
         {
           "kind": "step",
-          "text": "Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "Search yourself on people-search sites"
         },
         {
           "kind": "step",
-          "text": "Disable the worst startup apps on the Startup tab"
+          "text": "Use each site's opt-out page"
         },
         {
           "kind": "step",
-          "text": "Free disk space: Settings > System > Storage > Temporary files"
+          "text": "Remove your listing and note the case ID"
         },
         {
           "kind": "step",
-          "text": "Update drivers in Device Manager — look for yellow flags"
+          "text": "Re-check in 30 days — they re-add"
         },
         {
           "kind": "step",
-          "text": "If RAM is maxed, close background browsers before buying anything."
+          "text": "Switch your email to a spam-safe address."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Speed up a slow Windows PC #sysadmin #Windows11 #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261002-gadget-focus-the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressu",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "The XP-Pen Artist Pro 16 with a game-changing 16K…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "$230\nThe XP-Pen Artist Pro 16 with a game-changing 16K pressure stylus is one of the best drawing…"
-        },
-        {
-          "kind": "brief",
-          "text": "We called XP-Pen's 2.5K drawing tablet \"more capable\" than previous generations.\nNow, creatives can save $230 in Newegg's tech sale and get a free $20 gift card."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 The XP-Pen Artist Pro 16 with a game-changing 16K… (TechRadar) https://www.techradar.com/pro/the-xp-pen-artist-pro-16-with-a-game-changing-16k-pressure-stylus-is-one-of-the-best-drawing-tablets-weve-tested-and-its-now-usd230-off-at-newegg #gadgets #smartphone #itsupportguru",
+      "caption": "🔐 Clean up data brokers #infosec #2FA #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

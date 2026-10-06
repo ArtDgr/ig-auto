@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-03",
-  "renderedAt": "2026-10-02T23:11:24.311Z",
+  "date": "2026-10-06",
+  "renderedAt": "2026-10-06T00:57:47.771Z",
   "posts": [
     {
-      "id": "20261003-you-ve-never-checked-iphone-battery-health",
+      "id": "20261006-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -33,52 +33,52 @@
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#apple #appleintelligence #macbook #macrumors #appletips #macos #ios #itpro #techsupport #techtips #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appletips #iphone #macbook #applenews #itpro #apple #appleintelligence #macrumors #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261003-you-ve-never-checked-iphone-battery-health/01.png",
-        "out/instagram-ready/20261003-you-ve-never-checked-iphone-battery-health/02.png",
-        "out/instagram-ready/20261003-you-ve-never-checked-iphone-battery-health/03.png",
-        "out/instagram-ready/20261003-you-ve-never-checked-iphone-battery-health/04.png"
+        "out/instagram-ready/20261006-you-ve-never-checked-iphone-battery-health/01.png",
+        "out/instagram-ready/20261006-you-ve-never-checked-iphone-battery-health/02.png",
+        "out/instagram-ready/20261006-you-ve-never-checked-iphone-battery-health/03.png",
+        "out/instagram-ready/20261006-you-ve-never-checked-iphone-battery-health/04.png"
       ]
     },
     {
-      "id": "20261003-only-important-people-get-targeted",
+      "id": "20261006-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Only important people get targeted",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Only important people get targeted"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Only important people get targeted\nTruth: Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense.\n\nShare this with the person who still believes it →\n\n#cybersecurity #cyberdefense #infosec #security #2fa #cybersectips #secops #phishing #itsupportguru #techsupport #sysadmin #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#laptops #cpu #laptop #techreview #gpu #ssd #ram #pcgaming #helpdesk #itsupportguru #itpro #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261003-only-important-people-get-targeted/01.png",
-        "out/instagram-ready/20261003-only-important-people-get-targeted/02.png",
-        "out/instagram-ready/20261003-only-important-people-get-targeted/03.png"
+        "out/instagram-ready/20261006-a-4k-screen-is-always-better/01.png",
+        "out/instagram-ready/20261006-a-4k-screen-is-always-better/02.png",
+        "out/instagram-ready/20261006-a-4k-screen-is-always-better/03.png"
       ]
     },
     {
-      "id": "20261003-why-works-on-my-machine-finally-died",
+      "id": "20261006-why-works-on-my-machine-finally-died",
       "slot": 2,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -104,57 +104,57 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Why 'works on my machine' finally died 🔓\n\nInsider knowledge, free.\n\n• Docker packages the app with its runtime\n• Dev and prod now run identical containers\n• Config drift is the real enemy, not the code\n• IaC makes every change reviewable in PRs\n\nSave this — it'll be your shortcut later →\n\n#docker #aws #sre #cloud #devopslife #cloudinfra #devops #azure #helpdesk #itpro #techdaily #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Why 'works on my machine' finally died 🔓\n\nInsider knowledge, free.\n\n• Docker packages the app with its runtime\n• Dev and prod now run identical containers\n• Config drift is the real enemy, not the code\n• IaC makes every change reviewable in PRs\n\nSave this — it'll be your shortcut later →\n\n#sre #aws #cloudcomputing #cloud #kubernetes #cloudinfra #techops #devops #itpro #techsupport #techtips #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261003-why-works-on-my-machine-finally-died/01.png",
-        "out/instagram-ready/20261003-why-works-on-my-machine-finally-died/02.png",
-        "out/instagram-ready/20261003-why-works-on-my-machine-finally-died/03.png"
+        "out/instagram-ready/20261006-why-works-on-my-machine-finally-died/01.png",
+        "out/instagram-ready/20261006-why-works-on-my-machine-finally-died/02.png",
+        "out/instagram-ready/20261006-why-works-on-my-machine-finally-died/03.png"
       ]
     },
     {
-      "id": "20261003-clean-a-laptop-without-breaking-it",
+      "id": "20261006-wipe-an-old-phone-safely",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean a laptop without breaking it",
+      "title": "Wipe an old phone safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean a laptop without breaking it\nPower down and unplug first"
+          "text": "Wipe an old phone safely\nBack up what you want to keep"
         },
         {
           "kind": "step",
-          "text": "Power down and unplug first"
+          "text": "Back up what you want to keep — A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories."
         },
         {
           "kind": "step",
-          "text": "Use compressed air in short bursts on vents"
+          "text": "Sign out of all accounts first — Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets."
         },
         {
           "kind": "step",
-          "text": "Wipe the lid with microfiber and isopropyl"
+          "text": "Turn off Find My Device — iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Clean a laptop without breaking it 💻\n\n1. Power down and unplug first\n2. Use compressed air in short bursts on vents\n3. Wipe the lid with microfiber and isopropyl\n\nSave this for the next ticket →\n\n#pcgaming #ram #gpu #chipshortage #hardware #pc #benchmark #laptop #helpdesk #techsupport #itsupportguru #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Wipe an old phone safely 🔐\n\n1. Back up what you want to keep\n     ✓ A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories.\n2. Sign out of all accounts first\n     ✓ Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets.\n3. Turn off Find My Device\n     ✓ iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock.\n\nSave this for the next ticket →\n\n#privacy #2fa #onlinesafety #password #phishing #secops #datasecurity #infosec #sysadmin #itsupportguru #itpro #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261003-clean-a-laptop-without-breaking-it/01.png",
-        "out/instagram-ready/20261003-clean-a-laptop-without-breaking-it/02.png",
-        "out/instagram-ready/20261003-clean-a-laptop-without-breaking-it/03.png",
-        "out/instagram-ready/20261003-clean-a-laptop-without-breaking-it/04.png",
-        "out/instagram-ready/20261003-clean-a-laptop-without-breaking-it/05.png"
+        "out/instagram-ready/20261006-wipe-an-old-phone-safely/01.png",
+        "out/instagram-ready/20261006-wipe-an-old-phone-safely/02.png",
+        "out/instagram-ready/20261006-wipe-an-old-phone-safely/03.png",
+        "out/instagram-ready/20261006-wipe-an-old-phone-safely/04.png",
+        "out/instagram-ready/20261006-wipe-an-old-phone-safely/05.png"
       ]
     }
   ]

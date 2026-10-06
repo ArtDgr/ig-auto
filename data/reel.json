@@ -1,26 +1,30 @@
 {
-  "date": "20261003",
+  "date": "20261006",
   "deck": {
-    "id": "here-s-when-samsung-s-first-android-xr-glasses-are-finally-l",
-    "niche": "gadgets",
-    "href": "https://www.gsmarena.com/heres_when_samsungs_first_android_xr_glasses_are_finally_launching-news-74867.php",
-    "title": "Here's when Samsung's first Android XR glasses are finally launching",
+    "id": "twit-1104-real-gs-move-in-silence-like-lasagna-an-ai-data-ce",
+    "niche": "ai",
+    "href": "https://twit.tv/shows/this-week-in-tech/episodes/1104",
+    "title": "TWiT 1104: Real Gs Move in Silence Like Lasagna - An AI Data Center i…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "Here's when Samsung's first Android XR glas…",
+        "text": "1104",
         "kind": "hook"
       },
       {
-        "text": "Samsung showcased its first Android XR glasses during its Galaxy Unpacked event…",
+        "text": "TWiT 1104: Real Gs Move in Silence Like Las…",
         "kind": "body"
       },
       {
-        "text": "This has allegedly been confirmed by \"a Samsung official\".",
+        "text": "Is Gemini 4 truly so capable, as claimed by Google?",
         "kind": "body"
       },
       {
-        "text": "Pricing still isn't known, unfortunately.",
+        "text": "OpenAI unveils Dots to rival Meta's Muse.",
+        "kind": "body"
+      },
+      {
+        "text": "Google's Project Suncatcher prototype satellite is now in orbit.",
         "kind": "body"
       },
       {
@@ -29,5 +33,5 @@
       }
     ]
   },
-  "caption": "Here's when Samsung's first Android XR glasses are finally launching.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "TWiT 1104: Real Gs Move in Silence Like Lasagna - An AI Data Center i.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #ai #artificialintelligence #machinelearning #chatgpt #aitech #genai #aitools #futuretech\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

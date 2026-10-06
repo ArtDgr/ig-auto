@@ -1,103 +1,103 @@
 {
-  "date": "2026-10-03",
-  "generatedAt": "2026-10-02T23:11:24.321Z",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T00:57:47.778Z",
   "posts": [
     {
-      "id": "20261003-you-charge-overnight-to-100-every-night",
+      "id": "20261006-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You charge overnight to 100% every night",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You charge overnight to 100% every night\nLithium batteries age fastest at the extremes."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Lithium batteries age fastest at the extremes."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Charge to 80% for daily use and keep the phone off 100% at night."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You charge overnight to 100% every night #Android #smartphone #techtips Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261003-force-quitting-apps-saves-battery",
+      "id": "20261006-5g-is-always-faster-than-wifi",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "5G is always faster than WiFi",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "5G is always faster than WiFi"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #macOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: 5G is always faster than WiFi Truth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not… #Android #smartphone #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261003-the-upgrade-that-changes-everything",
+      "id": "20261006-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #CPU #GPU #tech Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #macOS #Apple #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261003-clean-up-data-brokers",
+      "id": "20261006-create-a-strong-memorable-passphrase",
       "slot": 3,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean up data brokers",
+      "title": "Create a strong, memorable passphrase",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean up data brokers\nSearch yourself on people-search sites"
+          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Search yourself on people-search sites"
+          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Use each site's opt-out page"
+          "text": "Keep it long — 16+ characters"
         },
         {
           "kind": "step",
-          "text": "Remove your listing and note the case ID"
+          "text": "Add symbols only if a site demands them"
         },
         {
           "kind": "step",
-          "text": "Re-check in 30 days — they re-add"
+          "text": "Never reuse it anywhere else"
         },
         {
           "kind": "step",
-          "text": "Switch your email to a spam-safe address."
+          "text": "Let your password manager remember the rest."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Clean up data brokers #infosec #2FA #tech Follow for daily tech intel.",
+      "caption": "🔐 Create a strong, memorable passphrase #2FA #cybersecurity #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

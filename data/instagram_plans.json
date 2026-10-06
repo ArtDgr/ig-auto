@@ -1,137 +1,137 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T00:57:40.854Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-06T23:15:28.669Z",
   "posts": [
     {
-      "id": "20261006-you-ve-never-checked-iphone-battery-health",
+      "id": "20261007-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appletips #iphone #macbook #applenews #itpro #apple #appleintelligence #macrumors #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#hardware #pcgaming #laptop #techreview #laptops #ssd #ram #benchmark #sysadmin #helpdesk #itpro #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261006-a-4k-screen-is-always-better",
+      "id": "20261007-antivirus-alone-keeps-you-safe",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#laptops #cpu #laptop #techreview #gpu #ssd #ram #pcgaming #helpdesk #itsupportguru #itpro #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#techsupport #sysadmin #troubleshooting #ithelp #itsupport #fixyourpc #computertips #pc #techdaily #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261006-why-works-on-my-machine-finally-died",
+      "id": "20261007-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Why 'works on my machine' finally died",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Why 'works on my machine' finally died 🔓\n\nInsider knowledge, free.\n\n• Docker packages the app with its runtime\n• Dev and prod now run identical containers\n• Config drift is the real enemy, not the code\n• IaC makes every change reviewable in PRs\n\nSave this — it'll be your shortcut later →\n\n#sre #aws #cloudcomputing #cloud #kubernetes #cloudinfra #techops #devops #itpro #techsupport #techtips #itsupportguru\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #android #gadgets #smartphone #gadgetreviews #techgear #tech #iphone #itsupportguru #itpro #techdaily #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261006-wipe-an-old-phone-safely",
+      "id": "20261007-back-up-your-iphone-before-ios-updates",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Wipe an old phone safely",
+      "title": "Back up your iPhone before iOS updates",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Wipe an old phone safely\nBack up what you want to keep"
+          "text": "Back up your iPhone before iOS updates\nConnect to Wi-Fi and power"
         },
         {
           "kind": "step",
-          "text": "Back up what you want to keep — A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories."
+          "text": "Connect to Wi-Fi and power"
         },
         {
           "kind": "step",
-          "text": "Sign out of all accounts first — Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets."
+          "text": "Settings > your name > iCloud > iCloud Backup"
         },
         {
           "kind": "step",
-          "text": "Turn off Find My Device — iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock."
+          "text": "Tap Back Up Now — wait for it to finish"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Wipe an old phone safely 🔐\n\n1. Back up what you want to keep\n     ✓ A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories.\n2. Sign out of all accounts first\n     ✓ Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets.\n3. Turn off Find My Device\n     ✓ iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock.\n\nSave this for the next ticket →\n\n#privacy #2fa #onlinesafety #password #phishing #secops #datasecurity #infosec #sysadmin #itsupportguru #itpro #techdaily\n\n@theitsupportguru — daily tech intel for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Back up your iPhone before iOS updates 🍎\n\n1. Connect to Wi-Fi and power\n2. Settings > your name > iCloud > iCloud Backup\n3. Tap Back Up Now\n     ✓ wait for it to finish\n\nSave this for the next ticket →\n\n#macos #appleintelligence #appletips #applenews #apple #itpro #iphone #macrumors #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

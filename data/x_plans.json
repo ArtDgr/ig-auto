@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-06",
-  "generatedAt": "2026-10-06T00:57:47.778Z",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-06T23:15:39.205Z",
   "posts": [
     {
-      "id": "20261006-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261007-you-clean-your-pc-with-booster-apps",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You 'clean' your PC with booster apps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You 'clean' your PC with booster apps\nThey delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — They delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Use Settings > Storage and Disk Cleanup — nothing more."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #techtips Follow for daily tech intel.",
+      "caption": "🚩 You 'clean' your PC with booster apps #techsupport #itsupport #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261006-5g-is-always-faster-than-wifi",
+      "id": "20261007-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "5G is always faster than WiFi",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5G is always faster than WiFi"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not as your always-on connection."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: 5G is always faster than WiFi Truth: At home, WiFi is usually faster and cheaper. 5G shines when you're out and about — not… #Android #smartphone #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #hardware #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261006-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261007-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #macOS #Apple #tech Follow for daily tech intel.",
+      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #tech #gadgets #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261006-create-a-strong-memorable-passphrase",
+      "id": "20261007-free-up-iphone-storage-in-5-minutes",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Create a strong, memorable passphrase",
+      "title": "Free up iPhone storage in 5 minutes",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Free up iPhone storage in 5 minutes\nSettings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Settings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Keep it long — 16+ characters"
+          "text": "Delete the biggest offline videos and games first"
         },
         {
           "kind": "step",
-          "text": "Add symbols only if a site demands them"
+          "text": "Offload apps you haven't opened in months"
         },
         {
           "kind": "step",
-          "text": "Never reuse it anywhere else"
+          "text": "Let iOS offload photos automatically"
         },
         {
           "kind": "step",
-          "text": "Let your password manager remember the rest."
+          "text": "Check again in a week — it stays under control."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Create a strong, memorable passphrase #2FA #cybersecurity #itsupportguru Follow for daily tech intel.",
+      "caption": "🍎 Free up iPhone storage in 5 minutes #Apple #macOS #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

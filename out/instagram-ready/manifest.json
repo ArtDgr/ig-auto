@@ -1,160 +1,160 @@
 {
-  "date": "2026-10-07",
-  "renderedAt": "2026-10-06T23:15:39.190Z",
+  "date": "2026-10-08",
+  "renderedAt": "2026-10-07T23:45:17.414Z",
   "posts": [
     {
-      "id": "20261007-your-laptop-is-always-hot",
+      "id": "20261008-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#hardware #pcgaming #laptop #techreview #laptops #ssd #ram #benchmark #sysadmin #helpdesk #itpro #techsupport\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appletips #macbook #itpro #appleintelligence #apple #iphone #macrumors #macos #techtips #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261007-your-laptop-is-always-hot/01.png",
-        "out/instagram-ready/20261007-your-laptop-is-always-hot/02.png",
-        "out/instagram-ready/20261007-your-laptop-is-always-hot/03.png",
-        "out/instagram-ready/20261007-your-laptop-is-always-hot/04.png"
+        "out/instagram-ready/20261008-you-ve-never-checked-iphone-battery-health/01.png",
+        "out/instagram-ready/20261008-you-ve-never-checked-iphone-battery-health/02.png",
+        "out/instagram-ready/20261008-you-ve-never-checked-iphone-battery-health/03.png",
+        "out/instagram-ready/20261008-you-ve-never-checked-iphone-battery-health/04.png"
       ]
     },
     {
-      "id": "20261007-antivirus-alone-keeps-you-safe",
+      "id": "20261008-chatgpt-remembers-everything",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus alone keeps you safe",
+      "title": "ChatGPT remembers everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus alone keeps you safe"
+          "text": "ChatGPT remembers everything"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
+          "text": "THE TRUTH — Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#techsupport #sysadmin #troubleshooting #ithelp #itsupport #fixyourpc #computertips #pc #techdaily #itsupportguru #itpro\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: ChatGPT remembers everything\nTruth: Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #genai #aitools #futuretech #copilot #aitech #ai #aitips #helpdesk #techtips #sysadmin #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261007-antivirus-alone-keeps-you-safe/01.png",
-        "out/instagram-ready/20261007-antivirus-alone-keeps-you-safe/02.png",
-        "out/instagram-ready/20261007-antivirus-alone-keeps-you-safe/03.png"
+        "out/instagram-ready/20261008-chatgpt-remembers-everything/01.png",
+        "out/instagram-ready/20261008-chatgpt-remembers-everything/02.png",
+        "out/instagram-ready/20261008-chatgpt-remembers-everything/03.png"
       ]
     },
     {
-      "id": "20261007-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20261008-what-it-does-before-calling-it-a-hardware-problem",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "What IT does before calling it a hardware problem",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#smartphonetips #android #gadgets #smartphone #gadgetreviews #techgear #tech #iphone #itsupportguru #itpro #techdaily #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#pc #windows11 #computertips #pchelp #troubleshooting #ithelp #techsupport #sysadmin #helpdesk #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261007-how-to-tell-if-your-battery-is-really-dying/01.png",
-        "out/instagram-ready/20261007-how-to-tell-if-your-battery-is-really-dying/02.png",
-        "out/instagram-ready/20261007-how-to-tell-if-your-battery-is-really-dying/03.png"
+        "out/instagram-ready/20261008-what-it-does-before-calling-it-a-hardware-problem/01.png",
+        "out/instagram-ready/20261008-what-it-does-before-calling-it-a-hardware-problem/02.png",
+        "out/instagram-ready/20261008-what-it-does-before-calling-it-a-hardware-problem/03.png"
       ]
     },
     {
-      "id": "20261007-back-up-your-iphone-before-ios-updates",
+      "id": "20261008-monitor-your-laptop-s-real-temps",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Back up your iPhone before iOS updates",
+      "title": "Monitor your laptop's real temps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Back up your iPhone before iOS updates\nConnect to Wi-Fi and power"
+          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Connect to Wi-Fi and power"
+          "text": "Install a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Settings > your name > iCloud > iCloud Backup"
+          "text": "Run a 15-minute stress load or a game"
         },
         {
           "kind": "step",
-          "text": "Tap Back Up Now — wait for it to finish"
+          "text": "Watch CPU/GPU temps while under load"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Back up your iPhone before iOS updates 🍎\n\n1. Connect to Wi-Fi and power\n2. Settings > your name > iCloud > iCloud Backup\n3. Tap Back Up Now\n     ✓ wait for it to finish\n\nSave this for the next ticket →\n\n#macos #appleintelligence #appletips #applenews #apple #itpro #iphone #macrumors #helpdesk #techdaily #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Monitor your laptop's real temps 💻\n\n1. Install a lightweight temp tool (open-source)\n2. Run a 15-minute stress load or a game\n3. Watch CPU/GPU temps while under load\n\nSave this for the next ticket →\n\n#ram #gpu #ssd #pcgaming #hardware #cpu #pc #chipshortage #techsupport #techtips #techdaily #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261007-back-up-your-iphone-before-ios-updates/01.png",
-        "out/instagram-ready/20261007-back-up-your-iphone-before-ios-updates/02.png",
-        "out/instagram-ready/20261007-back-up-your-iphone-before-ios-updates/03.png",
-        "out/instagram-ready/20261007-back-up-your-iphone-before-ios-updates/04.png",
-        "out/instagram-ready/20261007-back-up-your-iphone-before-ios-updates/05.png"
+        "out/instagram-ready/20261008-monitor-your-laptop-s-real-temps/01.png",
+        "out/instagram-ready/20261008-monitor-your-laptop-s-real-temps/02.png",
+        "out/instagram-ready/20261008-monitor-your-laptop-s-real-temps/03.png",
+        "out/instagram-ready/20261008-monitor-your-laptop-s-real-temps/04.png",
+        "out/instagram-ready/20261008-monitor-your-laptop-s-real-temps/05.png"
       ]
     }
   ]

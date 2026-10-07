@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-07",
-  "generatedAt": "2026-10-06T23:15:39.205Z",
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-07T23:45:17.425Z",
   "posts": [
     {
-      "id": "20261007-you-clean-your-pc-with-booster-apps",
+      "id": "20261008-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You 'clean' your PC with booster apps",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You 'clean' your PC with booster apps\nThey delete the wrong things and claim to fix problems you don't have."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They delete the wrong things and claim to fix problems you don't have."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Use Settings > Storage and Disk Cleanup — nothing more."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You 'clean' your PC with booster apps #techsupport #itsupport #tech Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #macOS #Apple #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261007-a-4k-screen-is-always-better",
+      "id": "20261008-you-need-the-most-expensive-model",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "You need the most expensive model",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "You need the most expensive model"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #hardware #PC #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: You need the most expensive model Truth: Small models handle most daily tasks — summarising, translating, drafting — faster and… #GenAI #ChatGPT #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261007-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20261008-5-security-habits-it-pros-actually-run",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "5 security habits IT pros actually run",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #tech #gadgets #techtips Follow for daily tech intel.",
+      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #infosec #2FA #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261007-free-up-iphone-storage-in-5-minutes",
+      "id": "20261008-connect-your-wifi-step-by-step",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Free up iPhone storage in 5 minutes",
+      "title": "Connect your WiFi step by step",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Free up iPhone storage in 5 minutes\nSettings > General > iPhone Storage"
+          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Settings > General > iPhone Storage"
+          "text": "Click the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Delete the biggest offline videos and games first"
+          "text": "Pick your network name and enter the password exactly"
         },
         {
           "kind": "step",
-          "text": "Offload apps you haven't opened in months"
+          "text": "Watch for auto-correct — passwords get mangled silently"
         },
         {
           "kind": "step",
-          "text": "Let iOS offload photos automatically"
+          "text": "Forget and rejoin the network if it keeps asking for the key"
         },
         {
           "kind": "step",
-          "text": "Check again in a week — it stays under control."
+          "text": "Still no internet? Unplug the router for 60 seconds and retry."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🍎 Free up iPhone storage in 5 minutes #Apple #macOS #techtips Follow for daily tech intel.",
+      "caption": "🛠️ Connect your WiFi step by step #Windows11 #techsupport #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

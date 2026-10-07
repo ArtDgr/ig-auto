@@ -1,0 +1,14 @@
+{
+  "url": "https://www.cultofmac.com/news/remove-apple-intelligence-macos-27-removemacai",
+  "fetched": "2026-10-07T23:42:41.769Z",
+  "paragraphs": [
+    "A new open-source tool lets Mac users remove Apple Intelligence from macOS 27 and regain 12GB of storage or more. Named RemoveMacAI, the tool runs from Terminal.",
+    "Apple took away the Apple Intelligence master switch in macOS 27. Now, if you turn off individual features, the AI models still sit on your drive. On a Mac with a small SSD, that’s a lot of dead weight.",
+    "Apple Intelligence takes up gigabytes of storage on a Mac because many of its AI models run locally rather than sending everything to Apple’s servers. This helps protect users’ privacy while speeding up tasks.",
+    "macOS stores these models on the Mac so features such as Writing Tools, Image Playground, etc., can work without constantly uploading your data to the cloud. But, understandably, anyone not interested in macOS 27’s AI capabilities might want those gigabytes of storage back. And RemoveMacAI does the job.",
+    "It’s free and is available on GitHub under the MIT license. It requires macOS 27 and a Mac with Apple silicon. You can either install it with one-line curl command or through Homebrew.",
+    "Once launched, the tool displays the current state and asks you to confirm. It then opens System Settings so you can approve a configuration profile. macOS requires you to do that, so the tool can’t skip it. After that, the tool removes the models from your drive.",
+    "If you want to play it safe, run the dry-run option first. Doing so shows the changes without applying them. You can also tell RemoveMacAI to leave certain features switched on, with a reverse command undoing everything.",
+    "The configuration profile applies Apple’s own restriction keys for Apple Intelligence. The AI models are then removed using Apple’s asset service. But System Integrity Protection stays on, so nothing under /System is edited directly."
+  ]
+}

@@ -39,10 +39,10 @@ Nothing outside this list is required.
 On Android (free, no laptop): Firefox → install the Cookie-Editor add-on →
 tiktok.com → log in as `theitspprtguru@gmail.com` → Cookie-Editor → Export
 (JSON) → add a repository Actions secret named `TIKTOK_RAW_COOKIES` with the
-full JSON value, then run `tiktok-post.yml` manually once. The workflow imports
-the JSON directly; do not send it in chat or use an online encoder because the
-exported cookies are account credentials. `TIKTOK_COOKIES_B64` remains the
-preferred secret when using the QR login.
+full JSON value, then run `tiktok-cookie-check.yml` manually to validate the
+session without posting. Do not send the JSON in chat or use an online encoder
+because the exported cookies are account credentials. `TIKTOK_COOKIES_B64`
+remains the preferred secret when using the QR login.
 
 No password typing, no slider, no laptop. `credentials/tiktok.json` is unused in cloud mode.
 

@@ -1,145 +1,174 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-07T23:45:17.425Z",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-08T23:54:22.884Z",
   "posts": [
     {
-      "id": "20261008-you-keep-every-screenshot-you-ever-took",
+      "id": "20261009-you-have-no-cloud-budget-alert",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You have no cloud budget alert",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You have no cloud budget alert\nSurprise bills come from resources you forgot were still running."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — Surprise bills come from resources you forgot were still running."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Create a budget with 50/80/100% alerts today — it takes five minutes."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #macOS #Apple #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You have no cloud budget alert #AWS #cloud #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261008-you-need-the-most-expensive-model",
+      "id": "20261009-more-vram-is-all-that-matters",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need the most expensive model",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need the most expensive model"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Small models handle most daily tasks — summarising, translating, drafting — faster and cheaper. Reach for the frontier model only for deep reasoning."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You need the most expensive model Truth: Small models handle most daily tasks — summarising, translating, drafting — faster and… #GenAI #ChatGPT #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #GPU #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261008-5-security-habits-it-pros-actually-run",
+      "id": "20261009-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 security habits IT pros actually run",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #infosec #2FA #techtips Follow for daily tech intel.",
+      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #sysadmin #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261008-connect-your-wifi-step-by-step",
+      "id": "20261009-build-a-simple-auto-classifier",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Build a simple auto-classifier",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Build a simple auto-classifier\nCollect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Collect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Prompt: 'Classify each item into X, Y, or Z'"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Test on items you've never shown it"
         },
         {
           "kind": "step",
-          "text": "Forget and rejoin the network if it keeps asking for the key"
+          "text": "Refine the examples if it's messy"
         },
         {
           "kind": "step",
-          "text": "Still no internet? Unplug the router for 60 seconds and retry."
+          "text": "Good enough to run — keep it monitored."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Connect your WiFi step by step #Windows11 #techsupport #tech Follow for daily tech intel.",
+      "caption": "🤖 Build a simple auto-classifier #MachineLearning #AI #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch Law & Order season 26 from anywhere in…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch Law & Order season 26 from\nHow to watch Law & Order season 26 from anywhere in the world – stream online for free"
+        },
+        {
+          "kind": "brief",
+          "text": "Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\nHere's how to watch Law & Order season 26 from anywhere."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 How to watch Law & Order season 26 from anywhere in… (TechRadar) https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26 #smartphone #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,0 +1,15 @@
+{
+  "url": "https://9to5mac.com/2026/10/05/apple-accuses-openai-of-improperly-adding-new-arguments-to-trade-secrets-case/",
+  "fetched": "2026-10-08T23:51:43.435Z",
+  "paragraphs": [
+    "A few days ago, OpenAI accused Apple of improperly adding new evidence to its trade secrets case. Today, Apple fired back with its own accusation that OpenAI went beyond what court rules permit in its response. Here are the details.",
+    "One of the many aspects of the lawsuit in which Apple accuses two former employees (Chang Liu and Tang Tan), OpenAI, and io Products of trade secret misappropriation involves a request for a preliminary injunction.",
+    "In a nutshell, Apple has asked the court to issue a preliminary injunction, arguing that it would prevent its trade secrets from becoming further embedded in OpenAI’s hardware development while the case plays out.",
+    "As part of the legal back-and-forth over that request, Apple filed a reply brief supported by five expert declarations. That, in turn, led the defendants to accuse Apple of improperly introducing new evidence and ask the court to disregard some of the material.",
+    "In their objection filing, which accused Apple of presenting new evidence, OpenAI and the other defendants also submitted several documents countering Apple’s claims.",
+    "Today, Apple filed its response to those objections, arguing that the defendants went beyond simply objecting to new evidence, introducing new arguments and testimony of their own:",
+    "Rule 7-3(d)(1) permits a party to object to new evidence in a reply brief, but cautions that the filing “may not include further argument on the motion.” Defendants did not comply with this restriction and used their filing to relitigate the merits of Apple’s Motion for Preliminary Injunction.",
+    "For example, Defendants dispute whether Dr. Runge has a “basis to offer any analysis, adequately responds to “contrary evidence,” and demonstrates that certain Apple information is not public. […] Such arguments are not objections to new evidence. […] (“[A]rgument regarding how certain of Plaintiff’s positions are unsupported by evidence or contradicted by other testimony” is “not an objection to evidence.”)."
+  ],
+  "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?quality=82&strip=all&resize=1200,628"
+}

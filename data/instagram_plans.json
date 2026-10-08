@@ -1,137 +1,166 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-07T23:45:07.818Z",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-08T23:54:09.788Z",
   "posts": [
     {
-      "id": "20261008-you-ve-never-checked-iphone-battery-health",
+      "id": "20261009-you-buy-phones-on-megapixel-counts",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You buy phones on megapixel counts",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Read real photo tests, not the spec sheet."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#appletips #macbook #itpro #appleintelligence #apple #iphone #macrumors #macos #techtips #helpdesk #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou buy phones on megapixel counts\n\nWhy it's a problem: Sensor and processing beat megapixels every time.\nThe fix: Read real photo tests, not the spec sheet.\n\nSave this before it becomes a repair bill →\n\n#techgear #gadgetreviews #iphone #android #tech #gadgets #batterytips #smartphonetips #helpdesk #itsupportguru #itpro #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261008-chatgpt-remembers-everything",
+      "id": "20261009-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "ChatGPT remembers everything",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "ChatGPT remembers everything"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: ChatGPT remembers everything\nTruth: Sessions are ephemeral unless you save them. Context resets far more often than people assume — 'it knew my project last week' is the classic trap.\n\nShare this with the person who still believes it →\n\n#artificialintelligence #genai #aitools #futuretech #copilot #aitech #ai #aitips #helpdesk #techtips #sysadmin #techdaily\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#ios #apple #macrumors #appleintelligence #appletips #itpro #macbook #iphone #techsupport #techtips #itsupportguru #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261008-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20261009-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What IT does before calling it a hardware problem 🔓\n\nInsider knowledge, free.\n\n• Force-restart once — clears 80% of weird states\n• Check disk space before touching drivers\n• Test a clean user profile before reinstalling\n• Re-seat RAM and cables before ordering parts\n\nSave this — it'll be your shortcut later →\n\n#pc #windows11 #computertips #pchelp #troubleshooting #ithelp #techsupport #sysadmin #helpdesk #techdaily\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nTag the coworker who needs this one.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#ram #techreview #gpu #hardware #cpu #pcgaming #pc #laptops #helpdesk #itsupportguru #techsupport #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261008-monitor-your-laptop-s-real-temps",
+      "id": "20261009-automate-repetitive-prompts",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor your laptop's real temps",
+      "title": "Automate repetitive prompts",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
+          "text": "Automate repetitive prompts\nTurn a good prompt into a template with placeholders"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight temp tool (open-source)"
+          "text": "Turn a good prompt into a template with placeholders"
         },
         {
           "kind": "step",
-          "text": "Run a 15-minute stress load or a game"
+          "text": "Wrap it in a small script or saved gist"
         },
         {
           "kind": "step",
-          "text": "Watch CPU/GPU temps while under load"
+          "text": "Swap in the new subject each run"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Monitor your laptop's real temps 💻\n\n1. Install a lightweight temp tool (open-source)\n2. Run a 15-minute stress load or a game\n3. Watch CPU/GPU temps while under load\n\nSave this for the next ticket →\n\n#ram #gpu #ssd #pcgaming #hardware #cpu #pc #chipshortage #techsupport #techtips #techdaily #sysadmin\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Automate repetitive prompts 🤖\n\n1. Turn a good prompt into a template with placeholders\n2. Wrap it in a small script or saved gist\n3. Swap in the new subject each run\n\nSave this for the next ticket →\n\n#copilot #machinelearning #chatgpt #genai #aitips #artificialintelligence #aitools #aitech #itpro #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "status": "pending"
+    },
+    {
+      "id": "20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch Law & Order season 26 from anywhere in…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch Law & Order season 26 from\nHow to watch Law & Order season 26 from anywhere in the world – stream online for free"
+        },
+        {
+          "kind": "brief",
+          "text": "Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\nHere's how to watch Law & Order season 26 from anywhere."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nHow to watch Law & Order season 26 from anywhere in…\n\n• Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\n• Here's how to watch Law & Order season 26 from anywhere.\n\nSource: TechRadar — https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26\n\nWhich one's on your wishlist? Drop it below 👇\n\n#smartphone #tech #android #techgear #samsung #batterytips #gadgetreviews #smartphonetips #techdaily #techtips #sysadmin #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

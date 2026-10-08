@@ -1,30 +1,30 @@
 {
-  "date": "20261008",
+  "date": "20261009",
   "deck": {
-    "id": "twit-1104-real-gs-move-in-silence-like-lasagna-an-ai-data-ce",
-    "niche": "ai",
-    "href": "https://twit.tv/shows/this-week-in-tech/episodes/1104",
-    "title": "TWiT 1104: Real Gs Move in Silence Like Lasagna - An AI Data Center i…",
+    "id": "microsoft-launches-36-2-599-surface-laptop-ultra-to-take-on-",
+    "niche": "apple",
+    "href": "https://www.macrumors.com/2026/10/07/microsoft-surface-laptop-ultra/",
+    "title": "Microsoft Launches &#36;2,599 Surface Laptop Ultra to Take on MacBook…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "1104",
+        "text": "2,599,",
         "kind": "hook"
       },
       {
-        "text": "TWiT 1104: Real Gs Move in Silence Like Las…",
+        "text": "Microsoft Launches &#36;2,599 Surface Lapto…",
         "kind": "body"
       },
       {
-        "text": "Is Gemini 4 truly so capable, as claimed by Google?",
+        "text": "Microsoft today announced launch timing and pricing for the Surface Laptop Ultr…",
         "kind": "body"
       },
       {
-        "text": "OpenAI unveils Dots to rival Meta's Muse.",
+        "text": "The 15-inch Surface Laptop Ultra is priced starting at &#36;2,599, undercutting…",
         "kind": "body"
       },
       {
-        "text": "Google's Project Suncatcher prototype satellite is now in orbit.",
+        "text": "Microsoft says it is built for \"demanding creative, software development, AI, e…",
         "kind": "body"
       },
       {
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "caption": "TWiT 1104: Real Gs Move in Silence Like Lasagna - An AI Data Center i.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #ai #artificialintelligence #machinelearning #chatgpt #aitech #genai #aitools #futuretech\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Microsoft Launches &#36;2,599 Surface Laptop Ultra to Take on MacBook.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #apple #iphone #macbook #macos #ios #applenews #appleintelligence #macrumors\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

@@ -1,0 +1,15 @@
+{
+  "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+  "fetched": "2026-10-08T23:51:46.950Z",
+  "paragraphs": [
+    "They cast the wrong lead in “Good Will Hunting,” apparently, because it’s Ben Affleck who is the secret genius, as it turns out. The actor who earlier this year sold his AI filmmaking startup to Netflix for a reported $587 million has gone viral this week for demonstrating his understanding of AI technology, neural networks, machine learning, and the like, across multiple video clips of his recent interviews.",
+    "The movie star delved into his interest in technology most recently on an episode of GQ’s “One More Question” series this week, where he humbly started with “I’ve always been kind of into computers since I was young,” before nerding out on the development of AI as it relates to filmmaking, while using AI terminology like machine learning, neural networks, transformers, tensors, GPUs, inference, and more.",
+    "In a clip that’s making the rounds, Affleck explains to the impressed interviewer, Zach Baron, that he got into the space when analog film moved to digital. As he spoke, he kept defining terms so the interviewer could understand what he was talking about.",
+    "“I became more interested in that aspect of it, and the visual effects workflow for many years has included machine learning,” Affleck began. “So I can write, like, pretty shitty Python scripts and stuff like that. Because with convolutional neural networks — which were the sort of precursors to what the transformer can do — which is just much more computation simultaneously — you would do things like, look at what’s called a tensor — which is just the numerical translation of a visual image, in numbers like the batch number, the frame number, the red, green, and blue values of each pixel in each frame, and how many? It’s just that simple, right?”",
+    "No, Ben Affleck, it is not just that simple, which is why this video is going viral.",
+    "The actor then went into how neural networks were used to identify patterns and do edge detection or feature extraction, which he described as “identifying patterns enough to know — like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.”",
+    "He also admitted he used his status as a Hollywood star to get a peek at emerging AI technology, at times. OpenAI was among those he visited, Affleck said in a separate clip, which ultimately led him to understand how he could get more directly involved in the AI space.",
+    "As the interviewer continued, Affleck explained how AI can help with filmmaking while not replacing it, leading to the development and sale of his own startup in this space. (He claims the $587 million figure is “not right,” noting that he didn’t own the whole company.)"
+  ],
+  "image": "https://techcrunch.com/wp-content/uploads/2026/10/ben-affleck-GettyImages-2297443537.jpg?w=1024"
+}

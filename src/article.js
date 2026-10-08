@@ -53,16 +53,23 @@ export async function fetchParagraphs(topic) {
           const t = (p.innerText || "").replace(/\s+/g, " ").trim();
           if (t.length >= 70 && out.length < 8 && !out.includes(t)) out.push(t);
         }
-        return out;
+        // FREE exact-topic photo: the article's own hero image.
+        const og =
+          document.querySelector("meta[property='og:image']")?.content ||
+          document.querySelector("meta[name='twitter:image']")?.content ||
+          document.querySelector("article img, main img")?.src || "";
+        return { paras: out, image: og };
       })
-      .catch(() => []);
+      .catch(() => ({ paras: [], image: "" }));
     await page.close().catch(() => {});
-    if (paras.length >= 2) {
+    const paragraphs = paras.paras || paras;
+    if (Array.isArray(paragraphs) && paragraphs.length >= 2) {
       fs.writeFileSync(
         cacheFile,
-        JSON.stringify({ url: topic.link, fetched: new Date().toISOString(), paragraphs: paras }, null, 2)
+        JSON.stringify({ url: topic.link, fetched: new Date().toISOString(), paragraphs, image: paras.image || "" }, null, 2)
       );
-      return paras;
+      if (paras.image && !topic.image) topic.image = paras.image;
+      return paragraphs;
     }
   } catch {}
   finally {

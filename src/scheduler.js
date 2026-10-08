@@ -9,6 +9,7 @@ import { writeCaptions } from "./captions.js";
 import { generateIgPlan, loadPlan } from "./ig-generator.js";
 import { renderAll as renderIg } from "./ig-render.js";
 import { checkManifest } from "./qa-check.js";
+import { checkTikTok } from "./tiktok-qa-check.js";
 import { generateXPlan, loadPlan as loadXPlan } from "./x-generator.js";
 import { renderAll as renderX } from "./x-render.js";
 import { checkXManifest } from "./x-qa-check.js";
@@ -151,6 +152,8 @@ async function daily() {
     try {
       const n = fs.readdirSync("out/tiktok-ready").filter((f) => f.endsWith(".mp4")).length;
       console.log(`[daily] TikTok ready: ${n} video(s) in out/tiktok-ready`);
+      const qa = await checkTikTok();
+      console.log(qa.ok ? `[daily] TikTok QA PASS — ${qa.pending} pending` : `[daily] TikTok QA FAIL (${qa.errors.length}): ` + qa.errors.slice(0, 3).join(" | "));
     } catch {}
   }
   if (config.x?.enabled !== false) {
@@ -171,6 +174,10 @@ else if (cmd === "igrender") igRenderStep();
 else if (cmd === "xplan") xPlanStep();
 else if (cmd === "xrender") xRenderStep();
 else if (cmd === "reel") reelStep();
+else if (cmd === "tiktokqa") checkTikTok().then((r) => {
+  console.log(r.ok ? `[tiktokqa] PASS ${r.pending}/${r.videos}` : "[tiktokqa] FAIL " + r.errors.join(" | "));
+  process.exitCode = r.ok ? 0 : 1;
+});
 else if (cmd === "captions") {
   if (!fs.existsSync(SCRIPTS)) { console.warn("[captions] no scripts.json, run generate first"); }
   else {

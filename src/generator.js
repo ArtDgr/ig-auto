@@ -23,6 +23,15 @@ function slug(s) {
   );
 }
 
+function phraseCut(s, n) {
+  const v = niceness(s);
+  if (v.length <= n) return v;
+  let cut = v.slice(0, n);
+  const sp = cut.lastIndexOf(" ");
+  if (sp > n * 0.5) cut = cut.slice(0, sp);
+  return cut.replace(/[,\-–—:]+$/, "").trimEnd();
+}
+
 function buildDeck(topic, index) {
   const raw = niceness(topic.title || topic);
   const sentences = String(topic.snippet || raw)
@@ -32,7 +41,9 @@ function buildDeck(topic, index) {
   const longForm = sentences.length >= 3 ? sentences : null;
   const nicheTag = String(topic.nicheId || "tech").replace(/\s+/g, "").toLowerCase();
 
-  const hook = `${config.brand}: ${shorten(raw, 46)}`;
+  // Viral hook: bold ≤10-word punch first (stat kept whole), full headline
+  // as the second line for search keywords — never mid-word cut.
+  const hook = phraseCut(raw, 60);
 
   const bodyPoints = longForm
     ? longForm.map((s) => shorten(s, 88)).filter((s) => !isRetailPromo(s))
@@ -50,6 +61,7 @@ function buildDeck(topic, index) {
     id: slug(raw),
     niche: topic.nicheId || "",
     href: topic.link || "",
+    image: topic.image || "",
     title: shorten(raw, 70),
     description: `Automated ${config.brand} short on ${raw}. #shorts #tech #${nicheTag}`,
     slides

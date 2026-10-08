@@ -64,17 +64,25 @@ function main() {
     }
     let tkCode = 0;
     const tiktokEnabled = config.tiktokBot?.enabled !== false && (config.distribution?.tiktok ?? 0) > 0;
-    const bufferOwnsTiktok = config.buffer?.ownsPosting === true;
+    // FREE-ONLY TikTok: local Playwright upload is the poster. Buffer is only
+    // used when buffer.tiktokViaBuffer === true (paid path, default false).
+    const bufferOwnsTiktok = config.buffer?.ownsPosting === true && config.buffer?.tiktokViaBuffer === true;
     if (bufferOwnsTiktok && tiktokEnabled) {
       console.log("[post-runner] Buffer owns TikTok posting — skipping local tiktok-bot (cloud queue is truth).");
     } else if (tiktokEnabled) {
-      const tkArgs = [];
-      if (dry) tkArgs.push("--dry");
-      if (force) tkArgs.push("--force");
-      if (process.env.POST_TIKTOK === "0") {
-        console.log("[post-runner] TikTok skipped (POST_TIKTOK=0)");
+      const tkQa = await runNode("src/tiktok-qa-check.js", []);
+      if (tkQa !== 0) {
+        console.error("[post-runner] TikTok QA FAILED — refusing TikTok post. Fix flagged defects, re-verify with `node src/tiktok-qa-check.js`.");
+        tkCode = 1;
       } else {
-        tkCode = await runNode("src/tiktok-bot.js", tkArgs);
+        const tkArgs = [];
+        if (dry) tkArgs.push("--dry");
+        if (force) tkArgs.push("--force");
+        if (process.env.POST_TIKTOK === "0") {
+          console.log("[post-runner] TikTok skipped (POST_TIKTOK=0)");
+        } else {
+          tkCode = await runNode("src/tiktok-bot.js", tkArgs);
+        }
       }
     } else {
       console.log("[post-runner] TikTok disabled (tiktokBot.enabled=false or distribution.tiktok=0), skipping.");

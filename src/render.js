@@ -3,6 +3,7 @@ import { promisify } from "node:util";
 import fs from "node:fs";
 import path from "node:path";
 import config from "../config.json" with { type: "json" };
+import { resolvePhoto } from "./photo.js";
 
 const exec = promisify(execFile);
 const V = config.video;
@@ -150,9 +151,12 @@ function techBgExpr(accent, dur, seed) {
   );
 }
 
-// One fully-styled slide: gradient bg + pop-in text + accent kicker + progress
-// bar + smooth fade in/out. Every frame moves — no more flat static cards.
+// Cinematic photo background: real topic photo, slow Ken Burns drift
+// (alternate in/out per slide so consecutive slides never feel static),
+// plus a dark legibility grade so white text always pops. Falls back to
+// the gradient+life background when no photo resolves (offline-safe).
 async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
+  const photo = opts.photo || null;
   const total = opts.total || 1;
   const accent = opts.accent || "#0E9384";
   const kind = slide.kind;
@@ -211,6 +215,28 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
 
   const speed = opts.lifeOpts?.speed ?? (isHook ? 0.15 : isCta ? 0.2 : 0.1);
   const seed = opts.seed || 11;
+  if (photo && fs.existsSync(photo)) {
+    // Ken Burns: zoom in on even slides, drift out on odd ones.
+    const frames = Math.max(1, Math.round(dur * FPS));
+    const zin = index % 2 === 0;
+    const zoomExpr = zin ? `min(1.0+0.0016*on,1.35)` : `max(1.35-0.0016*on,1.0)`;
+    const kb = `scale=2160:3840,zoompan=z='${zoomExpr}':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x1920:fps=${FPS},setsar=1`;
+    const grade =
+      `drawbox=x=0:y=0:w=iw:h=ih:color=0x000000@0.38:t=fill,` +
+      `drawbox=x=0:y=ih*0.42:w=iw:h=ih*0.58:color=0x000000@0.42:t=fill`;
+    const photoChain = [kb, grade, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
+      .filter(Boolean)
+      .join(",");
+    await ff([
+      "-loop", "1", "-i", photo,
+      "-filter_complex", `[0:v]${photoChain}[v]`,
+      "-map", "[v]",
+      "-t", String(dur),
+      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
+      "-y", outMp4
+    ]);
+    return lines.join("\n");
+  }
   const bg = techBgExpr(accent, dur, seed);
   await ff([
     "-f","lavfi","-i",gradientSource(accent,dur,speed),"-f","lavfi","-i",lifeSource(accent,dur,seed,opts.lifeOpts||{}),
@@ -242,11 +268,17 @@ export async function renderDeck(deck, outPath) {
   const accent = theme.accent;
   const lifeOpts = theme.life || {};
   const seed = seedFromId(deck.id);
-  console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent}`);
+  let photo = null;
+  try {
+    photo = await resolvePhoto(deck, deck.image);
+  } catch (e) {
+    console.warn(`[render] photo fallback (gradient) for ${deck.id}: ${e.message}`);
+  }
+  console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent} bg=${photo ? "photo" : "gradient"}`);
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photo });
     clips.push(clip);
   }
 

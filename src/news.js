@@ -68,6 +68,24 @@ function stripHtml(s) {
     .trim();
 }
 
+function extractImage(i) {
+  // RSS topic-matched photos (free, exact-story): media:content / thumbnail / enclosure.
+  const cand = [];
+  const push = (v) => { if (typeof v === "string" && /^https?:\/\//i.test(v)) cand.push(v); };
+  const fromObj = (o) => {
+    if (!o) return;
+    if (typeof o === "string") { push(o); return; }
+    if (Array.isArray(o)) { o.forEach(fromObj); return; }
+    push(o["@url"] || o["@href"] || o.url || o.src || o.text || o["#text"]);
+  };
+  fromObj(i["media:content"]);
+  fromObj(i["media:thumbnail"]);
+  fromObj(i.enclosure);
+  fromObj(i["itunes:image"]);
+  fromObj(i.image);
+  return cand.find((u) => /\.(jpe?g|png|webp)(\?|#|$)/i.test(u)) || cand[0] || "";
+}
+
 function parseFeed(text, nicheId) {
   const parser = new XMLParser({
     ignoreAttributes: false,
@@ -91,6 +109,7 @@ function parseFeed(text, nicheId) {
         return {
           title: clean(extractText(i.title)),
           link: atomHref || link,
+          image: extractImage(i),
           pubDate:
             extractText(i.pubDate) ||
             extractText(i.isoDate) ||

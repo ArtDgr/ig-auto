@@ -4,12 +4,25 @@ import config from "../config.json" with { type: "json" };
 
 const TIK = config.tiktok;
 
+// Engagement questions rotate per video (comments are a top 2026 ranking
+// signal). Deterministic per deck id so re-renders keep the same question.
+const ENGAGE_QS = [
+  "Agree or disagree? 👇",
+  "Which one surprised you most? 👇",
+  "Have you seen this yet? 👇",
+  "Save this for later — which tip helps you most? 👇",
+  "Tag someone who needs to know this 👇",
+];
+
 export function buildCaption(deck) {
   const hook = deck.slides?.find((s) => s.kind === "hook")?.text || deck.title || "";
   const cleanHook = hook.replace(/^TechBrief:\s*/i, "").replace(/[.!…]+/gu, "").trim();
   const nicheTags = TIK.nicheHashtags[deck.niche] || [];
   const tags = [...new Set([...TIK.baseHashtags, ...nicheTags])].join(" ");
-  const caption = `${cleanHook}. ${TIK.cta}\n${tags}`.trim();
+  let h = 0;
+  for (const c of String(deck.id || cleanHook)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const q = ENGAGE_QS[h % ENGAGE_QS.length];
+  const caption = `${cleanHook}. ${q} ${TIK.cta}\n${tags}`.trim();
   return caption;
 }
 

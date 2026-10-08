@@ -1,0 +1,51 @@
+name: tiktok-post-slots
+# CLOUD-ONLY posting — no laptop. 3x daily AEST (Brisbane, UTC+10, no DST):
+# 07:00 AEST = 21:00 UTC (prev day) | 12:00 AEST = 02:00 UTC | 18:00 AEST = 08:00 UTC
+on:
+  schedule:
+    - cron: "0 21 * * *"
+    - cron: "0 2 * * *"
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Australia/Brisbane
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install deps + browser
+        run: |
+          npm ci
+          npx playwright install --with-deps firefox
+      - name: Restore TikTok session from secret (free, no laptop)
+        run: |
+          if [ -z "$TIKTOK_COOKIES_B64" ]; then
+            echo "::error::TIKTOK_COOKIES_B64 secret missing — run the tiktok-qr-bootstrap workflow once from github.com and save the secret (phone browser is fine)."
+            exit 1
+          fi
+          echo "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
+          node src/import-cookies.js /tmp/tiktok-cookies.json --profile=tiktok
+        env:
+          TIKTOK_COOKIES_B64: ${{ secrets.TIKTOK_COOKIES_B64 }}
+      - name: TikTok QA gate
+        run: node src/tiktok-qa-check.js
+      - name: TikTok headless post (1 slot)
+        run: node src/tiktok-bot.js --force
+      - name: Commit .done markers
+        if: always()
+        run: |
+          git config user.name "tiktok slots bot"
+          git config user.email "tiktok-slots@users.noreply.github.com"
+          git add out/tiktok-ready 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "tiktok slot $(date +%F\ %T\ %Z)"
+          git pull --rebase --autostash || true
+          git push || true

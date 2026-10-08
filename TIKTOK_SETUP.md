@@ -25,9 +25,11 @@ Nothing outside this list is required.
 ## 1. One-time login — cloud only, no laptop (phone + github.com)
 
 1. On github.com (phone browser is fine): Actions → `tiktok-qr-bootstrap` → Run workflow.
-2. After ~1 min: download the `tiktok-qr` artifact → open `tiktok-qr.png`.
+2. Once the `tiktok-qr` artifact appears (while the job is still running),
+   download it and open `tiktok-qr.png`.
 3. On your phone: TikTok app signed in as `theitspprtguru@gmail.com` → scan the QR → Approve.
-4. The job prints `SESSION CONFIRMED` and uploads `tiktok-cookies.b64`.
+4. The job prints `SESSION CONFIRMED` and uploads a separate
+   `tiktok-cookies` artifact containing `tiktok-cookies.b64`.
 5. Still on github.com: repo Settings → Secrets → Actions → new secret
    `TIKTOK_COOKIES_B64` = full contents of `tiktok-cookies.b64`. Done.
    All future runs reuse it headless. Re-do this only when TikTok expires the session.
@@ -36,10 +38,11 @@ Nothing outside this list is required.
 
 On Android (free, no laptop): Firefox → install the Cookie-Editor add-on →
 tiktok.com → log in as `theitspprtguru@gmail.com` → Cookie-Editor → Export
-(JSON) → paste the JSON into a temporary GitHub secret `TIKTOK_RAW_COOKIES`,
-then run `tiktok-post.yml` once manually — its first step imports any
-`TIKTOK_COOKIES_B64`-format JSON the same way. Convert by base64-encoding
-the JSON (`echo '<json>' | base64`) and saving as `TIKTOK_COOKIES_B64`.
+(JSON) → base64-encode the JSON on-device with an offline tool → save the
+encoded text directly as the `TIKTOK_COOKIES_B64` Actions secret, then run
+`tiktok-post.yml` once manually. Do not create a `TIKTOK_RAW_COOKIES` secret;
+the workflow only reads `TIKTOK_COOKIES_B64`. Avoid online encoders because
+the exported cookies are account credentials.
 
 No password typing, no slider, no laptop. `credentials/tiktok.json` is unused in cloud mode.
 

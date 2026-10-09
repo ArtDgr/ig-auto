@@ -28,14 +28,18 @@ jobs:
           npx playwright install --with-deps firefox
       - name: Restore TikTok session from secret (free, no laptop)
         run: |
-          if [ -z "$TIKTOK_COOKIES_B64" ]; then
-            echo "::error::TIKTOK_COOKIES_B64 secret missing — run the tiktok-qr-bootstrap workflow once from github.com and save the secret (phone browser is fine)."
+          if [ -n "$TIKTOK_COOKIES_B64" ]; then
+            printf '%s' "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
+          elif [ -n "$TIKTOK_RAW_COOKIES" ]; then
+            printf '%s' "$TIKTOK_RAW_COOKIES" > /tmp/tiktok-cookies.json
+          else
+            echo "::error::Set TIKTOK_COOKIES_B64 (base64-encoded JSON) or TIKTOK_RAW_COOKIES (Cookie-Editor JSON) in Actions secrets."
             exit 1
           fi
-          echo "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
           node src/import-cookies.js /tmp/tiktok-cookies.json --profile=tiktok
         env:
           TIKTOK_COOKIES_B64: ${{ secrets.TIKTOK_COOKIES_B64 }}
+          TIKTOK_RAW_COOKIES: ${{ secrets.TIKTOK_RAW_COOKIES }}
       - name: TikTok QA gate
         run: node src/tiktok-qa-check.js
       - name: TikTok headless post (1 slot)

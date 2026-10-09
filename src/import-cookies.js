@@ -32,12 +32,17 @@ const PROFILES = {
     verifyUrl: "https://www.tiktok.com",
     sessionCookies: ["sid_tt", "sessionid", "sessionid_ss", "uid_tt"],
     loggedIn: async (page) => {
+      const response = await page.goto("https://www.tiktok.com", { waitUntil: "domcontentloaded", timeout: 40000 });
       const loginButton = page.locator('[data-e2e="top-login-button"]').first();
       const profileUser = page.locator('[data-e2e="profile-user"]').first();
+      const roleLoginButton = page.getByRole("button", { name: /log in/i }).first();
+      const challengeMarker = page.locator('[data-e2e="captcha_verify_container"], iframe[src*="captcha" i], [data-testid*="captcha" i]').first();
       const loginVisible = await loginButton.isVisible().catch(() => false);
       const profileVisible = await profileUser.isVisible().catch(() => false);
-      console.log(`TikTok page: ${page.url()} (${await page.title()}); login button visible: ${loginVisible}; profile marker visible: ${profileVisible}`);
-      return profileVisible && !loginVisible;
+      const roleLoginVisible = await roleLoginButton.isVisible().catch(() => false);
+      const challengeVisible = await challengeMarker.isVisible().catch(() => false);
+      console.log(`TikTok response: ${response?.status() ?? "none"}; page: ${page.url()} (${await page.title()}); login button: ${loginVisible || roleLoginVisible}; profile marker: ${profileVisible}; verification challenge: ${challengeVisible}`);
+      return profileVisible && !loginVisible && !roleLoginVisible && !challengeVisible;
     }
   },
   instagram: {

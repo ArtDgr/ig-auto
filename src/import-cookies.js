@@ -41,7 +41,8 @@ const PROFILES = {
       const profileVisible = await profileUser.isVisible().catch(() => false);
       const roleLoginVisible = await roleLoginButton.isVisible().catch(() => false);
       const challengeVisible = await challengeMarker.isVisible().catch(() => false);
-      console.log(`TikTok response: ${response?.status() ?? "none"}; page: ${page.url()} (${await page.title()}); login button: ${loginVisible || roleLoginVisible}; profile marker: ${profileVisible}; verification challenge: ${challengeVisible}`);
+      const markers = await page.locator("[data-e2e]").evaluateAll((els) => [...new Set(els.map((el) => el.getAttribute("data-e2e")).filter(Boolean))].slice(0, 30)).catch(() => []);
+      console.log(`TikTok response: ${response?.status() ?? "none"}; page: ${page.url()} (${await page.title()}); login button: ${loginVisible || roleLoginVisible}; profile marker: ${profileVisible}; verification challenge: ${challengeVisible}; page markers: ${markers.join(",") || "none"}`);
       return profileVisible && !loginVisible && !roleLoginVisible && !challengeVisible;
     }
   },

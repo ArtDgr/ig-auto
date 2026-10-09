@@ -31,9 +31,19 @@ const PROFILES = {
     profileDir: () => config.tiktokBot.profileDir,
     verifyUrl: "https://www.tiktok.com",
     sessionCookies: ["sid_tt", "sessionid", "sessionid_ss", "uid_tt"],
-    loggedIn: (page, cname) => {
+    loggedIn: async (page, _profileId, response) => {
+      await page.waitForSelector('[data-e2e="top-login-button"], [data-e2e="profile-user"]', { timeout: 12000 }).catch(() => {});
+      const loginButton = page.locator('[data-e2e="top-login-button"]').first();
       const profileUser = page.locator('[data-e2e="profile-user"]').first();
-      return profileUser.isVisible().catch(() => false);
+      const roleLoginButton = page.getByRole("button", { name: /log in/i }).first();
+      const challengeMarker = page.locator('[data-e2e="captcha_verify_container"], iframe[src*="captcha" i], [data-testid*="captcha" i]').first();
+      const loginVisible = await loginButton.isVisible().catch(() => false);
+      const profileVisible = await profileUser.isVisible().catch(() => false);
+      const roleLoginVisible = await roleLoginButton.isVisible().catch(() => false);
+      const challengeVisible = await challengeMarker.isVisible().catch(() => false);
+      const markers = await page.locator("[data-e2e]").evaluateAll((els) => [...new Set(els.map((el) => el.getAttribute("data-e2e")).filter(Boolean))].slice(0, 30)).catch(() => []);
+      console.log(`TikTok response: ${response?.status() ?? "none"}; page: ${page.url()} (${await page.title()}); login button: ${loginVisible || roleLoginVisible}; profile marker: ${profileVisible}; verification challenge: ${challengeVisible}; page markers: ${markers.join(",") || "none"}`);
+      return profileVisible && !loginVisible && !roleLoginVisible && !challengeVisible;
     }
   },
   instagram: {
@@ -69,14 +79,17 @@ export async function importCookies(cookieFile, profileId = "tiktok") {
     await context.addCookies(pw);
     console.log("Imported " + pw.length + " cookies into " + dir);
     const page = await context.newPage();
-    await page.goto(prof.verifyUrl, { waitUntil: "domcontentloaded", timeout: 40000 });
+    const response = await page.goto(prof.verifyUrl, { waitUntil: "domcontentloaded", timeout: 40000 });
     await new Promise((r) => setTimeout(r, 3500));
     const cookies = await context.cookies(prof.verifyUrl).catch(() => []);
     const hasSession = cookies.some((c) => prof.sessionCookies.includes(c.name) && (c.value || "").length > 4);
-    const loggedIn = await prof.loggedIn(page, profileId === "instagram" ? config.instagram.handle.replace(/^@/, "") : "").catch(() => false);
+    const loggedIn = await prof.loggedIn(page, profileId === "instagram" ? config.instagram.handle.replace(/^@/, "") : "", response).catch(() => false);
     if (hasSession) console.log("SESSION OK: session cookies present after import.");
     else console.log("WARNING: no session cookie landed. The export may omit httpOnly cookies (sessionid).");
     console.log(loggedIn ? "VERIFY: page appears logged in." : "VERIFY: page does NOT appear logged in.");
+    if (profileId === "tiktok" && !loggedIn) {
+      throw new Error("TikTok login verification failed. Refresh the cookie export from the logged-in browser.");
+    }
   } finally {
     await context.close().catch(() => {});
   }

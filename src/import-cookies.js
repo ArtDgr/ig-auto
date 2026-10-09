@@ -31,8 +31,8 @@ const PROFILES = {
     profileDir: () => config.tiktokBot.profileDir,
     verifyUrl: "https://www.tiktok.com",
     sessionCookies: ["sid_tt", "sessionid", "sessionid_ss", "uid_tt"],
-    loggedIn: async (page) => {
-      const response = await page.goto("https://www.tiktok.com", { waitUntil: "domcontentloaded", timeout: 40000 });
+    loggedIn: async (page, _profileId, response) => {
+      await page.waitForSelector('[data-e2e="top-login-button"], [data-e2e="profile-user"]', { timeout: 12000 }).catch(() => {});
       const loginButton = page.locator('[data-e2e="top-login-button"]').first();
       const profileUser = page.locator('[data-e2e="profile-user"]').first();
       const roleLoginButton = page.getByRole("button", { name: /log in/i }).first();
@@ -78,11 +78,11 @@ export async function importCookies(cookieFile, profileId = "tiktok") {
     await context.addCookies(pw);
     console.log("Imported " + pw.length + " cookies into " + dir);
     const page = await context.newPage();
-    await page.goto(prof.verifyUrl, { waitUntil: "domcontentloaded", timeout: 40000 });
+    const response = await page.goto(prof.verifyUrl, { waitUntil: "domcontentloaded", timeout: 40000 });
     await new Promise((r) => setTimeout(r, 3500));
     const cookies = await context.cookies(prof.verifyUrl).catch(() => []);
     const hasSession = cookies.some((c) => prof.sessionCookies.includes(c.name) && (c.value || "").length > 4);
-    const loggedIn = await prof.loggedIn(page, profileId === "instagram" ? config.instagram.handle.replace(/^@/, "") : "").catch(() => false);
+    const loggedIn = await prof.loggedIn(page, profileId === "instagram" ? config.instagram.handle.replace(/^@/, "") : "", response).catch(() => false);
     if (hasSession) console.log("SESSION OK: session cookies present after import.");
     else console.log("WARNING: no session cookie landed. The export may omit httpOnly cookies (sessionid).");
     console.log(loggedIn ? "VERIFY: page appears logged in." : "VERIFY: page does NOT appear logged in.");

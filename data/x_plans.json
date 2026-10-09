@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-09",
-  "generatedAt": "2026-10-08T23:54:22.884Z",
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-09T23:28:13.373Z",
   "posts": [
     {
-      "id": "20261009-you-have-no-cloud-budget-alert",
+      "id": "20261010-your-icloud-is-95-full",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You have no cloud budget alert",
+      "title": "Your iCloud is 95% full",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You have no cloud budget alert\nSurprise bills come from resources you forgot were still running."
+          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Surprise bills come from resources you forgot were still running."
+          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Create a budget with 50/80/100% alerts today — it takes five minutes."
+          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You have no cloud budget alert #AWS #cloud #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 Your iCloud is 95% full #macOS #iOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261009-more-vram-is-all-that-matters",
+      "id": "20261010-you-need-a-gaming-laptop-for-gaming",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -46,28 +46,28 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "You need a 'gaming' laptop for gaming",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "You need a 'gaming' laptop for gaming"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #GPU #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: You need a 'gaming' laptop for gaming Truth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP… #hardware #CPU #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261009-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20261010-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -93,82 +93,53 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #sysadmin #itsupport #techtips Follow for daily tech intel.",
+      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #sysadmin #Windows11 #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261009-build-a-simple-auto-classifier",
+      "id": "20261010-stop-apps-tracking-your-every-move",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Build a simple auto-classifier",
+      "title": "Stop apps tracking your every move",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Build a simple auto-classifier\nCollect 10-20 examples per category"
+          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Collect 10-20 examples per category"
+          "text": "Settings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Prompt: 'Classify each item into X, Y, or Z'"
+          "text": "Deny location for apps that don't need it"
         },
         {
           "kind": "step",
-          "text": "Test on items you've never shown it"
+          "text": "Revoke camera and mic access you don't use"
         },
         {
           "kind": "step",
-          "text": "Refine the examples if it's messy"
+          "text": "Reset your advertising ID"
         },
         {
           "kind": "step",
-          "text": "Good enough to run — keep it monitored."
+          "text": "You keep your data — apps still work the same."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🤖 Build a simple auto-classifier #MachineLearning #AI #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch Law & Order season 26 from anywhere in…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch Law & Order season 26 from\nHow to watch Law & Order season 26 from anywhere in the world – stream online for free"
-        },
-        {
-          "kind": "brief",
-          "text": "Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\nHere's how to watch Law & Order season 26 from anywhere."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 How to watch Law & Order season 26 from anywhere in… (TechRadar) https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26 #smartphone #tech Follow for daily tech intel.",
+      "caption": "📱 Stop apps tracking your every move #gadgets #smartphone #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

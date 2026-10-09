@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cultofmac.com/news/ios-27-safari-ad-block-trade-desk",
+  "fetched": "2026-10-09T23:25:09.794Z",
+  "paragraphs": [
+    "Apple’s aggressive push to stop advertisers from tracking iPhone users is reportedly blocking one of the world’s biggest programmatic advertising platforms from displaying any ads in Safari on iOS 27.",
+    "Ad-buying platform The Trade Desk thinks its ads are being blocked by mistake and has asked Apple to rectify the situation. The Trade Desk and others could simply be caught in the crossfire as Apple continues to crack down on advertising vendors that try to track users across websites. Either way, it shows how much control Apple has over the ads on your iPhone.",
+    "The latest problem follows the launch of iOS 27 in September, which was apparently accompanied by a new ad block list. A week later, The Trade Desk engineer Ian Meyers filed a bug report with Apple’s WebKit team.",
+    "Meyers pointed out that the adsrvr.org domain was on a list of addresses Safari blocks outright. But, as he pointed out, this is the company’s “core ad request and delivery domain, not identity.” In other words, Meyer claims the block in Safari hits ad delivery, not tracking.",
+    "As an example, he said a Yahoo article rendered in Safari blocked The Trade Desk’s bids, while Google’s ads in the same article went through without a hitch.",
+    "James Hercher, an ad-industry reporter for AdExchanger, reported that other advertising vendors also landed on the same list this month. They include Unified ID 2.0, ID5, Audigent, LiveRamp and Permutive.",
+    "On October 4, Wilander asked Meyers to test a new iOS 27.2 beta and see if he notices any changes. The thread hasn’t spelled out what’s changed, and at the time of writing, the bug’s status still reads “NEW.” iOS 27.2 is still in beta, so a fix for everyone else could be a while away.",
+    "Hercher says Apple swapped its original Safari ad block list for a much bigger one. Citing two sources with direct knowledge of the matter, he says it covers hundreds of ad tech, data and identity companies."
+  ],
+  "image": "https://www.cultofmac.com/wp-content/uploads/2026/10/Safari.jpg.webp"
+}

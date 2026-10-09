@@ -1,84 +1,84 @@
 {
-  "date": "2026-10-09",
-  "renderedAt": "2026-10-08T23:54:22.862Z",
+  "date": "2026-10-10",
+  "renderedAt": "2026-10-09T23:28:13.361Z",
   "posts": [
     {
-      "id": "20261009-you-buy-phones-on-megapixel-counts",
+      "id": "20261010-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You buy phones on megapixel counts",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You buy phones on megapixel counts\nSensor and processing beat megapixels every time."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Sensor and processing beat megapixels every time."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read real photo tests, not the spec sheet."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou buy phones on megapixel counts\n\nWhy it's a problem: Sensor and processing beat megapixels every time.\nThe fix: Read real photo tests, not the spec sheet.\n\nSave this before it becomes a repair bill →\n\n#techgear #gadgetreviews #iphone #android #tech #gadgets #batterytips #smartphonetips #helpdesk #itsupportguru #itpro #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#itpro #ios #appletips #apple #appleintelligence #macos #macbook #macrumors #sysadmin #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261009-you-buy-phones-on-megapixel-counts/01.png",
-        "out/instagram-ready/20261009-you-buy-phones-on-megapixel-counts/02.png",
-        "out/instagram-ready/20261009-you-buy-phones-on-megapixel-counts/03.png",
-        "out/instagram-ready/20261009-you-buy-phones-on-megapixel-counts/04.png"
+        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/01.png",
+        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/02.png",
+        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/03.png",
+        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/04.png"
       ]
     },
     {
-      "id": "20261009-you-must-charge-your-iphone-to-100",
+      "id": "20261010-docker-containers-are-mini-vms",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Docker containers are mini VMs",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Docker containers are mini VMs"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#ios #apple #macrumors #appleintelligence #appletips #itpro #macbook #iphone #techsupport #techtips #itsupportguru #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#cloudinfra #devopslife #aws #devops #kubernetes #techops #azure #cloud #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261009-you-must-charge-your-iphone-to-100/01.png",
-        "out/instagram-ready/20261009-you-must-charge-your-iphone-to-100/02.png",
-        "out/instagram-ready/20261009-you-must-charge-your-iphone-to-100/03.png"
+        "out/instagram-ready/20261010-docker-containers-are-mini-vms/01.png",
+        "out/instagram-ready/20261010-docker-containers-are-mini-vms/02.png",
+        "out/instagram-ready/20261010-docker-containers-are-mini-vms/03.png"
       ]
     },
     {
-      "id": "20261009-the-upgrade-that-changes-everything",
+      "id": "20261010-what-reviewers-check-that-you-don-t",
       "slot": 2,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -87,108 +87,74 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#ram #techreview #gpu #hardware #cpu #pcgaming #pc #laptops #helpdesk #itsupportguru #techsupport #itpro\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#hardware #pc #techreview #cpu #ram #pcgaming #chipshortage #gpu #sysadmin #techtips #helpdesk #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261009-the-upgrade-that-changes-everything/01.png",
-        "out/instagram-ready/20261009-the-upgrade-that-changes-everything/02.png",
-        "out/instagram-ready/20261009-the-upgrade-that-changes-everything/03.png"
+        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/01.png",
+        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/02.png",
+        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/03.png"
       ]
     },
     {
-      "id": "20261009-automate-repetitive-prompts",
+      "id": "20261010-set-up-2fa-on-any-account",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Automate repetitive prompts",
+      "title": "Set up 2FA on any account",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Automate repetitive prompts\nTurn a good prompt into a template with placeholders"
+          "text": "Set up 2FA on any account\nOpen Settings > Security > Two-factor"
         },
         {
           "kind": "step",
-          "text": "Turn a good prompt into a template with placeholders"
+          "text": "Open Settings > Security > Two-factor"
         },
         {
           "kind": "step",
-          "text": "Wrap it in a small script or saved gist"
+          "text": "Prefer an authenticator app over SMS"
         },
         {
           "kind": "step",
-          "text": "Swap in the new subject each run"
+          "text": "Scan the QR with your authenticator"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Automate repetitive prompts 🤖\n\n1. Turn a good prompt into a template with placeholders\n2. Wrap it in a small script or saved gist\n3. Swap in the new subject each run\n\nSave this for the next ticket →\n\n#copilot #machinelearning #chatgpt #genai #aitips #artificialintelligence #aitools #aitech #itpro #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Set up 2FA on any account 🔐\n\n1. Open Settings > Security > Two-factor\n2. Prefer an authenticator app over SMS\n3. Scan the QR with your authenticator\n\nSave this for the next ticket →\n\n#2fa #cybersectips #password #datasecurity #secops #onlinesafety #phishing #cyberdefense #sysadmin #techdaily #helpdesk #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261009-automate-repetitive-prompts/01.png",
-        "out/instagram-ready/20261009-automate-repetitive-prompts/02.png",
-        "out/instagram-ready/20261009-automate-repetitive-prompts/03.png",
-        "out/instagram-ready/20261009-automate-repetitive-prompts/04.png",
-        "out/instagram-ready/20261009-automate-repetitive-prompts/05.png"
-      ]
-    },
-    {
-      "id": "20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch Law & Order season 26 from anywhere in…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch Law & Order season 26 from\nHow to watch Law & Order season 26 from anywhere in the world – stream online for free"
-        },
-        {
-          "kind": "brief",
-          "text": "Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\nHere's how to watch Law & Order season 26 from anywhere."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nHow to watch Law & Order season 26 from anywhere in…\n\n• Detective Vincent Riley is soon to depart, but new faces are joining the cast to keep things fresh.\n• Here's how to watch Law & Order season 26 from anywhere.\n\nSource: TechRadar — https://www.techradar.com/how-to-watch/how-to-watch-law-and-order-season-26\n\nWhich one's on your wishlist? Drop it below 👇\n\n#smartphone #tech #android #techgear #samsung #batterytips #gadgetreviews #smartphonetips #techdaily #techtips #sysadmin #itsupportguru\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
-      "status": "pending",
-      "media": [
-        "out/instagram-ready/20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo/01.png",
-        "out/instagram-ready/20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo/02.png",
-        "out/instagram-ready/20261009-gadget-focus-how-to-watch-law-order-season-26-from-anywhere-in-the-wo/03.png"
+        "out/instagram-ready/20261010-set-up-2fa-on-any-account/01.png",
+        "out/instagram-ready/20261010-set-up-2fa-on-any-account/02.png",
+        "out/instagram-ready/20261010-set-up-2fa-on-any-account/03.png",
+        "out/instagram-ready/20261010-set-up-2fa-on-any-account/04.png",
+        "out/instagram-ready/20261010-set-up-2fa-on-any-account/05.png"
       ]
     }
   ]

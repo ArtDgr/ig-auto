@@ -31,9 +31,11 @@ const PROFILES = {
     profileDir: () => config.tiktokBot.profileDir,
     verifyUrl: "https://www.tiktok.com",
     sessionCookies: ["sid_tt", "sessionid", "sessionid_ss", "uid_tt"],
-    loggedIn: (page, cname) => {
-      const profileUser = page.locator('[data-e2e="profile-user"]').first();
-      return profileUser.isVisible().catch(() => false);
+    loggedIn: async (page) => {
+      const marker = page.locator('[data-e2e="top-login-button"], [data-e2e="profile-user"]').first();
+      if (!await marker.isVisible().catch(() => false)) return false;
+      const text = await marker.textContent().catch(() => "");
+      return !/log in/i.test(text || "");
     }
   },
   instagram: {
@@ -77,6 +79,9 @@ export async function importCookies(cookieFile, profileId = "tiktok") {
     if (hasSession) console.log("SESSION OK: session cookies present after import.");
     else console.log("WARNING: no session cookie landed. The export may omit httpOnly cookies (sessionid).");
     console.log(loggedIn ? "VERIFY: page appears logged in." : "VERIFY: page does NOT appear logged in.");
+    if (profileId === "tiktok" && !loggedIn) {
+      throw new Error("TikTok login verification failed. Refresh the cookie export from the logged-in browser.");
+    }
   } finally {
     await context.close().catch(() => {});
   }

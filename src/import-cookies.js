@@ -32,10 +32,12 @@ const PROFILES = {
     verifyUrl: "https://www.tiktok.com",
     sessionCookies: ["sid_tt", "sessionid", "sessionid_ss", "uid_tt"],
     loggedIn: async (page) => {
-      const marker = page.locator('[data-e2e="top-login-button"], [data-e2e="profile-user"]').first();
-      if (!await marker.isVisible().catch(() => false)) return false;
-      const text = await marker.textContent().catch(() => "");
-      return !/log in/i.test(text || "");
+      const loginButton = page.locator('[data-e2e="top-login-button"]').first();
+      const profileUser = page.locator('[data-e2e="profile-user"]').first();
+      const loginVisible = await loginButton.isVisible().catch(() => false);
+      const profileVisible = await profileUser.isVisible().catch(() => false);
+      console.log(`TikTok page: ${page.url()} (${await page.title()}); login button visible: ${loginVisible}; profile marker visible: ${profileVisible}`);
+      return profileVisible && !loginVisible;
     }
   },
   instagram: {

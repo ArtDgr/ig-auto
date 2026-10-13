@@ -1,160 +1,160 @@
 {
-  "date": "2026-10-10",
-  "renderedAt": "2026-10-09T23:28:13.361Z",
+  "date": "2026-10-13",
+  "renderedAt": "2026-10-13T01:32:43.689Z",
   "posts": [
     {
-      "id": "20261010-you-ve-never-checked-iphone-battery-health",
+      "id": "20261013-you-charge-overnight-to-100-every-night",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You charge overnight to 100% every night",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You charge overnight to 100% every night\nLithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Lithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Charge to 80% for daily use and keep the phone off 100% at night."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#itpro #ios #appletips #apple #appleintelligence #macos #macbook #macrumors #sysadmin #helpdesk #techtips #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou charge overnight to 100% every night\n\nWhy it's a problem: Lithium batteries age fastest at the extremes.\nThe fix: Charge to 80% for daily use and keep the phone off 100% at night.\n\nSave this before it becomes a repair bill →\n\n#techgear #batterytips #tech #smartphonetips #gadgets #samsung #android #gadgetreviews #sysadmin #techtips #techsupport #itsupportguru\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/01.png",
-        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/02.png",
-        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/03.png",
-        "out/instagram-ready/20261010-you-ve-never-checked-iphone-battery-health/04.png"
+        "out/instagram-ready/20261013-you-charge-overnight-to-100-every-night/01.png",
+        "out/instagram-ready/20261013-you-charge-overnight-to-100-every-night/02.png",
+        "out/instagram-ready/20261013-you-charge-overnight-to-100-every-night/03.png",
+        "out/instagram-ready/20261013-you-charge-overnight-to-100-every-night/04.png"
       ]
     },
     {
-      "id": "20261010-docker-containers-are-mini-vms",
+      "id": "20261013-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Docker containers are mini VMs",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Docker containers are mini VMs"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#cloudinfra #devopslife #aws #devops #kubernetes #techops #azure #cloud #techtips #sysadmin #itpro #techsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A bigger CPU number is always faster\nTruth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec.\n\nShare this with the person who still believes it →\n\n#pcgaming #laptop #chipshortage #ram #hardware #cpu #benchmark #pc #itsupportguru #sysadmin #techtips #helpdesk\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261010-docker-containers-are-mini-vms/01.png",
-        "out/instagram-ready/20261010-docker-containers-are-mini-vms/02.png",
-        "out/instagram-ready/20261010-docker-containers-are-mini-vms/03.png"
+        "out/instagram-ready/20261013-a-bigger-cpu-number-is-always-faster/01.png",
+        "out/instagram-ready/20261013-a-bigger-cpu-number-is-always-faster/02.png",
+        "out/instagram-ready/20261013-a-bigger-cpu-number-is-always-faster/03.png"
       ]
     },
     {
-      "id": "20261010-what-reviewers-check-that-you-don-t",
+      "id": "20261013-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#hardware #pc #techreview #cpu #ram #pcgaming #chipshortage #gpu #sysadmin #techtips #helpdesk #techsupport\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#macrumors #macbook #macos #appletips #appleintelligence #iphone #apple #applenews #techdaily #sysadmin #itpro #techtips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/01.png",
-        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/02.png",
-        "out/instagram-ready/20261010-what-reviewers-check-that-you-don-t/03.png"
+        "out/instagram-ready/20261013-hidden-macos-tools-most-people-never-find/01.png",
+        "out/instagram-ready/20261013-hidden-macos-tools-most-people-never-find/02.png",
+        "out/instagram-ready/20261013-hidden-macos-tools-most-people-never-find/03.png"
       ]
     },
     {
-      "id": "20261010-set-up-2fa-on-any-account",
+      "id": "20261013-spin-up-a-linux-vm-in-the-cloud",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up 2FA on any account",
+      "title": "Spin up a Linux VM in the cloud",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up 2FA on any account\nOpen Settings > Security > Two-factor"
+          "text": "Spin up a Linux VM in the cloud\nSign in to your cloud console"
         },
         {
           "kind": "step",
-          "text": "Open Settings > Security > Two-factor"
+          "text": "Sign in to your cloud console"
         },
         {
           "kind": "step",
-          "text": "Prefer an authenticator app over SMS"
+          "text": "Compute > Create VM — pick Ubuntu LTS"
         },
         {
           "kind": "step",
-          "text": "Scan the QR with your authenticator"
+          "text": "Choose the smallest free-tier size"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up 2FA on any account 🔐\n\n1. Open Settings > Security > Two-factor\n2. Prefer an authenticator app over SMS\n3. Scan the QR with your authenticator\n\nSave this for the next ticket →\n\n#2fa #cybersectips #password #datasecurity #secops #onlinesafety #phishing #cyberdefense #sysadmin #techdaily #helpdesk #techtips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Spin up a Linux VM in the cloud ☁️\n\n1. Sign in to your cloud console\n2. Compute > Create VM\n     ✓ pick Ubuntu LTS\n3. Choose the smallest free-tier size\n\nSave this for the next ticket →\n\n#kubernetes #sre #cloudcomputing #techops #docker #devops #azure #cloud #itsupportguru #helpdesk #techdaily #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261010-set-up-2fa-on-any-account/01.png",
-        "out/instagram-ready/20261010-set-up-2fa-on-any-account/02.png",
-        "out/instagram-ready/20261010-set-up-2fa-on-any-account/03.png",
-        "out/instagram-ready/20261010-set-up-2fa-on-any-account/04.png",
-        "out/instagram-ready/20261010-set-up-2fa-on-any-account/05.png"
+        "out/instagram-ready/20261013-spin-up-a-linux-vm-in-the-cloud/01.png",
+        "out/instagram-ready/20261013-spin-up-a-linux-vm-in-the-cloud/02.png",
+        "out/instagram-ready/20261013-spin-up-a-linux-vm-in-the-cloud/03.png",
+        "out/instagram-ready/20261013-spin-up-a-linux-vm-in-the-cloud/04.png",
+        "out/instagram-ready/20261013-spin-up-a-linux-vm-in-the-cloud/05.png"
       ]
     }
   ]

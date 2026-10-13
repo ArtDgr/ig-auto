@@ -1,103 +1,103 @@
 {
-  "date": "2026-10-10",
-  "generatedAt": "2026-10-09T23:28:13.373Z",
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T01:32:43.702Z",
   "posts": [
     {
-      "id": "20261010-your-icloud-is-95-full",
+      "id": "20261013-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your iCloud is 95% full",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your iCloud is 95% full #macOS #iOS #tech Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #CPU #GPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261010-you-need-a-gaming-laptop-for-gaming",
+      "id": "20261013-closing-apps-saves-your-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "Closing apps saves your battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "Closing apps saves your battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You need a 'gaming' laptop for gaming Truth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP… #hardware #CPU #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Closing apps saves your battery Truth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app… #itsupport #techsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261010-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20261013-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 Windows tools IT pros use that you don't",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #sysadmin #Windows11 #techtips Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #macOS #iOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261010-stop-apps-tracking-your-every-move",
+      "id": "20261013-stop-apps-tracking-your-every-move",
       "slot": 3,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -139,7 +139,7 @@
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Stop apps tracking your every move #gadgets #smartphone #techtips Follow for daily tech intel.",
+      "caption": "📱 Stop apps tracking your every move #gadgets #Android #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

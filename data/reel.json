@@ -1,30 +1,30 @@
 {
-  "date": "20261013",
+  "date": "20261014",
   "deck": {
-    "id": "deals-big-discounts-hit-flagship-phones-from-samsung-apple-a",
-    "niche": "gadgets",
-    "href": "https://www.gsmarena.com/deals_big_discounts_hit_flagship_phones_from_samsung_apple_and_google-news-74990.php",
-    "title": "Deals: Big discounts hit flagship phones from Samsung, Apple and Goog…",
+    "id": "twit-1105-agents-gone-wild-windows-039-new-surface-laptop-ul",
+    "niche": "ai",
+    "href": "https://twit.tv/shows/this-week-in-tech/episodes/1105",
+    "title": "TWiT 1105: Agents Gone Wild - Windows&#039; New Surface Laptop Ultra…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "450",
+        "text": "1105",
         "kind": "hook"
       },
       {
-        "text": "Deals: Big discounts hit flagship phones fr…",
+        "text": "TWiT 1105: Agents Gone Wild - Windows&#039;…",
         "kind": "body"
       },
       {
-        "text": "While Amazon’s Prime Big Deal Days have wrapped up, discounts are still availab…",
+        "text": "Windows unveiled its Surface Laptop Ultra & Surface RTX Spark Dev Box at its re…",
         "kind": "body"
       },
       {
-        "text": "In fact, some devices that received few or no notable discounts during the sale…",
+        "text": "Google's SynthID Detector is open to everyone now to check for AI-made media.",
         "kind": "body"
       },
       {
-        "text": "Samsung’s Galaxy S26 Ultra, Apple’s iPhone 17 Pro lineup, and the entire Google…",
+        "text": "OpenAI agents attempted to hack Wikipedia and its tools to make unauthorized ed…",
         "kind": "body"
       },
       {
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "caption": "Deals: Big discounts hit flagship phones from Samsung, Apple and Goog.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "TWiT 1105: Agents Gone Wild - Windows&#039; New Surface Laptop Ultra.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #ai #artificialintelligence #machinelearning #chatgpt #aitech #genai #aitools #futuretech\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

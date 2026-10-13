@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T01:32:43.702Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-13T23:26:20.856Z",
   "posts": [
     {
-      "id": "20261013-your-laptop-is-always-hot",
+      "id": "20261014-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,92 +12,92 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your laptop is always hot #CPU #GPU #techtips Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261013-closing-apps-saves-your-battery",
+      "id": "20261014-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Closing apps saves your battery",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Closing apps saves your battery"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Closing apps saves your battery Truth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app… #itsupport #techsupport #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #macOS #Apple #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261013-hidden-macos-tools-most-people-never-find",
+      "id": "20261014-prompt-tricks-it-pros-use-daily",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "Prompt tricks IT pros use daily",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #macOS #iOS #tech Follow for daily tech intel.",
+      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #AI #GenAI #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261013-stop-apps-tracking-your-every-move",
+      "id": "20261014-extend-your-phone-s-battery-life",
       "slot": 3,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Stop apps tracking your every move",
+      "title": "Extend your phone's battery life",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
+          "text": "Extend your phone's battery life\nDrop brightness or turn on adaptive"
         },
         {
           "kind": "step",
-          "text": "Settings > Privacy > Location services"
+          "text": "Drop brightness or turn on adaptive"
         },
         {
           "kind": "step",
-          "text": "Deny location for apps that don't need it"
+          "text": "Enable low power mode at 30%, not 10%"
         },
         {
           "kind": "step",
-          "text": "Revoke camera and mic access you don't use"
+          "text": "Check Settings > Battery for the biggest drainer"
         },
         {
           "kind": "step",
-          "text": "Reset your advertising ID"
+          "text": "Turn off location for apps that don't need it"
         },
         {
           "kind": "step",
-          "text": "You keep your data — apps still work the same."
+          "text": "Charge to 80% and carry on."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Stop apps tracking your every move #gadgets #Android #tech Follow for daily tech intel.",
+      "caption": "📱 Extend your phone's battery life #smartphone #tech #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

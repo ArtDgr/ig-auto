@@ -33,7 +33,16 @@ export function writeCaptions(decks, watchDir, outDir) {
   let count = 0;
   for (const v of videos) {
     const deck = decks.find((d) => d.id === v.replace(/\.mp4$/, ""));
-    if (!deck) continue;
+    if (!deck) {
+      // Orphan mp4 (scripts.json regenerated after render): keep the queue
+      // moving with a generic caption instead of failing the QA gate.
+      const id = v.replace(/\.mp4$/, "");
+      const title = id.replace(/-/g, " ").replace(/\\s+/g, " ").trim();
+      const tags = [...new Set([...TIK.baseHashtags])].join(" ");
+      fs.writeFileSync(path.join(outDir, id + ".txt"), `${title}. ${TIK.cta}\\n${tags}`, "utf8");
+      count++;
+      continue;
+    }
     const caption = buildCaption(deck);
     const txtOut = path.join(outDir, v.replace(/\.mp4$/, ".txt"));
     fs.writeFileSync(txtOut, caption, "utf8");

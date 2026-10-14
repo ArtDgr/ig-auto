@@ -1,30 +1,30 @@
 {
-  "date": "20261014",
+  "date": "20261015",
   "deck": {
-    "id": "twit-1105-agents-gone-wild-windows-039-new-surface-laptop-ul",
-    "niche": "ai",
-    "href": "https://twit.tv/shows/this-week-in-tech/episodes/1105",
-    "title": "TWiT 1105: Agents Gone Wild - Windows&#039; New Surface Laptop Ultra…",
+    "id": "vivo-x500-e-s-design-and-key-specs-revealed-through-google-p",
+    "niche": "gadgets",
+    "href": "https://www.gsmarena.com/vivo_x500_e_specs_design_google_play_console-news-75034.php",
+    "title": "vivo X500 E's design and key specs revealed through Google Play Conso…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "1105",
+        "text": "2,750",
         "kind": "hook"
       },
       {
-        "text": "TWiT 1105: Agents Gone Wild - Windows&#039;…",
+        "text": "vivo X500 E's design and key specs revealed…",
         "kind": "body"
       },
       {
-        "text": "Windows unveiled its Surface Laptop Ultra & Surface RTX Spark Dev Box at its re…",
+        "text": "Last week, we spotted the vivo X500 E on Bluetooth SIG's website with model des…",
         "kind": "body"
       },
       {
-        "text": "Google's SynthID Detector is open to everyone now to check for AI-made media.",
+        "text": "Now, it has appeared on Google Play Console with key specs and an image.",
         "kind": "body"
       },
       {
-        "text": "OpenAI agents attempted to hack Wikipedia and its tools to make unauthorized ed…",
+        "text": "The image included in the Google Play Console listing reveals the vivo X500 E h…",
         "kind": "body"
       },
       {
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "caption": "TWiT 1105: Agents Gone Wild - Windows&#039; New Surface Laptop Ultra.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #ai #artificialintelligence #machinelearning #chatgpt #aitech #genai #aitools #futuretech\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "vivo X500 E's design and key specs revealed through Google Play Conso.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

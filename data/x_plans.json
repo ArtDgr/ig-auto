@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-13T23:26:20.856Z",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-14T22:32:43.993Z",
   "posts": [
     {
-      "id": "20261014-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261015-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -33,11 +33,11 @@
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #PC #tech Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #PC #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261014-you-must-charge-your-iphone-to-100",
+      "id": "20261015-you-must-charge-your-iphone-to-100",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -63,41 +63,41 @@
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #macOS #Apple #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #macOS #iOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261014-prompt-tricks-it-pros-use-daily",
+      "id": "20261015-phishing-tells-that-fool-most-people",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "Phishing tells that fool most people",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "Phishing tells that fool most people\nDisplay name lies — check the sender address"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "Display name lies — check the sender address\nHover links to see the real URL\nUrgency and threats are pressure, not proof\nOdd grammar is a smell, not a guarantee\nWhen in doubt, call the number on the card"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #AI #GenAI #tech Follow for daily tech intel.",
+      "caption": "🔓 Phishing tells that fool most people — Display name lies — check the sender address #infosec #2FA #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261014-extend-your-phone-s-battery-life",
+      "id": "20261015-stop-apps-tracking-your-every-move",
       "slot": 3,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Extend your phone's battery life",
+      "title": "Stop apps tracking your every move",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Extend your phone's battery life\nDrop brightness or turn on adaptive"
+          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Drop brightness or turn on adaptive"
+          "text": "Settings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Enable low power mode at 30%, not 10%"
+          "text": "Deny location for apps that don't need it"
         },
         {
           "kind": "step",
-          "text": "Check Settings > Battery for the biggest drainer"
+          "text": "Revoke camera and mic access you don't use"
         },
         {
           "kind": "step",
-          "text": "Turn off location for apps that don't need it"
+          "text": "Reset your advertising ID"
         },
         {
           "kind": "step",
-          "text": "Charge to 80% and carry on."
+          "text": "You keep your data — apps still work the same."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Extend your phone's battery life #smartphone #tech #itsupportguru Follow for daily tech intel.",
+      "caption": "📱 Stop apps tracking your every move #gadgets #tech #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

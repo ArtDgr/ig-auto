@@ -1,30 +1,30 @@
 {
-  "date": "20261015",
+  "date": "20261016",
   "deck": {
-    "id": "vivo-x500-e-s-design-and-key-specs-revealed-through-google-p",
-    "niche": "gadgets",
-    "href": "https://www.gsmarena.com/vivo_x500_e_specs_design_google_play_console-news-75034.php",
-    "title": "vivo X500 E's design and key specs revealed through Google Play Conso…",
+    "id": "microsoft-unveils-maia-300-ai-chip",
+    "niche": "it-support",
+    "href": "https://www.computerworld.com/article/4234722/microsoft-unveils-new-maia-300-ai-chip.html",
+    "title": "Microsoft unveils Maia 300 AI chip",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "2,750",
+        "text": "300,",
         "kind": "hook"
       },
       {
-        "text": "vivo X500 E's design and key specs revealed…",
+        "text": "Microsoft unveils Maia 300 AI chip",
         "kind": "body"
       },
       {
-        "text": "Last week, we spotted the vivo X500 E on Bluetooth SIG's website with model des…",
+        "text": "Microsoft on Monday unveiled the Maia 300, its third-generation AI chip.",
         "kind": "body"
       },
       {
-        "text": "Now, it has appeared on Google Play Console with key specs and an image.",
+        "text": "According to Microsoft, the new chip will be optimized to handle the latest rea…",
         "kind": "body"
       },
       {
-        "text": "The image included in the Google Play Console listing reveals the vivo X500 E h…",
+        "text": "“We expect Maia 300 to deliver 40% more tokens per megawatt compared to leading…",
         "kind": "body"
       },
       {
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "caption": "vivo X500 E's design and key specs revealed through Google Play Conso.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily #itpro #helpdesk #gadgets #smartphone #tech #iphone #android #samsung #gadgetreviews #smartphonetips\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Microsoft unveils Maia 300 AI chip.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

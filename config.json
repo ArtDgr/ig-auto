@@ -38,7 +38,13 @@
         "https://www.zdnet.com/news/rss.xml",
         "https://feeds.twit.tv/twit.xml",
         "https://www.wired.com/feed/rss",
-        "https://www.theverge.com/rss/index.xml"
+        "https://www.theverge.com/rss/index.xml",
+        "https://huggingface.co/blog/feed.xml",
+        "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+        "https://openai.com/news/rss.xml",
+        "https://blog.google/technology/ai/rss/",
+        "https://tldr.tech/api/rss/ai",
+        "https://importai.substack.com/feed"
       ]
     },
     {
@@ -106,6 +112,8 @@
         "https://appleinsider.com/rss/news",
         "https://www.cultofmac.com/feed/",
         "https://www.macworld.com/feed",
+        "https://daringfireball.net/feeds/main",
+        "https://feedpress.me/sixcolors",
         "https://www.wired.com/feed/rss"
       ]
     },
@@ -140,6 +148,7 @@
         "https://feeds.arstechnica.com/arstechnica/gadgets",
         "https://www.phoronix.com/rss.php",
         "https://feeds.arstechnica.com/arstechnica/technology-lab",
+        "http://www.anandtech.com/rss/",
         "https://www.cnet.com/rss/news/"
       ]
     },
@@ -171,7 +180,11 @@
         "https://www.bleepingcomputer.com/feed/",
         "https://www.darkreading.com/rss.xml",
         "https://www.wired.com/feed/rss",
-        "https://twit.tv/shows/security-now/episodes.rss"
+        "https://twit.tv/shows/security-now/episodes.rss",
+        "https://googleprojectzero.blogspot.com/feeds/posts/default",
+        "https://www.microsoft.com/security/blog/feed/",
+        "http://feeds.feedburner.com/feedburner/Talos",
+        "https://blog.malwarebytes.com/feed/"
       ]
     },
     {
@@ -261,13 +274,14 @@
         "https://aws.amazon.com/blogs/aws/feed/",
         "https://www.networkworld.com/feed",
         "https://packetpushers.net/feed/",
-        "https://www.cisco.com/c/en/us/about/cisco-blogs/rss.xml"
+        "https://www.cisco.com/c/en/us/about/cisco-blogs/rss.xml",
+        "https://blog.bytebytego.com/feed"
       ]
     }
   ],
-  "postsPerDay": 4,
+  "postsPerDay": 2,
   "distribution": {
-    "instagram": 4,
+    "instagram": 2,
     "tiktok": 3,
     "youtube": 0,
     "x": 4
@@ -486,8 +500,7 @@
       "commentPing": true
     },
     "postingTimes": [
-      "07:30",
-      "12:30",
+      "11:30",
       "18:30"
     ],
     "fridayGadgetFocus": {
@@ -498,7 +511,7 @@
       "cta": "Which one's on your wishlist? Drop it below 👇"
     },
     "minWarmupDays": 5,
-    "maxPerDay": 4,
+    "maxPerDay": 2,
     "headless": true,
     "speed": 0.3,
     "staggerMinutes": [
@@ -513,13 +526,13 @@
       1,
       3
     ],
-    "hashtagLimit": 15
+    "hashtagLimit": 5
   },
   "instagramReel": {
     "enabled": true,
     "postDir": "out/instagram-reels",
     "profileDir": "profiles/instagram",
-    "postingTime": "15:00",
+    "postingTime": "14:00",
     "api": {
       "enabled": false,
       "graphVersion": "v21.0",
@@ -645,10 +658,10 @@
       "minPosts": 2
     },
     "repost": {
-      "enabled": true,
-      "minScore": 10,
+      "enabled": false,
+      "minScore": 25,
       "time": "18:30",
-      "daysAhead": 1
+      "daysAhead": 7
     }
   },
   "video": {
@@ -672,8 +685,7 @@
   "schedule": {
     "runHourLocal": 8,
     "slots": [
-      "07:30",
-      "12:30",
+      "11:30",
       "18:30"
     ],
     "timezone": "Australia/Sydney",
@@ -688,7 +700,7 @@
     "ramp": {
       "week1": 1,
       "week2": 2,
-      "after": 3
+      "after": 2
     }
   },
   "tiktokBot": {

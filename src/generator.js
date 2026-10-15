@@ -19,7 +19,7 @@ function shorten(s, n) {
 
 function slug(s) {
   return (
-    String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60) || "topic"
+    String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60).replace(/-+$/g, "") || "topic"
   );
 }
 

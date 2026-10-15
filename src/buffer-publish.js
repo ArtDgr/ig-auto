@@ -12,19 +12,63 @@ function apiKey() {
   return process.env.BUFFER_API_KEY || (config.buffer && config.buffer.apiKey) || "";
 }
 
-async function gql(query) {
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+async function gql(query, retries = 3) {
   const key = apiKey();
   if (!key) throw new Error("No Buffer API key. Set BUFFER_API_KEY env or config.json -> buffer.apiKey");
-  const res = await fetch(API, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Authorization: "Bearer " + key },
-    body: JSON.stringify({ query })
-  });
-  const data = await res.json().catch(() => ({}));
-  if (data.errors && data.errors.length) {
-    throw new Error("buffer api: " + data.errors.map((e) => e.message).join("; "));
+  let lastErr = null;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(API, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: "Bearer " + key },
+        body: JSON.stringify({ query })
+      });
+      if (!res.ok && res.status >= 500) {
+        if (attempt < retries) {
+          const backoff = Math.min(2000 * Math.pow(2, attempt - 1), 15000);
+          console.log(`[buffer] HTTP ${res.status} (attempt ${attempt}/${retries}), retrying in ${backoff}ms`);
+          await sleep(backoff);
+          continue;
+        }
+        throw new Error(`buffer api HTTP ${res.status} — Buffer may be down, retry the workflow`);
+      }
+      const data = await res.json().catch(() => ({}));
+      if (data.errors && data.errors.length) {
+        const msg = data.errors.map((e) => e.message).join("; ");
+        if (/unauthorized|invalid.*token|expired/i.test(msg)) {
+          throw new Error("buffer api UNAUTHORIZED: key invalid/expired. FIX: regenerate at publish.buffer.com/settings/api and update the BUFFER_API_KEY secret. Detail: " + msg);
+        }
+        if (/limitreached|quota|limit.*reached/i.test(msg)) {
+          throw new Error("buffer api LIMIT: free tier hit (100 req/24h, 10 queued/channel). FIX: let the queue drain, then re-run. Detail: " + msg);
+        }
+        if (/scheduled time must be in the future/i.test(msg)) {
+          throw new Error("buffer api PAST-DUE: " + msg + " (caller should have remapped to a future time)");
+        }
+        if (/rate limit|timeout|50[234]|network|temporar|econn|etimedout|socket/i.test(msg) && attempt < retries) {
+          const backoff = Math.min(2000 * Math.pow(2, attempt - 1), 15000);
+          console.log(`[buffer] retryable (${attempt}/${retries}) in ${backoff}ms: ${msg}`);
+          await sleep(backoff);
+          continue;
+        }
+        throw new Error("buffer api: " + msg);
+      }
+      return data.data;
+    } catch (e) {
+      lastErr = e;
+      // Classified errors fail fast; network-level failures get retried.
+      if (/UNAUTHORIZED|buffer api LIMIT|buffer api PAST-DUE|buffer api: |buffer api HTTP/.test(e.message)) throw e;
+      if (attempt < retries) {
+        const backoff = Math.min(2000 * Math.pow(2, attempt - 1), 15000);
+        console.log(`[buffer] fetch fail (${attempt}/${retries}) in ${backoff}ms: ${e.message}`);
+        await sleep(backoff);
+        continue;
+      }
+      throw e;
+    }
   }
-  return data.data;
+  throw lastErr || new Error("buffer api: unknown failure after retries");
 }
 
 async function getOrganizations() {
@@ -127,9 +171,31 @@ function aestDate(d = new Date()) {
   return new Date(d.getTime() + TZ_OFFSET_MS).toISOString().slice(0, 10);
 }
 
-function toIso(dateStr, hm) {
+function toIso(dateStr, hm, jitterMin = 0) {
   const [y, m, dd] = dateStr.split("-");
-  return new Date(`${y}-${m}-${dd}T${hm}:00+10:00`).toISOString();
+  const [hh, mm] = String(hm).split(":").map(Number);
+  const total = hh * 60 + mm + jitterMin;
+  const jh = String(Math.floor(total / 60) % 24).padStart(2, "0");
+  const jm = String((((total % 60) + 60) % 60)).padStart(2, "0");
+  return new Date(`${y}-${m}-${dd}T${jh}:${jm}:00+10:00`).toISOString();
+}
+
+// Deterministic per-(date,slot) jitter ±10–25min. Publish timestamps are what
+// Instagram sees — minute-exact daily repetition is a classic bot signal.
+function jitterFor(dateStr, slot) {
+  let h = 2166136261;
+  const s = dateStr + ":jitter:" + slot;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  const r = (h >>> 0) / 4294967296;
+  return Math.round(10 + r * 15) * ((h & 1) ? 1 : -1);
+}
+
+function nextDayStr(dateStr) {
+  const [y, m, dd] = dateStr.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, dd) + 86400000).toISOString().slice(0, 10);
 }
 
 function createPostMutation({ text, channelId, dueAt, imageUrls, videoUrl, postType = "post", platform = "instagram" }) {
@@ -213,36 +279,71 @@ export async function scheduleDate(dateStr, { dry = false, reel = false, force =
   });
   if (!dry) console.log(`[buffer] stealth: selected ${shuffled.length}/${manifest.posts.length} posts for ${dateStr} (target ${targetCount}) times ${shuffledTimes.slice(0,shuffled.length).join(",")}`);
 
+  const failures = [];
+  // Buffer hard-rejects dueAt <= now. The build takes ~2h, so early slots may
+  // already be past by schedule time. Keep 15min headroom for API latency.
+  const FUTURE_SKEW_MS = 15 * 60 * 1000;
+  const nowMs = Date.now();
+  const isFuture = (iso) => new Date(iso).getTime() > nowMs + FUTURE_SKEW_MS;
+  const orderedTimes = [...times].sort();
+
   let timeIdx=0;
   for (const post of shuffled) {
     const gfTime = post.kind === "gadget-focus" ? gfCfg.time : null;
-    const due = toIso(dateStr, gfTime || shuffledTimes[timeIdx % shuffledTimes.length] || times[post.slot] || times[0]);
+    const base = gfTime || shuffledTimes[timeIdx % shuffledTimes.length] || times[post.slot] || times[0];
     timeIdx++;
     if (state[dateStr] && state[dateStr][post.slot]) {
       console.log(`[buffer] already scheduled slot ${post.slot} for ${dateStr} (buffer ${state[dateStr][post.slot].bufferId})`);
       continue;
     }
+    // Future-guard: remap past times to the next future time today, else same
+    // time tomorrow. Never send a past dueAt to Buffer.
+    let due = toIso(dateStr, base, jitterFor(dateStr, post.slot));
+    if (!dry && !isFuture(due)) {
+      const later = orderedTimes.map((t) => toIso(dateStr, t, jitterFor(dateStr, post.slot))).find(isFuture);
+      due = later || toIso(nextDayStr(dateStr), base, jitterFor(dateStr, post.slot));
+      console.log(`[buffer] slot ${post.slot} base time ${base} already past — moved to ${due}`);
+    }
     const urls = postMediaUrls(post);
+    if (!urls.length) {
+      const msg = `slot ${post.slot} ("${post.title}") has 0 media. FIX: re-run ig-render, check out/instagram-ready/${post.id}/ for PNGs`;
+      console.log(`[buffer] skipping — ${msg}`);
+      failures.push({ slot: post.slot, title: post.title, error: msg });
+      continue;
+    }
     const text = captionForPost(post);
+    if (text.length > 2200) {
+      const msg = `slot ${post.slot} caption ${text.length} chars > IG 2200 limit. FIX: shorten captionFor() output`;
+      console.log(`[buffer] skipping — ${msg}`);
+      failures.push({ slot: post.slot, title: post.title, error: msg });
+      continue;
+    }
     const channelId = dry ? (config.buffer && config.buffer.channelId) || "CHANNEL_ID" : await resolveChannelId();
     const mutation = createPostMutation({ text, channelId, dueAt: due, imageUrls: urls });
 
     if (dry) {
       scheduled.push({ slot: post.slot, title: post.title, due, urls, text: text.slice(0, 80) + "…" });
-      console.log(`[buffer] (dry) slot ${post.slot} "${post.title}" @ ${due}`);
+      console.log(`[buffer] (dry) slot ${post.slot} "${post.title}" @ ${due} (${urls.length} imgs, ${text.length} chars)`);
       continue;
     }
 
-    const data = await gql(mutation);
-    const res = data.createPost || {};
-    const pid = res.post && res.post.id;
-    if (!pid) {
-      throw new Error(`Buffer rejected slot ${post.slot} ("${post.title}"): ${res.message || "no post id in response"}`);
+    // Per-slot recovery: one rejection must not abort the remaining slots,
+    // and state is saved incrementally so partial progress survives.
+    try {
+      const data = await gql(mutation);
+      const res = data.createPost || {};
+      const pid = res.post && res.post.id;
+      if (!pid) throw new Error(res.message || "no post id in response");
+      state[dateStr] = state[dateStr] || {};
+      state[dateStr][post.slot] = { postId: post.id, bufferId: pid, dueAt: due, niche: post.niche || "", title: post.title };
+      saveState(state);
+      console.log(`[buffer] scheduled slot ${post.slot} "${post.title}" -> ${pid} @ ${due}`);
+      scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
+    } catch (e) {
+      console.log(`[buffer] slot ${post.slot} ("${post.title}") failed, continuing with next slot: ${e.message}`);
+      failures.push({ slot: post.slot, title: post.title, error: e.message });
     }
-    state[dateStr] = state[dateStr] || {};
-    state[dateStr][post.slot] = { postId: post.id, bufferId: pid, dueAt: due, niche: post.niche || "", title: post.title };
-    console.log(`[buffer] scheduled slot ${post.slot} "${post.title}" -> ${pid} @ ${due}`);
-    scheduled.push({ slot: post.slot, title: post.title, bufferId: pid, dueAt: due });
+    await sleep(1500);
   }
 
   if (reel) {
@@ -251,7 +352,13 @@ export async function scheduleDate(dateStr, { dry = false, reel = false, force =
   }
 
   if (!dry) saveState(state);
-  return { date: dateStr, scheduled };
+  if (failures.length && !scheduled.length) {
+    throw new Error(`Buffer scheduling failed for all ${failures.length} slot(s): ${failures.map((f) => `[${f.slot}] ${f.error}`).join("; ")}`);
+  }
+  if (failures.length) {
+    console.log(`[buffer] done with ${failures.length} failure(s), ${scheduled.length} scheduled — state saved, re-run is safe (no duplicates)`);
+  }
+  return { date: dateStr, scheduled, failures };
 }
 
 export async function scheduleReel(dateStr, { dry = false, state: priorState } = {}) {

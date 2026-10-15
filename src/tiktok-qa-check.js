@@ -48,7 +48,7 @@ export async function checkTikTok() {
     if (fs.existsSync(path.join(DIR, v.replace(/\.mp4$/, ".done")))) continue; // already posted
     pending++;
     const capFile = path.join(DIR, v.replace(/\.mp4$/, ".txt"));
-    if (!fs.existsSync(capFile)) { errors.push(where + " — caption .txt missing"); continue; }
+    if (!fs.existsSync(capFile)) { errors.push(where + " — caption .txt missing. FIX: run `node src/scheduler.js captions` then re-run"); continue; }
     const cap = fs.readFileSync(capFile, "utf8").trim();
     if (!cap) { errors.push(where + " — caption empty"); continue; }
     if (cap.length > 2200) errors.push(where + " — caption " + cap.length + " chars > 2200 TikTok limit");

@@ -1,0 +1,15 @@
+{
+  "url": "https://9to5google.com/2026/10/16/google-restricts-every-free-ai-pro-trial-from-pixel-more-compared-to-paid-subscribers/",
+  "fetched": "2026-10-16T22:11:10.267Z",
+  "paragraphs": [
+    "Google hands out extended free trials to its AI Pro subscription frequently with new smartphone purchases and more, but trial users end up getting less access compared to paid subscribers in what is a bit of a misleading situation.",
+    "Free trials are a pretty standard practice across the industry when it comes to subscriptions, and the general understanding is that you’re getting full access to the same subscription you are later set to pay for unless there’s an upfront stipulation about restrictions.",
+    "And that’s where things are getting a bit messy with Google’s AI Pro subscription.",
+    "Google One AI Pro is a $19.99/month subscription that delivers access to expanded Gemini usage limits, 5TB of storage across Google products, and bundles in other subscriptions such as Google Home Premium, Health Premium, and YouTube Premium Lite. Earlier this year, we called AI Pro “one of the best deals in tech today.”",
+    "But the rollout of Gemini 4 Argon to Google’s Antigravity development tool put a spotlight on a restriction on AI Pro’s free trials. Put simply, they’re limited compared to paid subscribers, and it’s not something Google made abundantly clear.",
+    "There are two specific downsides with a Google One AI Pro trial compared to an actively paid subscription. As mentioned, Antigravity on AI Pro trials leaves out Gemini 4 Argon. Google has a page that specifically puts a trial account in a completely different bucket compared to a paid AI Pro plan, and it treats the trial as a free user with expanded usage limits rather than a full user as @evowizz was one of the first to point out.",
+    "The other restriction is YouTube Premium Lite, which is not available for Google One AI Pro trial users until they start paying.",
+    "In Google’s defense, this is technically spelled out on support documents. The YouTube Premium Lite restriction, for example, is clearly spelled out as Google says that the “benefit is unavailable until trials of Google AI Pro conclude and you convert to a paid subscription.” But, as far as we can see, this is not disclosed as clearly at the time of sign-up or alongside advertising of the AI Pro trials."
+  ],
+  "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/google-ai-pro.jpg?quality=82&strip=all&resize=1200,628"
+}

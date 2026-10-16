@@ -1,174 +1,145 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-15T22:37:09.924Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-16T22:14:17.812Z",
   "posts": [
     {
-      "id": "20261016-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261017-you-ve-never-checked-your-battery-health",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You've never checked your battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You've never checked your battery health\nWorn batteries fail at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Worn batteries fail at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — One tap: Settings > Battery > Battery Health."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #CPU #GPU #techtips Follow for daily tech intel.",
+      "caption": "🚩 You've never checked your battery health #smartphone #Android #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261016-incognito-mode-makes-you-anonymous",
+      "id": "20261017-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Incognito mode makes you anonymous",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Incognito mode makes you anonymous"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Incognito mode makes you anonymous Truth: Incognito only stops local history. Your ISP, employer and the sites you visit still see… #2FA #infosec #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261016-hidden-macos-tools-most-people-never-find",
+      "id": "20261017-why-works-on-my-machine-finally-died",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "Why 'works on my machine' finally died",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iPhone #macOS #techtips Follow for daily tech intel.",
+      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #cloud #AWS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261016-set-up-a-better-morning-phone-routine",
+      "id": "20261017-airdrop-files-the-right-way",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a better morning phone routine",
+      "title": "AirDrop files the right way",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a better morning phone routine\nPlug in at night — 80% is plenty"
+          "text": "AirDrop files the right way\nTurn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Plug in at night — 80% is plenty"
+          "text": "Turn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Glance at the lock screen, don't dive in"
+          "text": "Set Contacts Only so strangers can't send"
         },
         {
           "kind": "step",
-          "text": "Clear junk notifications once a day"
+          "text": "Select the file, Share > AirDrop, pick the person"
         },
         {
           "kind": "step",
-          "text": "Enable battery saver on your commute"
+          "text": "Accept on the receiving device"
         },
         {
           "kind": "step",
-          "text": "Arrive with 90% and a clearer head."
+          "text": "Confirmed — no cable, no cloud middleman."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Set up a better morning phone routine #tech #gadgets #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261016-gadget-focus-deals-pixel-watch-5-up-to-108-off-tcl-nxtpaper-phone-200",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Deals: Pixel Watch 5 up to $108 off, TCL NXTPAPER…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/10/14/deals-pixel-watch-5-tcl-nxtpaper-anker-display-hub/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Deals: Pixel Watch 5 up to $108 off, TCL\nDeals: Pixel Watch 5 up to $108 off, TCL NXTPAPER phone $200, Anker's new Smart Display Hub,…"
-        },
-        {
-          "kind": "brief",
-          "text": "Head below for a closer look."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Deals: Pixel Watch 5 up to $108 off, TCL NXTPAPER… (9to5Google) https://9to5google.com/2026/10/14/deals-pixel-watch-5-tcl-nxtpaper-anker-display-hub/ #tech #gadgets #techtips Follow for daily tech intel.",
+      "caption": "🍎 AirDrop files the right way #iPhone #iOS #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,26 +1,26 @@
 {
-  "date": "20261017",
+  "date": "20261020",
   "deck": {
-    "id": "a-week-with-rtx-spark-everything-we-ve-learned-using-nvidia",
-    "niche": "ai",
-    "href": "",
-    "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new la…",
+    "id": "iphone-duo-has-a-bigger-battery-than-galaxy-z-fold-8-and-pix",
+    "niche": "gadgets",
+    "href": "https://9to5google.com/2026/10/19/iphone-duo-battery-comparison/",
+    "title": "iPhone Duo has a bigger battery than Galaxy Z Fold 8 and Pixel 11 Pro…",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "A week with RTX Spark: everything we’ve lea…",
+        "text": "iPhone Duo has a bigger battery than Galaxy…",
         "kind": "hook"
       },
       {
-        "text": "Nvidia’s new SoC is available in Windows laptops from six different manufacture…",
+        "text": "The short version: iPhone Duo has a bigger battery than Galaxy Z Fold 8 and Pixel 11 Pro F….",
         "kind": "body"
       },
       {
-        "text": "We’ve collectively tested four of them so far.",
+        "text": "Why it matters: this sits right at the frontier of bleeding-edge tech.",
         "kind": "body"
       },
       {
-        "text": "| Photo: Antonio G.",
+        "text": "What to watch: how the AI and hardware giants respond over the next week.",
         "kind": "body"
       },
       {
@@ -29,5 +29,5 @@
       }
     ]
   },
-  "caption": "A week with RTX Spark: everything we’ve learned using Nvidia’s new la.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "iPhone Duo has a bigger battery than Galaxy Z Fold 8 and Pixel 11 Pro.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

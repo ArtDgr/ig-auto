@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-16T22:14:17.812Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-19T23:03:20.253Z",
   "posts": [
     {
-      "id": "20261017-you-ve-never-checked-your-battery-health",
+      "id": "20261020-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked your battery health",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked your battery health\nWorn batteries fail at the worst moment."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Worn batteries fail at the worst moment."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One tap: Settings > Battery > Battery Health."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You've never checked your battery health #smartphone #Android #tech Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #iPhone #iOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261017-a-4k-screen-is-always-better",
+      "id": "20261020-docker-containers-are-mini-vms",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "Docker containers are mini VMs",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "Docker containers are mini VMs"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #GPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Docker containers are mini VMs Truth: Containers share the host kernel — they're isolated processes, not virtual machines.… #AWS #DevOps #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261017-why-works-on-my-machine-finally-died",
+      "id": "20261020-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Why 'works on my machine' finally died",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #cloud #AWS #techtips Follow for daily tech intel.",
+      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #GPU #hardware #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261017-airdrop-files-the-right-way",
+      "id": "20261020-remove-junk-and-bloatware-safely",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "AirDrop files the right way",
+      "title": "Remove junk and bloatware safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "AirDrop files the right way\nTurn on AirDrop on both devices (Control Center)"
+          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Turn on AirDrop on both devices (Control Center)"
+          "text": "Settings > Apps > Installed apps"
         },
         {
           "kind": "step",
-          "text": "Set Contacts Only so strangers can't send"
+          "text": "Uninstall trialware and toolbars you never open"
         },
         {
           "kind": "step",
-          "text": "Select the file, Share > AirDrop, pick the person"
+          "text": "Run Disk Cleanup afterwards to free the space"
         },
         {
           "kind": "step",
-          "text": "Accept on the receiving device"
+          "text": "For stubborn apps, use their own uninstaller first"
         },
         {
           "kind": "step",
-          "text": "Confirmed — no cable, no cloud middleman."
+          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🍎 AirDrop files the right way #iPhone #iOS #techtips Follow for daily tech intel.",
+      "caption": "🛠️ Remove junk and bloatware safely #techsupport #itsupport #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

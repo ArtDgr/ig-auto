@@ -1,160 +1,160 @@
 {
-  "date": "2026-10-20",
-  "renderedAt": "2026-10-19T23:03:20.243Z",
+  "date": "2026-10-21",
+  "renderedAt": "2026-10-20T22:33:40.507Z",
   "posts": [
     {
-      "id": "20261020-you-never-restart-your-pc",
+      "id": "20261021-you-reuse-one-password-everywhere",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You reuse one password everywhere",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You reuse one password everywhere\nOne breach anywhere becomes access everywhere."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — One breach anywhere becomes access everywhere."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Password manager, unique password per site, change the important ones first."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#sysadmin #fixyourpc #computertips #itsupport #pchelp\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou reuse one password everywhere\n\nWhy it's a problem: One breach anywhere becomes access everywhere.\nThe fix: Password manager, unique password per site, change the important ones first.\n\nSave this before it becomes a repair bill →\n\n#cybersectips #privacy #security #2fa #cybersecurity\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261020-you-never-restart-your-pc/01.png",
-        "out/instagram-ready/20261020-you-never-restart-your-pc/02.png",
-        "out/instagram-ready/20261020-you-never-restart-your-pc/03.png",
-        "out/instagram-ready/20261020-you-never-restart-your-pc/04.png"
+        "out/instagram-ready/20261021-you-reuse-one-password-everywhere/01.png",
+        "out/instagram-ready/20261021-you-reuse-one-password-everywhere/02.png",
+        "out/instagram-ready/20261021-you-reuse-one-password-everywhere/03.png",
+        "out/instagram-ready/20261021-you-reuse-one-password-everywhere/04.png"
       ]
     },
     {
-      "id": "20261020-a-4k-screen-is-always-better",
+      "id": "20261021-the-cloud-saves-you-money-automatically",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "The cloud saves you money automatically",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "The cloud saves you money automatically"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Cloud saves money with discipline — unmonitored resources bill forever. Without budget alerts and auto-shutdown, the bill is the surprise."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#chipshortage #laptops #pc #gpu #cpu\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: The cloud saves you money automatically\nTruth: Cloud saves money with discipline — unmonitored resources bill forever. Without budget alerts and auto-shutdown, the bill is the surprise.\n\nShare this with the person who still believes it →\n\n#devopslife #techops #devops #docker #cloudinfra\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261020-a-4k-screen-is-always-better/01.png",
-        "out/instagram-ready/20261020-a-4k-screen-is-always-better/02.png",
-        "out/instagram-ready/20261020-a-4k-screen-is-always-better/03.png"
+        "out/instagram-ready/20261021-the-cloud-saves-you-money-automatically/01.png",
+        "out/instagram-ready/20261021-the-cloud-saves-you-money-automatically/02.png",
+        "out/instagram-ready/20261021-the-cloud-saves-you-money-automatically/03.png"
       ]
     },
     {
-      "id": "20261020-hidden-macos-tools-most-people-never-find",
+      "id": "20261021-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "Hidden macOS tools most people never find 🔓\n\nInsider knowledge, free.\n\n• Three-finger drag in Trackpad settings — a one-gesture superpower\n• Control Center custom controls — toggles without Settings hunting\n• Stage Manager for real multitasking\n• App Library search instead of page-swiping\n\nSave this — it'll be your shortcut later →\n\n#macos #macrumors #ios #itpro #macbook\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#gadgetreviews #tech #smartphonetips #gadgets #batterytips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261020-hidden-macos-tools-most-people-never-find/01.png",
-        "out/instagram-ready/20261020-hidden-macos-tools-most-people-never-find/02.png",
-        "out/instagram-ready/20261020-hidden-macos-tools-most-people-never-find/03.png"
+        "out/instagram-ready/20261021-how-to-tell-if-your-battery-is-really-dying/01.png",
+        "out/instagram-ready/20261021-how-to-tell-if-your-battery-is-really-dying/02.png",
+        "out/instagram-ready/20261021-how-to-tell-if-your-battery-is-really-dying/03.png"
       ]
     },
     {
-      "id": "20261020-set-up-a-better-morning-phone-routine",
+      "id": "20261021-free-up-iphone-storage-in-5-minutes",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a better morning phone routine",
+      "title": "Free up iPhone storage in 5 minutes",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a better morning phone routine\nPlug in at night — 80% is plenty"
+          "text": "Free up iPhone storage in 5 minutes\nSettings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Plug in at night — 80% is plenty"
+          "text": "Settings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Glance at the lock screen, don't dive in"
+          "text": "Delete the biggest offline videos and games first"
         },
         {
           "kind": "step",
-          "text": "Clear junk notifications once a day"
+          "text": "Offload apps you haven't opened in months"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up a better morning phone routine 📱\n\n1. Plug in at night\n     ✓ 80% is plenty\n2. Glance at the lock screen, don't dive in\n3. Clear junk notifications once a day\n\nSave this for the next ticket →\n\n#smartphone #gadgetreviews #gadgets #iphone #batterytips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Free up iPhone storage in 5 minutes 🍎\n\n1. Settings > General > iPhone Storage\n2. Delete the biggest offline videos and games first\n3. Offload apps you haven't opened in months\n\nSave this for the next ticket →\n\n#itpro #appletips #ios #iphone #macbook\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261020-set-up-a-better-morning-phone-routine/01.png",
-        "out/instagram-ready/20261020-set-up-a-better-morning-phone-routine/02.png",
-        "out/instagram-ready/20261020-set-up-a-better-morning-phone-routine/03.png",
-        "out/instagram-ready/20261020-set-up-a-better-morning-phone-routine/04.png",
-        "out/instagram-ready/20261020-set-up-a-better-morning-phone-routine/05.png"
+        "out/instagram-ready/20261021-free-up-iphone-storage-in-5-minutes/01.png",
+        "out/instagram-ready/20261021-free-up-iphone-storage-in-5-minutes/02.png",
+        "out/instagram-ready/20261021-free-up-iphone-storage-in-5-minutes/03.png",
+        "out/instagram-ready/20261021-free-up-iphone-storage-in-5-minutes/04.png",
+        "out/instagram-ready/20261021-free-up-iphone-storage-in-5-minutes/05.png"
       ]
     }
   ]

@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-19T23:03:20.253Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-20T22:33:40.518Z",
   "posts": [
     {
-      "id": "20261020-you-keep-every-screenshot-you-ever-took",
+      "id": "20261021-you-charge-overnight-to-100-every-night",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You charge overnight to 100% every night",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You charge overnight to 100% every night\nLithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — Lithium batteries age fastest at the extremes."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Charge to 80% for daily use and keep the phone off 100% at night."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #iPhone #iOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You charge overnight to 100% every night #gadgets #tech #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261020-docker-containers-are-mini-vms",
+      "id": "20261021-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Docker containers are mini VMs",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Docker containers are mini VMs"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Docker containers are mini VMs Truth: Containers share the host kernel — they're isolated processes, not virtual machines.… #AWS #DevOps #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #CPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261020-the-upgrade-that-changes-everything",
+      "id": "20261021-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #GPU #hardware #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261020-remove-junk-and-bloatware-safely",
+      "id": "20261021-set-up-2fa-on-any-account",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Remove junk and bloatware safely",
+      "title": "Set up 2FA on any account",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
+          "text": "Set up 2FA on any account\nOpen Settings > Security > Two-factor"
         },
         {
           "kind": "step",
-          "text": "Settings > Apps > Installed apps"
+          "text": "Open Settings > Security > Two-factor"
         },
         {
           "kind": "step",
-          "text": "Uninstall trialware and toolbars you never open"
+          "text": "Prefer an authenticator app over SMS"
         },
         {
           "kind": "step",
-          "text": "Run Disk Cleanup afterwards to free the space"
+          "text": "Scan the QR with your authenticator"
         },
         {
           "kind": "step",
-          "text": "For stubborn apps, use their own uninstaller first"
+          "text": "Save the backup codes somewhere safe"
         },
         {
           "kind": "step",
-          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
+          "text": "Test a login with a code before you log out."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Remove junk and bloatware safely #techsupport #itsupport #tech Follow for daily tech intel.",
+      "caption": "🔐 Set up 2FA on any account #cybersecurity #privacy #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

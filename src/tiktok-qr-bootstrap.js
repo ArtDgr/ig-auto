@@ -30,8 +30,6 @@ try {
   const consent = page.getByRole("button", { name: /accept all|i accept|agree/i }).first();
   if (await consent.isVisible().catch(() => false)) await consent.click().catch(() => {});
   await page.waitForTimeout(800);
-  // Layered click: text node → role button → JS click. Headless bot-walls
-  // can swallow one of these; xvfb headful normally takes the first.
   const qrTab = page.getByText(/use qr code/i).first();
   if (await qrTab.isVisible().catch(() => false)) await qrTab.click().catch(() => {});
   if (!await page.locator("img[src*='qr' i], canvas").first().isVisible().catch(() => false)) {

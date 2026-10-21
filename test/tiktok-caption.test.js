@@ -174,4 +174,11 @@ test("AI safety risk stories use a purpose-built safety testing background", () 
   assert.equal(theme.visual, "ai-safety-risk");
   assert.equal(theme.label, "SAFETY TEST");
   assert.equal(theme.accent, "#FB7185");
+
+  const unrelatedTheme = themeForDeck({
+    niche: "security",
+    title: "Ransomware attack targets hospital credentials",
+    slides: [{ text: "Ransomware attack targets hospital credentials", kind: "hook" }]
+  });
+  assert.equal(unrelatedTheme.visual, null);
 });

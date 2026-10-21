@@ -1,103 +1,103 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-20T22:33:40.518Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:38:05.843Z",
   "posts": [
     {
-      "id": "20261021-you-charge-overnight-to-100-every-night",
+      "id": "20261022-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You charge overnight to 100% every night",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You charge overnight to 100% every night\nLithium batteries age fastest at the extremes."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Lithium batteries age fastest at the extremes."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Charge to 80% for daily use and keep the phone off 100% at night."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You charge overnight to 100% every night #gadgets #tech #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You keep every screenshot you ever took #macOS #Apple #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261021-a-bigger-cpu-number-is-always-faster",
+      "id": "20261022-you-need-a-registry-cleaner",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "You need a registry cleaner",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "You need a registry cleaner"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #CPU #PC #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: You need a registry cleaner Truth: Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't… #Windows11 #itsupport #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261021-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261022-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #GPU #PC #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261021-set-up-2fa-on-any-account",
+      "id": "20261022-spot-a-phishing-email-in-30-seconds",
       "slot": 3,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
@@ -106,40 +106,40 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up 2FA on any account",
+      "title": "Spot a phishing email in 30 seconds",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up 2FA on any account\nOpen Settings > Security > Two-factor"
+          "text": "Spot a phishing email in 30 seconds\nCheck the sender address, not just the display name"
         },
         {
           "kind": "step",
-          "text": "Open Settings > Security > Two-factor"
+          "text": "Check the sender address, not just the display name"
         },
         {
           "kind": "step",
-          "text": "Prefer an authenticator app over SMS"
+          "text": "Hover links to see the real URL"
         },
         {
           "kind": "step",
-          "text": "Scan the QR with your authenticator"
+          "text": "Watch for urgency and threats — 'act now' is a red flag"
         },
         {
           "kind": "step",
-          "text": "Save the backup codes somewhere safe"
+          "text": "Look for odd grammar and typos in the body"
         },
         {
           "kind": "step",
-          "text": "Test a login with a code before you log out."
+          "text": "In doubt? Contact the company on a known number."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Set up 2FA on any account #cybersecurity #privacy #itsupportguru Follow for daily tech intel.",
+      "caption": "🔐 Spot a phishing email in 30 seconds #cybersecurity #privacy #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

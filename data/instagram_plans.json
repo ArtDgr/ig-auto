@@ -1,137 +1,137 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-20T22:33:29.495Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-21T22:37:55.916Z",
   "posts": [
     {
-      "id": "20261021-you-reuse-one-password-everywhere",
+      "id": "20261022-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You reuse one password everywhere",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You reuse one password everywhere\nOne breach anywhere becomes access everywhere."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — One breach anywhere becomes access everywhere."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Password manager, unique password per site, change the important ones first."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou reuse one password everywhere\n\nWhy it's a problem: One breach anywhere becomes access everywhere.\nThe fix: Password manager, unique password per site, change the important ones first.\n\nSave this before it becomes a repair bill →\n\n#cybersectips #privacy #security #2fa #cybersecurity\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#iphone #applenews #macbook #appletips #macos\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261021-the-cloud-saves-you-money-automatically",
+      "id": "20261022-you-need-a-gaming-laptop-for-gaming",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "The cloud saves you money automatically",
+      "title": "You need a 'gaming' laptop for gaming",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The cloud saves you money automatically"
+          "text": "You need a 'gaming' laptop for gaming"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cloud saves money with discipline — unmonitored resources bill forever. Without budget alerts and auto-shutdown, the bill is the surprise."
+          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: The cloud saves you money automatically\nTruth: Cloud saves money with discipline — unmonitored resources bill forever. Without budget alerts and auto-shutdown, the bill is the surprise.\n\nShare this with the person who still believes it →\n\n#devopslife #techops #devops #docker #cloudinfra\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#cpu #pc #pcgaming #gpu #benchmark\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261021-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20261022-how-to-actually-verify-ai-output",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "How to actually verify AI output",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "How to actually verify AI output\nAsk for a source for every key claim"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#gadgetreviews #tech #smartphonetips #gadgets #batterytips\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#futuretech #ai #chatgpt #copilot #machinelearning\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261021-free-up-iphone-storage-in-5-minutes",
+      "id": "20261022-connect-your-wifi-step-by-step",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Free up iPhone storage in 5 minutes",
+      "title": "Connect your WiFi step by step",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Free up iPhone storage in 5 minutes\nSettings > General > iPhone Storage"
+          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Settings > General > iPhone Storage"
+          "text": "Click the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Delete the biggest offline videos and games first"
+          "text": "Pick your network name and enter the password exactly"
         },
         {
           "kind": "step",
-          "text": "Offload apps you haven't opened in months"
+          "text": "Watch for auto-correct — passwords get mangled silently"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Free up iPhone storage in 5 minutes 🍎\n\n1. Settings > General > iPhone Storage\n2. Delete the biggest offline videos and games first\n3. Offload apps you haven't opened in months\n\nSave this for the next ticket →\n\n#itpro #appletips #ios #iphone #macbook\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Connect your WiFi step by step 🛠️\n\n1. Click the network icon in the system tray\n2. Pick your network name and enter the password exactly\n3. Watch for auto-correct\n     ✓ passwords get mangled silently\n\nSave this for the next ticket →\n\n#fixyourpc #techsupport #troubleshooting #helpdesk #pchelp\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     }
   ]

@@ -14,9 +14,26 @@ const ENGAGE_QS = [
   "Tag someone who needs to know this 👇",
 ];
 
+export function cleanCaptionHeadline(value) {
+  return String(value || "")
+    .replace(/^TechBrief:\s*/i, "")
+    .replace(/[.!?]+$/u, "")
+    .trim();
+}
+
+export function isCompleteCaptionHeadline(value) {
+  const headline = String(value || "").trim();
+  return Boolean(headline)
+    && !/(?:\.{3}|…)\s*$/u.test(headline)
+    && !/(?:[$€£]|(?:\b(?:to|with|in|for|and|or|of|a|an|the)\b))\s*$/iu.test(headline);
+}
+
 export function buildCaption(deck) {
-  const hook = deck.slides?.find((s) => s.kind === "hook")?.text || deck.title || "";
-  const cleanHook = hook.replace(/^TechBrief:\s*/i, "").replace(/[.!…]+/gu, "").trim();
+  const sourceHeadline = deck.captionTitle || deck.title || deck.slides?.find((s) => s.kind === "hook")?.text || "";
+  if (!isCompleteCaptionHeadline(sourceHeadline)) {
+    throw new Error(`Incomplete TikTok caption headline for "${deck.id || "unknown deck"}": ${sourceHeadline}`);
+  }
+  const cleanHook = cleanCaptionHeadline(sourceHeadline);
   const nicheTags = TIK.nicheHashtags[deck.niche] || [];
   const tags = [...new Set([...TIK.baseHashtags, ...nicheTags])].join(" ");
   let h = 0;
@@ -34,21 +51,19 @@ export function writeCaptions(decks, watchDir, outDir) {
   for (const v of videos) {
     const deck = decks.find((d) => d.id === v.replace(/\.mp4$/, ""));
     if (!deck) {
-      // Orphan mp4 (scripts.json regenerated after render): keep the queue
-      // moving with a generic caption instead of failing the QA gate.
-      const id = v.replace(/\.mp4$/, "");
-      const title = id.replace(/-/g, " ").replace(/\\s+/g, " ").trim();
-      const tags = [...new Set([...TIK.baseHashtags])].join(" ");
-      fs.writeFileSync(path.join(outDir, id + ".txt"), `${title}. ${TIK.cta}\\n${tags}`, "utf8");
-      count++;
+      console.warn(`[captions] no matching script for ${v}; leaving this older video untouched`);
       continue;
     }
     const caption = buildCaption(deck);
-    const txtOut = path.join(outDir, v.replace(/\.mp4$/, ".txt"));
+    const stem = v.replace(/\.mp4$/, "");
+    const txtOut = path.join(outDir, stem + ".txt");
     fs.writeFileSync(txtOut, caption, "utf8");
+    fs.writeFileSync(path.join(outDir, stem + ".qa.json"), JSON.stringify({
+      headline: cleanCaptionHeadline(deck.captionTitle || deck.title || deck.slides?.find((s) => s.kind === "hook")?.text || "")
+    }, null, 2) + "\n", "utf8");
     count++;
   }
   return count;
 }
 
-export default { buildCaption, writeCaptions };
+export default { buildCaption, cleanCaptionHeadline, isCompleteCaptionHeadline, writeCaptions };

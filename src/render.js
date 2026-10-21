@@ -26,17 +26,27 @@ const REEL_ACCENTS = {
 // tuned for video: accent + life ratio/mold/speed per subject.
 // ORDER MATTERS: Apple (iphone/ipad) before generic Android, hardware before AI
 const TOPIC_REEL_THEMES = [
-  { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
-  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
-  { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, accent: "#0EA5E9", life: { ratio: 0.05, mold: 5, speed: 0.13 } },
-  { re: /(android|samsung|galaxy|pixel|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, accent: "#F59E0B", life: { ratio: 0.06, mold: 5, speed: 0.15 } },
-  { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, accent: "#16A34A", life: { ratio: 0.05, mold: 6, speed: 0.10 } },
-  { re: /(wifi|router|signal|mesh|network)/i, accent: "#0EA5E9", life: { ratio: 0.07, mold: 6, speed: 0.14 } },
-  { re: /(camera|photo|lens|sensor|image)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 6, speed: 0.13 } },
-  { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, accent: "#2563EB", life: { ratio: 0.07, mold: 6, speed: 0.10 } },
-  { re: /(windows|microsoft|office|365|outlook|teams|powershell|fix|troubleshoot|how.to|guide)/i, accent: "#00A8FF", life: { ratio: 0.06, mold: 5, speed: 0.13 } },
-  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
+  { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", label: "CYBER ALERT", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
+  { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", label: "HARDWARE WATCH", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
+  { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, accent: "#0EA5E9", label: "APPLE UPDATE", life: { ratio: 0.05, mold: 5, speed: 0.13 } },
+  { re: /(android|samsung|galaxy|pixel|redmi|honor|fold|smartphone|tablet|watch|wearable|gadget)/i, accent: "#F59E0B", label: "DEVICE WATCH", life: { ratio: 0.06, mold: 5, speed: 0.15 } },
+  { re: /(battery|charging|charge|usb.c|power|mah|fast.charge)/i, accent: "#16A34A", label: "BATTERY CHECK", life: { ratio: 0.05, mold: 6, speed: 0.10 } },
+  { re: /(wifi|router|signal|mesh|network)/i, accent: "#0EA5E9", label: "NETWORK WATCH", life: { ratio: 0.07, mold: 6, speed: 0.14 } },
+  { re: /(camera|photo|lens|sensor|image)/i, accent: "#7C3AED", label: "CAMERA TECH", life: { ratio: 0.06, mold: 6, speed: 0.13 } },
+  { re: /(cloud|server|data.center|datacenter|kubernetes|docker|container|aws|azure|storage|infra|uptime|devops|sre)/i, accent: "#2563EB", label: "CLOUD SYSTEMS", life: { ratio: 0.07, mold: 6, speed: 0.10 } },
+  { re: /(windows|microsoft|office|365|outlook|teams|powershell|fix|troubleshoot|how.to|guide)/i, accent: "#00A8FF", label: "IT SUPPORT", life: { ratio: 0.06, mold: 5, speed: 0.13 } },
+  { re: /(\bai\b|gpt|llm|model|agent|neural|openai|anthropic|gemini|copilot|intelligence|machine.learning|bot)/i, accent: "#7C3AED", label: "AI WATCH", life: { ratio: 0.06, mold: 5, speed: 0.18 } },
 ];
+
+const NICHE_LABELS = {
+  ai: "AI WATCH",
+  gadgets: "DEVICE WATCH",
+  apple: "APPLE UPDATE",
+  hardware: "HARDWARE WATCH",
+  security: "CYBER ALERT",
+  "it-support": "IT SUPPORT",
+  "cloud-devops": "CLOUD SYSTEMS",
+};
 
 function accentFor(niche) {
   return REEL_ACCENTS[niche] || config.accentColor || "#0E9384";
@@ -44,8 +54,8 @@ function accentFor(niche) {
 function themeForDeck(deck) {
   const hay = `${deck.niche || ""} ${deck.title || ""} ${deck.slides?.map(s=>s.text).join(" ") || ""}`;
   const topic = TOPIC_REEL_THEMES.find(t=> t.re.test(hay));
-  if (topic) return { accent: topic.accent, life: topic.life, topic: true };
-  return { accent: accentFor(deck.niche), life: null, topic: false };
+  if (topic) return { accent: topic.accent, label: topic.label, life: topic.life, topic: true };
+  return { accent: accentFor(deck.niche), label: NICHE_LABELS[deck.niche] || "TECH BRIEF", life: null, topic: false };
 }
 
 async function fetchPhoto(url, dest) {
@@ -181,7 +191,7 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
 
   // Text pop-in: rises 60px and fades in over the first ~0.6s. Kicker fades in
   // from the top so the composition feels alive, not pasted on.
-  const kicker = isHook ? "DAILY IT FIX" : isCta ? "FOLLOW FOR MORE" : kind === "body" ? "THE DETAILS" : "";
+  const kicker = isHook ? opts.label || "TECH BRIEF" : isCta ? "FOLLOW FOR MORE" : kind === "body" ? "THE DETAILS" : "";
   const textF =
     `drawtext=fontfile=assets/arialbd.ttf:textfile=${txtFile.replace(/\\/g, "/")}:` +
     `fontsize=${fontsize}:fontcolor=${textColor}:line_spacing=30:` +
@@ -278,7 +288,7 @@ export async function renderDeck(deck, outPath) {
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photo });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photo, label: theme.label });
     clips.push(clip);
   }
 

@@ -704,7 +704,7 @@
     }
   },
   "tiktokBot": {
-    "enabled": true,
+    "enabled": false,
     "postDir": "out/tiktok-ready",
     "profileDir": "profiles/tiktok-edge",
     "engine": "edge",

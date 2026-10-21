@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import config from "../config.json" with { type: "json" };
 import { loadPlan, captionForPost } from "./ig-generator.js";
+import { checkTikTok } from "./tiktok-qa-check.js";
 
 const API = "https://api.buffer.com";
 const SCHED_STATE = path.join("data", "buffer-scheduled.json");
@@ -425,7 +426,12 @@ function randomizedTikTokTimes(dateStr, count){
   return mins.map(m=>`${String(Math.floor(m/60)).padStart(2,"0")}:${String(m%60).padStart(2,"0")}`);
 }
 export async function scheduleTikTok(dateStr, { dry = false, state: priorState } = {}) {
+  if (config.buffer?.tiktokViaBuffer !== true) {
+    throw new Error("TikTok scheduling through Buffer is disabled by config.buffer.tiktokViaBuffer=false.");
+  }
   const tiktokDir = (config.tiktok && config.tiktok.postDir) || (config.tiktokBot && config.tiktokBot.postDir) || "out/tiktok-ready";
+  const qa = await checkTikTok(tiktokDir);
+  if (!qa.ok) throw new Error("TikTok QA failed: " + qa.errors.join("; "));
   const scriptsPath = path.join("data", "scripts.json");
   if (!fs.existsSync(scriptsPath)) {
     console.log("[buffer:tiktok] no scripts.json — run scheduler generate first, skipping TikTok");

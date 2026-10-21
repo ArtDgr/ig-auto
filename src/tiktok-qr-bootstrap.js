@@ -1,8 +1,7 @@
-// Cloud QR bootstrap — NO LAPTOP. Runs in GitHub Actions (xvfb) or anywhere headless.
-// Opens TikTok login, screenshots the QR to out/tiktok-qr.png, waits up to
-// 10 min for the user to scan it with the TikTok phone app, then exports
-// cookies for the TIKTOK_COOKIES_B64 secret.
-// Usage: xvfb-run -a node src/tiktok-qr-bootstrap.js
+// Local QR bootstrap only. GitHub Actions must not bootstrap TikTok sessions.
+// Opens TikTok's official QR login locally and stores any resulting session
+// files locally only. Never upload or replay these browser cookies in CI.
+// Usage: node src/tiktok-qr-bootstrap.js
 import fs from "node:fs";
 import path from "node:path";
 import { launchStealth } from "./stealth.js";
@@ -13,6 +12,11 @@ const QR_PNG = path.join("out", "tiktok-qr.png");
 const OUT_JSON = path.join("out", "tiktok-cookies.json");
 const OUT_B64 = path.join("out", "tiktok-cookies.b64");
 const WAIT_MS = 10 * 60 * 1000;
+
+if (process.env.GITHUB_ACTIONS === "true") {
+  console.error("[qr-bootstrap] TikTok session bootstrapping is disabled in GitHub Actions.");
+  process.exit(1);
+}
 
 function hasSessionCookies(cks) {
   return cks.some((c) => ["sessionid", "sessionid_ss", "sid_tt"].includes(c.name) && (c.value || "").length > 4);
@@ -34,12 +38,6 @@ try {
     const btn = page.getByRole("button", { name: /qr code/i }).first();
     if (await btn.isVisible().catch(() => false)) await btn.click().catch(() => {});
   }
-  if (!await page.locator("img[src*='qr' i], canvas").first().isVisible().catch(() => false)) {
-    await page.evaluate(() => {
-      const els = Array.from(document.querySelectorAll("div,button,a")).filter((e) => /^use qr code$/i.test((e.textContent || "").trim()));
-      if (els[0]) { els[0].scrollIntoView(); els[0].click(); }
-    }).catch(() => {});
-  }
   // The QR art renders after a short async load — poll for it (up to 30s)
   // instead of assuming a fixed delay. Scope to real QR surfaces, not logos.
   let qrEl = null;
@@ -53,12 +51,12 @@ try {
   }
   if (!qrEl) {
     await page.screenshot({ path: path.join("out", "tiktok-login-debug.png"), fullPage: false }).catch(() => {});
-    throw new Error("QR code never rendered after clicking 'Use QR code' (bot-wall or layout change). Debug shot saved to out/tiktok-login-debug.png. Fallback: Android Firefox + Cookie-Editor export, see TIKTOK_SETUP.md §1b.");
+    throw new Error("QR code was not available through the normal login flow. Stop here; do not work around TikTok's access or verification controls.");
   }
   fs.mkdirSync("out", { recursive: true });
   await qrEl.screenshot({ path: QR_PNG });
   console.log("[qr-bootstrap] QR screenshot -> " + QR_PNG);
-  console.log("[qr-bootstrap] On your PHONE: open TikTok app (as @theitsupportguru) -> scan the QR in that image -> Approve. Waiting 10 min...");
+  console.log("[qr-bootstrap] Use TikTok's official app QR flow and complete any requested verification there. Waiting 10 min...");
   const t0 = Date.now();
   let ok = false;
   while (Date.now() - t0 < WAIT_MS) {
@@ -73,8 +71,8 @@ try {
     const cks = await ctx.cookies("https://www.tiktok.com").catch(() => []);
     fs.writeFileSync(OUT_JSON, JSON.stringify(cks, null, 2));
     fs.writeFileSync(OUT_B64, Buffer.from(JSON.stringify(cks)).toString("base64"));
-    console.log(`[qr-bootstrap] SESSION CONFIRMED — ${cks.length} cookies -> ${OUT_JSON} + ${OUT_B64}`);
-    console.log("[qr-bootstrap] NEXT (phone browser is fine): GitHub repo -> Settings -> Secrets -> Actions -> TIKTOK_COOKIES_B64 = contents of " + OUT_B64);
+    console.log(`[qr-bootstrap] SESSION CONFIRMED — ${cks.length} cookies saved locally to ${OUT_JSON} + ${OUT_B64}`);
+    console.log("[qr-bootstrap] Do not upload browser cookies to GitHub Actions secrets or replay them in CI.");
   }
 } finally {
   await page.close().catch(() => {});

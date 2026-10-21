@@ -8,6 +8,7 @@ import { checkTikTok } from "../src/tiktok-qa-check.js";
 import { postLimitForEvent } from "../src/tiktok-post-limit.js";
 import { keywordsFor, scorePhotoCandidate } from "../src/photo.js";
 import { scheduleTikTok } from "../src/buffer-publish.js";
+import { themeForDeck } from "../src/render.js";
 
 const tempDirs = [];
 
@@ -161,4 +162,16 @@ test("background search terms and relevance scoring distinguish multiple niches"
     assert.ok(scorePhotoCandidate(image, story) > 0, `${story.niche} image should match its story`);
     assert.equal(scorePhotoCandidate({ title: "Unrelated abstract landscape" }, story), 0);
   }
+});
+
+test("AI safety risk stories use a purpose-built safety testing background", () => {
+  const theme = themeForDeck({
+    niche: "ai",
+    title: "The AI safety test is becoming a safety risk",
+    slides: [{ text: "The AI safety test is becoming a safety risk", kind: "hook" }]
+  });
+
+  assert.equal(theme.visual, "ai-safety-risk");
+  assert.equal(theme.label, "SAFETY TEST");
+  assert.equal(theme.accent, "#FB7185");
 });

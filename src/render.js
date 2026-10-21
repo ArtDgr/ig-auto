@@ -26,6 +26,7 @@ const REEL_ACCENTS = {
 // tuned for video: accent + life ratio/mold/speed per subject.
 // ORDER MATTERS: Apple (iphone/ipad) before generic Android, hardware before AI
 const TOPIC_REEL_THEMES = [
+  { re: /(ai.{0,24}safety|safety.{0,24}(?:ai|test|risk)|red.team|model eval(?:uation)?s?)/i, accent: "#FB7185", label: "SAFETY TEST", visual: "ai-safety-risk", life: { ratio: 0.035, mold: 5, speed: 0.1 } },
   { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", label: "CYBER ALERT", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
   { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", label: "HARDWARE WATCH", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
   { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, accent: "#0EA5E9", label: "APPLE UPDATE", life: { ratio: 0.05, mold: 5, speed: 0.13 } },
@@ -51,10 +52,10 @@ const NICHE_LABELS = {
 function accentFor(niche) {
   return REEL_ACCENTS[niche] || config.accentColor || "#0E9384";
 }
-function themeForDeck(deck) {
+export function themeForDeck(deck) {
   const hay = `${deck.niche || ""} ${deck.title || ""} ${deck.slides?.map(s=>s.text).join(" ") || ""}`;
   const topic = TOPIC_REEL_THEMES.find(t=> t.re.test(hay));
-  if (topic) return { accent: topic.accent, label: topic.label, life: topic.life, topic: true };
+  if (topic) return { accent: topic.accent, label: topic.label, life: topic.life, visual: topic.visual || null, topic: true };
   return { accent: accentFor(deck.niche), label: NICHE_LABELS[deck.niche] || "TECH BRIEF", life: null, topic: false };
 }
 
@@ -161,6 +162,32 @@ function techBgExpr(accent, dur, seed) {
   );
 }
 
+function safetyRiskOverlay(accent) {
+  const color = hex0x(accent);
+  return [
+    "drawbox=x=70:y=1420:w=940:h=340:color=0x060A14@0.94:t=fill",
+    `drawbox=x=70:y=1420:w=940:h=5:color=${color}@0.95:t=fill`,
+    `drawbox=x=70:y=1755:w=940:h=3:color=${color}@0.4:t=fill`,
+    `drawtext=fontfile=assets/arialbd.ttf:text='AI SAFETY / RED-TEAM SCENARIO':fontsize=29:fontcolor=${color}:x=105:y=1453`,
+    "drawbox=x=105:y=1512:w=330:h=205:color=0x101827@0.98:t=fill",
+    `drawbox=x=105:y=1512:w=330:h=3:color=${color}@0.7:t=fill`,
+    "drawtext=fontfile=assets/arialbd.ttf:text='STRESS TEST':fontsize=28:fontcolor=0xFFFFFF:x=130:y=1540",
+    `drawbox=x=130:y=1598:w=250:h=10:color=${color}@0.36:t=fill`,
+    `drawbox=x=130:y=1598:w=172:h=10:color=${color}@0.95:t=fill`,
+    `drawbox=x=130:y=1634:w=250:h=10:color=${color}@0.22:t=fill`,
+    `drawbox=x=130:y=1670:w=250:h=10:color=${color}@0.12:t=fill`,
+    `drawtext=fontfile=assets/arialbd.ttf:text='MODEL EVALUATION':fontsize=21:fontcolor=0xCBD5E1:x=130:y=1690`,
+    `drawtext=fontfile=assets/arialbd.ttf:text='>>':fontsize=46:fontcolor=${color}:x=476:y=1586`,
+    "drawbox=x=645:y=1512:w=330:h=205:color=0x1B1018@0.98:t=fill",
+    `drawbox=x=645:y=1512:w=330:h=3:color=${color}@0.95:t=fill`,
+    "drawtext=fontfile=assets/arialbd.ttf:text='RISK SIGNAL':fontsize=28:fontcolor=0xFFFFFF:x=672:y=1540",
+    `drawbox=x=672:y=1598:w=220:h=10:color=${color}@0.72:t=fill`,
+    `drawbox=x=672:y=1634:w=172:h=10:color=${color}@0.44:t=fill`,
+    `drawbox=x=672:y=1670:w=118:h=10:color=${color}@0.24:t=fill`,
+    `drawtext=fontfile=assets/arialbd.ttf:text='REVIEW REQUIRED':fontsize=21:fontcolor=${color}:x=672:y=1690`,
+  ].join(",");
+}
+
 // Cinematic photo background: real topic photo, slow Ken Burns drift
 // (alternate in/out per slide so consecutive slides never feel static),
 // plus a dark legibility grade so white text always pops. Falls back to
@@ -172,6 +199,10 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
   const kind = slide.kind;
   const isHook = kind === "hook";
   const isCta = kind === "cta";
+  const topicOverlay = opts.visual === "ai-safety-risk" ? safetyRiskOverlay(accent) : "";
+  const topicDim = opts.visual === "ai-safety-risk"
+    ? "drawbox=x=0:y=0:w=iw:h=ih:color=0x000000@0.55:t=fill"
+    : "";
 
   const lines = wrap(slide.text, isHook ? 24 : 26);
   const txtFile = outMp4.replace(/\.mp4$/, ".txt");
@@ -219,7 +250,7 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
     `drawbox=x=0:y=ih-16:w=${barW}:h=16:color=${hex0x(accent)}@0.9:t=fill` +
     `,drawbox=x=0:y=ih-20:w=iw:h=4:color=0x0A0E1A@0.6:t=fill`;
 
-  const chain = [zoomF, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
+  const chain = [zoomF, topicDim, topicOverlay, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
     .filter(Boolean)
     .join(",");
 
@@ -234,7 +265,7 @@ async function makeSlideClip(index, slide, dur, outMp4, opts = {}) {
     const grade =
       `drawbox=x=0:y=0:w=iw:h=ih:color=0x000000@0.38:t=fill,` +
       `drawbox=x=0:y=ih*0.42:w=iw:h=ih*0.58:color=0x000000@0.42:t=fill`;
-    const photoChain = [kb, grade, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
+    const photoChain = [kb, grade, topicOverlay, textF, kickerF, drawF, barF, `fade=t=in:st=0:d=0.3`, `fade=t=out:st=${Math.max(0, dur - 0.3)}:d=0.3`, `format=yuv420p`]
       .filter(Boolean)
       .join(",");
     await ff([
@@ -279,16 +310,18 @@ export async function renderDeck(deck, outPath) {
   const lifeOpts = theme.life || {};
   const seed = seedFromId(deck.id);
   let photo = null;
-  try {
-    photo = await resolvePhoto(deck, deck.image);
-  } catch (e) {
-    console.warn(`[render] photo fallback (gradient) for ${deck.id}: ${e.message}`);
+  if (theme.visual !== "ai-safety-risk") {
+    try {
+      photo = await resolvePhoto(deck, deck.image);
+    } catch (e) {
+      console.warn(`[render] photo fallback (gradient) for ${deck.id}: ${e.message}`);
+    }
   }
   console.log(`[render] deck ${deck.id} niche=${deck.niche} theme=${theme.topic?"topic-matched":"niche"} accent=${accent} bg=${photo ? "photo" : "gradient"}`);
   const clips = [];
   for (let i = 0; i < deck.slides.length; i++) {
     const clip = path.join(base, `clip_${i}.mp4`);
-    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photo, label: theme.label });
+    await makeSlideClip(i, deck.slides[i], durs[i], clip, { total: deck.slides.length, accent, seed, lifeOpts, photo, label: theme.label, visual: theme.visual });
     clips.push(clip);
   }
 

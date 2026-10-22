@@ -71,7 +71,7 @@ jobs:
           node -e "const fs=require('fs'),p=require('path');const d=new Date(new Date().getTime()+10*3600*1000).toISOString().slice(0,10).replace(/-/g,'');const dir='out/instagram-reels';const v=fs.readdirSync(dir).filter(f=>f.startsWith(d+'-')&&f.endsWith('.mp4'))[0];if(!v)throw new Error('no reel rendered for '+d);const c=fs.existsSync(p.join(dir,v.replace(/\.mp4$/,'.txt')))?fs.readFileSync(p.join(dir,v.replace(/\.mp4$/,'.txt')),'utf8').trim():'';if(!c)throw new Error('reel caption missing');if(fs.statSync(p.join(dir,v)).size<1000)throw new Error('reel file empty');console.log('reel OK: '+v)"
 
       - name: TikTok QA (videos + captions)
-        run: node src/tiktok-qa-check.js
+        run: node src/tiktok-qa-check.js --current
       
       - name: Prune old media (keep last 14 days)
         run: node src/prune-old.js
@@ -90,21 +90,9 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
 
-      # TikTok FREE path (no Buffer, no laptop): headless Playwright upload.
-      # Session comes from the TIKTOK_COOKIES_B64 secret (set once via the
-      # tiktok-qr-bootstrap workflow, phone scan — no laptop needed).
-      - name: TikTok headless publish (free, no Buffer)
-        if: always()
-        run: |
-          if [ -n "$TIKTOK_COOKIES_B64" ]; then
-            echo "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
-            node src/import-cookies.js /tmp/tiktok-cookies.json --profile=tiktok || true
-          else
-            echo "TIKTOK_COOKIES_B64 not set — run tiktok-qr-bootstrap workflow once, then re-run."
-          fi
-          node src/tiktok-bot.js --force || echo "TikTok upload skipped/failed — next scheduled slot retries"
-        env:
-          TIKTOK_COOKIES_B64: ${{ secrets.TIKTOK_COOKIES_B64 }}
+      - name: TikTok publication status
+        if: success()
+        run: echo "::notice::TikTok videos passed QA and remain drafts; unattended posting from this internal workflow is not supported by TikTok's Content Sharing Guidelines."
 
       - name: Boost agent (monitor metrics + reweight niches + repost winner)
         run: node src/boost-agent.js

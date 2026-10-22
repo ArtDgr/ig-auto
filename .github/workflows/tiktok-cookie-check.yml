@@ -1,4 +1,4 @@
-name: tiktok-cookie-check
+name: tiktok-cookie-check-disabled
 on:
   workflow_dispatch:
 
@@ -6,32 +6,11 @@ permissions:
   contents: read
 
 jobs:
-  check:
+  blocked:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with:
-          node-version: 24
-          cache: npm
-      - name: Install deps + browser
+      - name: Explain why cookie verification is disabled
         run: |
-          npm ci
-          npx playwright install --with-deps firefox
-      - name: Verify TikTok session without posting
-        shell: bash
-        env:
-          TIKTOK_COOKIES_B64: ${{ secrets.TIKTOK_COOKIES_B64 }}
-          TIKTOK_RAW_COOKIES: ${{ secrets.TIKTOK_RAW_COOKIES }}
-        run: |
-          set -euo pipefail
-          if [ -n "$TIKTOK_COOKIES_B64" ]; then
-            printf '%s' "$TIKTOK_COOKIES_B64" | base64 -d > /tmp/tiktok-cookies.json
-          elif [ -n "$TIKTOK_RAW_COOKIES" ]; then
-            printf '%s' "$TIKTOK_RAW_COOKIES" > /tmp/tiktok-cookies.json
-          else
-            echo "::error::Set TIKTOK_COOKIES_B64 or TIKTOK_RAW_COOKIES in Actions secrets."
-            exit 1
-          fi
-          node src/import-cookies.js /tmp/tiktok-cookies.json --profile=tiktok
+          echo "::error::TikTok session-cookie import and verification from GitHub Actions are disabled. Do not export or replay browser cookies."
+          echo "See TIKTOK_SETUP.md for current supported options."
+          exit 1

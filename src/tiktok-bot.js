@@ -3,6 +3,8 @@ import path from "node:path";
 import config from "../config.json" with { type: "json" };
 import { launchStealth } from "./stealth.js";
 import { rand, pick, sleep, humanDelay, moveMouse, humanReview, rotateHashtags, randomCaptionTime, ensureProfileDir } from "./human.js";
+import { checkTikTok } from "./tiktok-qa-check.js";
+import { postLimitForEvent } from "./tiktok-post-limit.js";
 
 const bot = config.tiktokBot;
 const PROF_HASH = bot.profileDir; // profile reused => account trust persists
@@ -39,72 +41,20 @@ async function autoLogin(page, context, creds) {
   await submit.click().catch(() => { throw new Error("Login submit button not found"); });
   log("login submitted");
 
-  // Headless captcha auto-bypass: detect slider/verify wall and drag it human-like.
-  // This keeps the flow 100% headless — no manual window. If it still fails, the
-  // persistent profile (one headful solve) will make all future headless runs skip this.
-  async function tryAutoSolveCaptcha() {
-    const selectors = [
-      "#secsdk-captcha-drag-wrapper",
-      "div[class*='captcha'] div[class*='slider']",
-      "div[class*='verify'] div[style*='translate']",
-      "[data-e2e='captcha']",
-      "div.secsdk-captcha-drag-icon",
-    ];
-    for (const sel of selectors) {
-      const el = page.locator(sel).first();
-      if (await el.isVisible().catch(() => false)) {
-        log("captcha slider detected (" + sel + ") — auto-dragging headless");
-        const box = await el.boundingBox().catch(() => null);
-        if (!box) continue;
-        const startX = box.x + box.width / 2;
-        const startY = box.y + box.height / 2;
-        await page.mouse.move(startX, startY);
-        await sleep(rand(200, 400));
-        await page.mouse.down();
-        // human Bezier drag to ~85% of track
-        const trackW = 280 + rand(-20, 40);
-        const steps = rand(28, 42);
-        for (let i = 0; i <= steps; i++) {
-          const t = i / steps;
-          const x = startX + trackW * (t + Math.sin(t * Math.PI) * 0.02);
-          const y = startY + rand(-2, 2) + Math.sin(t * 6) * 1.5;
-          await page.mouse.move(x, y);
-          await sleep(rand(8, 22));
-        }
-        await sleep(rand(120, 280));
-        await page.mouse.up();
-        await sleep(rand(1200, 2000));
-        return true;
-      }
-    }
-    return false;
-  }
-
-  // Wait for the session cookie to land (headless). Poll + auto-solve slider if it appears.
+  // Wait for TikTok to complete login without attempting to solve a challenge.
   const rateLimited = page.getByText(/maximum number of attempts|too many attempts|try again later/i).first();
   if (await rateLimited.isVisible().catch(() => false)) {
     throw new Error("TikTok rate-limited the login ('Maximum number of attempts'). Wait a while (or complete a manual one-time login) before the next auto-login attempt.");
   }
   for (let i = 0; i < 90; i++) {
     await sleep(1000);
-    if (i % 8 === 3) await tryAutoSolveCaptcha().catch(() => {});
     const cks = await context.cookies("https://www.tiktok.com").catch(() => []);
     if (cks.some((c) => ["sessionid", "sessionid_ss", "sid_tt"].includes(c.name) && (c.value || "").length > 4)) {
       log("SESSION CONFIRMED after credential login");
       return true;
     }
   }
-  // Last chance: one more drag then check
-  await tryAutoSolveCaptcha().catch(() => {});
-  await sleep(2000);
-  {
-    const cks = await context.cookies("https://www.tiktok.com").catch(() => []);
-    if (cks.some((c) => ["sessionid", "sessionid_ss", "sid_tt"].includes(c.name) && (c.value || "").length > 4)) {
-      log("SESSION CONFIRMED after auto captcha solve");
-      return true;
-    }
-  }
-  throw new Error("No session cookie after credential login — TikTok likely wants a CAPTCHA/verification. Open npm run tiktok:login and complete it once manually, then the bot reuses the session. (Headless auto-drag attempted)");
+  throw new Error("No session cookie after credential login — TikTok may require verification. Stop here and use a supported user-controlled login flow; no challenge automation is attempted.");
 }
 
 function hashTikTok2(s) { let h=2166136261; for(let i=0;i<s.length;i++){h^=s.charCodeAt(i); h=Math.imul(h,16777619);} return h>>>0; }
@@ -297,6 +247,12 @@ async function autoLoginHeadful(creds) {
 }
 
 export async function runBot({ dryRun = false, force = false } = {}) {
+  if (bot.enabled === false) {
+    throw new Error("TikTok browser publishing is disabled by tiktokBot.enabled=false.");
+  }
+  if (process.env.GITHUB_ACTIONS === "true") {
+    throw new Error("TikTok browser publishing is disabled in GitHub Actions; drafts remain unpublished.");
+  }
   if (!force) requireWarmup();
   ensureProfileDir(bot.profileDir);
   const dir = bot.postDir;
@@ -309,12 +265,17 @@ export async function runBot({ dryRun = false, force = false } = {}) {
   // Deterministic shuffle per AEST date so 7 consecutive days give 7 distinct random sets (mirrors IG's shuffled manifest)
   const tDate = todayAest();
   all = [...all].sort((a,b)=>{ let ha=23; for(const ch of (a+tDate)) ha=(ha*31+ch.charCodeAt(0))%1000; let hb=23; for(const ch of (b+tDate)) hb=(hb*31+ch.charCodeAt(0))%1000; return ha-hb; });
-  const videos = all.slice(0, bot.maxPerDay);
+  const eventName = process.env.GITHUB_EVENT_NAME || "";
+  const limit = postLimitForEvent(bot.maxPerDay, eventName);
+  const videos = all.slice(0, limit);
   const dueTimes = randomizedDueTimes(tDate, videos.length);
 
   if (!videos.length) { log("Nothing new to post today."); return { posted: 0 }; }
-  log("Posting up to " + bot.maxPerDay + " from " + all.length + " pending. Due times (AEST, randomized, not fixed): " + dueTimes.join(", "));
+  const limitLabel = eventName === "workflow_dispatch" ? "one manual-dispatch slot" : `${bot.maxPerDay} scheduled slots`;
+  log(`Posting up to ${limitLabel} from ${all.length} pending. Due times (AEST, randomized, not fixed): ${dueTimes.join(", ")}`);
 
+  const qa = await checkTikTok(dir);
+  if (!qa.ok) throw new Error("TikTok QA failed: " + qa.errors.join("; "));
   const context = await launchStealth(config);
   const page = await context.newPage();
   let posted = 0;
@@ -380,7 +341,13 @@ const mode = process.argv.slice(2).find((a) => !a.startsWith("--")) || "run";
 const dry = process.argv.includes("--dry");
 const force = process.argv.includes("--force");
 
-if (mode === "login") {
+if (process.env.GITHUB_ACTIONS === "true") {
+  console.error("TikTok browser login, session, and posting automation are disabled in GitHub Actions.");
+  process.exitCode = 1;
+} else if (mode === "login:auto") {
+  console.error("Automated TikTok credential login is disabled; do not automate or bypass account verification.");
+  process.exitCode = 1;
+} else if (mode === "login") {
   ensureProfileDir(bot.profileDir);
   (async () => {
     const creds = loadCredentials();

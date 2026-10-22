@@ -26,7 +26,7 @@ const REEL_ACCENTS = {
 // tuned for video: accent + life ratio/mold/speed per subject.
 // ORDER MATTERS: Apple (iphone/ipad) before generic Android, hardware before AI
 const TOPIC_REEL_THEMES = [
-  { re: /(ai.{0,24}safety|safety.{0,24}(?:ai|test|risk)|red.team|model eval(?:uation)?s?)/i, accent: "#FB7185", label: "SAFETY TEST", visual: "ai-safety-risk", life: { ratio: 0.035, mold: 5, speed: 0.1 } },
+  { re: /(\b(?:ai|llm|gpt|chatbot|openai|anthropic)\b.{0,32}\b(?:safety|red[- ]?team(?:ing)?)\b|\b(?:safety|red[- ]?team(?:ing)?)\b.{0,32}\b(?:ai|llm|gpt|chatbot|model)\b|\bmodel eval(?:uation)?s?\b)/i, accent: "#FB7185", label: "SAFETY TEST", visual: "ai-safety-risk", life: { ratio: 0.035, mold: 5, speed: 0.1 } },
   { re: /(breach|hack|ransomware|malware|phishing|vulnerab|zero.day|exploit|password|2fa|patch|attack|steal)/i, accent: "#FF3B30", label: "CYBER ALERT", life: { ratio: 0.09, mold: 8, speed: 0.12 } },
   { re: /(cpu|gpu|chip|processor|ryzen|intel|amd|nvidia|rtx|ssd|ram|benchmark|core|silicon|semiconductor)/i, accent: "#0D9488", label: "HARDWARE WATCH", life: { ratio: 0.08, mold: 7, speed: 0.11 } },
   { re: /(iphone|ipad|mac|macos|ios|app\.store|siri|macbook|apple)/i, accent: "#0EA5E9", label: "APPLE UPDATE", life: { ratio: 0.05, mold: 5, speed: 0.13 } },

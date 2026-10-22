@@ -181,4 +181,18 @@ test("AI safety risk stories use a purpose-built safety testing background", () 
     slides: [{ text: "Ransomware attack targets hospital credentials", kind: "hook" }]
   });
   assert.equal(unrelatedTheme.visual, null);
+
+  for (const title of [
+    "Email safety tips for small businesses",
+    "Battery safety warning: Samsung explains the recall",
+    "Brain implant safety study",
+    "Crash safety test results for the new EV",
+  ]) {
+    const theme = themeForDeck({ niche: "gadgets", title, slides: [{ text: title, kind: "hook" }] });
+    assert.equal(theme.visual, null, `"${title}" must not use the AI safety visual`);
+  }
+  for (const title of ["OpenAI red team findings", "New LLM safety benchmark released"]) {
+    const theme = themeForDeck({ niche: "ai", title, slides: [{ text: title, kind: "hook" }] });
+    assert.equal(theme.visual, "ai-safety-risk", `"${title}" should use the AI safety visual`);
+  }
 });

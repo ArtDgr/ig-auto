@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-21T22:37:55.916Z",
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T22:34:43.408Z",
   "posts": [
     {
-      "id": "20261022-you-ve-never-checked-iphone-battery-health",
+      "id": "20261024-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -33,11 +33,11 @@
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#iphone #applenews #macbook #appletips #macos\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#ios #macbook #macrumors #applenews #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261022-you-need-a-gaming-laptop-for-gaming",
+      "id": "20261024-more-vram-is-all-that-matters",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -46,58 +46,58 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#cpu #pc #pcgaming #gpu #benchmark\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#gpu #laptops #pc #hardware #laptop\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261022-how-to-actually-verify-ai-output",
+      "id": "20261024-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to actually verify AI output",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to actually verify AI output\nAsk for a source for every key claim"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#futuretech #ai #chatgpt #copilot #machinelearning\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#batterytips #samsung #iphone #gadgets #gadgetreviews\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261022-connect-your-wifi-step-by-step",
+      "id": "20261024-speed-up-a-slow-windows-pc",
       "slot": 3,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -106,32 +106,32 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Speed up a slow Windows PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Speed up a slow Windows PC\nOpen Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Disable the worst startup apps on the Startup tab"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Free disk space: Settings > System > Storage > Temporary files"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Connect your WiFi step by step 🛠️\n\n1. Click the network icon in the system tray\n2. Pick your network name and enter the password exactly\n3. Watch for auto-correct\n     ✓ passwords get mangled silently\n\nSave this for the next ticket →\n\n#fixyourpc #techsupport #troubleshooting #helpdesk #pchelp\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "caption": "Speed up a slow Windows PC 🛠️\n\n1. Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%\n2. Disable the worst startup apps on the Startup tab\n3. Free disk space: Settings > System > Storage > Temporary files\n\nSave this for the next ticket →\n\n#helpdesk #pc #sysadmin #techsupport #windows\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     }
   ]

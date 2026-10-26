@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:34:43.408Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-26T23:18:57.143Z",
   "posts": [
     {
-      "id": "20261024-you-ve-never-checked-iphone-battery-health",
+      "id": "20261027-you-ve-never-run-a-battery-report",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#ios #macbook #macrumors #applenews #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#laptops #techreview #cpu #laptop #ssd\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261024-more-vram-is-all-that-matters",
+      "id": "20261027-closing-apps-saves-your-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "Closing apps saves your battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "Closing apps saves your battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: More VRAM is all that matters\nTruth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier.\n\nShare this with the person who still believes it →\n\n#gpu #laptops #pc #hardware #laptop\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#pc #fixyourpc #computertips #windows11 #sysadmin\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261024-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20261027-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -93,45 +93,45 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#batterytips #samsung #iphone #gadgets #gadgetreviews\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "How to tell if your battery is really dying 🔓\n\nInsider knowledge, free.\n\n• Check Settings > Battery > Battery Health\n• Under 85% means meaningful capacity is gone\n• Watch which app sits at 40%+ in battery usage\n• A rogue location app drains more than screen\n\nSave this — it'll be your shortcut later →\n\n#batterytips #iphone #gadgets #smartphonetips #gadgetreviews\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261024-speed-up-a-slow-windows-pc",
+      "id": "20261027-airdrop-files-the-right-way",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Speed up a slow Windows PC",
+      "title": "AirDrop files the right way",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Speed up a slow Windows PC\nOpen Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "AirDrop files the right way\nTurn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "Turn on AirDrop on both devices (Control Center)"
         },
         {
           "kind": "step",
-          "text": "Disable the worst startup apps on the Startup tab"
+          "text": "Set Contacts Only so strangers can't send"
         },
         {
           "kind": "step",
-          "text": "Free disk space: Settings > System > Storage > Temporary files"
+          "text": "Select the file, Share > AirDrop, pick the person"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Speed up a slow Windows PC 🛠️\n\n1. Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%\n2. Disable the worst startup apps on the Startup tab\n3. Free disk space: Settings > System > Storage > Temporary files\n\nSave this for the next ticket →\n\n#helpdesk #pc #sysadmin #techsupport #windows\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "caption": "AirDrop files the right way 🍎\n\n1. Turn on AirDrop on both devices (Control Center)\n2. Set Contacts Only so strangers can't send\n3. Select the file, Share > AirDrop, pick the person\n\nSave this for the next ticket →\n\n#apple #ios #iphone #macos #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

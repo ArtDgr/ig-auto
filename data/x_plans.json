@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-23T22:34:54.669Z",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-26T23:19:08.976Z",
   "posts": [
     {
-      "id": "20261024-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261027-you-click-links-in-unexpected-emails",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You click links in unexpected emails",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You click links in unexpected emails\nDisplay names lie — the address and URL are what matter."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Display names lie — the address and URL are what matter."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Hover links, check the sender address, verify through the real site."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #CPU #PC #techtips Follow for daily tech intel.",
+      "caption": "🚩 You click links in unexpected emails #cybersecurity #infosec #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261024-you-must-drain-your-battery-to-0",
+      "id": "20261027-restarting-your-pc-wipes-your-data",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must drain your battery to 0%",
+      "title": "Restarting your PC wipes your data",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must drain your battery to 0%"
+          "text": "Restarting your PC wipes your data"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Modern lithium batteries prefer partial charges. Draining to zero regularly wears them faster — charge to 80%, not to the red line and back."
+          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must drain your battery to 0% Truth: Modern lithium batteries prefer partial charges. Draining to zero regularly wears them… #tech #smartphone #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #sysadmin #itsupport #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261024-hidden-macos-tools-most-people-never-find",
+      "id": "20261027-why-works-on-my-machine-finally-died",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "Why 'works on my machine' finally died",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iPhone #iOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #AWS #Kubernetes #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261024-add-a-budget-alert-so-you-never-overspend",
+      "id": "20261027-set-up-proper-battery-care",
       "slot": 3,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Add a budget alert so you never overspend",
+      "title": "Set up proper battery care",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
+          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Open Billing > Budgets in your console"
+          "text": "Cap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Create a budget for your monthly target"
+          "text": "Avoid leaving it at 100% for weeks on end"
         },
         {
           "kind": "step",
-          "text": "Add alerts at 50%, 80%, and 100%"
+          "text": "Occasional deep discharge is fine, not daily"
         },
         {
           "kind": "step",
-          "text": "Send them to email or Slack"
+          "text": "Keep firmware and battery drivers updated"
         },
         {
           "kind": "step",
-          "text": "Sleep soundly — the alert does the watching."
+          "text": "A battery at 80% capacity after 2 years is normal."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "☁️ Add a budget alert so you never overspend #Kubernetes #cloud #tech Follow for daily tech intel.",
+      "caption": "💻 Set up proper battery care #hardware #CPU #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

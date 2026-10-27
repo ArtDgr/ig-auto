@@ -1,92 +1,78 @@
-# TikTok channel — headless, faceless, fully automated (FREE only, NO LAPTOP)
+# TikTok content workflow status
 
-Account: `theitspprtguru@gmail.com` (@theitsupportguru)
-Sources: 100% reused from this repo's Instagram automation
-(`config.json` niches/RSS, `src/news.js` curate, `src/generator.js`,
-`src/render.js` 1080x1920 + `edge-tts` voice, `src/captions.js`).
-Runs 100% in GitHub Actions (free for public repos). This Mac is not used.
+This repository can generate TikTok-ready video drafts and captions, then run
+local QA. It does not publish those drafts. The GitHub Actions login-cookie
+bootstrap, cookie-check, and browser-post workflows are disabled; the daily
+workflow now builds and checks drafts only.
 
-## 0. Free-only stack (no paid service anywhere)
+## Why unattended personal-account posting is unavailable
 
-| Need | Tool | Cost |
-|---|---|---|
-| News | 48 RSS feeds in `config.json` (`src/news.js`) | free |
-| Voice | `edge-tts` (`src/tts/speak.py`, voice `en-US-GuyNeural`) | free |
-| Video | `ffmpeg` + `ffprobe` (`src/render.js`) | free |
-| Browser | Playwright Firefox / Edge (`src/stealth.js`) | free |
-| Scheduler | macOS `launchd` (`install-mac.sh`) or GitHub Actions (`daily.yml`) | free |
-| Posting | `src/tiktok-bot.js` → tiktok.com Studio upload page | free |
-| QA | `src/tiktok-qa-check.js` | free |
+TikTok's [Content Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines/)
+state that Direct Post API clients must not be a utility for uploading content
+to accounts managed by the developer or their team. They also require an
+in-app creator experience with a preview, editable title and metadata, current
+creator privacy/interaction settings, and the creator's express consent before
+each upload. This repository's private scheduled workflow is not that product,
+so it must not use Direct Post API as an unattended publishing workaround.
 
-Buffer is **disabled** for TikTok: `config.buffer.tiktokViaBuffer` is `false`
-and `src/post-runner.js` only uses Buffer when that flag is `true`.
-Nothing outside this list is required.
+The [Content Posting API setup guide](https://developers.tiktok.com/docs/en/content-posting-api-get-started/)
+also requires a registered developer app with the Content Posting API enabled,
+approval for the `video.publish` scope, and authorization by the TikTok user.
+Unaudited clients are restricted to private-only posts; public posting requires
+TikTok's client audit. Those approvals and account authorization do not waive
+the Guidelines' intended-use or per-post user-control requirements.
 
-## 1. One-time login — cloud only, no laptop (phone + github.com)
+Accordingly, no developer app has been registered, no scope or token has been
+requested, and no API publisher has been implemented. A supported third-party
+service may have its own approved app and user consent flow, but this
+repository must not silently automate that service's posting either.
 
-1. On github.com (phone browser is fine): Actions → `tiktok-qr-bootstrap` → Run workflow.
-2. Once the `tiktok-qr` artifact appears (while the job is still running),
-   download it and open `tiktok-qr.png`.
-3. On your phone: TikTok app signed in as `theitspprtguru@gmail.com` → scan the QR → Approve.
-4. The job prints `SESSION CONFIRMED` and uploads a separate
-   `tiktok-cookies` artifact containing `tiktok-cookies.b64`.
-5. Still on github.com: repo Settings → Secrets → Actions → new secret
-   `TIKTOK_COOKIES_B64` = full contents of `tiktok-cookies.b64`. Done.
-   All future runs reuse it headless. Re-do this only when TikTok expires the session.
+## Current behavior
 
-### 1b. Fallback if the QR never renders (bot-wall)
+- `daily.yml` generates TikTok-ready videos and captions and runs
+  `src/tiktok-qa-check.js`; it leaves the output as drafts.
+- The manual `tiktok-post`, `tiktok-bootstrap`, and `tiktok-cookie-check`
+  workflows report that they are disabled and make no TikTok requests.
+- The browser bot and Buffer TikTok scheduling entry point remain in the
+  repository but fail closed; shared Instagram and Buffer publishing paths
+  are unchanged. TikTok cookie import/export/session tools are not invoked by
+  GitHub Actions, and their CI entry points are blocked.
+- The former manual-dispatch limit remains one video, and scheduled limits
+  remain governed by `tiktokBot.maxPerDay`, if a compliant publishing
+  experience is introduced later.
 
-On Android (free, no laptop): Firefox → install the Cookie-Editor add-on →
-tiktok.com → log in as `theitspprtguru@gmail.com` → Cookie-Editor → Export
-(JSON) → add a repository Actions secret named `TIKTOK_RAW_COOKIES` with the
-full JSON value, then run `tiktok-cookie-check.yml` manually to validate the
-session without posting. Do not send the JSON in chat or use an online encoder
-because the exported cookies are account credentials. `TIKTOK_COOKIES_B64`
-remains the preferred secret when using the QR login.
+The former CI path replayed browser cookies, used a stealth browser profile,
+and attempted a web upload. Recent cookie checks did not confirm an
+authenticated TikTok page, so that path could not safely publish. The old
+posting workflow also installed Playwright Firefox while TikTok's configured
+browser engine was Edge; changing browser installation would not solve the
+authentication or policy blockers.
 
-No password typing, no slider, no laptop. `credentials/tiktok.json` is unused in cloud mode.
+Do not store exported TikTok session cookies in GitHub Actions secrets. If
+cookie secrets were previously added, remove them from repository settings
+and revoke the related sessions in TikTok. A TikTok-authorized user can still
+review and post drafts through a supported user-controlled TikTok experience.
 
-## 2. Daily automation — cloud only (no Mac, no launchd)
+## Draft QA
 
-- `daily.yml` (05:30 AEST): curate → generate → render → `tiktok-qa-check.js` → commit `out/tiktok-ready` → headless post attempt.
-- `tiktok-post.yml` (07:00 / 12:00 / 18:00 AEST): restores session from
-  `TIKTOK_COOKIES_B64`, QA gate, `tiktok-bot.js --force`, commits `.done` markers.
-- `tiktok-bootstrap.yml`: the §1 QR login, on demand.
+Run `node src/tiktok-qa-check.js` to validate the pending draft queue. Captions
+must have source-headline metadata and match the complete generated headline;
+truncated hooks, ellipses, dangling currency symbols, or incomplete source
+headlines fail the gate.
 
-`install-mac.sh` is legacy/local-only and NOT needed for cloud mode. GitHub
-Actions minutes are free for public repos; ffmpeg, edge-tts, Playwright
-Firefox, and TikTok web upload are all free.
+## Subject-matched backgrounds
 
-## 3. Pipeline (all headless after §1)
+Rendering prefers the story's own RSS/article image where its use is permitted.
+When no usable or authorized story image is available, `src/photo.js` searches
+the free Openverse image catalog using
+headline terms plus niche-specific terms, ranks results by topic metadata and
+portrait crop suitability, and stores image/license attribution beside the
+cached asset. If no relevant image is available, rendering falls back to the
+animated topic-colored circuitry background rather than an unrelated stock
+photo. Photo backgrounds receive a dark overlay and gradient so captions stay
+legible; the hook label, accent color, and motion settings vary by topic.
 
-```
-05:30  scheduler daily
-        = curate (48 RSS → data/topics.json, 676+ topics typical)
-        → generate (3 decks, niche-spread via src/generator.js)
-        → render (ffmpeg 1080x1920 gradient + life-bg + edge-tts voice)
-        → captions (hook + #tags + follow CTA)
-        → tiktok-qa-check (gate)
-07:00 / 12:00 / 18:00  tiktok-bot --force
-        = randomized due-times, organic scroll/like warmup,
-          Studio upload, .done marker per video (never reposts)
-```
-
-Faceless by construction: no camera, no face — every video is a real
-topic photo (the article's own hero image, or keyword-matched free stock)
-with slow Ken Burns drift, dark legibility grade, kinetic hook text, and
-AI voiceover. Viral format per 2026 patterns: bold ≤60-char hook in the
-first second, stat kept whole, completion-optimized pacing, rotating
-comment question in the caption, keyword-rich titles for TikTok search.
-Topics rotate across all 7 RSS niches in `config.json` (ai, gadgets,
-apple, hardware, security, it-support, cloud-devops — 48 feeds), 3
-distinct niches per day, never repeating the same niche twice in a day.
-
-## 4. Troubleshooting
-
-- `session expired` → re-run `npm run tiktok:login:qr` (2 min), then
-  `npm run tiktok:export` to refresh `TIKTOK_COOKIES_B64`.
-- `TikTok QA FAILED` → run `npm run tiktok:qa`, fix the listed caption/
-  video, re-run until `PASS`.
-- `Studio redirected to /login` → session rejected for upload; redo QR login.
-- `rate-limited / maximum attempts` → stop password attempts, use QR login.
-- No `node`/`ffmpeg`/`edge-tts` on a fresh Mac → see §1 (all free).
+`preview/tiktok-ai-topic.svg` is a static AI-topic visual preview based on a
+currently valid generated headline. It illustrates the topic-colored fallback
+style, not a rendered/published video; producing an MP4 preview requires the
+project's Node.js and FFmpeg dependencies.

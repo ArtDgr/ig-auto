@@ -6,6 +6,11 @@ import path from "node:path";
 import { launchStealth } from "./stealth.js";
 import config from "../config.json" with { type: "json" };
 
+if (process.env.GITHUB_ACTIONS === "true") {
+  console.error("[tiktok-session-check] automated TikTok session checks are disabled in GitHub Actions.");
+  process.exit(1);
+}
+
 const bot = config.tiktokBot;
 const CREDS_FILE = path.join(process.cwd(), bot.credentialsFile || "credentials/tiktok.json");
 

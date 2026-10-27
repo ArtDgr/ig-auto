@@ -62,6 +62,7 @@ function buildDeck(topic, index) {
     niche: topic.nicheId || "",
     href: topic.link || "",
     image: topic.image || "",
+    captionTitle: raw,
     title: shorten(raw, 70),
     description: `Automated ${config.brand} short on ${raw}. #shorts #tech #${nicheTag}`,
     slides

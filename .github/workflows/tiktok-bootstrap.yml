@@ -1,9 +1,4 @@
-name: tiktok-qr-bootstrap
-# CLOUD-ONLY login — no laptop. Run from github.com (phone browser OK):
-# Actions -> tiktok-qr-bootstrap -> Run workflow -> download the `tiktok-qr`
-# artifact as soon as it appears -> scan with the TikTok phone app. The job
-# stays live for up to 10 min and uploads cookies only after approval.
-# Then: Settings -> Secrets -> Actions -> TIKTOK_COOKIES_B64 = contents of tiktok-cookies.b64.
+name: tiktok-bootstrap-disabled
 on:
   workflow_dispatch:
 
@@ -11,82 +6,11 @@ permissions:
   contents: read
 
 jobs:
-  qr:
+  blocked:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
-        with:
-          node-version: 24
-          cache: npm
-      - name: Install deps + browser + xvfb
+      - name: Explain why cloud login bootstrap is disabled
         run: |
-          npm ci
-          npx playwright install --with-deps firefox
-          sudo apt-get update && sudo apt-get install -y xvfb
-      - name: Start QR login and wait for QR image
-        id: qr
-        shell: bash
-        run: |
-          mkdir -p out
-          (
-            set +e
-            xvfb-run -a node src/tiktok-qr-bootstrap.js
-            echo "$?" > /tmp/tiktok-qr-bootstrap.status
-          ) > /tmp/tiktok-qr-bootstrap.log 2>&1 &
-          echo $! > /tmp/tiktok-qr-bootstrap.pid
-          for _ in {1..90}; do
-            if [ -s out/tiktok-qr.png ]; then
-              exit 0
-            fi
-            if [ -f /tmp/tiktok-qr-bootstrap.status ]; then
-              cat /tmp/tiktok-qr-bootstrap.log
-              exit 1
-            fi
-            sleep 2
-          done
-          cat /tmp/tiktok-qr-bootstrap.log
-          echo "::error::Timed out waiting for the QR image."
+          echo "::error::TikTok session-cookie bootstrapping from GitHub Actions is disabled. Use TikTok's supported authorization flow; do not export or replay browser cookies."
+          echo "See TIKTOK_SETUP.md for current supported options."
           exit 1
-      - name: Upload QR for phone scan
-        uses: actions/upload-artifact@v4
-        with:
-          name: tiktok-qr
-          path: out/tiktok-qr.png
-          retention-days: 1
-          if-no-files-found: error
-      - name: Wait for TikTok approval
-        shell: bash
-        run: |
-          for _ in {1..132}; do
-            if [ -f /tmp/tiktok-qr-bootstrap.status ]; then
-              break
-            fi
-            sleep 5
-          done
-          cat /tmp/tiktok-qr-bootstrap.log
-          if [ ! -f /tmp/tiktok-qr-bootstrap.status ] || [ "$(cat /tmp/tiktok-qr-bootstrap.status)" != "0" ]; then
-            echo "::error::TikTok QR bootstrap did not complete successfully."
-            exit 1
-          fi
-          if ! grep -q "SESSION CONFIRMED" /tmp/tiktok-qr-bootstrap.log; then
-            echo "::error::TikTok session was not confirmed. Check the login log above."
-            exit 1
-          fi
-      - name: Upload confirmed TikTok cookies
-        if: success()
-        uses: actions/upload-artifact@v4
-        with:
-          name: tiktok-cookies
-          path: out/tiktok-cookies.b64
-          retention-days: 1
-          if-no-files-found: error
-      - name: Upload login debug image
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: tiktok-login-debug
-          path: out/tiktok-login-debug.png
-          retention-days: 1
-          if-no-files-found: ignore

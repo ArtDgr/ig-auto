@@ -58,6 +58,9 @@ const PROFILES = {
 };
 
 export async function importCookies(cookieFile, profileId = "tiktok") {
+  if (profileId === "tiktok" && process.env.GITHUB_ACTIONS === "true") {
+    throw new Error("TikTok cookie import is disabled in GitHub Actions; do not replay browser sessions in CI.");
+  }
   const prof = PROFILES[profileId];
   if (!prof) throw new Error("Unknown profile " + profileId + " (use tiktok | instagram)");
   if (!fs.existsSync(cookieFile)) throw new Error("Cookie file not found: " + cookieFile);

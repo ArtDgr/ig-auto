@@ -3,9 +3,13 @@ import path from "node:path";
 import { launchStealth } from "./stealth.js";
 import config from "../config.json" with { type: "json" };
 
-// Exports the current TikTok Edge profile cookies as base64 for GitHub Secret TIKTOK_COOKIES_B64
+if (process.env.GITHUB_ACTIONS === "true") {
+  console.error("[export] TikTok browser-cookie export is disabled in GitHub Actions.");
+  process.exit(1);
+}
+
+// Exports the current local TikTok Edge profile cookies for local backup only.
 // Usage: node src/tiktok-session-export.js
-// Then: gh secret set TIKTOK_COOKIES_B64 --body "$(cat tiktok-cookies.b64)"
 const dir = config.tiktokBot.profileDir;
 const outB64 = path.join("out", "tiktok-cookies.b64");
 const outJson = path.join("out", "tiktok-cookies.json");
@@ -23,4 +27,4 @@ fs.mkdirSync("out", { recursive: true });
 fs.writeFileSync(outJson, JSON.stringify(cookies, null, 2));
 fs.writeFileSync(outB64, Buffer.from(JSON.stringify(cookies)).toString("base64"));
 console.log(`[export] ${cookies.length} cookies -> ${outJson} + ${outB64} ${hasSession ? "(session OK)" : "(WARNING: no sessionid)"}`);
-console.log(`Next: gh secret set TIKTOK_COOKIES_B64 < ${outB64}`);
+console.log("Do not upload browser cookies to GitHub Actions secrets or replay them in CI.");

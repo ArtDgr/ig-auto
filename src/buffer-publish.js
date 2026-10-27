@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import config from "../config.json" with { type: "json" };
-import { execFileSync } from "node:child_process";
+import { spawnSync } from "node:child_process";
 import { loadPlan, captionForPost } from "./ig-generator.js";
 
 const API = "https://api.buffer.com";
@@ -247,16 +247,24 @@ export async function pushState() {
   if (!process.env.GITHUB_RUN_ID && !process.env.GITHUB_REPOSITORY) return false;
   try {
     const G = "git";
-    const run = (args, opts = {}) => execFileSync(G, args, { stdio: ["ignore", "pipe", "pipe"], timeout: 120000, ...opts });
-    const tokenInfo = process.env.GITHUB_TOKEN && process.env.GITHUB_REPOSITORY;
-    const remote = tokenInfo
+    const run = (args, opts = {}) => {
+      const r = spawnSync(G, args, { stdio: ["ignore", "pipe", "pipe"], timeout: 120000, encoding: "utf8", ...opts });
+      if (r.error || (r.status !== 0 && !opts.allowFail)) {
+        throw new Error(`git ${args.join(" ")} failed: ${String((r.stderr || r.error?.message || "")).split("\n").slice(0,3).join(" ")}`);
+      }
+      return r;
+    };
+    // checkout@v5 persists the default GITHUB_TOKEN in git credentials, so
+    // plain origin pushes work inside Actions; explicit URL as fallback.
+    const remote = process.env.GITHUB_TOKEN && process.env.GITHUB_REPOSITORY
       ? `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`
       : "origin";
     run(["add", SCHED_STATE]);
-    if (run(["diff", "--cached", "--quiet"]).status === 0) return false; // nothing new
+    if (run(["diff", "--cached", "--quiet"], { allowFail: true }).status === 0) return false; // nothing new
     run(["-c", "user.name=ig-auto-bot", "-c", "user.email=ig-auto-bot@users.noreply.github.com",
          "commit", "-m", `buffer: update schedule state ${new Date().toISOString().slice(0, 16)}`]);
-    run(["pull", "--rebase", "--autostash", remote, "main"]).toString();
+    run(["pull", "--rebase", "--autostash"]).toString();
+    run(["push", remote, "HEAD:main"]);
     run(["push", remote, "HEAD:main"]);
     console.log("[buffer] schedule state pushed to repo (dedup-safe next run)");
     return true;

@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-26T23:19:08.976Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-27T21:15:46.014Z",
   "posts": [
     {
-      "id": "20261027-you-click-links-in-unexpected-emails",
+      "id": "20261028-you-paste-client-data-into-public-ai-chats",
       "slot": 0,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You click links in unexpected emails",
+      "title": "You paste client data into public AI chats",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You click links in unexpected emails\nDisplay names lie — the address and URL are what matter."
+          "text": "You paste client data into public AI\nPrompts can be logged, stored, or used for training."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Display names lie — the address and URL are what matter."
+          "text": "WHY IT'S A PROBLEM — Prompts can be logged, stored, or used for training."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Hover links, check the sender address, verify through the real site."
+          "text": "THE FIX — Use enterprise or local instances for anything sensitive."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You click links in unexpected emails #cybersecurity #infosec #tech Follow for daily tech intel.",
+      "caption": "🚩 You paste client data into public AI chats #MachineLearning #GenAI #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261027-restarting-your-pc-wipes-your-data",
+      "id": "20261028-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #sysadmin #itsupport #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #macOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261027-why-works-on-my-machine-finally-died",
+      "id": "20261028-the-hidden-windows-tools-nobody-uses",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Why 'works on my machine' finally died",
+      "title": "The hidden Windows tools nobody uses",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
+          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
         },
         {
           "kind": "facts",
-          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
+          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #AWS #Kubernetes #techtips Follow for daily tech intel.",
+      "caption": "🔓 The hidden Windows tools nobody uses — `sfc /scannow` repairs corrupted system files #itsupport #sysadmin #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261027-set-up-proper-battery-care",
+      "id": "20261028-respond-to-a-suspected-breach",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up proper battery care",
+      "title": "Respond to a suspected breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
+          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "Cap charge at 80% if your vendor offers it"
+          "text": "Isolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "Avoid leaving it at 100% for weeks on end"
+          "text": "Revoke the account's sessions and reset credentials"
         },
         {
           "kind": "step",
-          "text": "Occasional deep discharge is fine, not daily"
+          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
         },
         {
           "kind": "step",
-          "text": "Keep firmware and battery drivers updated"
+          "text": "Audit logs for what the attacker accessed"
         },
         {
           "kind": "step",
-          "text": "A battery at 80% capacity after 2 years is normal."
+          "text": "Report and document — then patch the gap that let it in."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Set up proper battery care #hardware #CPU #tech Follow for daily tech intel.",
+      "caption": "🔐 Respond to a suspected breach #2FA #cybersecurity #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

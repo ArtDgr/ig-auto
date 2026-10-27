@@ -14,5 +14,27 @@
       "niche": "hardware",
       "title": "Your laptop is always hot"
     }
+  },
+  "2026-10-28": {
+    "0": {
+      "postId": "20261028-you-never-restart-your-pc",
+      "bufferId": "6ae114944137b5e3590db6f6",
+      "dueAt": "2026-10-28T08:07:00.000Z",
+      "niche": "security",
+      "title": "You never restart your PC"
+    },
+    "1": {
+      "postId": "20261028-chatgpt-remembers-everything",
+      "bufferId": "6ae114962086adf9c11a3708",
+      "dueAt": "2026-10-28T01:53:00.000Z",
+      "niche": "ai",
+      "title": "ChatGPT remembers everything"
+    },
+    "reel": {
+      "file": "20261028-apple-teases-more-launches-this-week-after-the-new-ipad-mini.mp4",
+      "bufferId": "6ae114982f35d654faee7f40",
+      "dueAt": "2026-10-28T04:00:00.000Z",
+      "niche": "apple"
+    }
   }
 }

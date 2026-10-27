@@ -4,6 +4,7 @@
 // Caches to out/staging/photos/<slug>.jpg so renders are deterministic.
 import fs from "node:fs";
 import path from "node:path";
+import { photoUrlFor } from "./photo-map.js";
 
 const DIR = path.join("out", "staging", "photos");
 
@@ -63,8 +64,18 @@ export async function resolvePhoto(deck, topicImage) {
     const got = await download(topicImage, dest);
     if (got) { console.log(`[photo] story image for ${deck.id}`); return got; }
   }
-  // 2) OpenVerse (WordPress) CC photo search — FREE, no API key.
-  // Deterministic page per deck so re-renders match.
+  // 2) verified topic Unsplash map (src/photo-map.js): guaranteed topical,
+  // deterministic. Tries story-accurate images from OpenVerse ONLY as the
+  // holdout — its keyword search routinely returns unrelated stock, which is
+  // how reels drifted off-topic before.
+  const hay = `${deck.title || ""} ${deck.subtitle || ""} ${(deck.slides || []).slice(0, 2).map((s) => s.text).join(" ")}`;
+  try {
+    const mapped = await download(photoUrlFor(hay, deck.niche), dest, 60000);
+    if (mapped) { console.log(`[photo] topic-map fallback for ${deck.id}`); return mapped; }
+  } catch (e) {
+    console.warn(`[photo] topic-map download fail for ${deck.id}: ${e.message}`);
+  }
+  // 3) OpenVerse CC photo search — last resort, deterministic per deck.
   const kw = keywordsFor(deck);
   try {
     const page = (seedNum(deck.id) % 5) + 1;
@@ -85,6 +96,8 @@ export async function resolvePhoto(deck, topicImage) {
   } catch (e) {
     console.warn(`[photo] openverse miss for ${deck.id}: ${e.message}`);
   }
+  // Only now (network all out) do we let render.js draw the gradient.
+  console.warn(`[photo] no photo for ${deck.id} — gradient fallback (offline?)`);
   return null;
 }
 

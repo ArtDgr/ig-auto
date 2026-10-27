@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import config from "../config.json" with { type: "json" };
+import { execFileSync } from "node:child_process";
 import { loadPlan, captionForPost } from "./ig-generator.js";
 
 const API = "https://api.buffer.com";
@@ -237,6 +238,34 @@ function saveState(state) {
   fs.writeFileSync(SCHED_STATE, JSON.stringify(state, null, 2));
 }
 
+// Headless persistence: the workflows commit data/ BEFORE Buffer scheduling
+// runs, so a saved schedule-state would otherwise be lost between runs and
+// every run would re-schedule the same slots (duplicates in Buffer). Push the
+// state straight from here on GITHUB_TOKEN — best-effort, never fatal.
+export async function pushState() {
+  if (process.argv.some((a) => /--no-state-push/.test(a))) return false;
+  if (!process.env.GITHUB_RUN_ID && !process.env.GITHUB_REPOSITORY) return false;
+  try {
+    const G = "git";
+    const run = (args, opts = {}) => execFileSync(G, args, { stdio: ["ignore", "pipe", "pipe"], timeout: 120000, ...opts });
+    const tokenInfo = process.env.GITHUB_TOKEN && process.env.GITHUB_REPOSITORY;
+    const remote = tokenInfo
+      ? `https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_REPOSITORY}.git`
+      : "origin";
+    run(["add", SCHED_STATE]);
+    if (run(["diff", "--cached", "--quiet"]).status === 0) return false; // nothing new
+    run(["-c", "user.name=ig-auto-bot", "-c", "user.email=ig-auto-bot@users.noreply.github.com",
+         "commit", "-m", `buffer: update schedule state ${new Date().toISOString().slice(0, 16)}`]);
+    run(["pull", "--rebase", "--autostash", remote, "main"]).toString();
+    run(["push", remote, "HEAD:main"]);
+    console.log("[buffer] schedule state pushed to repo (dedup-safe next run)");
+    return true;
+  } catch (e) {
+    console.warn(`[buffer] state push skipped (non-fatal): ${String(e.message).split("\n")[0]}`);
+    return false;
+  }
+}
+
 export async function scheduleDate(dateStr, { dry = false, reel = false, force = false } = {}) {
   // Stealth sustainability: every 2 days random (~50% execution = ~50% reduction from daily)
   // Knuth hash gives pseudo-random 50% RUN distribution, not clustered
@@ -352,6 +381,7 @@ export async function scheduleDate(dateStr, { dry = false, reel = false, force =
   }
 
   if (!dry) saveState(state);
+  if (!dry && scheduled.length) await pushState();
   if (failures.length && !scheduled.length) {
     throw new Error(`Buffer scheduling failed for all ${failures.length} slot(s): ${failures.map((f) => `[${f.slot}] ${f.error}`).join("; ")}`);
   }

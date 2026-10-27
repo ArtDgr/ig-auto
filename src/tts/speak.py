@@ -6,7 +6,7 @@ import edge_tts
 
 
 async def speak(text, voice, out_path):
-    tts = edge_tts.Communicate(text, voice=voice, rate="+8%")
+    tts = edge_tts.Communicate(text, voice=voice, rate="+4%")
     await tts.save(out_path)
 
 

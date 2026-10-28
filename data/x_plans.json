@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-28",
-  "generatedAt": "2026-10-27T23:06:17.226Z",
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-28T23:29:14.848Z",
   "posts": [
     {
-      "id": "20261028-you-paste-client-data-into-public-ai-chats",
+      "id": "20261029-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You paste client data into public AI chats",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You paste client data into public AI\nPrompts can be logged, stored, or used for training."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Prompts can be logged, stored, or used for training."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Use enterprise or local instances for anything sensitive."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You paste client data into public AI chats #MachineLearning #GenAI #techtips Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #hardware #GPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261028-force-quitting-apps-saves-battery",
+      "id": "20261029-autoscaling-handles-everything",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "Autoscaling handles everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "Autoscaling handles everything"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #macOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Autoscaling handles everything Truth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max… #DevOps #Kubernetes #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261028-the-hidden-windows-tools-nobody-uses",
+      "id": "20261029-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The hidden Windows tools nobody uses",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The hidden Windows tools nobody uses — `sfc /scannow` repairs corrupted system files #itsupport #sysadmin #techtips Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iPhone #Apple #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261028-respond-to-a-suspected-breach",
+      "id": "20261029-get-a-useful-answer-from-any-ai",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Respond to a suspected breach",
+      "title": "Get a useful answer from any AI",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
+          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "Isolate the affected machine from the network"
+          "text": "Start with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "Revoke the account's sessions and reset credentials"
+          "text": "State the goal: what must the result achieve?"
         },
         {
           "kind": "step",
-          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
+          "text": "Add constraints: length, tone, audience"
         },
         {
           "kind": "step",
-          "text": "Audit logs for what the attacker accessed"
+          "text": "Ask for options, then a recommendation"
         },
         {
           "kind": "step",
-          "text": "Report and document — then patch the gap that let it in."
+          "text": "Iterate — 'shorter' and 'more formal' each improve the pass."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Respond to a suspected breach #2FA #cybersecurity #tech Follow for daily tech intel.",
+      "caption": "🤖 Get a useful answer from any AI #MachineLearning #AI #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

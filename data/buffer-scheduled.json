@@ -1,18 +1,18 @@
 {
   "2026-10-15": {
-    "3": {
-      "postId": "20261015-lock-down-your-router",
-      "bufferId": "6ad0031cf4dc78822ed97b68",
-      "dueAt": "2026-10-15T08:30:00.000Z",
-      "niche": "security",
-      "title": "Lock down your router"
-    },
     "0": {
       "postId": "20261015-your-laptop-is-always-hot",
       "bufferId": "6ad0031cecf9322753588a1f",
       "dueAt": "2026-10-15T02:30:00.000Z",
       "niche": "hardware",
       "title": "Your laptop is always hot"
+    },
+    "3": {
+      "postId": "20261015-lock-down-your-router",
+      "bufferId": "6ad0031cf4dc78822ed97b68",
+      "dueAt": "2026-10-15T08:30:00.000Z",
+      "niche": "security",
+      "title": "Lock down your router"
     }
   },
   "2026-10-28": {
@@ -35,6 +35,35 @@
       "bufferId": "6ae114982f35d654faee7f40",
       "dueAt": "2026-10-28T04:00:00.000Z",
       "niche": "apple"
+    }
+  },
+  "2026-10-30": {
+    "0": {
+      "postId": "20261030-you-never-restart-your-pc",
+      "bufferId": "6ae3d7e56385db216a141f8d",
+      "dueAt": "2026-10-30T01:53:00.000Z",
+      "niche": "it-support",
+      "title": "You never restart your PC"
+    },
+    "2": {
+      "postId": "20261030-what-reviewers-check-that-you-don-t",
+      "bufferId": "6ae3d7e7ba1ca51fd3e4e82d",
+      "dueAt": "2026-10-30T08:53:00.000Z",
+      "niche": "hardware",
+      "title": "What reviewers check that you don't"
+    },
+    "4": {
+      "postId": "20261030-gadget-focus-deals-galaxy-s26-ultra-473-off-brand-new-nothing-ear-3a-",
+      "bufferId": "6ae3d7e356e01b976376aebe",
+      "dueAt": "2026-10-30T08:23:00.000Z",
+      "niche": "gadgets",
+      "title": "Deals: Galaxy S26 Ultra $473 off brand new, Nothing…"
+    },
+    "reel": {
+      "file": "20261030-apple-brings-touch-to-the-mac-with-2-899-oled-macbook-pro.mp4",
+      "bufferId": "6ae3d7e956e01b976376afb5",
+      "dueAt": "2026-10-30T04:00:00.000Z",
+      "niche": "it-support"
     }
   }
 }

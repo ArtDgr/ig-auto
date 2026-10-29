@@ -1,26 +1,30 @@
 {
-  "date": "20261029",
+  "date": "20261030",
   "deck": {
-    "id": "here-s-why-the-iphone-duo-s-hinge-could-be-cracking-the-scre",
-    "niche": "gadgets",
-    "href": "",
-    "title": "Here’s why the iPhone Duo’s hinge could be cracking the screen",
+    "id": "apple-brings-touch-to-the-mac-with-2-899-oled-macbook-pro",
+    "niche": "it-support",
+    "href": "https://www.computerworld.com/article/4241873/apple-brings-touch-to-the-mac-with-2899-oled-macbook-pro.html",
+    "title": "Apple brings touch to the Mac with $2,899 OLED MacBook Pro",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "Here’s why the iPhone Duo’s hinge could be…",
+        "text": "$2,899",
         "kind": "hook"
       },
       {
-        "text": "Within hours of the iPhone Duo launch last Friday, people reported that the inn…",
+        "text": "Apple brings touch to the Mac with $2,899 O…",
         "kind": "body"
       },
       {
-        "text": "The issue was similar across many photos shared on social media: some kind of i…",
+        "text": "Following the release of the new 14-inch M6 MacBook Pro earlier this week, Appl…",
         "kind": "body"
       },
       {
-        "text": "On Monday, Apple acknowledged an \"issue\" and said it's replacing damaged units,…",
+        "text": "It’s very fast, very thin, very light, with an impressive PROLED XDR display an…",
+        "kind": "body"
+      },
+      {
+        "text": "A brief tour through the key specs Very fast: Available in 14- and 16-inch mode…",
         "kind": "body"
       },
       {
@@ -29,5 +33,5 @@
       }
     ]
   },
-  "caption": "Here’s why the iPhone Duo’s hinge could be cracking the screen.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Apple brings touch to the Mac with $2,899 OLED MacBook Pro.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

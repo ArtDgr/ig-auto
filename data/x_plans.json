@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-28T23:29:14.848Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-29T23:33:37.456Z",
   "posts": [
     {
-      "id": "20261029-your-laptop-is-always-hot",
+      "id": "20261030-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,134 +12,163 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your laptop is always hot #hardware #GPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261029-autoscaling-handles-everything",
+      "id": "20261030-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Autoscaling handles everything",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Autoscaling handles everything"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Autoscaling handles everything Truth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max… #DevOps #Kubernetes #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261029-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261030-what-it-does-before-calling-it-a-hardware-problem",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "What IT does before calling it a hardware problem",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #iPhone #Apple #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 What IT does before calling it a hardware problem — Force-restart once — clears 80% of weird states #techsupport #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261029-get-a-useful-answer-from-any-ai",
+      "id": "20261030-create-a-strong-memorable-passphrase",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Get a useful answer from any AI",
+      "title": "Create a strong, memorable passphrase",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
+          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Start with 'You are a [role] expert'"
+          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "State the goal: what must the result achieve?"
+          "text": "Keep it long — 16+ characters"
         },
         {
           "kind": "step",
-          "text": "Add constraints: length, tone, audience"
+          "text": "Add symbols only if a site demands them"
         },
         {
           "kind": "step",
-          "text": "Ask for options, then a recommendation"
+          "text": "Never reuse it anywhere else"
         },
         {
           "kind": "step",
-          "text": "Iterate — 'shorter' and 'more formal' each improve the pass."
+          "text": "Let your password manager remember the rest."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🤖 Get a useful answer from any AI #MachineLearning #AI #tech Follow for daily tech intel.",
+      "caption": "🔐 Create a strong, memorable passphrase #infosec #2FA #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261030-gadget-focus-deals-galaxy-s26-ultra-473-off-brand-new-nothing-ear-3a-",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "Deals: Galaxy S26 Ultra $473 off brand new, Nothing…",
+      "source": "9to5Google",
+      "link": "https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "Deals: Galaxy S26 Ultra $473 off brand new\nDeals: Galaxy S26 Ultra $473 off brand new, Nothing Ear (3a) $79, Lenovo's new Android tablets…"
+        },
+        {
+          "kind": "brief",
+          "text": "Joining the ongoing deals on the Moto Tag 2 Android Find Hub trackers at $17.50 each and AMazon’s brand new Echo Show 16 at $100 off , today’s 9to5Toys Lunch Break is headlined by Amazon knocking $473 off Samsung’s 512GB Galaxy…"
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 Deals: Galaxy S26 Ultra $473 off brand new, Nothing… (9to5Google) https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/ #smartphone #gadgets #techtips Follow for daily tech intel.",
       "status": "pending"
     }
   ],

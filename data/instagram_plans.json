@@ -1,103 +1,103 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-29T23:33:21.184Z",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-30T23:08:46.312Z",
   "posts": [
     {
-      "id": "20261030-you-never-restart-your-pc",
+      "id": "20261031-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#fixyourpc #pchelp #pc #windows11 #computertips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#appleintelligence #appletips #iphone #macrumors #macos\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261030-you-must-charge-your-iphone-to-100",
+      "id": "20261031-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#macos #itpro #macrumors #appleintelligence #appletips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#ssd #laptop #pcgaming #gpu #laptops\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261030-what-reviewers-check-that-you-don-t",
+      "id": "20261031-how-to-actually-verify-ai-output",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "How to actually verify AI output",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
+          "text": "How to actually verify AI output\nAsk for a source for every key claim"
         },
         {
           "kind": "facts",
-          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
+          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#benchmark #pcgaming #ssd #cpu #gpu\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#artificialintelligence #aitools #copilot #aitips #machinelearning\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261030-set-up-a-better-morning-phone-routine",
+      "id": "20261031-cut-digital-glare-at-night",
       "slot": 3,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -106,61 +106,32 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a better morning phone routine",
+      "title": "Cut digital glare at night",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a better morning phone routine\nPlug in at night — 80% is plenty"
+          "text": "Cut digital glare at night\nTurn on night mode / blue-light filter at sunset"
         },
         {
           "kind": "step",
-          "text": "Plug in at night — 80% is plenty"
+          "text": "Turn on night mode / blue-light filter at sunset"
         },
         {
           "kind": "step",
-          "text": "Glance at the lock screen, don't dive in"
+          "text": "Lower brightness in dark rooms"
         },
         {
           "kind": "step",
-          "text": "Clear junk notifications once a day"
+          "text": "Enable dark mode where available"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up a better morning phone routine 📱\n\n1. Plug in at night\n     ✓ 80% is plenty\n2. Glance at the lock screen, don't dive in\n3. Clear junk notifications once a day\n\nSave this for the next ticket →\n\n#gadgets #tech #iphone #batterytips #smartphone\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
-      "status": "pending"
-    },
-    {
-      "id": "20261030-gadget-focus-deals-galaxy-s26-ultra-473-off-brand-new-nothing-ear-3a-",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Deals: Galaxy S26 Ultra $473 off brand new, Nothing…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Deals: Galaxy S26 Ultra $473 off brand new\nDeals: Galaxy S26 Ultra $473 off brand new, Nothing Ear (3a) $79, Lenovo's new Android tablets…"
-        },
-        {
-          "kind": "brief",
-          "text": "Joining the ongoing deals on the Moto Tag 2 Android Find Hub trackers at $17.50 each and AMazon’s brand new Echo Show 16 at $100 off , today’s 9to5Toys Lunch Break is headlined by Amazon knocking $473 off Samsung’s 512GB Galaxy…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nDeals: Galaxy S26 Ultra $473 off brand new, Nothing…\n\nSource: 9to5Google — https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/\n\nWhich one's on your wishlist? Drop it below 👇\n\n#tech #smartphonetips #batterytips #gadgetreviews #samsung\n\n@theitsupportguru — the gadget worth your attention.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Cut digital glare at night 📱\n\n1. Turn on night mode / blue-light filter at sunset\n2. Lower brightness in dark rooms\n3. Enable dark mode where available\n\nSave this for the next ticket →\n\n#tech #techgear #batterytips #android #smartphonetips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

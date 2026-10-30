@@ -1,174 +1,145 @@
 {
-  "date": "2026-10-30",
-  "generatedAt": "2026-10-29T23:33:37.456Z",
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-30T23:08:56.305Z",
   "posts": [
     {
-      "id": "20261030-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261031-your-backup-has-never-been-restored",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your backup has never been restored",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your backup has never been restored\nUnrestored backups are often corrupt, missing or in the wrong region."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Unrestored backups are often corrupt, missing or in the wrong region."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Run a monthly restore drill to a scratch environment."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 Your backup has never been restored #DevOps #cloud #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261030-you-must-charge-your-iphone-to-100",
+      "id": "20261031-antivirus-means-you-can-t-get-hacked",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Antivirus means you can't get hacked",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Antivirus means you can't get hacked"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Antivirus means you can't get hacked Truth: AV catches known malware, not the social engineering that steals most accounts and… #cybersecurity #infosec #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261030-what-it-does-before-calling-it-a-hardware-problem",
+      "id": "20261031-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What IT does before calling it a hardware problem",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What IT does before calling it a hardware problem\nForce-restart once — clears 80% of weird states"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Force-restart once — clears 80% of weird states\nCheck disk space before touching drivers\nTest a clean user profile before reinstalling\nRe-seat RAM and cables before ordering parts\nAlways rule out the power supply first"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What IT does before calling it a hardware problem — Force-restart once — clears 80% of weird states #techsupport #itsupport #techtips Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261030-create-a-strong-memorable-passphrase",
+      "id": "20261031-monitor-your-laptop-s-real-temps",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Create a strong, memorable passphrase",
+      "title": "Monitor your laptop's real temps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
+          "text": "Install a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Keep it long — 16+ characters"
+          "text": "Run a 15-minute stress load or a game"
         },
         {
           "kind": "step",
-          "text": "Add symbols only if a site demands them"
+          "text": "Watch CPU/GPU temps while under load"
         },
         {
           "kind": "step",
-          "text": "Never reuse it anywhere else"
+          "text": "Below 90C sustained is fine; above, clean the vents"
         },
         {
           "kind": "step",
-          "text": "Let your password manager remember the rest."
+          "text": "Raise the laptop on a stand — bottom airflow helps."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Create a strong, memorable passphrase #infosec #2FA #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261030-gadget-focus-deals-galaxy-s26-ultra-473-off-brand-new-nothing-ear-3a-",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "Deals: Galaxy S26 Ultra $473 off brand new, Nothing…",
-      "source": "9to5Google",
-      "link": "https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "Deals: Galaxy S26 Ultra $473 off brand new\nDeals: Galaxy S26 Ultra $473 off brand new, Nothing Ear (3a) $79, Lenovo's new Android tablets…"
-        },
-        {
-          "kind": "brief",
-          "text": "Joining the ongoing deals on the Moto Tag 2 Android Find Hub trackers at $17.50 each and AMazon’s brand new Echo Show 16 at $100 off , today’s 9to5Toys Lunch Break is headlined by Amazon knocking $473 off Samsung’s 512GB Galaxy…"
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 Deals: Galaxy S26 Ultra $473 off brand new, Nothing… (9to5Google) https://9to5google.com/2026/10/29/deals-galaxy-s26-ultra-ear-3a-lenovo-android-tablets/ #smartphone #gadgets #techtips Follow for daily tech intel.",
+      "caption": "💻 Monitor your laptop's real temps #GPU #hardware #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

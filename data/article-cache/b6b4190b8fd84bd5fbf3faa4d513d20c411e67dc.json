@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cultofmac.com/news/homeview-security-camera-mode",
+  "fetched": "2026-11-03T01:44:48.012Z",
+  "paragraphs": [
+    "Apple’s upcoming smart display could double up as a HomeView security camera. The best part? It’s said to use the same built-in camera that handles FaceTime.",
+    "Text found in HomeView’s software code describes a security camera mode with features like motion detection, live streaming and recording.",
+    "HomeView is designed to serve as a central hub for your smart home security cameras. It can display live video feeds from compatible cameras, letting you check what’s happening around your home from its screen. But Apple’s upcoming smart display might do more than simply watch other cameras.",
+    "A prolific Apple tinkerer who goes by the name pdfu found and shared his findings in a post on Reddit as well as in a post on X. The text strings were found in the HomeView Software 27.2 settings localization.",
+    "The software — launched on October 30 — has a setup screen that reads “Your HomeView can be used as a security camera with HomeKit Secure Video.”",
+    "The feature has concrete settings localization in HomeView Software 27.2, describing functionality and privacy protections.",
+    "The leaked code also lays out four modes. You can switch the security features off entirely, or choose to use motion detection only. You could also allow live viewing without recording, or enable both streaming and recording.",
+    "Those choices work depending on whether you’re home, away or asleep. And Face Recognition and Activity Zones can be managed in the Home app on your iPhone."
+  ],
+  "image": "https://www.cultofmac.com/wp-content/uploads/2026/11/HomeView-1.jpg.webp"
+}

@@ -1,145 +1,145 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-30T23:08:56.305Z",
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T01:46:57.487Z",
   "posts": [
     {
-      "id": "20261031-your-backup-has-never-been-restored",
+      "id": "20261103-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your backup has never been restored",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your backup has never been restored\nUnrestored backups are often corrupt, missing or in the wrong region."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Unrestored backups are often corrupt, missing or in the wrong region."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run a monthly restore drill to a scratch environment."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your backup has never been restored #DevOps #cloud #techtips Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #GPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261031-antivirus-means-you-can-t-get-hacked",
+      "id": "20261103-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus means you can't get hacked",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus means you can't get hacked"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Antivirus means you can't get hacked Truth: AV catches known malware, not the social engineering that steals most accounts and… #cybersecurity #infosec #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #macOS #iPhone #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261031-hidden-macos-tools-most-people-never-find",
+      "id": "20261103-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #gadgets #Android #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261031-monitor-your-laptop-s-real-temps",
+      "id": "20261103-fix-a-pc-that-won-t-boot-to-windows",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor your laptop's real temps",
+      "title": "Fix a PC that won't boot to Windows",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
+          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight temp tool (open-source)"
+          "text": "Unplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Run a 15-minute stress load or a game"
+          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
         },
         {
           "kind": "step",
-          "text": "Watch CPU/GPU temps while under load"
+          "text": "Troubleshoot > Advanced options > Startup Repair"
         },
         {
           "kind": "step",
-          "text": "Below 90C sustained is fine; above, clean the vents"
+          "text": "Run it twice — most boot loops die on the second pass"
         },
         {
           "kind": "step",
-          "text": "Raise the laptop on a stand — bottom airflow helps."
+          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "💻 Monitor your laptop's real temps #GPU #hardware #itsupportguru Follow for daily tech intel.",
+      "caption": "🛠️ Fix a PC that won't boot to Windows #Windows11 #sysadmin #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

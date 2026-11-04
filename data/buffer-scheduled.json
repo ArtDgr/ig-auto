@@ -65,5 +65,41 @@
       "dueAt": "2026-10-30T04:00:00.000Z",
       "niche": "it-support"
     }
+  },
+  "2026-11-04": {
+    "0": {
+      "postId": "20261104-you-ve-never-checked-iphone-battery-health",
+      "bufferId": "6aea77cc4c41ba80aa491c7d",
+      "dueAt": "2026-11-04T08:43:00.000Z",
+      "niche": "apple",
+      "title": "You've never checked iPhone battery health"
+    },
+    "1": {
+      "postId": "20261104-autoscaling-handles-everything",
+      "bufferId": "6aea77ceff887f055cdaa436",
+      "dueAt": "2026-11-04T01:17:00.000Z",
+      "niche": "cloud-devops",
+      "title": "Autoscaling handles everything"
+    },
+    "2": {
+      "postId": "20261104-the-hidden-windows-tools-nobody-uses",
+      "bufferId": "6aea77c8ff887f055cdaa39b",
+      "dueAt": "2026-11-04T08:43:00.000Z",
+      "niche": "it-support",
+      "title": "The hidden Windows tools nobody uses"
+    },
+    "3": {
+      "postId": "20261104-monitor-your-laptop-s-real-temps",
+      "bufferId": "6aea77caff887f055cdaa3c5",
+      "dueAt": "2026-11-04T01:17:00.000Z",
+      "niche": "hardware",
+      "title": "Monitor your laptop's real temps"
+    },
+    "reel": {
+      "file": "20261104-samsung-galaxy-s27-ultra-s-dummy-unit-surfaces.mp4",
+      "bufferId": "6aea77d04c41ba80aa491d00",
+      "dueAt": "2026-11-04T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

@@ -1,145 +1,145 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T01:46:57.487Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T00:09:28.436Z",
   "posts": [
     {
-      "id": "20261103-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261104-your-icloud-is-95-full",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your iCloud is 95% full",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #GPU #PC #tech Follow for daily tech intel.",
+      "caption": "🚩 Your iCloud is 95% full #iOS #iPhone #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261103-force-quitting-apps-saves-battery",
+      "id": "20261104-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #macOS #iPhone #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261103-what-reviewers-check-that-you-don-t",
+      "id": "20261104-ops-rules-that-prevent-the-worst-outages",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "Ops rules that prevent the worst outages",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #gadgets #Android #techtips Follow for daily tech intel.",
+      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #DevOps #Kubernetes #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261103-fix-a-pc-that-won-t-boot-to-windows",
+      "id": "20261104-clean-up-data-brokers",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a PC that won't boot to Windows",
+      "title": "Clean up data brokers",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
+          "text": "Clean up data brokers\nSearch yourself on people-search sites"
         },
         {
           "kind": "step",
-          "text": "Unplug every USB device except keyboard and mouse"
+          "text": "Search yourself on people-search sites"
         },
         {
           "kind": "step",
-          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
+          "text": "Use each site's opt-out page"
         },
         {
           "kind": "step",
-          "text": "Troubleshoot > Advanced options > Startup Repair"
+          "text": "Remove your listing and note the case ID"
         },
         {
           "kind": "step",
-          "text": "Run it twice — most boot loops die on the second pass"
+          "text": "Re-check in 30 days — they re-add"
         },
         {
           "kind": "step",
-          "text": "Still stuck? Boot to Safe Mode and uninstall recent drivers or updates."
+          "text": "Switch your email to a spam-safe address."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Fix a PC that won't boot to Windows #Windows11 #sysadmin #tech Follow for daily tech intel.",
+      "caption": "🔐 Clean up data brokers #cybersecurity #2FA #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

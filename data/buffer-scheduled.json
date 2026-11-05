@@ -101,5 +101,34 @@
       "dueAt": "2026-11-04T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-05": {
+    "0": {
+      "postId": "20261105-dev-machines-run-24-7",
+      "bufferId": "6aebce7a01b5398f879d859f",
+      "dueAt": "2026-11-05T08:14:00.000Z",
+      "niche": "cloud-devops",
+      "title": "Dev machines run 24/7"
+    },
+    "1": {
+      "postId": "20261105-antivirus-alone-keeps-you-safe",
+      "bufferId": "6aebce7c01b5398f879d85ed",
+      "dueAt": "2026-11-05T01:46:00.000Z",
+      "niche": "it-support",
+      "title": "Antivirus alone keeps you safe"
+    },
+    "2": {
+      "postId": "20261105-the-upgrade-that-changes-everything",
+      "bufferId": "6aebce7ef283c8dd45ad3f8f",
+      "dueAt": "2026-11-05T08:14:00.000Z",
+      "niche": "hardware",
+      "title": "The upgrade that changes everything"
+    },
+    "reel": {
+      "file": "20261105-iphone-18-is-getting-two-major-upgrades-but-also-another-pri.mp4",
+      "bufferId": "6aebce800d0de73ccef1c052",
+      "dueAt": "2026-11-05T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

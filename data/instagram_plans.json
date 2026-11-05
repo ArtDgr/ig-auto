@@ -1,137 +1,137 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T00:09:15.533Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T00:31:25.525Z",
   "posts": [
     {
-      "id": "20261104-you-ve-never-checked-iphone-battery-health",
+      "id": "20261105-dev-machines-run-24-7",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "Dev machines run 24/7",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "Dev machines run 24/7\nA dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — A dev server left running bills all night for zero users."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Schedule them to shut down at 7pm and start at 7am."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#itpro #applenews #macos #macrumors #appletips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nDev machines run 24/7\n\nWhy it's a problem: A dev server left running bills all night for zero users.\nThe fix: Schedule them to shut down at 7pm and start at 7am.\n\nSave this before it becomes a repair bill →\n\n#sre #devopslife #cloudcomputing #cloud #docker\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261104-autoscaling-handles-everything",
+      "id": "20261105-antivirus-alone-keeps-you-safe",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Autoscaling handles everything",
+      "title": "Antivirus alone keeps you safe",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Autoscaling handles everything"
+          "text": "Antivirus alone keeps you safe"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
+          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Autoscaling handles everything\nTruth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first.\n\nShare this with the person who still believes it →\n\n#techops #azure #kubernetes #cloudcomputing #aws\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#computertips #windows #itsupport #windows11 #fixyourpc\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261104-the-hidden-windows-tools-nobody-uses",
+      "id": "20261105-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The hidden Windows tools nobody uses",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The hidden Windows tools nobody uses 🔓\n\nInsider knowledge, free.\n\n• `sfc /scannow` repairs corrupted system files\n• `DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n• `msinfo32` exports a full hardware report\n• `resmon` shows what's actually maxing your disk\n\nSave this — it'll be your shortcut later →\n\n#pc #fixyourpc #pchelp #itsupport #sysadmin\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#benchmark #ram #pc #chipshortage #hardware\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261104-monitor-your-laptop-s-real-temps",
+      "id": "20261105-set-up-icloud-keychain-properly",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Monitor your laptop's real temps",
+      "title": "Set up iCloud Keychain properly",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
+          "text": "Set up iCloud Keychain properly\nSettings > your name > iCloud > Passwords & Keychain"
         },
         {
           "kind": "step",
-          "text": "Install a lightweight temp tool (open-source)"
+          "text": "Settings > your name > iCloud > Passwords & Keychain"
         },
         {
           "kind": "step",
-          "text": "Run a 15-minute stress load or a game"
+          "text": "Turn on Passwords & Keychain"
         },
         {
           "kind": "step",
-          "text": "Watch CPU/GPU temps while under load"
+          "text": "Add your important logins to it"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Monitor your laptop's real temps 💻\n\n1. Install a lightweight temp tool (open-source)\n2. Run a 15-minute stress load or a game\n3. Watch CPU/GPU temps while under load\n\nSave this for the next ticket →\n\n#ram #chipshortage #hardware #laptops #laptop\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Set up iCloud Keychain properly 🍎\n\n1. Settings > your name > iCloud > Passwords & Keychain\n2. Turn on Passwords & Keychain\n3. Add your important logins to it\n\nSave this for the next ticket →\n\n#macbook #ios #macos #apple #itpro\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

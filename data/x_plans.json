@@ -1,145 +1,145 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T00:09:28.436Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T00:31:38.337Z",
   "posts": [
     {
-      "id": "20261104-your-icloud-is-95-full",
+      "id": "20261105-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your iCloud is 95% full",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your iCloud is 95% full\nFull storage silently breaks backups and updates."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Full storage silently breaks backups and updates."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Offload apps, clear the Screenshots album, upgrade only if needed."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your iCloud is 95% full #iOS #iPhone #tech Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #CPU #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261104-a-4k-screen-is-always-better",
+      "id": "20261105-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #Apple #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261104-ops-rules-that-prevent-the-worst-outages",
+      "id": "20261105-how-to-tell-if-your-battery-is-really-dying",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Ops rules that prevent the worst outages",
+      "title": "How to tell if your battery is really dying",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
+          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
         },
         {
           "kind": "facts",
-          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
+          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #DevOps #Kubernetes #tech Follow for daily tech intel.",
+      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #smartphone #Android #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261104-clean-up-data-brokers",
+      "id": "20261105-get-a-useful-answer-from-any-ai",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean up data brokers",
+      "title": "Get a useful answer from any AI",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean up data brokers\nSearch yourself on people-search sites"
+          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "Search yourself on people-search sites"
+          "text": "Start with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "Use each site's opt-out page"
+          "text": "State the goal: what must the result achieve?"
         },
         {
           "kind": "step",
-          "text": "Remove your listing and note the case ID"
+          "text": "Add constraints: length, tone, audience"
         },
         {
           "kind": "step",
-          "text": "Re-check in 30 days — they re-add"
+          "text": "Ask for options, then a recommendation"
         },
         {
           "kind": "step",
-          "text": "Switch your email to a spam-safe address."
+          "text": "Iterate — 'shorter' and 'more formal' each improve the pass."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Clean up data brokers #cybersecurity #2FA #itsupportguru Follow for daily tech intel.",
+      "caption": "🤖 Get a useful answer from any AI #AI #ChatGPT #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

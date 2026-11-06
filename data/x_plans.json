@@ -1,174 +1,145 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T00:32:11.363Z",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-06T23:50:45.721Z",
   "posts": [
     {
-      "id": "20261106-you-let-an-ai-agent-spend-or-delete",
+      "id": "20261107-your-pc-takes-5-minutes-to-boot",
       "slot": 0,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You let an AI agent spend or delete",
+      "title": "Your PC takes 5 minutes to boot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You let an AI agent spend or delete\nAutonomous agents with no guardrails make costly mistakes."
+          "text": "Your PC takes 5 minutes to boot\nThat's startup bloat, not normal — dozens of apps auto-launch silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Autonomous agents with no guardrails make costly mistakes."
+          "text": "WHY IT'S A PROBLEM — That's startup bloat, not normal — dozens of apps auto-launch silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Hard limits on spend, scope and accounts before autonomy."
+          "text": "THE FIX — Task Manager > Startup, disable everything you don't open in the first 5 minutes."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You let an AI agent spend or delete #GenAI #AI #techtips Follow for daily tech intel.",
+      "caption": "🚩 Your PC takes 5 minutes to boot #Windows11 #itsupport #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261106-you-must-drain-your-battery-to-0",
+      "id": "20261107-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must drain your battery to 0%",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must drain your battery to 0%"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Modern lithium batteries prefer partial charges. Draining to zero regularly wears them faster — charge to 80%, not to the red line and back."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must drain your battery to 0% Truth: Modern lithium batteries prefer partial charges. Draining to zero regularly wears them… #smartphone #gadgets #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #PC #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261106-ops-rules-that-prevent-the-worst-outages",
+      "id": "20261107-prompt-tricks-it-pros-use-daily",
       "slot": 2,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Ops rules that prevent the worst outages",
+      "title": "Prompt tricks IT pros use daily",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
         },
         {
           "kind": "facts",
-          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #cloud #Kubernetes #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #ChatGPT #AI #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261106-connect-your-wifi-step-by-step",
+      "id": "20261107-find-your-macbook-battery-drainer",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Find your MacBook battery drainer",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Sort by CPU, then by Energy"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Close the browser tab silently maxing cores"
         },
         {
           "kind": "step",
-          "text": "Forget and rejoin the network if it keeps asking for the key"
+          "text": "Check background apps under the Energy tab"
         },
         {
           "kind": "step",
-          "text": "Still no internet? Unplug the router for 60 seconds and retry."
+          "text": "Dim the screen — the display uses the most."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Connect your WiFi step by step #Windows11 #itsupport #itsupportguru Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261106-gadget-focus-how-to-watch-rise-of-the-rockstar-chef-for-free-stream-f",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch Rise of the Rockstar Chef for free —…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch Rise of the Rockstar Chef for free\nHow to watch Rise of the Rockstar Chef for free — stream from anywhere"
-        },
-        {
-          "kind": "brief",
-          "text": "Learn more about Marco Pierre White, Gordon Ramsay, and Heston Blumenthal.\nHere's how to watch Rise of the Rockstar Chef online from anywhere in the world, and for free in the UK."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 How to watch Rise of the Rockstar Chef for free —… (TechRadar) https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef #gadgets #smartphone #tech Follow for daily tech intel.",
+      "caption": "🍎 Find your MacBook battery drainer #Apple #macOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,166 +1,137 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T00:31:59.959Z",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-06T23:50:32.159Z",
   "posts": [
     {
-      "id": "20261106-you-click-click-click-in-the-console-instead-of-iac",
+      "id": "20261107-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You click-click-click in the console instead of IaC",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You click-click-click in the console\nManual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Manual clicks are invisible, unreviewable and can't be rolled back."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Write Terraform or CloudFormation — infra as code."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou click-click-click in the console instead of IaC\n\nWhy it's a problem: Manual clicks are invisible, unreviewable and can't be rolled back.\nThe fix: Write Terraform or CloudFormation — infra as code.\n\nSave this before it becomes a repair bill →\n\n#devops #docker #azure #cloudcomputing #cloud\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#apple #applenews #macrumors #ios #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261106-antivirus-alone-keeps-you-safe",
+      "id": "20261107-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Antivirus alone keeps you safe",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Antivirus alone keeps you safe"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus alone keeps you safe\nTruth: A good antivirus is one layer, not a shield. The biggest entry points are phishing, weak passwords and unpatched software — none of which your AV stops by itself.\n\nShare this with the person who still believes it →\n\n#fixyourpc #troubleshooting #techsupport #pc #itsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#ssd #benchmark #gpu #pc #techreview\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261106-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261107-the-hidden-windows-tools-nobody-uses",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "The hidden Windows tools nobody uses",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macrumors #apple #iphone #ios #appleintelligence\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The hidden Windows tools nobody uses 🔓\n\nInsider knowledge, free.\n\n• `sfc /scannow` repairs corrupted system files\n• `DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n• `msinfo32` exports a full hardware report\n• `resmon` shows what's actually maxing your disk\n\nSave this — it'll be your shortcut later →\n\n#windows11 #ithelp #sysadmin #pchelp #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261106-buy-a-laptop-that-fits-your-work",
+      "id": "20261107-get-a-useful-answer-from-any-ai",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Buy a laptop that fits your work",
+      "title": "Get a useful answer from any AI",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Buy a laptop that fits your work\nList the three apps that slow your current PC"
+          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "List the three apps that slow your current PC"
+          "text": "Start with 'You are a [role] expert'"
         },
         {
           "kind": "step",
-          "text": "Match CPU tier and RAM to that list"
+          "text": "State the goal: what must the result achieve?"
         },
         {
           "kind": "step",
-          "text": "Confirm the port needs — USB-C, HDMI, storage"
+          "text": "Add constraints: length, tone, audience"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Buy a laptop that fits your work 💻\n\n1. List the three apps that slow your current PC\n2. Match CPU tier and RAM to that list\n3. Confirm the port needs\n     ✓ USB-C, HDMI, storage\n\nSave this for the next ticket →\n\n#ssd #chipshortage #ram #cpu #benchmark\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
-      "status": "pending"
-    },
-    {
-      "id": "20261106-gadget-focus-how-to-watch-rise-of-the-rockstar-chef-for-free-stream-f",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch Rise of the Rockstar Chef for free —…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch Rise of the Rockstar Chef for free\nHow to watch Rise of the Rockstar Chef for free — stream from anywhere"
-        },
-        {
-          "kind": "brief",
-          "text": "Learn more about Marco Pierre White, Gordon Ramsay, and Heston Blumenthal.\nHere's how to watch Rise of the Rockstar Chef online from anywhere in the world, and for free in the UK."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nHow to watch Rise of the Rockstar Chef for free —…\n\n• Learn more about Marco Pierre White, Gordon Ramsay, and Heston Blumenthal.\n• Here's how to watch Rise of the Rockstar Chef online from anywhere in the world, and for free in the UK.\n\nSource: TechRadar — https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef\n\nWhich one's on your wishlist? Drop it below 👇\n\n#iphone #gadgets #smartphone #techgear #batterytips\n\n@theitsupportguru — the gadget worth your attention.\n\nTag the coworker who needs this one.",
+      "caption": "Get a useful answer from any AI 🤖\n\n1. Start with 'You are a [role] expert'\n2. State the goal: what must the result achieve?\n3. Add constraints: length, tone, audience\n\nSave this for the next ticket →\n\n#chatgpt #futuretech #aitips #copilot #genai\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

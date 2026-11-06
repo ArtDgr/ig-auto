@@ -1,0 +1,15 @@
+{
+  "url": "https://9to5mac.com/2026/11/05/apple-explains-how-to-turn-off-the-new-macbook-pros-glowing-logo/",
+  "fetched": "2026-11-06T23:48:08.688Z",
+  "paragraphs": [
+    "While the illuminated Apple logo on the new MacBook Pro drew one of the biggest cheers during last week’s announcement, Apple knows that not everyone will want to keep it on. Here’s the company’s official guide to turning it off.",
+    "The new MacBook Pro with PROLED XDR Display marks the return of the illuminated Apple logo on its lid after a decade.",
+    "As Chance Miller explained in his review of the new MacBook Pro, “unlike older MacBooks, which used light from the display’s backlight to illuminate the logo, the new OLED MacBook Pro has no backlight to draw from, requiring a different approach.”",
+    "He added that, as with the old Macs, the logo’s brightness is tied to the screen brightness, though it also accounts for overall ambient brightness. He also noted that “when the MacBook Pro is closed, the logo looks like polished metal, just like it has since the 2016 redesign.”",
+    "The review echoed some of the findings developer Gui Rambo shared on X a few days ago:",
+    "The glowing Apple logo on the new MacBook Pro is controllable by software. It has 25kHz PWM and per-device calibration. CoreBrightness controls the relationship between screen and logo brightness. The brightness of the logo is adjusted differently depending on the enclosure color pic.twitter.com/baqBEkzJUo",
+    "Now, Apple has published an official support document that also explains how the illuminated logo works and how to turn it off completely.",
+    "The Apple logo behind the built-in display is illuminated whenever the Mac is awake. It automatically dims or brightens based on the brightness level of the built-in screen and the lighting conditions detected by the computer’s ambient light sensor. For all screen-brightness levels, the Apple logo will be dimmer in a dim room and brighter in a bright room."
+  ],
+  "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/macbook-pro-proled-xdr-touch-07.jpg?quality=82&strip=all&resize=1200,628"
+}

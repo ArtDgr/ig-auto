@@ -130,5 +130,41 @@
       "dueAt": "2026-11-05T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-07": {
+    "0": {
+      "postId": "20261107-you-ve-never-checked-iphone-battery-health",
+      "bufferId": "6aee67eb229bf05daf189f4f",
+      "dueAt": "2026-11-07T08:11:00.000Z",
+      "niche": "apple",
+      "title": "You've never checked iPhone battery health"
+    },
+    "1": {
+      "postId": "20261107-a-4k-screen-is-always-better",
+      "bufferId": "6aee67edaf7e526d43eba2ad",
+      "dueAt": "2026-11-07T01:49:00.000Z",
+      "niche": "hardware",
+      "title": "A 4K screen is always better"
+    },
+    "2": {
+      "postId": "20261107-the-hidden-windows-tools-nobody-uses",
+      "bufferId": "6aee67e7d6bbae6fa1542567",
+      "dueAt": "2026-11-07T08:11:00.000Z",
+      "niche": "it-support",
+      "title": "The hidden Windows tools nobody uses"
+    },
+    "3": {
+      "postId": "20261107-get-a-useful-answer-from-any-ai",
+      "bufferId": "6aee67e9af7e526d43eba250",
+      "dueAt": "2026-11-07T01:49:00.000Z",
+      "niche": "ai",
+      "title": "Get a useful answer from any AI"
+    },
+    "reel": {
+      "file": "20261107-touchscreen-macbook-pro-guide-what-to-know-before-you-buy.mp4",
+      "bufferId": "6aee67efd6bbae6fa15426ee",
+      "dueAt": "2026-11-07T04:00:00.000Z",
+      "niche": "apple"
+    }
   }
 }

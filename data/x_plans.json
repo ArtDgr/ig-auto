@@ -1,145 +1,174 @@
 {
-  "date": "2026-11-05",
-  "generatedAt": "2026-11-05T00:31:38.337Z",
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T00:32:11.363Z",
   "posts": [
     {
-      "id": "20261105-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261106-you-let-an-ai-agent-spend-or-delete",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You let an AI agent spend or delete",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You let an AI agent spend or delete\nAutonomous agents with no guardrails make costly mistakes."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Autonomous agents with no guardrails make costly mistakes."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Hard limits on spend, scope and accounts before autonomy."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #hardware #CPU #tech Follow for daily tech intel.",
+      "caption": "🚩 You let an AI agent spend or delete #GenAI #AI #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261105-force-quitting-apps-saves-battery",
+      "id": "20261106-you-must-drain-your-battery-to-0",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "You must drain your battery to 0%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "You must drain your battery to 0%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — Modern lithium batteries prefer partial charges. Draining to zero regularly wears them faster — charge to 80%, not to the red line and back."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iPhone #Apple #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must drain your battery to 0% Truth: Modern lithium batteries prefer partial charges. Draining to zero regularly wears them… #smartphone #gadgets #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261105-how-to-tell-if-your-battery-is-really-dying",
+      "id": "20261106-ops-rules-that-prevent-the-worst-outages",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to tell if your battery is really dying",
+      "title": "Ops rules that prevent the worst outages",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to tell if your battery is really dying\nCheck Settings > Battery > Battery Health"
+          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
         },
         {
           "kind": "facts",
-          "text": "Check Settings > Battery > Battery Health\nUnder 85% means meaningful capacity is gone\nWatch which app sits at 40%+ in battery usage\nA rogue location app drains more than screen\nRestart weekly to clear silent background hogs"
+          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 How to tell if your battery is really dying — Check Settings > Battery > Battery Health #smartphone #Android #tech Follow for daily tech intel.",
+      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #cloud #Kubernetes #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261105-get-a-useful-answer-from-any-ai",
+      "id": "20261106-connect-your-wifi-step-by-step",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Get a useful answer from any AI",
+      "title": "Connect your WiFi step by step",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
+          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "Start with 'You are a [role] expert'"
+          "text": "Click the network icon in the system tray"
         },
         {
           "kind": "step",
-          "text": "State the goal: what must the result achieve?"
+          "text": "Pick your network name and enter the password exactly"
         },
         {
           "kind": "step",
-          "text": "Add constraints: length, tone, audience"
+          "text": "Watch for auto-correct — passwords get mangled silently"
         },
         {
           "kind": "step",
-          "text": "Ask for options, then a recommendation"
+          "text": "Forget and rejoin the network if it keeps asking for the key"
         },
         {
           "kind": "step",
-          "text": "Iterate — 'shorter' and 'more formal' each improve the pass."
+          "text": "Still no internet? Unplug the router for 60 seconds and retry."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🤖 Get a useful answer from any AI #AI #ChatGPT #itsupportguru Follow for daily tech intel.",
+      "caption": "🛠️ Connect your WiFi step by step #Windows11 #itsupport #itsupportguru Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261106-gadget-focus-how-to-watch-rise-of-the-rockstar-chef-for-free-stream-f",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch Rise of the Rockstar Chef for free —…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch Rise of the Rockstar Chef for free\nHow to watch Rise of the Rockstar Chef for free — stream from anywhere"
+        },
+        {
+          "kind": "brief",
+          "text": "Learn more about Marco Pierre White, Gordon Ramsay, and Heston Blumenthal.\nHere's how to watch Rise of the Rockstar Chef online from anywhere in the world, and for free in the UK."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 How to watch Rise of the Rockstar Chef for free —… (TechRadar) https://www.techradar.com/entertainment/how-to-watch/rise-of-the-rockstar-chef #gadgets #smartphone #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

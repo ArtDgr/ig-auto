@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cultofmac.com/news/app-store-retention-messages-cancel-subscription",
+  "fetched": "2026-11-06T00:29:45.571Z",
+  "paragraphs": [
+    "App Store retention messages are a new tool that lets developers try to dissuade their customers before they cancel a subscription.",
+    "These pop-ups can carry text, images and even special offers. They give app makers one last shot at keeping you… and could change how canceling feels.",
+    "App subscriptions have become an increasingly common way for developers to make money from software. Instead of paying once to download an app, users increasingly face monthly or annual fees for access to features, content and services.",
+    "The model gives developers a predictable stream of recurring revenue, but it also means consumers can accumulate dozens of small subscriptions that quietly add up. As subscription fatigue grows, developers have more incentive than ever to convince customers not to cancel.",
+    "Apple announced App Store retention messages to developers on Wednesday. These messages appear in the cancellation flow, right when a subscriber decides to cancel.",
+    "“Reduce cancellations with retention messages that remind subscribers of your subscription’s value as they decide whether to cancel,” said the Mac maker.",
+    "Every message requires a header and body text. Developers will be able to add an image along with one or more retention offers, like discounts or a free period.",
+    "Developers control who qualifies for an offer in App Store Connect. Eligible subscribers will see an offer instead of the image, while everyone else will see the text and an image, if attached."
+  ],
+  "image": "https://www.cultofmac.com/wp-content/uploads/2026/11/App-Store-Retention.jpg.webp"
+}

@@ -166,5 +166,35 @@
       "dueAt": "2026-11-07T04:00:00.000Z",
       "niche": "apple"
     }
+  },
+  "2026-11-10": {
+    "0": {
+      "postId": "20261110-your-laptop-is-always-hot",
+      "bufferId": "6af280ac26f9e6aeeadb4ac3",
+      "dueAt": "2026-11-10T08:18:00.000Z",
+      "niche": "hardware",
+      "title": "Your laptop is always hot"
+    },
+    "1": {
+      "postId": "20261110-ai-is-always-right",
+      "bufferId": "6af280aab59b34913a4e3964",
+      "dueAt": "2026-11-10T08:42:00.000Z",
+      "niche": "ai",
+      "title": "AI is always right"
+    },
+    "2": {
+      "postId": "20261110-5-windows-tools-it-pros-use-that-you-don-t",
+      "bufferId": "6af280a6b59b34913a4e384a",
+      "dueAt": "2026-11-10T08:18:00.000Z",
+      "niche": "it-support",
+      "title": "5 Windows tools IT pros use that you don't"
+    },
+    "3": {
+      "postId": "20261110-respond-to-a-suspected-breach",
+      "bufferId": "6af280a8b59b34913a4e38d5",
+      "dueAt": "2026-11-10T08:42:00.000Z",
+      "niche": "security",
+      "title": "Respond to a suspected breach"
+    }
   }
 }

@@ -1,43 +1,43 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-06T23:50:45.721Z",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T02:25:25.893Z",
   "posts": [
     {
-      "id": "20261107-your-pc-takes-5-minutes-to-boot",
+      "id": "20261110-you-let-an-ai-agent-spend-or-delete",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your PC takes 5 minutes to boot",
+      "title": "You let an AI agent spend or delete",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your PC takes 5 minutes to boot\nThat's startup bloat, not normal — dozens of apps auto-launch silently."
+          "text": "You let an AI agent spend or delete\nAutonomous agents with no guardrails make costly mistakes."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — That's startup bloat, not normal — dozens of apps auto-launch silently."
+          "text": "WHY IT'S A PROBLEM — Autonomous agents with no guardrails make costly mistakes."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Task Manager > Startup, disable everything you don't open in the first 5 minutes."
+          "text": "THE FIX — Hard limits on spend, scope and accounts before autonomy."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your PC takes 5 minutes to boot #Windows11 #itsupport #techtips Follow for daily tech intel.",
+      "caption": "🚩 You let an AI agent spend or delete #AI #MachineLearning #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261107-a-bigger-cpu-number-is-always-faster",
+      "id": "20261110-more-vram-is-all-that-matters",
       "slot": 1,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -46,100 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "More VRAM is all that matters",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "More VRAM is all that matters"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #PC #CPU #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #hardware #GPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261107-prompt-tricks-it-pros-use-daily",
+      "id": "20261110-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Prompt tricks IT pros use daily",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #ChatGPT #AI #tech Follow for daily tech intel.",
+      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #macOS #iOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261107-find-your-macbook-battery-drainer",
+      "id": "20261110-wipe-an-old-phone-safely",
       "slot": 3,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Find your MacBook battery drainer",
+      "title": "Wipe an old phone safely",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Wipe an old phone safely\nBack up what you want to keep"
         },
         {
           "kind": "step",
-          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
+          "text": "Back up what you want to keep — A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories."
         },
         {
           "kind": "step",
-          "text": "Sort by CPU, then by Energy"
+          "text": "Sign out of all accounts first — Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets."
         },
         {
           "kind": "step",
-          "text": "Close the browser tab silently maxing cores"
+          "text": "Turn off Find My Device — iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock."
         },
         {
           "kind": "step",
-          "text": "Check background apps under the Energy tab"
+          "text": "Factory reset — not just delete — Settings > System > Reset > Erase all data (factory reset). 'Delete' in a file manager only frees space — remnants stay. On iPhone the wipe also unsyncs your iCloud and wipes the list of trusted devices."
         },
         {
           "kind": "step",
-          "text": "Dim the screen — the display uses the most."
+          "text": "Verify it asks for fresh setup, then pass it on. — A clean wipe boots straight into the 'hello' / fresh-setup screen with no lock or accounts. If it ever asks for a password during setup, the reset didn't fully work — redo it before handing the phone over."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🍎 Find your MacBook battery drainer #Apple #macOS #itsupportguru Follow for daily tech intel.",
+      "caption": "🔐 Wipe an old phone safely #cybersecurity #infosec #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

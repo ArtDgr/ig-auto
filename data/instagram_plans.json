@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-06T23:50:32.159Z",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T02:25:12.508Z",
   "posts": [
     {
-      "id": "20261107-you-ve-never-checked-iphone-battery-health",
+      "id": "20261110-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#apple #applenews #macrumors #ios #itpro\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#chipshortage #laptops #ssd #pcgaming #ram\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261107-a-4k-screen-is-always-better",
+      "id": "20261110-ai-is-always-right",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "AI is always right",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "AI is always right"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: A 4K screen is always better\nTruth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read.\n\nShare this with the person who still believes it →\n\n#ssd #benchmark #gpu #pc #techreview\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: AI is always right\nTruth: Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it.\n\nShare this with the person who still believes it →\n\n#genai #aitips #artificialintelligence #chatgpt #copilot\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261107-the-hidden-windows-tools-nobody-uses",
+      "id": "20261110-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -76,62 +76,62 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The hidden Windows tools nobody uses",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The hidden Windows tools nobody uses\n`sfc /scannow` repairs corrupted system files"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "`sfc /scannow` repairs corrupted system files\n`DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n`msinfo32` exports a full hardware report\n`resmon` shows what's actually maxing your disk\n`gpresult` reveals every applied policy at once"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The hidden Windows tools nobody uses 🔓\n\nInsider knowledge, free.\n\n• `sfc /scannow` repairs corrupted system files\n• `DISM /Online /Cleanup-Image /RestoreHealth` fixes the store\n• `msinfo32` exports a full hardware report\n• `resmon` shows what's actually maxing your disk\n\nSave this — it'll be your shortcut later →\n\n#windows11 #ithelp #sysadmin #pchelp #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "5 Windows tools IT pros use that you don't 🔓\n\nInsider knowledge, free.\n\n• Event Viewer shows the real error behind every crash\n• `powercfg /batteryreport` reveals true battery health\n• MSConfig safe boot isolates driver problems\n• Reliability Monitor charts every blue screen in history\n\nSave this — it'll be your shortcut later →\n\n#troubleshooting #windows #sysadmin #computertips #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261107-get-a-useful-answer-from-any-ai",
+      "id": "20261110-respond-to-a-suspected-breach",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Get a useful answer from any AI",
+      "title": "Respond to a suspected breach",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Get a useful answer from any AI\nStart with 'You are a [role] expert'"
+          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "Start with 'You are a [role] expert'"
+          "text": "Isolate the affected machine from the network"
         },
         {
           "kind": "step",
-          "text": "State the goal: what must the result achieve?"
+          "text": "Revoke the account's sessions and reset credentials"
         },
         {
           "kind": "step",
-          "text": "Add constraints: length, tone, audience"
+          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Get a useful answer from any AI 🤖\n\n1. Start with 'You are a [role] expert'\n2. State the goal: what must the result achieve?\n3. Add constraints: length, tone, audience\n\nSave this for the next ticket →\n\n#chatgpt #futuretech #aitips #copilot #genai\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Respond to a suspected breach 🔐\n\n1. Isolate the affected machine from the network\n2. Revoke the account's sessions and reset credentials\n3. Check for persistence: mailbox rules, new MFA, scheduled tasks\n\nSave this for the next ticket →\n\n#secops #2fa #infosec #password #onlinesafety\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

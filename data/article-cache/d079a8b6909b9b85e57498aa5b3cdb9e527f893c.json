@@ -1,0 +1,15 @@
+{
+  "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+  "fetched": "2026-11-11T00:11:25.361Z",
+  "paragraphs": [
+    "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to 44 projects and maintainers across the Vite ecosystem.",
+    "When VoidZero joined Cloudflare, we committed $1 million to strengthen the open source ecosystem around Vite. This round is just the start.",
+    "Sponsoring open source has always mattered, but now AI has made funding urgent.",
+    "AI has made open source more valuable while triggering more maintainer burnout. Previously, contributing to a project through either an issue or pull request meant you cared about it. In return, maintainers would review and provide feedback. AI changed the social contract of open source. Anyone can now create and submit AI-authored pull requests.",
+    "The most visible result is the influx of pull requests. As the number of PRs has gone up, the number of maintainers reviewing them has stayed constant. So each maintainer’s workload has grown.",
+    "During reviews, maintainers often find themselves speaking with an agent and not a person like they used to. If that’s the case, then why not cut out the middleman? Maintainers now have their own agents they can prompt to produce better results since they have more knowledge of the codebase.",
+    "AI has raised the pressure to produce. It’s made it easier for maintainers to ship features, performance improvements, and bug fixes that would not have been done otherwise. But it’s also made it easy for other projects to do the same. When another project adds overlapping features using AI, maintainers feel a need to keep up using AI. It can become a grinding cycle, where each project pushes the other to move faster. Along the way, some projects have grown in scope and lost sight of their original goals.",
+    "Maintainer burnout and sustainability have always been a problem — and now AI has accelerated those issues. That’s why sponsoring open source projects and supporting maintainers is so important in this moment."
+  ],
+  "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M6SMAQHKSEHN4HPY2K8X9296.png"
+}

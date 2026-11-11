@@ -1,160 +1,160 @@
 {
-  "date": "2026-11-10",
-  "renderedAt": "2026-11-10T02:25:25.882Z",
+  "date": "2026-11-11",
+  "renderedAt": "2026-11-11T00:11:45.320Z",
   "posts": [
     {
-      "id": "20261110-your-laptop-is-always-hot",
+      "id": "20261111-you-keep-every-screenshot-you-ever-took",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You keep every screenshot you ever took",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Wipe the Screenshots album once a week."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#chipshortage #laptops #ssd #pcgaming #ram\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#apple #macbook #macrumors #iphone #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261110-your-laptop-is-always-hot/01.png",
-        "out/instagram-ready/20261110-your-laptop-is-always-hot/02.png",
-        "out/instagram-ready/20261110-your-laptop-is-always-hot/03.png",
-        "out/instagram-ready/20261110-your-laptop-is-always-hot/04.png"
+        "out/instagram-ready/20261111-you-keep-every-screenshot-you-ever-took/01.png",
+        "out/instagram-ready/20261111-you-keep-every-screenshot-you-ever-took/02.png",
+        "out/instagram-ready/20261111-you-keep-every-screenshot-you-ever-took/03.png",
+        "out/instagram-ready/20261111-you-keep-every-screenshot-you-ever-took/04.png"
       ]
     },
     {
-      "id": "20261110-ai-is-always-right",
+      "id": "20261111-incognito-mode-makes-you-anonymous",
       "slot": 1,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "AI is always right",
+      "title": "Incognito mode makes you anonymous",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "AI is always right"
+          "text": "Incognito mode makes you anonymous"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it."
+          "text": "THE TRUTH — Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: AI is always right\nTruth: Models are confident even when wrong — that confidence is the danger. Fact-check anything important against a primary source before you act on it.\n\nShare this with the person who still believes it →\n\n#genai #aitips #artificialintelligence #chatgpt #copilot\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Incognito mode makes you anonymous\nTruth: Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do.\n\nShare this with the person who still believes it →\n\n#secops #security #cyberdefense #infosec #cybersecurity\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261110-ai-is-always-right/01.png",
-        "out/instagram-ready/20261110-ai-is-always-right/02.png",
-        "out/instagram-ready/20261110-ai-is-always-right/03.png"
+        "out/instagram-ready/20261111-incognito-mode-makes-you-anonymous/01.png",
+        "out/instagram-ready/20261111-incognito-mode-makes-you-anonymous/02.png",
+        "out/instagram-ready/20261111-incognito-mode-makes-you-anonymous/03.png"
       ]
     },
     {
-      "id": "20261110-5-windows-tools-it-pros-use-that-you-don-t",
+      "id": "20261111-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 Windows tools IT pros use that you don't",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "5 Windows tools IT pros use that you don't 🔓\n\nInsider knowledge, free.\n\n• Event Viewer shows the real error behind every crash\n• `powercfg /batteryreport` reveals true battery health\n• MSConfig safe boot isolates driver problems\n• Reliability Monitor charts every blue screen in history\n\nSave this — it'll be your shortcut later →\n\n#troubleshooting #windows #sysadmin #computertips #helpdesk\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nShare this with the colleague who keeps asking.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#ram #chipshortage #pcgaming #ssd #pc\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261110-5-windows-tools-it-pros-use-that-you-don-t/01.png",
-        "out/instagram-ready/20261110-5-windows-tools-it-pros-use-that-you-don-t/02.png",
-        "out/instagram-ready/20261110-5-windows-tools-it-pros-use-that-you-don-t/03.png"
+        "out/instagram-ready/20261111-what-reviewers-check-that-you-don-t/01.png",
+        "out/instagram-ready/20261111-what-reviewers-check-that-you-don-t/02.png",
+        "out/instagram-ready/20261111-what-reviewers-check-that-you-don-t/03.png"
       ]
     },
     {
-      "id": "20261110-respond-to-a-suspected-breach",
+      "id": "20261111-fix-a-pc-that-won-t-boot-to-windows",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Respond to a suspected breach",
+      "title": "Fix a PC that won't boot to Windows",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Respond to a suspected breach\nIsolate the affected machine from the network"
+          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Isolate the affected machine from the network"
+          "text": "Unplug every USB device except keyboard and mouse"
         },
         {
           "kind": "step",
-          "text": "Revoke the account's sessions and reset credentials"
+          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
         },
         {
           "kind": "step",
-          "text": "Check for persistence: mailbox rules, new MFA, scheduled tasks"
+          "text": "Troubleshoot > Advanced options > Startup Repair"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Respond to a suspected breach 🔐\n\n1. Isolate the affected machine from the network\n2. Revoke the account's sessions and reset credentials\n3. Check for persistence: mailbox rules, new MFA, scheduled tasks\n\nSave this for the next ticket →\n\n#secops #2fa #infosec #password #onlinesafety\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Fix a PC that won't boot to Windows 🛠️\n\n1. Unplug every USB device except keyboard and mouse\n2. Power on and tap F8, or Shift+Restart to reach recovery\n3. Troubleshoot > Advanced options > Startup Repair\n\nSave this for the next ticket →\n\n#pc #ithelp #itsupport #fixyourpc #computertips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending",
       "media": [
-        "out/instagram-ready/20261110-respond-to-a-suspected-breach/01.png",
-        "out/instagram-ready/20261110-respond-to-a-suspected-breach/02.png",
-        "out/instagram-ready/20261110-respond-to-a-suspected-breach/03.png",
-        "out/instagram-ready/20261110-respond-to-a-suspected-breach/04.png",
-        "out/instagram-ready/20261110-respond-to-a-suspected-breach/05.png"
+        "out/instagram-ready/20261111-fix-a-pc-that-won-t-boot-to-windows/01.png",
+        "out/instagram-ready/20261111-fix-a-pc-that-won-t-boot-to-windows/02.png",
+        "out/instagram-ready/20261111-fix-a-pc-that-won-t-boot-to-windows/03.png",
+        "out/instagram-ready/20261111-fix-a-pc-that-won-t-boot-to-windows/04.png",
+        "out/instagram-ready/20261111-fix-a-pc-that-won-t-boot-to-windows/05.png"
       ]
     }
   ]

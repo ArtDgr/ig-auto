@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T02:25:25.893Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T00:11:45.332Z",
   "posts": [
     {
-      "id": "20261110-you-let-an-ai-agent-spend-or-delete",
+      "id": "20261111-you-never-restart-your-pc",
       "slot": 0,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You let an AI agent spend or delete",
+      "title": "You never restart your PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You let an AI agent spend or delete\nAutonomous agents with no guardrails make costly mistakes."
+          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Autonomous agents with no guardrails make costly mistakes."
+          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Hard limits on spend, scope and accounts before autonomy."
+          "text": "THE FIX — One restart a week clears state and flushes memory."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You let an AI agent spend or delete #AI #MachineLearning #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You never restart your PC #techsupport #Windows11 #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261110-more-vram-is-all-that-matters",
+      "id": "20261111-autoscaling-handles-everything",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More VRAM is all that matters",
+      "title": "Autoscaling handles everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More VRAM is all that matters"
+          "text": "Autoscaling handles everything"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A high-wattage lower-tier GPU often beats a low-power version of a higher tier."
+          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More VRAM is all that matters Truth: Memory bandwidth, the cooler and sustained TGP matter as much as raw VRAM. A… #hardware #GPU #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Autoscaling handles everything Truth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max… #AWS #Kubernetes #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261110-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261111-hidden-macos-tools-most-people-never-find",
       "slot": 2,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -76,70 +76,70 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The fastest way to find anything on a Mac — Spotlight is the app launcher and file finder #macOS #iOS #techtips Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #macOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261110-wipe-an-old-phone-safely",
+      "id": "20261111-build-a-simple-auto-classifier",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Wipe an old phone safely",
+      "title": "Build a simple auto-classifier",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Wipe an old phone safely\nBack up what you want to keep"
+          "text": "Build a simple auto-classifier\nCollect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Back up what you want to keep — A factory reset erases the whole phone — so export photos and messages to your cloud sync, or copy everything to a cable/bluetooth transfer. Skipping this is how the new phone turns out to be missing a year of memories."
+          "text": "Collect 10-20 examples per category"
         },
         {
           "kind": "step",
-          "text": "Sign out of all accounts first — Log out of Google, Apple, banking and social apps BEFORE the wipe. An account left signed in can lock the new owner out, and a signed-in session survives on the phone's login data even after some resets."
+          "text": "Prompt: 'Classify each item into X, Y, or Z'"
         },
         {
           "kind": "step",
-          "text": "Turn off Find My Device — iOS: Settings > your name > Find My iPhone — switch it off (activation lock ties the phone to your Apple ID after a reset). Android: remove the Google account and disable Find My Device, or the next person can hit a hard FRP lock."
+          "text": "Test on items you've never shown it"
         },
         {
           "kind": "step",
-          "text": "Factory reset — not just delete — Settings > System > Reset > Erase all data (factory reset). 'Delete' in a file manager only frees space — remnants stay. On iPhone the wipe also unsyncs your iCloud and wipes the list of trusted devices."
+          "text": "Refine the examples if it's messy"
         },
         {
           "kind": "step",
-          "text": "Verify it asks for fresh setup, then pass it on. — A clean wipe boots straight into the 'hello' / fresh-setup screen with no lock or accounts. If it ever asks for a password during setup, the reset didn't fully work — redo it before handing the phone over."
+          "text": "Good enough to run — keep it monitored."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Wipe an old phone safely #cybersecurity #infosec #itsupportguru Follow for daily tech intel.",
+      "caption": "🤖 Build a simple auto-classifier #GenAI #ChatGPT #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

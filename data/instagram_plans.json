@@ -1,137 +1,137 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T00:11:33.794Z",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T01:39:45.596Z",
   "posts": [
     {
-      "id": "20261111-you-keep-every-screenshot-you-ever-took",
+      "id": "20261112-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#apple #macbook #macrumors #iphone #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #benchmark #techreview #ram #laptops\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261111-incognito-mode-makes-you-anonymous",
+      "id": "20261112-restarting-your-pc-wipes-your-data",
       "slot": 1,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Incognito mode makes you anonymous",
+      "title": "Restarting your PC wipes your data",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Incognito mode makes you anonymous"
+          "text": "Restarting your PC wipes your data"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do."
+          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Incognito mode makes you anonymous\nTruth: Incognito only stops local history. Your ISP, employer and the sites you visit still see everything you do.\n\nShare this with the person who still believes it →\n\n#secops #security #cyberdefense #infosec #cybersecurity\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Restarting your PC wipes your data\nTruth: A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it.\n\nShare this with the person who still believes it →\n\n#pchelp #pc #itsupport #computertips #windows11\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261111-what-reviewers-check-that-you-don-t",
+      "id": "20261112-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#ram #chipshortage #pcgaming #ssd #pc\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macos #appleintelligence #macbook #applenews #iphone\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261111-fix-a-pc-that-won-t-boot-to-windows",
+      "id": "20261112-lock-down-your-router",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Fix a PC that won't boot to Windows",
+      "title": "Lock down your router",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Fix a PC that won't boot to Windows\nUnplug every USB device except keyboard and mouse"
+          "text": "Lock down your router\nLog in to your router's admin page"
         },
         {
           "kind": "step",
-          "text": "Unplug every USB device except keyboard and mouse"
+          "text": "Log in to your router's admin page"
         },
         {
           "kind": "step",
-          "text": "Power on and tap F8, or Shift+Restart to reach recovery"
+          "text": "Change the default admin password"
         },
         {
           "kind": "step",
-          "text": "Troubleshoot > Advanced options > Startup Repair"
+          "text": "Turn off remote management"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Fix a PC that won't boot to Windows 🛠️\n\n1. Unplug every USB device except keyboard and mouse\n2. Power on and tap F8, or Shift+Restart to reach recovery\n3. Troubleshoot > Advanced options > Startup Repair\n\nSave this for the next ticket →\n\n#pc #ithelp #itsupport #fixyourpc #computertips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Lock down your router 🔐\n\n1. Log in to your router's admin page\n2. Change the default admin password\n3. Turn off remote management\n\nSave this for the next ticket →\n\n#onlinesafety #2fa #datasecurity #secops #cyberdefense\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

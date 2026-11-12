@@ -1,0 +1,15 @@
+{
+  "url": "https://9to5mac.com/2026/11/11/icloud-has-new-perk-in-ios-27-if-you-pay-for-more-storage/",
+  "fetched": "2026-11-12T01:38:30.569Z",
+  "paragraphs": [
+    "The tentpole feature of iCloud+ is cloud storage, but Apple keeps improving and expanding the service to include other perks too. And in iOS 27, iCloud+ has a new benefit for high-storage tiers: AI features for HomeKit cameras.",
+    "With iOS 27, iCloud+ has added a new perk if you pay for more storage: Apple Intelligence features for compatible Home cameras. Per Apple’s website:",
+    "With Apple Intelligence in the Home app, you can automatically generate video descriptions for recorded clips from compatible Home cameras. You can then search your recordings using natural language",
+    "These AI-generated video descriptions provide a convenient summary of what’s happening in your home, let you browse important clips at a glance, and search the camera’s recent history of recordings.",
+    "All of this is available with a camera that supports HomeKit Secure Video (I recommend this Aqara camera for $35). But because AI features depend on Private Cloud Compute, Apple only offers them on the following iCloud+ plans:",
+    "Apple charges $9.99, $29.99, and $59.99/month for each of these plans, respectively. So most users probably won’t find the monthly cost worth it for AI camera features alone. But if you already need a lot of iCloud storage, now you’ll get these new features thrown in too.",
+    "Note: these AI features have additional requirements too. You’ll need a home hub like a HomeView, Apple TV 4K, or HomePod, and your iPhone must support Apple Intelligence.",
+    "Have you used iOS 27’s new AI features for Home cameras? How are they working for you? Let us know in the comments."
+  ],
+  "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/icloud-ios-27-blue.jpg?quality=82&strip=all&resize=1200,628"
+}

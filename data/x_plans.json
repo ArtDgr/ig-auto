@@ -1,145 +1,145 @@
 {
-  "date": "2026-11-11",
-  "generatedAt": "2026-11-11T00:11:45.332Z",
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T01:39:56.542Z",
   "posts": [
     {
-      "id": "20261111-you-never-restart-your-pc",
+      "id": "20261112-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You never restart your PC #techsupport #Windows11 #techtips Follow for daily tech intel.",
+      "caption": "🚩 You've never checked iPhone battery health #iOS #macOS #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261111-autoscaling-handles-everything",
+      "id": "20261112-a-4k-screen-is-always-better",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Autoscaling handles everything",
+      "title": "A 4K screen is always better",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Autoscaling handles everything"
+          "text": "A 4K screen is always better"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
+          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Autoscaling handles everything Truth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max… #AWS #Kubernetes #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #CPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261111-hidden-macos-tools-most-people-never-find",
+      "id": "20261112-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Hidden macOS tools most people never find",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
+          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
         },
         {
           "kind": "facts",
-          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
+          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #macOS #techtips Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #gadgets #tech #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261111-build-a-simple-auto-classifier",
+      "id": "20261112-back-up-your-files-the-easy-way",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Build a simple auto-classifier",
+      "title": "Back up your files the easy way",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Build a simple auto-classifier\nCollect 10-20 examples per category"
+          "text": "Back up your files the easy way\nPlug in a USB drive or external SSD"
         },
         {
           "kind": "step",
-          "text": "Collect 10-20 examples per category"
+          "text": "Plug in a USB drive or external SSD"
         },
         {
           "kind": "step",
-          "text": "Prompt: 'Classify each item into X, Y, or Z'"
+          "text": "Settings > System > Storage > Advanced > Backup options"
         },
         {
           "kind": "step",
-          "text": "Test on items you've never shown it"
+          "text": "Turn on File History — it keeps versioned copies"
         },
         {
           "kind": "step",
-          "text": "Refine the examples if it's messy"
+          "text": "Test one restore now, not on crash day"
         },
         {
           "kind": "step",
-          "text": "Good enough to run — keep it monitored."
+          "text": "Keep a second copy in cloud storage in case the drive dies."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🤖 Build a simple auto-classifier #GenAI #ChatGPT #itsupportguru Follow for daily tech intel.",
+      "caption": "🛠️ Back up your files the easy way #Windows11 #techsupport #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

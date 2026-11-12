@@ -196,5 +196,27 @@
       "niche": "security",
       "title": "Respond to a suspected breach"
     }
+  },
+  "2026-11-12": {
+    "1": {
+      "postId": "20261112-restarting-your-pc-wipes-your-data",
+      "bufferId": "6af518fd2f7f0a6952e2aa75",
+      "dueAt": "2026-11-12T08:51:00.000Z",
+      "niche": "it-support",
+      "title": "Restarting your PC wipes your data"
+    },
+    "2": {
+      "postId": "20261112-the-fastest-way-to-find-anything-on-a-mac",
+      "bufferId": "6af518fbcb4c7286fd07651e",
+      "dueAt": "2026-11-12T08:10:00.000Z",
+      "niche": "apple",
+      "title": "The fastest way to find anything on a Mac"
+    },
+    "reel": {
+      "file": "20261112-android-17-qpr2-november-update-rolling-out-with-33-pixel-fi.mp4",
+      "bufferId": "6af518ffbc9f3773a1b255cb",
+      "dueAt": "2026-11-12T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

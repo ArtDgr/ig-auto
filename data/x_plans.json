@@ -1,145 +1,174 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T01:39:56.542Z",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T00:42:13.617Z",
   "posts": [
     {
-      "id": "20261112-you-ve-never-checked-iphone-battery-health",
+      "id": "20261113-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You've never checked iPhone battery health #iOS #macOS #tech Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #hardware #CPU #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261112-a-4k-screen-is-always-better",
+      "id": "20261113-force-quitting-apps-saves-battery",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A 4K screen is always better",
+      "title": "Force-quitting apps saves battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A 4K screen is always better"
+          "text": "Force-quitting apps saves battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you can see beats a dim 4K one you strain to read."
+          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A 4K screen is always better Truth: Brightness (nits), refresh rate and color gamut matter more. A bright 120Hz panel you… #PC #CPU #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #macOS #Apple #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261112-what-reviewers-check-that-you-don-t",
+      "id": "20261113-5-security-habits-it-pros-actually-run",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "5 security habits IT pros actually run",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #gadgets #tech #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #infosec #privacy #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261112-back-up-your-files-the-easy-way",
+      "id": "20261113-stop-apps-tracking-your-every-move",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Back up your files the easy way",
+      "title": "Stop apps tracking your every move",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Back up your files the easy way\nPlug in a USB drive or external SSD"
+          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Plug in a USB drive or external SSD"
+          "text": "Settings > Privacy > Location services"
         },
         {
           "kind": "step",
-          "text": "Settings > System > Storage > Advanced > Backup options"
+          "text": "Deny location for apps that don't need it"
         },
         {
           "kind": "step",
-          "text": "Turn on File History — it keeps versioned copies"
+          "text": "Revoke camera and mic access you don't use"
         },
         {
           "kind": "step",
-          "text": "Test one restore now, not on crash day"
+          "text": "Reset your advertising ID"
         },
         {
           "kind": "step",
-          "text": "Keep a second copy in cloud storage in case the drive dies."
+          "text": "You keep your data — apps still work the same."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Back up your files the easy way #Windows11 #techsupport #tech Follow for daily tech intel.",
+      "caption": "📱 Stop apps tracking your every move #tech #smartphone #techtips Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261113-gadget-focus-how-to-watch-cunk-on-cinema-for-free-stream-from-anywher",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch Cunk on Cinema for free — stream from…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch Cunk on Cinema for free — stream\nHow to watch Cunk on Cinema for free — stream from anywhere"
+        },
+        {
+          "kind": "brief",
+          "text": "Philomena Cunk is back to offer her profound wisdom on the topic of film.\nHere's how to watch Cunk on Cinema online from anywhere in the world, and for free in the UK."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 How to watch Cunk on Cinema for free — stream from… (TechRadar) https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema #smartphone #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

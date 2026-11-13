@@ -1,103 +1,103 @@
 {
-  "date": "2026-11-12",
-  "generatedAt": "2026-11-12T01:39:45.596Z",
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T00:42:02.256Z",
   "posts": [
     {
-      "id": "20261112-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261113-you-ve-never-checked-your-battery-health",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "You've never checked your battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "You've never checked your battery health\nWorn batteries fail at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Worn batteries fail at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — One tap: Settings > Battery > Battery Health."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#cpu #benchmark #techreview #ram #laptops\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked your battery health\n\nWhy it's a problem: Worn batteries fail at the worst moment.\nThe fix: One tap: Settings > Battery > Battery Health.\n\nSave this before it becomes a repair bill →\n\n#android #techgear #smartphonetips #samsung #batterytips\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261112-restarting-your-pc-wipes-your-data",
+      "id": "20261113-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Restarting your PC wipes your data\nTruth: A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it.\n\nShare this with the person who still believes it →\n\n#pchelp #pc #itsupport #computertips #windows11\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You must charge your iPhone to 100%\nTruth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months.\n\nShare this with the person who still believes it →\n\n#ios #macos #apple #macrumors #appletips\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261112-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261113-the-upgrade-that-changes-everything",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "The upgrade that changes everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macos #appleintelligence #macbook #applenews #iphone\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #hardware #pc #ssd #gpu\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261112-lock-down-your-router",
+      "id": "20261113-create-a-strong-memorable-passphrase",
       "slot": 3,
       "niche": "security",
       "nicheLabel": "Cybersecurity & Privacy",
@@ -106,32 +106,61 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Lock down your router",
+      "title": "Create a strong, memorable passphrase",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Lock down your router\nLog in to your router's admin page"
+          "text": "Create a strong, memorable passphrase\nPick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Log in to your router's admin page"
+          "text": "Pick four random words, e.g. Guitar-Maple-Frost-Cedar"
         },
         {
           "kind": "step",
-          "text": "Change the default admin password"
+          "text": "Keep it long — 16+ characters"
         },
         {
           "kind": "step",
-          "text": "Turn off remote management"
+          "text": "Add symbols only if a site demands them"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Lock down your router 🔐\n\n1. Log in to your router's admin page\n2. Change the default admin password\n3. Turn off remote management\n\nSave this for the next ticket →\n\n#onlinesafety #2fa #datasecurity #secops #cyberdefense\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Create a strong, memorable passphrase 🔐\n\n1. Pick four random words, e.g. Guitar-Maple-Frost-Cedar\n2. Keep it long\n     ✓ 16+ characters\n3. Add symbols only if a site demands them\n\nSave this for the next ticket →\n\n#security #phishing #cybersectips #onlinesafety #secops\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "status": "pending"
+    },
+    {
+      "id": "20261113-gadget-focus-how-to-watch-cunk-on-cinema-for-free-stream-from-anywher",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch Cunk on Cinema for free — stream from…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch Cunk on Cinema for free — stream\nHow to watch Cunk on Cinema for free — stream from anywhere"
+        },
+        {
+          "kind": "brief",
+          "text": "Philomena Cunk is back to offer her profound wisdom on the topic of film.\nHere's how to watch Cunk on Cinema online from anywhere in the world, and for free in the UK."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nHow to watch Cunk on Cinema for free — stream from…\n\n• Philomena Cunk is back to offer her profound wisdom on the topic of film.\n• Here's how to watch Cunk on Cinema online from anywhere in the world, and for free in the UK.\n\nSource: TechRadar — https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema\n\nWhich one's on your wishlist? Drop it below 👇\n\n#samsung #tech #smartphone #batterytips #iphone\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

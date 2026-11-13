@@ -1,5 +1,5 @@
-# Daily Status 2026-11-12
+# Daily Status 2026-11-13
 
 - Audit: PASS (see logs)
 - Next 14d runs: 4
-- Manifest: 2026-11-12
+- Manifest: 2026-11-13

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-13",
-  "generatedAt": "2026-11-13T00:42:13.617Z",
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T00:26:32.233Z",
   "posts": [
     {
-      "id": "20261113-your-laptop-is-always-hot",
+      "id": "20261114-you-ve-never-run-a-battery-report",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,32 +12,32 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your laptop is always hot #hardware #CPU #tech Follow for daily tech intel.",
+      "caption": "🚩 You've never run a battery report #PC #GPU #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261113-force-quitting-apps-saves-battery",
+      "id": "20261114-force-quitting-apps-saves-battery",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -63,112 +63,83 @@
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #macOS #Apple #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #iOS #iPhone #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261113-5-security-habits-it-pros-actually-run",
+      "id": "20261114-5-windows-tools-it-pros-use-that-you-don-t",
       "slot": 2,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "5 security habits IT pros actually run",
+      "title": "5 Windows tools IT pros use that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "5 security habits IT pros actually run\nPassword manager + unique password per site"
+          "text": "5 Windows tools IT pros use that you don't\nEvent Viewer shows the real error behind every crash"
         },
         {
           "kind": "facts",
-          "text": "Password manager + unique password per site\nAuthenticator app instead of SMS codes\nLock screen on every device, every time\nUpdates installed within days of release\nBackups tested by restore, not by 'it said success'"
+          "text": "Event Viewer shows the real error behind every crash\n`powercfg /batteryreport` reveals true battery health\nMSConfig safe boot isolates driver problems\nReliability Monitor charts every blue screen in history\nThe built-in Steps Recorder captures exact repro steps"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 5 security habits IT pros actually run — Password manager + unique password per site #infosec #privacy #techtips Follow for daily tech intel.",
+      "caption": "🔓 5 Windows tools IT pros use that you don't — Event Viewer shows the real error behind every crash #Windows11 #sysadmin #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261113-stop-apps-tracking-your-every-move",
+      "id": "20261114-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Stop apps tracking your every move",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Settings > Privacy > Location services"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Deny location for apps that don't need it"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Revoke camera and mic access you don't use"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "step",
-          "text": "Reset your advertising ID"
+          "text": "Send them to email or Slack"
         },
         {
           "kind": "step",
-          "text": "You keep your data — apps still work the same."
+          "text": "Sleep soundly — the alert does the watching."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Stop apps tracking your every move #tech #smartphone #techtips Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261113-gadget-focus-how-to-watch-cunk-on-cinema-for-free-stream-from-anywher",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch Cunk on Cinema for free — stream from…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch Cunk on Cinema for free — stream\nHow to watch Cunk on Cinema for free — stream from anywhere"
-        },
-        {
-          "kind": "brief",
-          "text": "Philomena Cunk is back to offer her profound wisdom on the topic of film.\nHere's how to watch Cunk on Cinema online from anywhere in the world, and for free in the UK."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 How to watch Cunk on Cinema for free — stream from… (TechRadar) https://www.techradar.com/entertainment/how-to-watch/how-to-watch-cunk-on-cinema #smartphone #tech Follow for daily tech intel.",
+      "caption": "☁️ Add a budget alert so you never overspend #AWS #DevOps #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

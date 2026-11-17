@@ -218,5 +218,34 @@
       "dueAt": "2026-11-12T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-17": {
+    "1": {
+      "postId": "20261117-restarting-your-pc-wipes-your-data",
+      "bufferId": "6afbbe443e42cd001e47ecc7",
+      "dueAt": "2026-11-17T08:08:00.000Z",
+      "niche": "it-support",
+      "title": "Restarting your PC wipes your data"
+    },
+    "2": {
+      "postId": "20261117-what-reviewers-check-that-you-don-t",
+      "bufferId": "6afbbe46797935b975d7b77a",
+      "dueAt": "2026-11-17T08:52:00.000Z",
+      "niche": "hardware",
+      "title": "What reviewers check that you don't"
+    },
+    "3": {
+      "postId": "20261117-stop-apps-tracking-your-every-move",
+      "bufferId": "6afbbe4285dca6b14a16c402",
+      "dueAt": "2026-11-17T08:08:00.000Z",
+      "niche": "gadgets",
+      "title": "Stop apps tracking your every move"
+    },
+    "reel": {
+      "file": "20261117-iphone-20-pro-tipped-to-feature-new-main-camera-sensor-and-i.mp4",
+      "bufferId": "6afbbe48df36f4d825629039",
+      "dueAt": "2026-11-17T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

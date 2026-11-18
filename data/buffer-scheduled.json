@@ -247,5 +247,27 @@
       "dueAt": "2026-11-17T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-18": {
+    "2": {
+      "postId": "20261118-what-reviewers-check-that-you-don-t",
+      "bufferId": "6afd043039777dd13e09de54",
+      "dueAt": "2026-11-18T08:09:00.000Z",
+      "niche": "hardware",
+      "title": "What reviewers check that you don't"
+    },
+    "3": {
+      "postId": "20261118-add-a-budget-alert-so-you-never-overspend",
+      "bufferId": "6afd042e39777dd13e09ddfe",
+      "dueAt": "2026-11-18T08:51:00.000Z",
+      "niche": "cloud-devops",
+      "title": "Add a budget alert so you never overspend"
+    },
+    "reel": {
+      "file": "20261118-openai-releases-gpt-6-2-astra-to-regain-performance-lead-fro.mp4",
+      "bufferId": "6afd0432aa3b065dd965890b",
+      "dueAt": "2026-11-18T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

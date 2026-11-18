@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T02:38:32.706Z",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T01:49:08.395Z",
   "posts": [
     {
-      "id": "20261117-you-keep-every-screenshot-you-ever-took",
+      "id": "20261118-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -12,32 +12,32 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou keep every screenshot you ever took\n\nWhy it's a problem: They pile up and eat iCloud space silently.\nThe fix: Wipe the Screenshots album once a week.\n\nSave this before it becomes a repair bill →\n\n#iphone #macos #macrumors #itpro #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never checked iPhone battery health\n\nWhy it's a problem: A worn battery dies at the worst moment.\nThe fix: Settings > Battery > Battery Health — one tap.\n\nSave this before it becomes a repair bill →\n\n#itpro #appletips #ios #apple #appleintelligence\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261117-restarting-your-pc-wipes-your-data",
+      "id": "20261118-you-need-a-registry-cleaner",
       "slot": 1,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -46,28 +46,28 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "You need a registry cleaner",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "You need a registry cleaner"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Restarting your PC wipes your data\nTruth: A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it.\n\nShare this with the person who still believes it →\n\n#techsupport #sysadmin #computertips #troubleshooting #pc\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a registry cleaner\nTruth: Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs.\n\nShare this with the person who still believes it →\n\n#sysadmin #fixyourpc #ithelp #computertips #windows11\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261117-what-reviewers-check-that-you-don-t",
+      "id": "20261118-what-reviewers-check-that-you-don-t",
       "slot": 2,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -93,45 +93,45 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#laptops #pc #ram #hardware #cpu\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "What reviewers check that you don't 🔓\n\nInsider knowledge, free.\n\n• Sustained FPS at your resolution, not peak numbers\n• Thermal throttling after 20 minutes of load\n• The GPU's real TGP in watts\n• Panel brightness in nits — skipped too often\n\nSave this — it'll be your shortcut later →\n\n#pcgaming #cpu #ram #ssd #benchmark\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261117-stop-apps-tracking-your-every-move",
+      "id": "20261118-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Stop apps tracking your every move",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Stop apps tracking your every move\nSettings > Privacy > Location services"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Settings > Privacy > Location services"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Deny location for apps that don't need it"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Revoke camera and mic access you don't use"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Stop apps tracking your every move 📱\n\n1. Settings > Privacy > Location services\n2. Deny location for apps that don't need it\n3. Revoke camera and mic access you don't use\n\nSave this for the next ticket →\n\n#tech #smartphone #gadgets #samsung #iphone\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "caption": "Add a budget alert so you never overspend ☁️\n\n1. Open Billing > Budgets in your console\n2. Create a budget for your monthly target\n3. Add alerts at 50%, 80%, and 100%\n\nSave this for the next ticket →\n\n#aws #azure #cloudcomputing #devops #cloudinfra\n\n@theitsupportguru — daily tech intel for IT pros.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cultofmac.com/news/ios-27-3-beta-features-changes",
+  "fetched": "2026-11-18T01:46:28.193Z",
+  "paragraphs": [
+    "Apple’s second iOS 27.3 developer beta brings another round of notable changes to the iPhone. Building on the first beta’s redesigned Health app and Safari upgrades, the latest release gives Siri AI more capabilities and adds new options for iPhone Duo users.",
+    "Here’s everything new in the iOS 27.3 beta (and the related releases, iPadOS 27.3 and watchOS 27.3).",
+    "While the iPhone Duo lacks the relevant Face ID hardware, Apple is still bringing face unlock to the device. iOS 27.3 beta 2 adds an “Unlock with Front Camera” option. As the name suggests, it lets you unlock the foldable using the front camera.",
+    "However, the feature works alongside Touch ID or a passcode. Apple says face unlock will only work if you recently unlocked your iPhone Duo using Touch ID or a passcode.",
+    "New animation for the Dynamic Island on iPhone Duo when both Face Recognition and Touch ID are set up. pic.twitter.com/Uor9wZqmJZ",
+    "Plus, you can only authenticate Apple Pay transactions using Touch ID.",
+    "On the bright side, the iPhone Duo also gets “Attention Aware Features.” This will ensure that the foldable will check if you are looking at the screen before dimming the display, expanding a notification on the lock screen, or lowering the volume of some alerts.",
+    "The second iOS 27.3 beta includes another feature that some iPhone Duo users asked for: the option to automatically lock the Duo when it is closed."
+  ],
+  "image": "https://www.cultofmac.com/wp-content/uploads/2026/11/ios-27-3-beta2-featured1.jpg.webp"
+}

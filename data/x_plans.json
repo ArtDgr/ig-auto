@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T02:38:43.334Z",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T01:49:19.112Z",
   "posts": [
     {
-      "id": "20261117-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261118-your-laptop-is-always-hot",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,32 +12,32 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You bought a laptop on the spec sheet alone #GPU #PC #techtips Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #GPU #CPU #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261117-macs-can-t-get-viruses",
+      "id": "20261118-you-must-charge-your-iphone-to-100",
       "slot": 1,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -46,100 +46,100 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Macs can't get viruses",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Macs can't get viruses"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — macOS has malware too — it's just less common. Phishing and social engineering hit Mac users just as hard; good habits matter on every OS."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Macs can't get viruses Truth: macOS has malware too — it's just less common. Phishing and social engineering hit Mac… #macOS #iPhone #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #iOS #Apple #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261117-what-reviewers-check-that-you-don-t",
+      "id": "20261118-prompt-tricks-it-pros-use-daily",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "Prompt tricks IT pros use daily",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "Prompt tricks IT pros use daily\nGive the model a role: 'You are a senior sysadmin'"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Give the model a role: 'You are a senior sysadmin'\nState the goal and constraints, not just the question\nAsk for options, then a recommendation\nVerify code before running — AI writes plausible bugs too\nVersion your best prompts like you version code"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #Android #smartphone #tech Follow for daily tech intel.",
+      "caption": "🔓 Prompt tricks IT pros use daily — Give the model a role: 'You are a senior sysadmin' #ChatGPT #AI #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261117-connect-your-wifi-step-by-step",
+      "id": "20261118-add-a-budget-alert-so-you-never-overspend",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Connect your WiFi step by step",
+      "title": "Add a budget alert so you never overspend",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Connect your WiFi step by step\nClick the network icon in the system tray"
+          "text": "Add a budget alert so you never overspend\nOpen Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Click the network icon in the system tray"
+          "text": "Open Billing > Budgets in your console"
         },
         {
           "kind": "step",
-          "text": "Pick your network name and enter the password exactly"
+          "text": "Create a budget for your monthly target"
         },
         {
           "kind": "step",
-          "text": "Watch for auto-correct — passwords get mangled silently"
+          "text": "Add alerts at 50%, 80%, and 100%"
         },
         {
           "kind": "step",
-          "text": "Forget and rejoin the network if it keeps asking for the key"
+          "text": "Send them to email or Slack"
         },
         {
           "kind": "step",
-          "text": "Still no internet? Unplug the router for 60 seconds and retry."
+          "text": "Sleep soundly — the alert does the watching."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Connect your WiFi step by step #Windows11 #sysadmin #techtips Follow for daily tech intel.",
+      "caption": "☁️ Add a budget alert so you never overspend #cloud #Kubernetes #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

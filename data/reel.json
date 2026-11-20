@@ -1,26 +1,26 @@
 {
-  "date": "20261119",
+  "date": "20261120",
   "deck": {
-    "id": "openai-releases-gpt-6-2-astra-to-regain-performance-lead-fro",
-    "niche": "gadgets",
-    "href": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/",
-    "title": "OpenAI releases GPT-6.2 Astra to regain performance lead from Claude…",
+    "id": "apple-is-hiring-engineers-to-build-its-own-ai-agent",
+    "niche": "ai",
+    "href": "",
+    "title": "Apple is hiring engineers to build its own AI agent",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "OpenAI releases GPT-6.2 Astra to regain per…",
+        "text": "Apple is hiring engineers to build its own…",
         "kind": "hook"
       },
       {
-        "text": "The short version: OpenAI releases GPT-6.2 Astra to regain performance lead from Claude Fa….",
+        "text": "Apple is working on its own AI agent that can perform a range of tasks for you,…",
         "kind": "body"
       },
       {
-        "text": "Why it matters: this sits right at the frontier of bleeding-edge tech.",
+        "text": "That's according to a job listing spotted by Bloomberg , which says Apple is lo…",
         "kind": "body"
       },
       {
-        "text": "What to watch: how the AI and hardware giants respond over the next week.",
+        "text": "An AI agent from Apple would put the iPhone maker in the running to compete wit…",
         "kind": "body"
       },
       {
@@ -29,5 +29,5 @@
       }
     ]
   },
-  "caption": "OpenAI releases GPT-6.2 Astra to regain performance lead from Claude.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Apple is hiring engineers to build its own AI agent.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

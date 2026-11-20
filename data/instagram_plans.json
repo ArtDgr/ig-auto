@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T01:24:40.797Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T01:26:20.893Z",
   "posts": [
     {
-      "id": "20261119-your-system-drive-is-under-15-free-space",
+      "id": "20261120-you-never-restart-your-pc",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -12,126 +12,155 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your system drive is under 15% free space",
+      "title": "You never restart your PC",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your system drive is under 15% free\nA full drive crawls no matter how new the PC is."
+          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A full drive crawls no matter how new the PC is."
+          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Storage > Temporary files — clear it, then empty the Recycle Bin."
+          "text": "THE FIX — One restart a week clears state and flushes memory."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour system drive is under 15% free space\n\nWhy it's a problem: A full drive crawls no matter how new the PC is.\nThe fix: Settings > Storage > Temporary files — clear it, then empty the Recycle Bin.\n\nSave this before it becomes a repair bill →\n\n#helpdesk #troubleshooting #techsupport #fixyourpc #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#ithelp #itsupport #windows #helpdesk #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261119-you-need-a-gaming-laptop-for-gaming",
+      "id": "20261120-docker-containers-are-mini-vms",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You need a 'gaming' laptop for gaming",
+      "title": "Docker containers are mini VMs",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You need a 'gaming' laptop for gaming"
+          "text": "Docker containers are mini VMs"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges."
+          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a 'gaming' laptop for gaming\nTruth: Specs and cooling beat the sticker. Two laptops with the same GPU differ hugely by TGP and thermals — check reviews, not badges.\n\nShare this with the person who still believes it →\n\n#chipshortage #ram #laptop #pcgaming #ssd\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#sre #docker #devopslife #cloud #techops\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
       "status": "pending"
     },
     {
-      "id": "20261119-how-to-actually-verify-ai-output",
+      "id": "20261120-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "How to actually verify AI output",
+      "title": "The fastest way to find anything on a Mac",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "How to actually verify AI output\nAsk for a source for every key claim"
+          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
         },
         {
           "kind": "facts",
-          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
+          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#ai #genai #aitools #machinelearning #aitech\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macbook #iphone #ios #macrumors #appleintelligence\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261119-free-up-storage-in-10-minutes",
+      "id": "20261120-set-up-proper-battery-care",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Free up storage in 10 minutes",
+      "title": "Set up proper battery care",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Free up storage in 10 minutes\nOpen Settings > Storage"
+          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Open Settings > Storage"
+          "text": "Cap charge at 80% if your vendor offers it"
         },
         {
           "kind": "step",
-          "text": "Delete duplicate screenshots and videos first"
+          "text": "Avoid leaving it at 100% for weeks on end"
         },
         {
           "kind": "step",
-          "text": "Offload apps you haven't opened in months"
+          "text": "Occasional deep discharge is fine, not daily"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Free up storage in 10 minutes 📱\n\n1. Open Settings > Storage\n2. Delete duplicate screenshots and videos first\n3. Offload apps you haven't opened in months\n\nSave this for the next ticket →\n\n#android #smartphone #smartphonetips #iphone #tech\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "Set up proper battery care 💻\n\n1. Cap charge at 80% if your vendor offers it\n2. Avoid leaving it at 100% for weeks on end\n3. Occasional deep discharge is fine, not daily\n\nSave this for the next ticket →\n\n#ssd #laptop #gpu #laptops #pcgaming\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
+      "status": "pending"
+    },
+    {
+      "id": "20261120-gadget-focus-the-honor-watch-6-pro-launches-in-europe-with-an-early-b",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "The Honor Watch 6 Pro launches in Europe with an early…",
+      "source": "GSMArena",
+      "link": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "The Honor Watch 6 Pro launches in Europe with\nThe Honor Watch 6 Pro launches in Europe with an early bird price, free strap and clip-on buds"
+        },
+        {
+          "kind": "brief",
+          "text": "The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now.\nInitially announced at the end of September for China, this watch is launching in Europe now.\nThe Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks.\nNote that the euro prices below apply to France, Germany, Italy and Spain."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe Honor Watch 6 Pro launches in Europe with an early…\n\n• The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now.\n• Initially announced at the end of September for China, this watch is launching in Europe now.\n• The Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks.\n• Note that the euro prices below apply to France, Germany, Italy and Spain.\n\nSource: GSMArena — https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#samsung #techgear #android #gadgetreviews #batterytips\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     }
   ]

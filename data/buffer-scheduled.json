@@ -269,5 +269,28 @@
       "dueAt": "2026-11-18T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-20": {
+    "0": {
+      "postId": "20261120-you-never-restart-your-pc",
+      "bufferId": "6affa1e17b0a126ceb99ab50",
+      "dueAt": "2026-11-20T01:53:00.000Z",
+      "niche": "it-support",
+      "title": "You never restart your PC"
+    },
+    "2": {
+      "postId": "20261120-the-fastest-way-to-find-anything-on-a-mac",
+      "bufferId": "6affa1dfd5f8acdd0d5fc21a",
+      "dueAt": "2026-11-20T08:53:00.000Z",
+      "niche": "apple",
+      "title": "The fastest way to find anything on a Mac"
+    },
+    "4": {
+      "postId": "20261120-gadget-focus-the-honor-watch-6-pro-launches-in-europe-with-an-early-b",
+      "bufferId": "6affa1e3738ce4635f77c5b1",
+      "dueAt": "2026-11-20T08:24:00.000Z",
+      "niche": "gadgets",
+      "title": "The Honor Watch 6 Pro launches in Europe with an early…"
+    }
   }
 }

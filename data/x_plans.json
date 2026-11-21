@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T01:26:36.202Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T00:57:28.226Z",
   "posts": [
     {
-      "id": "20261120-you-ve-never-run-a-battery-report",
+      "id": "20261121-you-ve-never-checked-iphone-battery-health",
       "slot": 0,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never run a battery report",
+      "title": "You've never checked iPhone battery health",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never run a battery report\nLaptop batteries degrade silently."
+          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
+          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
+          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You've never run a battery report #CPU #PC #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 You've never checked iPhone battery health #macOS #iPhone #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261120-force-quitting-apps-saves-battery",
+      "id": "20261121-restarting-your-pc-wipes-your-data",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "Restarting your PC wipes your data",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "Restarting your PC wipes your data"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Force-quitting apps saves battery Truth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the… #Apple #iOS #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #itsupport #Windows11 #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261120-ops-rules-that-prevent-the-worst-outages",
+      "id": "20261121-why-works-on-my-machine-finally-died",
       "slot": 2,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -76,99 +76,70 @@
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "Ops rules that prevent the worst outages",
+      "title": "Why 'works on my machine' finally died",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
+          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
         },
         {
           "kind": "facts",
-          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
+          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Ops rules that prevent the worst outages — Set budgets and alerts before you build #AWS #cloud #techtips Follow for daily tech intel.",
+      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #Kubernetes #cloud #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261120-remove-junk-and-bloatware-safely",
+      "id": "20261121-set-up-a-better-morning-phone-routine",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Remove junk and bloatware safely",
+      "title": "Set up a better morning phone routine",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Remove junk and bloatware safely\nSettings > Apps > Installed apps"
+          "text": "Set up a better morning phone routine\nPlug in at night — 80% is plenty"
         },
         {
           "kind": "step",
-          "text": "Settings > Apps > Installed apps"
+          "text": "Plug in at night — 80% is plenty"
         },
         {
           "kind": "step",
-          "text": "Uninstall trialware and toolbars you never open"
+          "text": "Glance at the lock screen, don't dive in"
         },
         {
           "kind": "step",
-          "text": "Run Disk Cleanup afterwards to free the space"
+          "text": "Clear junk notifications once a day"
         },
         {
           "kind": "step",
-          "text": "For stubborn apps, use their own uninstaller first"
+          "text": "Enable battery saver on your commute"
         },
         {
           "kind": "step",
-          "text": "Never download 'PC cleaner' tools — they cause more harm than good."
+          "text": "Arrive with 90% and a clearer head."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🛠️ Remove junk and bloatware safely #itsupport #sysadmin #itsupportguru Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261120-gadget-focus-the-honor-watch-6-pro-launches-in-europe-with-an-early-b",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "The Honor Watch 6 Pro launches in Europe with an early…",
-      "source": "GSMArena",
-      "link": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "The Honor Watch 6 Pro launches in Europe with\nThe Honor Watch 6 Pro launches in Europe with an early bird price, free strap and clip-on buds"
-        },
-        {
-          "kind": "brief",
-          "text": "The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now.\nInitially announced at the end of September for China, this watch is launching in Europe now.\nThe Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks.\nNote that the euro prices below apply to France, Germany, Italy and Spain."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 The Honor Watch 6 Pro launches in Europe with an early… (GSMArena) https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php #Android #tech #itsupportguru Follow for daily tech intel.",
+      "caption": "📱 Set up a better morning phone routine #tech #Android #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

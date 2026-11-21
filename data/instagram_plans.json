@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T01:26:20.893Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T00:57:18.421Z",
   "posts": [
     {
-      "id": "20261120-you-never-restart-your-pc",
+      "id": "20261121-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You never restart your PC",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You never restart your PC\nCaches, stuck sessions and pending updates pile up until something breaks."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Caches, stuck sessions and pending updates pile up until something breaks."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — One restart a week clears state and flushes memory."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou never restart your PC\n\nWhy it's a problem: Caches, stuck sessions and pending updates pile up until something breaks.\nThe fix: One restart a week clears state and flushes memory.\n\nSave this before it becomes a repair bill →\n\n#ithelp #itsupport #windows #helpdesk #sysadmin\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nSave this for the next ticket.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#ram #cpu #gpu #benchmark #techreview\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261120-docker-containers-are-mini-vms",
+      "id": "20261121-closing-apps-saves-your-battery",
       "slot": 1,
-      "niche": "cloud-devops",
-      "nicheLabel": "Cloud & DevOps",
-      "accent": "#7C5CFF",
-      "emoji": "☁️",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Docker containers are mini VMs",
+      "title": "Closing apps saves your battery",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Docker containers are mini VMs"
+          "text": "Closing apps saves your battery"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all."
+          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Docker containers are mini VMs\nTruth: Containers share the host kernel — they're isolated processes, not virtual machines. That's why they're fast and light, and why a kernel bug hits them all.\n\nShare this with the person who still believes it →\n\n#sre #docker #devopslife #cloud #techops\n\n@theitsupportguru — separating tech fact from fiction.\n\nShare this with the colleague who keeps asking.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#techsupport #itsupport #windows11 #pchelp #windows\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261120-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261121-the-fastest-way-to-find-anything-on-a-mac",
       "slot": 2,
       "niche": "apple",
       "nicheLabel": "Apple & macOS",
@@ -93,74 +93,45 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macbook #iphone #ios #macrumors #appleintelligence\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macrumors #ios #apple #appletips #applenews\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261120-set-up-proper-battery-care",
+      "id": "20261121-extend-your-phone-s-battery-life",
       "slot": 3,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up proper battery care",
+      "title": "Extend your phone's battery life",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up proper battery care\nCap charge at 80% if your vendor offers it"
+          "text": "Extend your phone's battery life\nDrop brightness or turn on adaptive"
         },
         {
           "kind": "step",
-          "text": "Cap charge at 80% if your vendor offers it"
+          "text": "Drop brightness or turn on adaptive"
         },
         {
           "kind": "step",
-          "text": "Avoid leaving it at 100% for weeks on end"
+          "text": "Enable low power mode at 30%, not 10%"
         },
         {
           "kind": "step",
-          "text": "Occasional deep discharge is fine, not daily"
+          "text": "Check Settings > Battery for the biggest drainer"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Set up proper battery care 💻\n\n1. Cap charge at 80% if your vendor offers it\n2. Avoid leaving it at 100% for weeks on end\n3. Occasional deep discharge is fine, not daily\n\nSave this for the next ticket →\n\n#ssd #laptop #gpu #laptops #pcgaming\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
-      "status": "pending"
-    },
-    {
-      "id": "20261120-gadget-focus-the-honor-watch-6-pro-launches-in-europe-with-an-early-b",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "The Honor Watch 6 Pro launches in Europe with an early…",
-      "source": "GSMArena",
-      "link": "https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "The Honor Watch 6 Pro launches in Europe with\nThe Honor Watch 6 Pro launches in Europe with an early bird price, free strap and clip-on buds"
-        },
-        {
-          "kind": "brief",
-          "text": "The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now.\nInitially announced at the end of September for China, this watch is launching in Europe now.\nThe Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks.\nNote that the euro prices below apply to France, Germany, Italy and Spain."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nThe Honor Watch 6 Pro launches in Europe with an early…\n\n• The Honor Watch 5 Pro never got the wide release that it deserved – oh well, all eyes are on its successor now.\n• Initially announced at the end of September for China, this watch is launching in Europe now.\n• The Honor Watch 6 Pro is going on pre-sale today – Honor is offering it at promotional prices and with cool early bird perks.\n• Note that the euro prices below apply to France, Germany, Italy and Spain.\n\nSource: GSMArena — https://www.gsmarena.com/the_honor_watch_6_pro_launches_in_europe_with_an_early_bird_price_free_strap_and_clipon_buds-news-75521.php\n\nWhich one's on your wishlist? Drop it below 👇\n\n#samsung #techgear #android #gadgetreviews #batterytips\n\n@theitsupportguru — the gadget worth your attention.\n\nBookmark this — you'll need it at 2am.",
+      "caption": "Extend your phone's battery life 📱\n\n1. Drop brightness or turn on adaptive\n2. Enable low power mode at 30%, not 10%\n3. Check Settings > Battery for the biggest drainer\n\nSave this for the next ticket →\n\n#android #tech #iphone #gadgets #techgear\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

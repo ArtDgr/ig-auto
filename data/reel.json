@@ -1,26 +1,30 @@
 {
-  "date": "20261120",
+  "date": "20261121",
   "deck": {
-    "id": "apple-is-hiring-engineers-to-build-its-own-ai-agent",
-    "niche": "ai",
-    "href": "",
-    "title": "Apple is hiring engineers to build its own AI agent",
+    "id": "lava-smart-4-pro-announced-with-a-7-000-mah-battery",
+    "niche": "gadgets",
+    "href": "https://www.gsmarena.com/lava_smart_4_pro_features_price_sale_date-news-75559.php",
+    "title": "Lava Smart 4 Pro announced with a 7,000 mAh battery",
     "pillar": "DAILY IT FIX",
     "slides": [
       {
-        "text": "Apple is hiring engineers to build its own…",
+        "text": "7,000",
         "kind": "hook"
       },
       {
-        "text": "Apple is working on its own AI agent that can perform a range of tasks for you,…",
+        "text": "Lava Smart 4 Pro announced with a 7,000 mAh…",
         "kind": "body"
       },
       {
-        "text": "That's according to a job listing spotted by Bloomberg , which says Apple is lo…",
+        "text": "Lava unveiled the Smart 4 Plus in June and introduced the Smart 4 in August.",
         "kind": "body"
       },
       {
-        "text": "An AI agent from Apple would put the iPhone maker in the running to compete wit…",
+        "text": "Today, the Indian handset maker announced the Lava Smart 4 Pro as the newest me…",
+        "kind": "body"
+      },
+      {
+        "text": "The headline feature of the Lava Smart 4 Pro is its massive 7,000 mAh battery.",
         "kind": "body"
       },
       {
@@ -29,5 +33,5 @@
       }
     ]
   },
-  "caption": "Apple is hiring engineers to build its own AI agent.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
+  "caption": "Lava Smart 4 Pro announced with a 7,000 mAh battery.\n\nSave this fix for later.\n\n#techsupport #techtips #itsupportguru #sysadmin #techdaily\n\n@theitsupportguru — daily IT fixes for IT pros."
 }

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T00:57:18.421Z",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T04:25:57.408Z",
   "posts": [
     {
-      "id": "20261121-you-bought-a-laptop-on-the-spec-sheet-alone",
+      "id": "20261124-your-laptop-is-always-hot",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,32 +12,32 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You bought a laptop on the spec sheet alone",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou bought a laptop on the spec sheet alone\n\nWhy it's a problem: TGP and thermals beat the headline numbers.\nThe fix: Read the thermal reviews, not just the benchmark score.\n\nSave this before it becomes a repair bill →\n\n#ram #cpu #gpu #benchmark #techreview\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#hardware #ssd #pc #techreview #benchmark\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261121-closing-apps-saves-your-battery",
+      "id": "20261124-you-need-a-registry-cleaner",
       "slot": 1,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -46,92 +46,92 @@
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Closing apps saves your battery",
+      "title": "You need a registry cleaner",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Closing apps saves your battery"
+          "text": "You need a registry cleaner"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed."
+          "text": "THE TRUTH — Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Closing apps saves your battery\nTruth: Apps in the background mostly sit idle. It's screen brightness and the one rogue app hammering the CPU that drain your battery — not the tabs you closed.\n\nShare this with the person who still believes it →\n\n#techsupport #itsupport #windows11 #pchelp #windows\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: You need a registry cleaner\nTruth: Windows manages the registry fine on its own. 'Registry cleaners' fix problems you don't have and can break working installs.\n\nShare this with the person who still believes it →\n\n#pchelp #ithelp #windows11 #techsupport #itsupport\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261121-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261124-why-works-on-my-machine-finally-died",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "Why 'works on my machine' finally died",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "Why 'works on my machine' finally died\nDocker packages the app with its runtime"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Docker packages the app with its runtime\nDev and prod now run identical containers\nConfig drift is the real enemy, not the code\nIaC makes every change reviewable in PRs\nLocal repros became a checkbox, not a mystery"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macrumors #ios #apple #appletips #applenews\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Why 'works on my machine' finally died 🔓\n\nInsider knowledge, free.\n\n• Docker packages the app with its runtime\n• Dev and prod now run identical containers\n• Config drift is the real enemy, not the code\n• IaC makes every change reviewable in PRs\n\nSave this — it'll be your shortcut later →\n\n#cloud #kubernetes #aws #docker #sre\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261121-extend-your-phone-s-battery-life",
+      "id": "20261124-find-your-macbook-battery-drainer",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Extend your phone's battery life",
+      "title": "Find your MacBook battery drainer",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Extend your phone's battery life\nDrop brightness or turn on adaptive"
+          "text": "Find your MacBook battery drainer\nOpen Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Drop brightness or turn on adaptive"
+          "text": "Open Activity Monitor (Spotlight > 'Activity Monitor')"
         },
         {
           "kind": "step",
-          "text": "Enable low power mode at 30%, not 10%"
+          "text": "Sort by CPU, then by Energy"
         },
         {
           "kind": "step",
-          "text": "Check Settings > Battery for the biggest drainer"
+          "text": "Close the browser tab silently maxing cores"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Extend your phone's battery life 📱\n\n1. Drop brightness or turn on adaptive\n2. Enable low power mode at 30%, not 10%\n3. Check Settings > Battery for the biggest drainer\n\nSave this for the next ticket →\n\n#android #tech #iphone #gadgets #techgear\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Find your MacBook battery drainer 🍎\n\n1. Open Activity Monitor (Spotlight > 'Activity Monitor')\n2. Sort by CPU, then by Energy\n3. Close the browser tab silently maxing cores\n\nSave this for the next ticket →\n\n#iphone #apple #macbook #macos #applenews\n\n@theitsupportguru — daily tech intel for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     }
   ]

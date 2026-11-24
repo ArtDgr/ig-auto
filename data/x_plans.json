@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T00:57:28.226Z",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T04:26:10.361Z",
   "posts": [
     {
-      "id": "20261121-you-ve-never-checked-iphone-battery-health",
+      "id": "20261124-you-bought-a-laptop-on-the-spec-sheet-alone",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You've never checked iPhone battery health",
+      "title": "You bought a laptop on the spec sheet alone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You've never checked iPhone battery\nA worn battery dies at the worst moment."
+          "text": "You bought a laptop on the spec sheet\nTGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — A worn battery dies at the worst moment."
+          "text": "WHY IT'S A PROBLEM — TGP and thermals beat the headline numbers."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Settings > Battery > Battery Health — one tap."
+          "text": "THE FIX — Read the thermal reviews, not just the benchmark score."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You've never checked iPhone battery health #macOS #iPhone #tech Follow for daily tech intel.",
+      "caption": "🚩 You bought a laptop on the spec sheet alone #CPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261121-restarting-your-pc-wipes-your-data",
+      "id": "20261124-off-brand-cables-are-fine",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "Off-brand cables are fine",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "Off-brand cables are fine"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification — the logo is the difference between fast and fried."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: Restarting your PC wipes your data Truth: A restart clears memory and caches only — files, settings and apps are untouched. That… #itsupport #Windows11 #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: Off-brand cables are fine Truth: Cheap cables charge slowly and can damage ports. Look for USB-IF or MFi certification —… #Android #smartphone #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261121-why-works-on-my-machine-finally-died",
+      "id": "20261124-why-works-on-my-machine-finally-died",
       "slot": 2,
       "niche": "cloud-devops",
       "nicheLabel": "Cloud & DevOps",
@@ -93,53 +93,53 @@
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #Kubernetes #cloud #tech Follow for daily tech intel.",
+      "caption": "🔓 Why 'works on my machine' finally died — Docker packages the app with its runtime #DevOps #Kubernetes #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261121-set-up-a-better-morning-phone-routine",
+      "id": "20261124-free-up-iphone-storage-in-5-minutes",
       "slot": 3,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Set up a better morning phone routine",
+      "title": "Free up iPhone storage in 5 minutes",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Set up a better morning phone routine\nPlug in at night — 80% is plenty"
+          "text": "Free up iPhone storage in 5 minutes\nSettings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Plug in at night — 80% is plenty"
+          "text": "Settings > General > iPhone Storage"
         },
         {
           "kind": "step",
-          "text": "Glance at the lock screen, don't dive in"
+          "text": "Delete the biggest offline videos and games first"
         },
         {
           "kind": "step",
-          "text": "Clear junk notifications once a day"
+          "text": "Offload apps you haven't opened in months"
         },
         {
           "kind": "step",
-          "text": "Enable battery saver on your commute"
+          "text": "Let iOS offload photos automatically"
         },
         {
           "kind": "step",
-          "text": "Arrive with 90% and a clearer head."
+          "text": "Check again in a week — it stays under control."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "📱 Set up a better morning phone routine #tech #Android #itsupportguru Follow for daily tech intel.",
+      "caption": "🍎 Free up iPhone storage in 5 minutes #macOS #iOS #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

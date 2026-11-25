@@ -292,5 +292,41 @@
       "niche": "gadgets",
       "title": "The Honor Watch 6 Pro launches in Europe with an early…"
     }
+  },
+  "2026-11-25": {
+    "0": {
+      "postId": "20261125-your-laptop-is-always-hot",
+      "bufferId": "6b0651d39cddd8483aa3b162",
+      "dueAt": "2026-11-25T08:07:00.000Z",
+      "niche": "hardware",
+      "title": "Your laptop is always hot"
+    },
+    "1": {
+      "postId": "20261125-restarting-your-pc-wipes-your-data",
+      "bufferId": "6b0651d740e1d58d12f28214",
+      "dueAt": "2026-11-25T08:53:00.000Z",
+      "niche": "it-support",
+      "title": "Restarting your PC wipes your data"
+    },
+    "2": {
+      "postId": "20261125-the-fastest-way-to-find-anything-on-a-mac",
+      "bufferId": "6b0651d9b6204bca46bfe84a",
+      "dueAt": "2026-11-25T08:07:00.000Z",
+      "niche": "apple",
+      "title": "The fastest way to find anything on a Mac"
+    },
+    "3": {
+      "postId": "20261125-cut-digital-glare-at-night",
+      "bufferId": "6b0651d55d949f6c2a6b1997",
+      "dueAt": "2026-11-25T08:53:00.000Z",
+      "niche": "gadgets",
+      "title": "Cut digital glare at night"
+    },
+    "reel": {
+      "file": "20261125-honor-s-first-wide-foldable-set-to-arrive-in-march-2027-with.mp4",
+      "bufferId": "6b0651db22dfb7833a75f75a",
+      "dueAt": "2026-11-25T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

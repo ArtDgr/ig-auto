@@ -1,145 +1,145 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T03:11:03.151Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T02:23:44.189Z",
   "posts": [
     {
-      "id": "20261125-you-keep-every-screenshot-you-ever-took",
+      "id": "20261126-your-pc-takes-5-minutes-to-boot",
       "slot": 0,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You keep every screenshot you ever took",
+      "title": "Your PC takes 5 minutes to boot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You keep every screenshot you ever took\nThey pile up and eat iCloud space silently."
+          "text": "Your PC takes 5 minutes to boot\nThat's startup bloat, not normal — dozens of apps auto-launch silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — They pile up and eat iCloud space silently."
+          "text": "WHY IT'S A PROBLEM — That's startup bloat, not normal — dozens of apps auto-launch silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Wipe the Screenshots album once a week."
+          "text": "THE FIX — Task Manager > Startup, disable everything you don't open in the first 5 minutes."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 You keep every screenshot you ever took #iOS #iPhone #itsupportguru Follow for daily tech intel.",
+      "caption": "🚩 Your PC takes 5 minutes to boot #techsupport #sysadmin #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261125-more-ram-always-makes-your-pc-faster",
+      "id": "20261126-a-bigger-cpu-number-is-always-faster",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "More RAM always makes your PC faster",
+      "title": "A bigger CPU number is always faster",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "More RAM always makes your PC faster"
+          "text": "A bigger CPU number is always faster"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty free, the extra stick just collects dust."
+          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: More RAM always makes your PC faster Truth: Adding RAM only helps if you're actually running out of it. If Task Manager shows plenty… #techsupport #itsupport #itsupportguru Follow for daily tech intel.",
+      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #GPU #PC #tech Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261125-the-upgrade-that-changes-everything",
+      "id": "20261126-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "What reviewers check that you don't",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 The upgrade that changes everything — SSD over HDD is the single biggest speed gain #CPU #GPU #techtips Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #smartphone #Android #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261125-clean-up-data-brokers",
+      "id": "20261126-write-better-email-drafts-with-ai",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Clean up data brokers",
+      "title": "Write better email drafts with AI",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Clean up data brokers\nSearch yourself on people-search sites"
+          "text": "Write better email drafts with AI\nGive the full context in three sentences"
         },
         {
           "kind": "step",
-          "text": "Search yourself on people-search sites"
+          "text": "Give the full context in three sentences"
         },
         {
           "kind": "step",
-          "text": "Use each site's opt-out page"
+          "text": "Specify the tone: firm, warm, brief"
         },
         {
           "kind": "step",
-          "text": "Remove your listing and note the case ID"
+          "text": "Ask for two drafts — one short, one detailed"
         },
         {
           "kind": "step",
-          "text": "Re-check in 30 days — they re-add"
+          "text": "Edit the winner by hand"
         },
         {
           "kind": "step",
-          "text": "Switch your email to a spam-safe address."
+          "text": "Read it aloud before you hit send."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Clean up data brokers #privacy #2FA #techtips Follow for daily tech intel.",
+      "caption": "🤖 Write better email drafts with AI #ChatGPT #MachineLearning #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     }
   ],

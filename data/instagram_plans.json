@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T03:10:53.953Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T02:23:31.478Z",
   "posts": [
     {
-      "id": "20261125-your-laptop-is-always-hot",
+      "id": "20261126-you-ve-never-run-a-battery-report",
       "slot": 0,
       "niche": "hardware",
       "nicheLabel": "Laptops & PC Hardware",
@@ -12,92 +12,92 @@
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your laptop is always hot",
+      "title": "You've never run a battery report",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
+          "text": "You've never run a battery report\nLaptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
+          "text": "WHY IT'S A PROBLEM — Laptop batteries degrade silently."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
+          "text": "THE FIX — Run `powercfg /batteryreport` before you trust a 'like new' listing."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYour laptop is always hot\n\nWhy it's a problem: Dust and dried thermal paste silently throttle performance.\nThe fix: Clean the vents quarterly, repaste every couple of years.\n\nSave this before it becomes a repair bill →\n\n#ssd #laptops #chipshortage #pc #benchmark\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou've never run a battery report\n\nWhy it's a problem: Laptop batteries degrade silently.\nThe fix: Run `powercfg /batteryreport` before you trust a 'like new' listing.\n\nSave this before it becomes a repair bill →\n\n#hardware #pcgaming #benchmark #pc #techreview\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     },
     {
-      "id": "20261125-restarting-your-pc-wipes-your-data",
+      "id": "20261126-only-important-people-get-targeted",
       "slot": 1,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Restarting your PC wipes your data",
+      "title": "Only important people get targeted",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Restarting your PC wipes your data"
+          "text": "Only important people get targeted"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it."
+          "text": "THE TRUTH — Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Restarting your PC wipes your data\nTruth: A restart clears memory and caches only — files, settings and apps are untouched. That fear is the exact reason so many people never reboot, and their PCs stay broken because of it.\n\nShare this with the person who still believes it →\n\n#windows11 #computertips #techsupport #windows #fixyourpc\n\n@theitsupportguru — separating tech fact from fiction.\n\nWhat's your fix for this one? Drop it in the comments.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Only important people get targeted\nTruth: Most attacks are automated — they spray everyone and take whoever falls for it. Being 'not important' is not a defense.\n\nShare this with the person who still believes it →\n\n#datasecurity #privacy #2fa #secops #phishing\n\n@theitsupportguru — separating tech fact from fiction.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261125-the-fastest-way-to-find-anything-on-a-mac",
+      "id": "20261126-ops-rules-that-prevent-the-worst-outages",
       "slot": 2,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The fastest way to find anything on a Mac",
+      "title": "Ops rules that prevent the worst outages",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The fastest way to find anything on a Mac\nSpotlight is the app launcher and file finder"
+          "text": "Ops rules that prevent the worst outages\nSet budgets and alerts before you build"
         },
         {
           "kind": "facts",
-          "text": "Spotlight is the app launcher and file finder\nSwipe left past the last page for App Library\nDrag onto the Dock to avoid desktop clutter\nUse Activity Monitor to find the real battery hog\nScreenshots live in one album — clean it weekly"
+          "text": "Set budgets and alerts before you build\nCap autoscale and scale dev to zero\nTag everything at creation, never later\nTest restores monthly — 'success' isn't proof\nMake infra code so it's reviewable and rollback-able"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The fastest way to find anything on a Mac 🔓\n\nInsider knowledge, free.\n\n• Spotlight is the app launcher and file finder\n• Swipe left past the last page for App Library\n• Drag onto the Dock to avoid desktop clutter\n• Use Activity Monitor to find the real battery hog\n\nSave this — it'll be your shortcut later →\n\n#macos #macbook #ios #iphone #appleintelligence\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
+      "caption": "Ops rules that prevent the worst outages 🔓\n\nInsider knowledge, free.\n\n• Set budgets and alerts before you build\n• Cap autoscale and scale dev to zero\n• Tag everything at creation, never later\n• Test restores monthly — 'success' isn't proof\n\nSave this — it'll be your shortcut later →\n\n#cloudcomputing #devopslife #sre #azure #cloud\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     },
     {
-      "id": "20261125-cut-digital-glare-at-night",
+      "id": "20261126-transfer-everything-to-a-new-phone",
       "slot": 3,
       "niche": "gadgets",
       "nicheLabel": "Smartphones & Gadgets",
@@ -106,32 +106,32 @@
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Cut digital glare at night",
+      "title": "Transfer everything to a new phone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Cut digital glare at night\nTurn on night mode / blue-light filter at sunset"
+          "text": "Transfer everything to a new phone\nBack up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Turn on night mode / blue-light filter at sunset"
+          "text": "Back up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Lower brightness in dark rooms"
+          "text": "Choose 'transfer from old device' during setup"
         },
         {
           "kind": "step",
-          "text": "Enable dark mode where available"
+          "text": "Scan the QR or pair the two phones"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Cut digital glare at night 📱\n\n1. Turn on night mode / blue-light filter at sunset\n2. Lower brightness in dark rooms\n3. Enable dark mode where available\n\nSave this for the next ticket →\n\n#android #smartphone #gadgets #batterytips #samsung\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "Transfer everything to a new phone 📱\n\n1. Back up the old phone first\n2. Choose 'transfer from old device' during setup\n3. Scan the QR or pair the two phones\n\nSave this for the next ticket →\n\n#samsung #iphone #batterytips #gadgetreviews #tech\n\n@theitsupportguru — daily tech intel for IT pros.\n\nTag the coworker who needs this one.",
       "status": "pending"
     }
   ]

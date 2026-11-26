@@ -1,0 +1,15 @@
+{
+  "url": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+  "fetched": "2026-11-26T02:21:17.792Z",
+  "paragraphs": [
+    "Popular AI dictation app Wispr Flow is rolling out a new speech-to-text model for Mac, iPhone, and other platforms, promising fewer transcription errors and better recognition of names and technical terms. Here are the details.",
+    "Wispr Flow this week launched Canto-2, its newest speech-to-text model, which the company says reduces transcription errors by 36% across 14 languages and by more than 15% in English compared to its predecessor, Canto-1.",
+    "In practice, that means the average error rate dropped from 9.9% to 6.3% across the 14 languages, and from 3.2% to 2.7% in English, according to Wispr’s internal benchmarks.",
+    "According to the company, teaching a model to recognize specific names and terms comes with a trade-off: the more it relies on that user-specific context, the more likely it is to insert those words even when they weren’t actually spoken.",
+    "Wispr notes that Canto-2 strikes a better balance between context and accuracy, improving its ability to recognize user-specific terms without substantially increasing the frequency of incorrect substitutions:",
+    "Canto-2 recovers hard names and terms accurately nearly 7 of 10 times, without more false insertions. It makes a third fewer mistakes across 14 languages, and has the lowest Hindi error rate of any multilingual model on Hugging Face’s open benchmark. It is 10 times the scale of Canto-1, and our biggest step yet toward dictation that’s ready to send without a single edit.",
+    "According to the company, the percentage of difficult names and terms correctly recognized went from 41% to 69% between Canto-1 and Canto-2, “without inserting them more often.” It added that this improvement holds up even as the user’s custom dictionary grows, with the new model correctly recognizing 92% of easier terms even with 1,000 saved entries.",
+    "Wispr also noted that it trained Canto-2 to handle real-world dictation conditions, including background noise, laptop and phone microphones, and sentences that restart halfway through, rather than relying solely on clean recordings of scripted speech."
+  ],
+  "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/wispr-canto-2.jpg?quality=82&strip=all&resize=1200,628"
+}

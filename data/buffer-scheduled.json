@@ -328,5 +328,27 @@
       "dueAt": "2026-11-25T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-27": {
+    "0": {
+      "postId": "20261127-you-still-use-sms-for-2fa",
+      "bufferId": "6b08e98a70e2a88e2ced34fc",
+      "dueAt": "2026-11-27T08:14:00.000Z",
+      "niche": "security",
+      "title": "You still use SMS for 2FA"
+    },
+    "4": {
+      "postId": "20261127-gadget-focus-how-to-watch-the-jlo-show-live-from-las-vegas-online-for",
+      "bufferId": "6b08e98870e2a88e2ced349b",
+      "dueAt": "2026-11-27T07:44:00.000Z",
+      "niche": "gadgets",
+      "title": "How to watch The JLo Show: Live from Las Vegas online…"
+    },
+    "reel": {
+      "file": "20261127-deals-the-best-android-tablet-and-ipad-offers-plus-windows-l.mp4",
+      "bufferId": "6b08e98c548b6e180d52b838",
+      "dueAt": "2026-11-27T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }

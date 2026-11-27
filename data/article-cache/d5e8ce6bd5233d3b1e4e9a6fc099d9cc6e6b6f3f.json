@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cultofmac.com/news/iphone-notification-ads-apps-flout-apple-rules",
+  "fetched": "2026-11-27T02:21:25.980Z",
+  "paragraphs": [
+    "Apple has set some rules meant to curb unwanted iPhone notification ads, but some apps appear to be ignoring them.",
+    "iPhone users have reported promos with no opt-out and ads in Live Activities. Apple’s guidelines address both, but people say the practices continue.",
+    "Apple’s App Store Review Guidelines allow apps to send promotional push notifications. But there’s a catch. Users have to explicitly opt in through consent language in the app, with developers providing a way to opt out.",
+    "Live Activities face stricter limits: Apple tells developers “Don’t use a Live Activity to display ads or promotions” and also bars using Live Activities to send unsolicited messages.",
+    "In a post on X, Joe Rossignol wrote that several apps on his iPhone in Canada sent him prompts with no way to opt out. He named Cineplex, McDonald’s and Wendy’s.",
+    "And while Skip, a food-delivery app, offered a promo toggle, it kept sending promos even after switching the option off.",
+    "AliExpress is also reportedly showing ads in Live Activities, which conflicts with Apple’s design guidance.",
+    "To be fair, Apple broke the rules itself a few times. It reportedly sent an App Store notification promoting a Paramount+ subscription deal. Apple’s other apps have also drawn similar complaints before. One example is a Wallet notification promoting an F1 offer."
+  ],
+  "image": "https://www.cultofmac.com/wp-content/uploads/2026/11/App-Store-1.jpg.webp"
+}

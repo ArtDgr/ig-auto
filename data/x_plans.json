@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-26",
-  "generatedAt": "2026-11-26T02:23:44.189Z",
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T02:22:50.170Z",
   "posts": [
     {
-      "id": "20261126-your-pc-takes-5-minutes-to-boot",
+      "id": "20261127-your-pc-takes-5-minutes-to-boot",
       "slot": 0,
       "niche": "it-support",
       "nicheLabel": "IT Support & Troubleshooting",
@@ -37,42 +37,42 @@
       "status": "pending"
     },
     {
-      "id": "20261126-a-bigger-cpu-number-is-always-faster",
+      "id": "20261127-you-must-charge-your-iphone-to-100",
       "slot": 1,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "A bigger CPU number is always faster",
+      "title": "You must charge your iPhone to 100%",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "A bigger CPU number is always faster"
+          "text": "You must charge your iPhone to 100%"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher one. The chassis that can't cool a chip is the real spec."
+          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: A bigger CPU number is always faster Truth: Cores, clocks and cooling matter — a lower tier can beat a hotter, throttling higher… #GPU #PC #tech Follow for daily tech intel.",
+      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #iOS #macOS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261126-what-reviewers-check-that-you-don-t",
+      "id": "20261127-what-reviewers-check-that-you-don-t",
       "slot": 2,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
@@ -82,64 +82,93 @@
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nTGP — how many watts the GPU actually draws"
+          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
         },
         {
           "kind": "facts",
-          "text": "TGP — how many watts the GPU actually draws\nSustained performance, not peak benchmark numbers\nThermal throttling after 20 minutes of load\nScreen brightness in nits, not just resolution\nBattery health capacity, not just mAh"
+          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What reviewers check that you don't — TGP — how many watts the GPU actually draws #smartphone #Android #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 What reviewers check that you don't — Sustained FPS at your resolution, not peak numbers #CPU #hardware #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261126-write-better-email-drafts-with-ai",
+      "id": "20261127-spot-a-phishing-email-in-30-seconds",
       "slot": 3,
-      "niche": "ai",
-      "nicheLabel": "AI & Machine Learning",
-      "accent": "#FF5C7A",
-      "emoji": "🤖",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Write better email drafts with AI",
+      "title": "Spot a phishing email in 30 seconds",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Write better email drafts with AI\nGive the full context in three sentences"
+          "text": "Spot a phishing email in 30 seconds\nCheck the sender address, not just the display name"
         },
         {
           "kind": "step",
-          "text": "Give the full context in three sentences"
+          "text": "Check the sender address, not just the display name"
         },
         {
           "kind": "step",
-          "text": "Specify the tone: firm, warm, brief"
+          "text": "Hover links to see the real URL"
         },
         {
           "kind": "step",
-          "text": "Ask for two drafts — one short, one detailed"
+          "text": "Watch for urgency and threats — 'act now' is a red flag"
         },
         {
           "kind": "step",
-          "text": "Edit the winner by hand"
+          "text": "Look for odd grammar and typos in the body"
         },
         {
           "kind": "step",
-          "text": "Read it aloud before you hit send."
+          "text": "In doubt? Contact the company on a known number."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🤖 Write better email drafts with AI #ChatGPT #MachineLearning #itsupportguru Follow for daily tech intel.",
+      "caption": "🔐 Spot a phishing email in 30 seconds #privacy #cybersecurity #tech Follow for daily tech intel.",
+      "status": "pending"
+    },
+    {
+      "id": "20261127-gadget-focus-how-to-watch-the-jlo-show-live-from-las-vegas-online-for",
+      "slot": 4,
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
+      "format": "carousel",
+      "kind": "gadget-focus",
+      "title": "How to watch The JLo Show: Live from Las Vegas online…",
+      "source": "TechRadar",
+      "link": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas",
+      "slides": [
+        {
+          "kind": "hook",
+          "text": "How to watch The JLo Show: Live from Las Vegas\nHow to watch The JLo Show: Live from Las Vegas online for FREE — stream from anywhere"
+        },
+        {
+          "kind": "brief",
+          "text": "Catch JLo's latest live concert just in time for Thanksgiving.\nHere's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India."
+        },
+        {
+          "kind": "cta",
+          "text": "Save this story — you'll want it later."
+        }
+      ],
+      "caption": "📱 How to watch The JLo Show: Live from Las Vegas online… (TechRadar) https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas #gadgets #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

@@ -1,174 +1,145 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T02:22:50.170Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T02:09:01.104Z",
   "posts": [
     {
-      "id": "20261127-your-pc-takes-5-minutes-to-boot",
+      "id": "20261128-your-laptop-is-always-hot",
       "slot": 0,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "Your PC takes 5 minutes to boot",
+      "title": "Your laptop is always hot",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Your PC takes 5 minutes to boot\nThat's startup bloat, not normal — dozens of apps auto-launch silently."
+          "text": "Your laptop is always hot\nDust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — That's startup bloat, not normal — dozens of apps auto-launch silently."
+          "text": "WHY IT'S A PROBLEM — Dust and dried thermal paste silently throttle performance."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Task Manager > Startup, disable everything you don't open in the first 5 minutes."
+          "text": "THE FIX — Clean the vents quarterly, repaste every couple of years."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 Your PC takes 5 minutes to boot #techsupport #sysadmin #tech Follow for daily tech intel.",
+      "caption": "🚩 Your laptop is always hot #GPU #CPU #itsupportguru Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261127-you-must-charge-your-iphone-to-100",
+      "id": "20261128-autoscaling-handles-everything",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "cloud-devops",
+      "nicheLabel": "Cloud & DevOps",
+      "accent": "#7C5CFF",
+      "emoji": "☁️",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "You must charge your iPhone to 100%",
+      "title": "Autoscaling handles everything",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You must charge your iPhone to 100%"
+          "text": "Autoscaling handles everything"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps meaningful capacity for years instead of months."
+          "text": "THE TRUTH — Autoscaling without a hard cap can scale straight into a surprise bill. Set a max instance count and a scale-down schedule first."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 Myth: You must charge your iPhone to 100% Truth: Lithium batteries age fastest at the extremes. Charging to 80% for daily use keeps… #iOS #macOS #techtips Follow for daily tech intel.",
+      "caption": "🛑 Myth: Autoscaling handles everything Truth: Autoscaling without a hard cap can scale straight into a surprise bill. Set a max… #DevOps #AWS #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261127-what-reviewers-check-that-you-don-t",
+      "id": "20261128-hidden-macos-tools-most-people-never-find",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "apple",
+      "nicheLabel": "Apple & macOS",
+      "accent": "#C7E1FF",
+      "emoji": "🍎",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "What reviewers check that you don't",
+      "title": "Hidden macOS tools most people never find",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "What reviewers check that you don't\nSustained FPS at your resolution, not peak numbers"
+          "text": "Hidden macOS tools most people never find\nThree-finger drag in Trackpad settings — a one-gesture superpower"
         },
         {
           "kind": "facts",
-          "text": "Sustained FPS at your resolution, not peak numbers\nThermal throttling after 20 minutes of load\nThe GPU's real TGP in watts\nPanel brightness in nits — skipped too often\nBattery capacity, not just 'up to 10 hours'"
+          "text": "Three-finger drag in Trackpad settings — a one-gesture superpower\nControl Center custom controls — toggles without Settings hunting\nStage Manager for real multitasking\nApp Library search instead of page-swiping\nBattery Health — check it before you buy any used Apple device"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "🔓 What reviewers check that you don't — Sustained FPS at your resolution, not peak numbers #CPU #hardware #itsupportguru Follow for daily tech intel.",
+      "caption": "🔓 Hidden macOS tools most people never find — Three-finger drag in Trackpad settings — a one-gesture superpower #iOS #Apple #techtips Follow for daily tech intel.",
       "status": "pending"
     },
     {
-      "id": "20261127-spot-a-phishing-email-in-30-seconds",
+      "id": "20261128-transfer-everything-to-a-new-phone",
       "slot": 3,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "gadgets",
+      "nicheLabel": "Smartphones & Gadgets",
+      "accent": "#FFB020",
+      "emoji": "📱",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Spot a phishing email in 30 seconds",
+      "title": "Transfer everything to a new phone",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Spot a phishing email in 30 seconds\nCheck the sender address, not just the display name"
+          "text": "Transfer everything to a new phone\nBack up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Check the sender address, not just the display name"
+          "text": "Back up the old phone first"
         },
         {
           "kind": "step",
-          "text": "Hover links to see the real URL"
+          "text": "Choose 'transfer from old device' during setup"
         },
         {
           "kind": "step",
-          "text": "Watch for urgency and threats — 'act now' is a red flag"
+          "text": "Scan the QR or pair the two phones"
         },
         {
           "kind": "step",
-          "text": "Look for odd grammar and typos in the body"
+          "text": "Let it copy apps, photos, and messages"
         },
         {
           "kind": "step",
-          "text": "In doubt? Contact the company on a known number."
+          "text": "Log in as accounts appear — done."
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "🔐 Spot a phishing email in 30 seconds #privacy #cybersecurity #tech Follow for daily tech intel.",
-      "status": "pending"
-    },
-    {
-      "id": "20261127-gadget-focus-how-to-watch-the-jlo-show-live-from-las-vegas-online-for",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch The JLo Show: Live from Las Vegas online…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch The JLo Show: Live from Las Vegas\nHow to watch The JLo Show: Live from Las Vegas online for FREE — stream from anywhere"
-        },
-        {
-          "kind": "brief",
-          "text": "Catch JLo's latest live concert just in time for Thanksgiving.\nHere's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "📱 How to watch The JLo Show: Live from Las Vegas online… (TechRadar) https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas #gadgets #tech Follow for daily tech intel.",
+      "caption": "📱 Transfer everything to a new phone #gadgets #Android #tech Follow for daily tech intel.",
       "status": "pending"
     }
   ],

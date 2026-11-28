@@ -1,166 +1,137 @@
 {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T02:22:38.885Z",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T02:08:48.485Z",
   "posts": [
     {
-      "id": "20261127-you-still-use-sms-for-2fa",
+      "id": "20261128-you-clean-your-pc-with-booster-apps",
       "slot": 0,
-      "niche": "security",
-      "nicheLabel": "Cybersecurity & Privacy",
-      "accent": "#FF4D4D",
-      "emoji": "🔐",
+      "niche": "it-support",
+      "nicheLabel": "IT Support & Troubleshooting",
+      "accent": "#00E5FF",
+      "emoji": "🛠️",
       "format": "image",
       "kind": "redflag",
       "pillar": "DAILY RED FLAG",
-      "title": "You still use SMS for 2FA",
+      "title": "You 'clean' your PC with booster apps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "You still use SMS for 2FA\nSIM-swap attacks can hijack your codes."
+          "text": "You 'clean' your PC with booster apps\nThey delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "WHY IT'S A PROBLEM — SIM-swap attacks can hijack your codes."
+          "text": "WHY IT'S A PROBLEM — They delete the wrong things and claim to fix problems you don't have."
         },
         {
           "kind": "body",
-          "text": "THE FIX — Move to an authenticator app or a hardware key."
+          "text": "THE FIX — Use Settings > Storage and Disk Cleanup — nothing more."
         },
         {
           "kind": "cta",
           "text": "Save this before it costs you a repair bill."
         }
       ],
-      "caption": "🚩 DAILY RED FLAG\n\nYou still use SMS for 2FA\n\nWhy it's a problem: SIM-swap attacks can hijack your codes.\nThe fix: Move to an authenticator app or a hardware key.\n\nSave this before it becomes a repair bill →\n\n#datasecurity #phishing #cybersecurity #privacy #infosec\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nTag the coworker who needs this one.",
+      "caption": "🚩 DAILY RED FLAG\n\nYou 'clean' your PC with booster apps\n\nWhy it's a problem: They delete the wrong things and claim to fix problems you don't have.\nThe fix: Use Settings > Storage and Disk Cleanup — nothing more.\n\nSave this before it becomes a repair bill →\n\n#pchelp #fixyourpc #techsupport #windows #pc\n\n@theitsupportguru — daily tech fixes for IT pros.\n\nWhat's your fix for this one? Drop it in the comments.",
       "status": "pending"
     },
     {
-      "id": "20261127-force-quitting-apps-saves-battery",
+      "id": "20261128-antivirus-means-you-can-t-get-hacked",
       "slot": 1,
-      "niche": "apple",
-      "nicheLabel": "Apple & macOS",
-      "accent": "#C7E1FF",
-      "emoji": "🍎",
+      "niche": "security",
+      "nicheLabel": "Cybersecurity & Privacy",
+      "accent": "#FF4D4D",
+      "emoji": "🔐",
       "format": "image",
       "kind": "myth",
       "pillar": "TECH MYTHBUSTER",
-      "title": "Force-quitting apps saves battery",
+      "title": "Antivirus means you can't get hacked",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Force-quitting apps saves battery"
+          "text": "Antivirus means you can't get hacked"
         },
         {
           "kind": "body",
-          "text": "THE TRUTH — Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power."
+          "text": "THE TRUTH — AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human."
         },
         {
           "kind": "cta",
           "text": "Share this with the person who still believes it."
         }
       ],
-      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Force-quitting apps saves battery\nTruth: Idle apps barely drain the battery. It's screen brightness and the one app hammering the CPU that actually cost you power.\n\nShare this with the person who still believes it →\n\n#macbook #ios #appleintelligence #macrumors #macos\n\n@theitsupportguru — separating tech fact from fiction.\n\nTag the coworker who needs this one.",
+      "caption": "🛑 TECH MYTHBUSTER\n\nMyth: Antivirus means you can't get hacked\nTruth: AV catches known malware, not the social engineering that steals most accounts and sessions. The weakest link is always the human.\n\nShare this with the person who still believes it →\n\n#2fa #security #cyberdefense #infosec #phishing\n\n@theitsupportguru — separating tech fact from fiction.\n\nBookmark this — you'll need it at 2am.",
       "status": "pending"
     },
     {
-      "id": "20261127-the-upgrade-that-changes-everything",
+      "id": "20261128-how-to-actually-verify-ai-output",
       "slot": 2,
-      "niche": "hardware",
-      "nicheLabel": "Laptops & PC Hardware",
-      "accent": "#8FE3B0",
-      "emoji": "💻",
+      "niche": "ai",
+      "nicheLabel": "AI & Machine Learning",
+      "accent": "#FF5C7A",
+      "emoji": "🤖",
       "format": "carousel",
       "kind": "secrets",
       "pillar": "IT GURU SECRETS",
-      "title": "The upgrade that changes everything",
+      "title": "How to actually verify AI output",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "The upgrade that changes everything\nSSD over HDD is the single biggest speed gain"
+          "text": "How to actually verify AI output\nAsk for a source for every key claim"
         },
         {
           "kind": "facts",
-          "text": "SSD over HDD is the single biggest speed gain\nRAM matters when tabs pile up — check Task Manager first\nA laptop stand unlocks bottom airflow\nClean vents quarterly — dust is the silent throttler\n`powercfg /batteryreport` shows true battery health"
+          "text": "Ask for a source for every key claim\nIndependently check the top two sources\nWatch for plausible-but-wrong dates and names\nTreat AI as a lead, never the verdict\nWhen in doubt, mark it unverified"
         },
         {
           "kind": "cta",
           "text": "Save this — insider knowledge only pays off when you use it."
         }
       ],
-      "caption": "The upgrade that changes everything 🔓\n\nInsider knowledge, free.\n\n• SSD over HDD is the single biggest speed gain\n• RAM matters when tabs pile up — check Task Manager first\n• A laptop stand unlocks bottom airflow\n• Clean vents quarterly — dust is the silent throttler\n\nSave this — it'll be your shortcut later →\n\n#laptops #ram #cpu #chipshortage #pc\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
+      "caption": "How to actually verify AI output 🔓\n\nInsider knowledge, free.\n\n• Ask for a source for every key claim\n• Independently check the top two sources\n• Watch for plausible-but-wrong dates and names\n• Treat AI as a lead, never the verdict\n\nSave this — it'll be your shortcut later →\n\n#futuretech #artificialintelligence #chatgpt #aitools #machinelearning\n\n@theitsupportguru — the IT secrets nobody else shares.\n\nSave this for the next ticket.",
       "status": "pending"
     },
     {
-      "id": "20261127-speed-up-a-slow-windows-pc",
+      "id": "20261128-monitor-your-laptop-s-real-temps",
       "slot": 3,
-      "niche": "it-support",
-      "nicheLabel": "IT Support & Troubleshooting",
-      "accent": "#00E5FF",
-      "emoji": "🛠️",
+      "niche": "hardware",
+      "nicheLabel": "Laptops & PC Hardware",
+      "accent": "#8FE3B0",
+      "emoji": "💻",
       "format": "carousel",
       "kind": "howto",
       "pillar": "MICRO GUIDE",
-      "title": "Speed up a slow Windows PC",
+      "title": "Monitor your laptop's real temps",
       "source": null,
       "link": null,
       "slides": [
         {
           "kind": "hook",
-          "text": "Speed up a slow Windows PC\nOpen Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "Monitor your laptop's real temps\nInstall a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%"
+          "text": "Install a lightweight temp tool (open-source)"
         },
         {
           "kind": "step",
-          "text": "Disable the worst startup apps on the Startup tab"
+          "text": "Run a 15-minute stress load or a game"
         },
         {
           "kind": "step",
-          "text": "Free disk space: Settings > System > Storage > Temporary files"
+          "text": "Watch CPU/GPU temps while under load"
         },
         {
           "kind": "cta",
           "text": "Save this — you'll need it next time."
         }
       ],
-      "caption": "Speed up a slow Windows PC 🛠️\n\n1. Open Task Manager (Ctrl+Shift+Esc) and find what's at 100%\n2. Disable the worst startup apps on the Startup tab\n3. Free disk space: Settings > System > Storage > Temporary files\n\nSave this for the next ticket →\n\n#itsupport #sysadmin #ithelp #fixyourpc #computertips\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave this for the next ticket.",
-      "status": "pending"
-    },
-    {
-      "id": "20261127-gadget-focus-how-to-watch-the-jlo-show-live-from-las-vegas-online-for",
-      "slot": 4,
-      "niche": "gadgets",
-      "nicheLabel": "Smartphones & Gadgets",
-      "accent": "#FFB020",
-      "emoji": "📱",
-      "format": "carousel",
-      "kind": "gadget-focus",
-      "title": "How to watch The JLo Show: Live from Las Vegas online…",
-      "source": "TechRadar",
-      "link": "https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas",
-      "slides": [
-        {
-          "kind": "hook",
-          "text": "How to watch The JLo Show: Live from Las Vegas\nHow to watch The JLo Show: Live from Las Vegas online for FREE — stream from anywhere"
-        },
-        {
-          "kind": "brief",
-          "text": "Catch JLo's latest live concert just in time for Thanksgiving.\nHere's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India."
-        },
-        {
-          "kind": "cta",
-          "text": "Save this story — you'll want it later."
-        }
-      ],
-      "caption": "FRIDAY TECH GADGET FOCUS 📱\n\nHow to watch The JLo Show: Live from Las Vegas online…\n\n• Catch JLo's latest live concert just in time for Thanksgiving.\n• Here's how to watch The JLo Show online for free and from anywhere including UK, Canada, Australia, Europe and India.\n\nSource: TechRadar — https://www.techradar.com/entertainment/tv-shows/how-to-watch-the-jlo-show-live-from-las-vegas\n\nWhich one's on your wishlist? Drop it below 👇\n\n#gadgetreviews #android #tech #batterytips #iphone\n\n@theitsupportguru — the gadget worth your attention.\n\nShare this with the colleague who keeps asking.",
+      "caption": "Monitor your laptop's real temps 💻\n\n1. Install a lightweight temp tool (open-source)\n2. Run a 15-minute stress load or a game\n3. Watch CPU/GPU temps while under load\n\nSave this for the next ticket →\n\n#benchmark #cpu #pc #ssd #laptop\n\n@theitsupportguru — daily tech intel for IT pros.\n\nSave time, save money, save your devices. Follow for 5 posts a day.",
       "status": "pending"
     }
   ]

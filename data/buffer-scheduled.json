@@ -350,5 +350,41 @@
       "dueAt": "2026-11-27T04:00:00.000Z",
       "niche": "gadgets"
     }
+  },
+  "2026-11-28": {
+    "0": {
+      "postId": "20261128-you-clean-your-pc-with-booster-apps",
+      "bufferId": "6b0a37cf41454797eae19334",
+      "dueAt": "2026-11-28T08:46:00.000Z",
+      "niche": "it-support",
+      "title": "You 'clean' your PC with booster apps"
+    },
+    "1": {
+      "postId": "20261128-antivirus-means-you-can-t-get-hacked",
+      "bufferId": "6b0a37d22a2e4f66caefda1e",
+      "dueAt": "2026-11-28T08:14:00.000Z",
+      "niche": "security",
+      "title": "Antivirus means you can't get hacked"
+    },
+    "2": {
+      "postId": "20261128-how-to-actually-verify-ai-output",
+      "bufferId": "6b0a37cc23fb5b77000f5e3c",
+      "dueAt": "2026-11-28T08:46:00.000Z",
+      "niche": "ai",
+      "title": "How to actually verify AI output"
+    },
+    "3": {
+      "postId": "20261128-monitor-your-laptop-s-real-temps",
+      "bufferId": "6b0a37d141454797eae193c1",
+      "dueAt": "2026-11-28T08:14:00.000Z",
+      "niche": "hardware",
+      "title": "Monitor your laptop's real temps"
+    },
+    "reel": {
+      "file": "20261128-apple-iphone-18-pro-max-vs-google-pixel-11-pro-xl.mp4",
+      "bufferId": "6b0a37d52a2e4f66caefdbc8",
+      "dueAt": "2026-11-28T04:00:00.000Z",
+      "niche": "gadgets"
+    }
   }
 }
